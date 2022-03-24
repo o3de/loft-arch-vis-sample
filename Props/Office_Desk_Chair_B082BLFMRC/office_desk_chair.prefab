@@ -1,0 +1,166 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "office_desk_chair",
+        "Components": {
+            "Component_[12066517789659800559]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12066517789659800559
+            },
+            "Component_[12207013056596132240]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12207013056596132240
+            },
+            "Component_[13942800147663523446]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13942800147663523446
+            },
+            "Component_[1934029601185471672]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1934029601185471672,
+                "Parent Entity": ""
+            },
+            "Component_[2621168765968411262]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2621168765968411262
+            },
+            "Component_[4436244763543208218]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4436244763543208218
+            },
+            "Component_[5945931594551765115]": {
+                "$type": "SelectionComponent",
+                "Id": 5945931594551765115
+            },
+            "Component_[615010610028169762]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 615010610028169762
+            },
+            "Component_[6945803384755941629]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6945803384755941629
+            },
+            "Component_[7093376473836819013]": {
+                "$type": "EditorLockComponent",
+                "Id": 7093376473836819013
+            },
+            "Component_[9653936760947542906]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9653936760947542906
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4348278416089]": {
+            "Id": "Entity_[4348278416089]",
+            "Name": "office_desk_chair",
+            "Components": {
+                "Component_[11197585761585484402]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11197585761585484402
+                },
+                "Component_[13536224034841489168]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13536224034841489168
+                },
+                "Component_[14599578041908382137]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14599578041908382137,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 5141705
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9D51900-DBD8-559C-BF1B-C07BB82D63F5}"
+                                            },
+                                            "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair_chairmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1524931509187334113]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1524931509187334113
+                },
+                "Component_[1591285332999096147]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1591285332999096147
+                },
+                "Component_[17888621638593099422]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17888621638593099422,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4543919245585520661
+                        },
+                        {
+                            "ComponentId": 4494593732647234598,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14599578041908382137,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2923286673157991374]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2923286673157991374
+                },
+                "Component_[4128703529809217773]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4128703529809217773
+                },
+                "Component_[4494593732647234598]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4494593732647234598,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{6AF051C5-7263-50E4-9950-5503639F083B}",
+                                    "subId": 284619552
+                                },
+                                "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[4543919245585520661]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4543919245585520661,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.005917549133300781,
+                            0.08765125274658203,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -171.04586791992188
+                        ]
+                    }
+                },
+                "Component_[7132833726077326471]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7132833726077326471
+                },
+                "Component_[8050054960690779544]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8050054960690779544
+                }
+            }
+        }
+    }
+}

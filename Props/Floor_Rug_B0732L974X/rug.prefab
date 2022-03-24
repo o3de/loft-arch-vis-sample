@@ -1,0 +1,167 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "rug",
+        "Components": {
+            "Component_[1120522557538059602]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1120522557538059602
+            },
+            "Component_[13909797135929233070]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13909797135929233070
+            },
+            "Component_[16812004053100027983]": {
+                "$type": "EditorLockComponent",
+                "Id": 16812004053100027983
+            },
+            "Component_[1684054580539110770]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1684054580539110770
+            },
+            "Component_[3499463310661147035]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3499463310661147035
+            },
+            "Component_[4870092573882602363]": {
+                "$type": "SelectionComponent",
+                "Id": 4870092573882602363
+            },
+            "Component_[6094737195784703032]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6094737195784703032,
+                "Parent Entity": ""
+            },
+            "Component_[6329755314920369294]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6329755314920369294
+            },
+            "Component_[7567531130539676328]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7567531130539676328
+            },
+            "Component_[7782721447705431196]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7782721447705431196
+            },
+            "Component_[8360474261017552812]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8360474261017552812
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1629564117721]": {
+            "Id": "Entity_[1629564117721]",
+            "Name": "rug",
+            "Components": {
+                "Component_[1023533355901343195]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1023533355901343195
+                },
+                "Component_[11099819044455388189]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11099819044455388189
+                },
+                "Component_[11301760290587225984]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11301760290587225984
+                },
+                "Component_[11872640725570577469]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11872640725570577469
+                },
+                "Component_[1266128230815981133]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1266128230815981133,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2815315404
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{583B5C98-5128-5BA5-B871-1A248BF0AA3D}"
+                                            },
+                                            "assetHint": "props/floor_rug_b0732l974x/rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4047894814
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{583B5C98-5128-5BA5-B871-1A248BF0AA3D}"
+                                            },
+                                            "assetHint": "props/floor_rug_b0732l974x/rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12717088764965456790]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12717088764965456790
+                },
+                "Component_[16952867002838644236]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16952867002838644236
+                },
+                "Component_[4642788417090487108]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4642788417090487108,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9287117124148162593
+                        },
+                        {
+                            "ComponentId": 4661059303332148666,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1266128230815981133,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4661059303332148666]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4661059303332148666,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3F154D22-0087-5F51-9FD1-E52D6F457F60}",
+                                    "subId": 279583844
+                                },
+                                "assetHint": "props/floor_rug_b0732l974x/rug.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[792897295609551859]": {
+                    "$type": "SelectionComponent",
+                    "Id": 792897295609551859
+                },
+                "Component_[8590453798853370125]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8590453798853370125
+                },
+                "Component_[9287117124148162593]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9287117124148162593,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

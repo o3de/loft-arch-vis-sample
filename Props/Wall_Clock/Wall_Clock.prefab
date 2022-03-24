@@ -1,0 +1,162 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wall_clock",
+        "Components": {
+            "Component_[10691133195619854181]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10691133195619854181
+            },
+            "Component_[10998234113560688299]": {
+                "$type": "SelectionComponent",
+                "Id": 10998234113560688299
+            },
+            "Component_[12195081848082623334]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12195081848082623334
+            },
+            "Component_[16581596502812034992]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16581596502812034992
+            },
+            "Component_[16723248512540100135]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16723248512540100135,
+                "Parent Entity": ""
+            },
+            "Component_[17339371261007544788]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17339371261007544788
+            },
+            "Component_[232967928528632980]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 232967928528632980
+            },
+            "Component_[2403216943787957129]": {
+                "$type": "EditorLockComponent",
+                "Id": 2403216943787957129
+            },
+            "Component_[4095372179484178708]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4095372179484178708
+            },
+            "Component_[6063896763395601991]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6063896763395601991
+            },
+            "Component_[6413263648472277118]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6413263648472277118
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1397707087614]": {
+            "Id": "Entity_[1397707087614]",
+            "Name": "wall_clock",
+            "Components": {
+                "Component_[10622497843864230937]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10622497843864230937
+                },
+                "Component_[10672462695125008735]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10672462695125008735
+                },
+                "Component_[10757277210861928810]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10757277210861928810,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B1EDF2F9-8915-5C90-B4EF-257618243A17}",
+                                    "subId": 282330040
+                                },
+                                "assetHint": "props/wall_clock/wall_clock.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[15919337670898642848]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15919337670898642848
+                },
+                "Component_[16249213920096614709]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16249213920096614709
+                },
+                "Component_[1718631296262965975]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1718631296262965975
+                },
+                "Component_[17744447751257505632]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17744447751257505632
+                },
+                "Component_[3521274385750786203]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3521274385750786203,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4138385804
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DBB70DB5-9FAC-56D3-BEA8-0DC27197A0BA}"
+                                            },
+                                            "assetHint": "props/wall_clock/wall_clock_wall_clockmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3614604012116605285]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3614604012116605285
+                },
+                "Component_[3914942178737865413]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3914942178737865413,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 100.0
+                    }
+                },
+                "Component_[4111628558057746472]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4111628558057746472,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3914942178737865413
+                        },
+                        {
+                            "ComponentId": 10757277210861928810,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3521274385750786203,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8222890062653641135]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8222890062653641135
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,174 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_cookbook",
+        "Components": {
+            "Component_[1304594521645749969]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1304594521645749969
+            },
+            "Component_[13199552408966878237]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13199552408966878237
+            },
+            "Component_[17392141221405086042]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17392141221405086042,
+                "Parent Entity": ""
+            },
+            "Component_[17928459194275808752]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17928459194275808752
+            },
+            "Component_[2125453665600097838]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2125453665600097838
+            },
+            "Component_[2590183673050933885]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2590183673050933885
+            },
+            "Component_[2756375332366292307]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2756375332366292307
+            },
+            "Component_[585168555536705010]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 585168555536705010
+            },
+            "Component_[6344033096247669466]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6344033096247669466
+            },
+            "Component_[7207791360676644629]": {
+                "$type": "EditorLockComponent",
+                "Id": 7207791360676644629
+            },
+            "Component_[755493821613683190]": {
+                "$type": "SelectionComponent",
+                "Id": 755493821613683190
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2303873983193]": {
+            "Id": "Entity_[2303873983193]",
+            "Name": "kitchen_cookbook",
+            "Components": {
+                "Component_[10073156820075802331]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10073156820075802331
+                },
+                "Component_[11844983315347116487]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11844983315347116487
+                },
+                "Component_[14032082329900544278]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14032082329900544278,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 914472108
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{55C00D3F-D3A8-5762-B67F-E38AC821F3D7}"
+                                            },
+                                            "assetHint": "props/kitchen_cook_book/kitchen_cookbook_bookmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2828922347
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{048EF5B1-3E51-5406-982F-F0C09C563F38}"
+                                            },
+                                            "assetHint": "props/kitchen_cook_book/kitchen_cookbook_bookholdermat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1591996192410788027]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1591996192410788027
+                },
+                "Component_[16658864357536151967]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16658864357536151967
+                },
+                "Component_[16707111368406100684]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16707111368406100684,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[16750120277074869764]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16750120277074869764
+                },
+                "Component_[17596015692552806364]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17596015692552806364,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16707111368406100684
+                        },
+                        {
+                            "ComponentId": 4855082914365010799,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14032082329900544278,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2083322273964428063]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2083322273964428063
+                },
+                "Component_[4725098615755220893]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4725098615755220893
+                },
+                "Component_[4855082914365010799]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4855082914365010799,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{217DEE2F-575F-5695-81D7-F9C8C3119070}",
+                                    "subId": 284472175
+                                },
+                                "assetHint": "props/kitchen_cook_book/kitchen_cookbook.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5330115741382038024]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5330115741382038024
+                }
+            }
+        }
+    }
+}
