@@ -1,0 +1,17 @@
+{
+    "project_name": "LoftSample",
+    "project_id": "{6B644ACC-D83D-40AD-9EB1-793A01633A86}",
+    "origin": "https://github.com/aws-lumberyard/loft-arch-vis-sample",
+    "license": "https://opensource.org/licenses/MIT",
+    "display_name": "O3DE Loft Sample",
+    "summary": "This project contains the O3DE Loft sample scene.",
+    "canonical_tags": [
+        "Project"
+    ],
+    "user_tags": [
+        "LoftSample"
+    ],
+    "icon_path": "preview.png",
+    "engine": "o3de",
+    "external_subdirectories": []
+}

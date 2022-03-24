@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "office_desk_lamp",
+        "Components": {
+            "Component_[10882811972678115540]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10882811972678115540
+            },
+            "Component_[11519086727724883849]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11519086727724883849
+            },
+            "Component_[12115963054597390613]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12115963054597390613
+            },
+            "Component_[12446313920212789636]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12446313920212789636
+            },
+            "Component_[12491361909062259293]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12491361909062259293
+            },
+            "Component_[14527578580209330004]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14527578580209330004
+            },
+            "Component_[1523843685102652021]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1523843685102652021
+            },
+            "Component_[17889000324744278587]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17889000324744278587,
+                "Parent Entity": ""
+            },
+            "Component_[18211945036885627438]": {
+                "$type": "EditorLockComponent",
+                "Id": 18211945036885627438
+            },
+            "Component_[3269740662557966876]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 3269740662557966876
+            },
+            "Component_[3958584789697740590]": {
+                "$type": "SelectionComponent",
+                "Id": 3958584789697740590
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4502897238745]": {
+            "Id": "Entity_[4502897238745]",
+            "Name": "office_desk_lamp",
+            "Components": {
+                "Component_[10664357243121766607]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10664357243121766607
+                },
+                "Component_[11713920357012905635]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11713920357012905635
+                },
+                "Component_[12875146621598740320]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12875146621598740320,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1346218354
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14C312C6-012E-5C75-900B-ADBFDDA9E629}"
+                                            },
+                                            "assetHint": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp_office_desk_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13922938125646297150]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13922938125646297150,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[154064183945706649]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 154064183945706649
+                },
+                "Component_[18176744606315359627]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18176744606315359627
+                },
+                "Component_[2350423868830427041]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2350423868830427041
+                },
+                "Component_[5294788185252154779]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5294788185252154779
+                },
+                "Component_[58645234511677261]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 58645234511677261,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13922938125646297150
+                        },
+                        {
+                            "ComponentId": 761751409400616473,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12875146621598740320,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5890429678067341165]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5890429678067341165
+                },
+                "Component_[761751409400616473]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 761751409400616473,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{CB3C0BFD-A59B-508A-8687-59F169B28809}",
+                                    "subId": 272294831
+                                },
+                                "assetHint": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[9084757384443780916]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9084757384443780916
+                }
+            }
+        }
+    }
+}

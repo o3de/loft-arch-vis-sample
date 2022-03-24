@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Bar_Drop_Ceiling_Lights_B071F6VV2T/textures/Bar_Drop_Ceiling_Lights_BaseColor.png",
+        "emissive.color": [
+            1.0,
+            0.6166629195213318,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 12.479999542236328,
+        "emissive.textureMap": "Props/Bar_Drop_Ceiling_Lights_B071F6VV2T/textures/Bar_Drop_Ceiling_Lights_Emissive.png",
+        "irradiance.color": [
+            0.07483019679784775,
+            0.0619364008307457,
+            0.02328529953956604,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Bar_Drop_Ceiling_Lights_B071F6VV2T/textures/Bar_Drop_Ceiling_Lights_Metallic.png",
+        "normal.textureMap": "Props/Bar_Drop_Ceiling_Lights_B071F6VV2T/textures/Bar_Drop_Ceiling_Lights_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Props/Bar_Drop_Ceiling_Lights_B071F6VV2T/textures/Bar_Drop_Ceiling_Lights_Roughness.png"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "gem_name": "LoftSample",
+    "origin": "https://github.com/aws-lumberyard/loft-arch-vis-sample",
+    "license": "https://opensource.org/licenses/MIT",
+    "display_name": "LoftSample",
+    "summary": "An example high fidelity scene.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "LoftSample"
+    ],
+    "icon_path": "preview.png"
+}

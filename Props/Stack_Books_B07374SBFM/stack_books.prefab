@@ -1,0 +1,193 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "stack_books",
+        "Components": {
+            "Component_[13035390723179152252]": {
+                "$type": "EditorLockComponent",
+                "Id": 13035390723179152252
+            },
+            "Component_[13056122263982885207]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13056122263982885207
+            },
+            "Component_[1376690856575562333]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1376690856575562333
+            },
+            "Component_[16246678696951170261]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16246678696951170261
+            },
+            "Component_[18025005968792641404]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 18025005968792641404
+            },
+            "Component_[18314678870241216374]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18314678870241216374
+            },
+            "Component_[4281563244182903438]": {
+                "$type": "SelectionComponent",
+                "Id": 4281563244182903438
+            },
+            "Component_[4546372456443542475]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4546372456443542475
+            },
+            "Component_[5173371408297468611]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5173371408297468611
+            },
+            "Component_[6934859765722711792]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6934859765722711792
+            },
+            "Component_[958004932712768608]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 958004932712768608,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2788629079897]": {
+            "Id": "Entity_[2788629079897]",
+            "Name": "stack_books",
+            "Components": {
+                "Component_[12079358045887017979]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12079358045887017979
+                },
+                "Component_[12400406199810216039]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12400406199810216039,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 792709185
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{339A8A83-F519-5F9F-A96D-E3FC7BE131FD}"
+                                            },
+                                            "assetHint": "props/stack_books_b07374sbfm/stack_books_part1.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1868851903
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{22B89A3D-CF17-5364-AA22-49E42C092362}"
+                                            },
+                                            "assetHint": "props/stack_books_b07374sbfm/stack_books_main.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2055934533
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{339A8A83-F519-5F9F-A96D-E3FC7BE131FD}"
+                                            },
+                                            "assetHint": "props/stack_books_b07374sbfm/stack_books_part1.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3748513730
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{22B89A3D-CF17-5364-AA22-49E42C092362}"
+                                            },
+                                            "assetHint": "props/stack_books_b07374sbfm/stack_books_main.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13287727542193862280]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13287727542193862280
+                },
+                "Component_[14340437026522121733]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14340437026522121733,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E283A932-5C03-57BD-BF9D-A8B448B63132}",
+                                    "subId": 281669105
+                                },
+                                "assetHint": "props/stack_books_b07374sbfm/stack_books.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[14882696788945985260]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14882696788945985260
+                },
+                "Component_[15831654428134972620]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15831654428134972620,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1799907178521919977
+                        },
+                        {
+                            "ComponentId": 14340437026522121733,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12400406199810216039,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16186312037769869476]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16186312037769869476
+                },
+                "Component_[1773947674975247389]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1773947674975247389
+                },
+                "Component_[1799907178521919977]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1799907178521919977,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3014875388188346949]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3014875388188346949
+                },
+                "Component_[4592309060407943885]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4592309060407943885
+                },
+                "Component_[5946974796973869892]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5946974796973869892
+                }
+            }
+        }
+    }
+}

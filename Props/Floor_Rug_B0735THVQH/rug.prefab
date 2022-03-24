@@ -1,0 +1,167 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "rug",
+        "Components": {
+            "Component_[13845622151637245245]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13845622151637245245
+            },
+            "Component_[14342861648957636383]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14342861648957636383
+            },
+            "Component_[15023731860986084199]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15023731860986084199
+            },
+            "Component_[16025035117791640615]": {
+                "$type": "SelectionComponent",
+                "Id": 16025035117791640615
+            },
+            "Component_[16220559466892839875]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16220559466892839875,
+                "Parent Entity": ""
+            },
+            "Component_[16404930561318170194]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16404930561318170194
+            },
+            "Component_[16895006872268411837]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16895006872268411837
+            },
+            "Component_[18296871010530680274]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 18296871010530680274
+            },
+            "Component_[188080790929491935]": {
+                "$type": "EditorLockComponent",
+                "Id": 188080790929491935
+            },
+            "Component_[4967472788605200134]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4967472788605200134
+            },
+            "Component_[7232696452568683014]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7232696452568683014
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1784182940377]": {
+            "Id": "Entity_[1784182940377]",
+            "Name": "rug",
+            "Components": {
+                "Component_[10633637565555303570]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10633637565555303570
+                },
+                "Component_[10934679314045245098]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10934679314045245098,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12130516708706482242]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12130516708706482242
+                },
+                "Component_[15109562205062192652]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15109562205062192652,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1655719577
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0B80BD1F-16E3-5663-955B-2295FB0B59DD}"
+                                            },
+                                            "assetHint": "props/floor_rug_b0735thvqh/rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2815315404
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0B80BD1F-16E3-5663-955B-2295FB0B59DD}"
+                                            },
+                                            "assetHint": "props/floor_rug_b0735thvqh/rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15735434964883623189]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15735434964883623189
+                },
+                "Component_[16932384619357707861]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16932384619357707861
+                },
+                "Component_[17659434790436114755]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17659434790436114755
+                },
+                "Component_[17926278987830450765]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17926278987830450765
+                },
+                "Component_[4205693238068743911]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4205693238068743911,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{151889CA-291B-5358-B685-E5DFDE04DFCB}",
+                                    "subId": 279583844
+                                },
+                                "assetHint": "props/floor_rug_b0735thvqh/rug.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[6166736019872166217]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6166736019872166217
+                },
+                "Component_[8348138537399918701]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8348138537399918701,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10934679314045245098
+                        },
+                        {
+                            "ComponentId": 4205693238068743911,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15109562205062192652,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9948822730120631817]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9948822730120631817
+                }
+            }
+        }
+    }
+}

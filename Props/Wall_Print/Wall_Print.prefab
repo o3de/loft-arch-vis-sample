@@ -1,0 +1,162 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wall_print",
+        "Components": {
+            "Component_[12697928256115697523]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12697928256115697523,
+                "Parent Entity": ""
+            },
+            "Component_[15833524939295767521]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15833524939295767521
+            },
+            "Component_[15991499465693842221]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15991499465693842221
+            },
+            "Component_[1653800203982705790]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1653800203982705790
+            },
+            "Component_[18309446775872868976]": {
+                "$type": "SelectionComponent",
+                "Id": 18309446775872868976
+            },
+            "Component_[240591650796720189]": {
+                "$type": "EditorLockComponent",
+                "Id": 240591650796720189
+            },
+            "Component_[2495514604970699697]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2495514604970699697
+            },
+            "Component_[2811867567483554091]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2811867567483554091
+            },
+            "Component_[368171200250492624]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 368171200250492624
+            },
+            "Component_[6624053319966816120]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6624053319966816120
+            },
+            "Component_[9858892895370144774]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9858892895370144774
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1904513228542]": {
+            "Id": "Entity_[1904513228542]",
+            "Name": "wall_print",
+            "Components": {
+                "Component_[1112310540582195634]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1112310540582195634
+                },
+                "Component_[11292219814052442655]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11292219814052442655,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8527090404363580731
+                        },
+                        {
+                            "ComponentId": 16420766914690036979,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2798987922542364894,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11732620522724494488]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11732620522724494488
+                },
+                "Component_[12011669299392151575]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12011669299392151575
+                },
+                "Component_[15597862815130891778]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15597862815130891778
+                },
+                "Component_[16420766914690036979]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16420766914690036979,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5F8FB595-FDF2-5FBB-8442-E675E89F9F4F}",
+                                    "subId": 276414796
+                                },
+                                "assetHint": "props/wall_print/wall_print.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[16733343264905282507]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16733343264905282507
+                },
+                "Component_[18197832025856229388]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18197832025856229388
+                },
+                "Component_[18273087160839359238]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18273087160839359238
+                },
+                "Component_[2798987922542364894]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2798987922542364894,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1903293215
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4C04886C-FAF8-5C7C-BD29-4E0A01C1BD7C}"
+                                            },
+                                            "assetHint": "props/wall_print/wall_print_wall_printmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5480621967488257443]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5480621967488257443
+                },
+                "Component_[8527090404363580731]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8527090404363580731,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 10.0
+                    }
+                }
+            }
+        }
+    }
+}

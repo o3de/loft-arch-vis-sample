@@ -1,6 +1,6 @@
 ## LICENSE
 
-This Open 3D Engine "Samples Project Gems" is licensed under the following conditions:
+This Open 3D Engine "Loft Sample Project Gems" is licensed under the following conditions:
 
 * Documentation content excluding code, and including images, is licensed under CC-BY-4.0.
 * Code samples, including inline code, are dual-licensed under Apache 2.0 and the MIT licenses.
