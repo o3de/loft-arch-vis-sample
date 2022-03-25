@@ -853,6 +853,7 @@
                             "CameraEntityId": "Entity_[2511113093496]",
                             "ShadowFarClipDistance": 8.0,
                             "ShadowmapSize": "Size2048",
+                            "CascadeCount": 1,
                             "SplitRatio": 0.3199999928474426,
                             "IsCascadeCorrectionEnabled": true,
                             "ShadowFilterMethod": 1,
