@@ -1,0 +1,22 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_base_color.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_metallic.png",
+        "normal.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_normal.png",
+        "opacity.factor": 1.0
+    }
+}

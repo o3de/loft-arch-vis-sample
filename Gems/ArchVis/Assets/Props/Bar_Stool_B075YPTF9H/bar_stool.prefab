@@ -1,0 +1,164 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bar_stool",
+        "Components": {
+            "Component_[10191820198477072693]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10191820198477072693,
+                "Parent Entity": ""
+            },
+            "Component_[11520398780789200686]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11520398780789200686
+            },
+            "Component_[1250179854848719164]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1250179854848719164
+            },
+            "Component_[14907347293190168405]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14907347293190168405
+            },
+            "Component_[4163938183836954244]": {
+                "$type": "SelectionComponent",
+                "Id": 4163938183836954244
+            },
+            "Component_[4567198759255416922]": {
+                "$type": "EditorLockComponent",
+                "Id": 4567198759255416922
+            },
+            "Component_[5135978693448841535]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5135978693448841535
+            },
+            "Component_[5184483764858257176]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5184483764858257176
+            },
+            "Component_[5860821583387617871]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5860821583387617871
+            },
+            "Component_[6501637875039814813]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6501637875039814813,
+                "Child Entity Order": [
+                    "Entity_[2356905079518]"
+                ]
+            },
+            "Component_[8325356224152975814]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8325356224152975814
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2356905079518]": {
+            "Id": "Entity_[2356905079518]",
+            "Name": "bar_stool",
+            "Components": {
+                "Component_[10536287574423402570]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10536287574423402570,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[11783200887630542331]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11783200887630542331
+                },
+                "Component_[13317449770201607324]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13317449770201607324
+                },
+                "Component_[1444637445411404547]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1444637445411404547
+                },
+                "Component_[14783392290788971343]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14783392290788971343,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10536287574423402570
+                        },
+                        {
+                            "ComponentId": 4515111393056123200,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15830687427745124496,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15274953467841225371]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15274953467841225371
+                },
+                "Component_[15572805050010439319]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15572805050010439319
+                },
+                "Component_[15830687427745124496]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15830687427745124496,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2256099798
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6B0C634A-93A6-5CC2-AFE1-536E33B70835}"
+                                            },
+                                            "assetHint": "props/bar_stool_b075yptf9h/bar_stool_bar_stoolmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3873565882435330360]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3873565882435330360
+                },
+                "Component_[4515111393056123200]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4515111393056123200,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{71A6A255-5C6B-55B5-8E0D-1A6B2A9DF90D}",
+                                    "subId": 272047451
+                                },
+                                "assetHint": "props/bar_stool_b075yptf9h/bar_stool.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5982895097166909237]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5982895097166909237
+                },
+                "Component_[7342739064555656967]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7342739064555656967
+                }
+            }
+        }
+    }
+}

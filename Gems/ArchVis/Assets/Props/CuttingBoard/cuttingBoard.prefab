@@ -1,0 +1,239 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "cuttingBoard",
+        "Components": {
+            "Component_[10990600058521279539]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10990600058521279539
+            },
+            "Component_[11098474393956652109]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11098474393956652109
+            },
+            "Component_[11551003277816861403]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11551003277816861403,
+                "Parent Entity": ""
+            },
+            "Component_[14056392537575093714]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14056392537575093714
+            },
+            "Component_[14496499472677727499]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14496499472677727499
+            },
+            "Component_[1783509630256205364]": {
+                "$type": "SelectionComponent",
+                "Id": 1783509630256205364
+            },
+            "Component_[18230604825249435656]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18230604825249435656
+            },
+            "Component_[5650341352142378050]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5650341352142378050
+            },
+            "Component_[6827594021893895057]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6827594021893895057
+            },
+            "Component_[8078295108748868239]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 8078295108748868239
+            },
+            "Component_[8244743911236178668]": {
+                "$type": "EditorLockComponent",
+                "Id": 8244743911236178668
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1771463382883]": {
+            "Id": "Entity_[1771463382883]",
+            "Name": "cuttingboard",
+            "Components": {
+                "Component_[10217115629131452846]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10217115629131452846,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{543EA77E-8688-50D3-B46E-48FDD7865A7F}",
+                                    "subId": 271146637
+                                },
+                                "assetHint": "props/cuttingboard/cuttingboard.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11930929618258110682]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11930929618258110682
+                },
+                "Component_[12520564951844542073]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12520564951844542073,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14772243797810735265
+                        },
+                        {
+                            "ComponentId": 10217115629131452846,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 570739944903965459,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13135004152708125933]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13135004152708125933
+                },
+                "Component_[14772243797810735265]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14772243797810735265,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 4.0
+                    }
+                },
+                "Component_[15017757005452842516]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15017757005452842516
+                },
+                "Component_[16531747150271179045]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16531747150271179045
+                },
+                "Component_[17906473484198444233]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17906473484198444233
+                },
+                "Component_[2794817559031497687]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2794817559031497687
+                },
+                "Component_[570739944903965459]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 570739944903965459,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1966748652
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BD230703-2FFB-5379-AAF2-A0B875770B79}"
+                                            },
+                                            "assetHint": "props/cuttingboard/cuttingboard_slicedapplemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2682981894
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{195C4DB8-086F-5271-B53A-ACF88C60B55D}"
+                                            },
+                                            "assetHint": "props/cuttingboard/cuttingboard_cuttingboardmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3774747136
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{24BD45BA-D74D-55DB-8BA7-8DCB0CF05BE8}"
+                                            },
+                                            "assetHint": "props/cuttingboard/cuttingboard_knifemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2682981894
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{195C4DB8-086F-5271-B53A-ACF88C60B55D}"
+                                },
+                                "assetHint": "props/cuttingboard/cuttingboard_cuttingboardmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3774747136
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{24BD45BA-D74D-55DB-8BA7-8DCB0CF05BE8}"
+                                },
+                                "assetHint": "props/cuttingboard/cuttingboard_knifemat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1966748652
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BD230703-2FFB-5379-AAF2-A0B875770B79}"
+                                },
+                                "assetHint": "props/cuttingboard/cuttingboard_slicedapplemat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2682981894
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3774747136
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1966748652
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[75376145024450839]": {
+                    "$type": "SelectionComponent",
+                    "Id": 75376145024450839
+                },
+                "Component_[9196964359740357676]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9196964359740357676
+                }
+            }
+        }
+    }
+}

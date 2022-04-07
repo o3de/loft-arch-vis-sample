@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "stack_magazines",
+        "Components": {
+            "Component_[1080331947685304291]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1080331947685304291
+            },
+            "Component_[10939574516156055000]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10939574516156055000
+            },
+            "Component_[14318394133587296206]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14318394133587296206
+            },
+            "Component_[14714441590825230113]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14714441590825230113
+            },
+            "Component_[15524216162578382606]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15524216162578382606
+            },
+            "Component_[16713263883238575205]": {
+                "$type": "EditorLockComponent",
+                "Id": 16713263883238575205
+            },
+            "Component_[17373108792902902815]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17373108792902902815
+            },
+            "Component_[2319491646754209643]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2319491646754209643
+            },
+            "Component_[7239648080415832902]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7239648080415832902,
+                "Parent Entity": ""
+            },
+            "Component_[9189717105076543467]": {
+                "$type": "SelectionComponent",
+                "Id": 9189717105076543467
+            },
+            "Component_[9739372956651711600]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9739372956651711600
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6285308666585]": {
+            "Id": "Entity_[6285308666585]",
+            "Name": "stack_magazines",
+            "Components": {
+                "Component_[11498441895137432321]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11498441895137432321,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11837171408357876688]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11837171408357876688
+                },
+                "Component_[13008211283756287584]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13008211283756287584
+                },
+                "Component_[13880585715419203883]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13880585715419203883
+                },
+                "Component_[15426398110938833779]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15426398110938833779,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11498441895137432321
+                        },
+                        {
+                            "ComponentId": 16255784355187180597,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6882336327948065386,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15976809509734672026]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15976809509734672026
+                },
+                "Component_[16255784355187180597]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16255784355187180597,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E91A7501-B969-552F-900D-5C6387513AE5}",
+                                    "subId": 270896925
+                                },
+                                "assetHint": "props/stack_magazines/stack_magazines.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[17157290802331086304]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17157290802331086304
+                },
+                "Component_[2258373924552713673]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2258373924552713673
+                },
+                "Component_[6882336327948065386]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6882336327948065386,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1977253547
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAFFC45C-0FF9-5959-BCCA-362AD0D7BF4E}"
+                                            },
+                                            "assetHint": "props/stack_magazines/stack_magazines_stack_magazinesmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8342141467158537248]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8342141467158537248
+                },
+                "Component_[8487756986495416595]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8487756986495416595
+                }
+            }
+        }
+    }
+}

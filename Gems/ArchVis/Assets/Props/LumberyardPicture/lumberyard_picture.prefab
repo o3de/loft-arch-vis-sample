@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "lumberyard_picture",
+        "Components": {
+            "Component_[10307035080509754259]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10307035080509754259
+            },
+            "Component_[13127177558037304912]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13127177558037304912
+            },
+            "Component_[14819889766522266999]": {
+                "$type": "SelectionComponent",
+                "Id": 14819889766522266999
+            },
+            "Component_[15493005454107541203]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15493005454107541203
+            },
+            "Component_[16633372343231236901]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16633372343231236901
+            },
+            "Component_[17257388383248157672]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17257388383248157672,
+                "Parent Entity": ""
+            },
+            "Component_[17497427050604986494]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17497427050604986494
+            },
+            "Component_[17792163459864716384]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17792163459864716384
+            },
+            "Component_[3183541404331175172]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3183541404331175172
+            },
+            "Component_[4782425699896843909]": {
+                "$type": "EditorLockComponent",
+                "Id": 4782425699896843909
+            },
+            "Component_[8232587102653300559]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8232587102653300559
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3867242078937]": {
+            "Id": "Entity_[3867242078937]",
+            "Name": "lumberyard_picture",
+            "Components": {
+                "Component_[11327962646736427013]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11327962646736427013,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13569749630392977869
+                        },
+                        {
+                            "ComponentId": 15895451905533535734,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14908431444708719548,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11730184401132435886]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11730184401132435886
+                },
+                "Component_[13569749630392977869]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13569749630392977869,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1438893640657637431]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1438893640657637431
+                },
+                "Component_[14908431444708719548]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14908431444708719548,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3443517226
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C7BC1E2-75BC-56CB-8F5A-90A2210B0A74}"
+                                            },
+                                            "assetHint": "props/lumberyardpicture/lumberyard_picture_lumberyardpicturemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15895451905533535734]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15895451905533535734,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{90813180-53C4-50A7-AC1A-A6DFA1AF783C}",
+                                    "subId": 275597762
+                                },
+                                "assetHint": "props/lumberyardpicture/lumberyard_picture.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2404677385041604746]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2404677385041604746
+                },
+                "Component_[3420543082362266938]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3420543082362266938
+                },
+                "Component_[343926604071818214]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 343926604071818214
+                },
+                "Component_[6980525095510973424]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6980525095510973424
+                },
+                "Component_[8150522405752416749]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8150522405752416749
+                },
+                "Component_[9751804836280372617]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9751804836280372617
+                }
+            }
+        }
+    }
+}

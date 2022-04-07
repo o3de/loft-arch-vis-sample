@@ -1,0 +1,205 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "chair",
+        "Components": {
+            "Component_[14090872938989864413]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14090872938989864413
+            },
+            "Component_[14946003050076819530]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14946003050076819530
+            },
+            "Component_[16234776235407137326]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16234776235407137326
+            },
+            "Component_[16984078697866722341]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16984078697866722341
+            },
+            "Component_[2472386098365116031]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2472386098365116031
+            },
+            "Component_[2583066387898529308]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2583066387898529308
+            },
+            "Component_[4942654746135653581]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4942654746135653581,
+                "Parent Entity": ""
+            },
+            "Component_[5364092857406435173]": {
+                "$type": "EditorLockComponent",
+                "Id": 5364092857406435173
+            },
+            "Component_[670345798098463884]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 670345798098463884
+            },
+            "Component_[7123431047274749154]": {
+                "$type": "SelectionComponent",
+                "Id": 7123431047274749154
+            },
+            "Component_[928576198217393780]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 928576198217393780
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[409292849002]": {
+            "Id": "Entity_[409292849002]",
+            "Name": "chair",
+            "Components": {
+                "Component_[1223936186271531899]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1223936186271531899
+                },
+                "Component_[12459741027185271939]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12459741027185271939
+                },
+                "Component_[12652173119112881554]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12652173119112881554,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7373795095866507372
+                        },
+                        {
+                            "ComponentId": 13518324228755887826,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16022529382103047184,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13415657798610753416]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13415657798610753416
+                },
+                "Component_[13518324228755887826]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13518324228755887826,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7B03EB5D-FD2B-5B1B-9A5C-817AF35DB8DF}",
+                                    "subId": 268649605
+                                },
+                                "assetHint": "props/chair_b082vm23mf/chair.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[14163871262101623436]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14163871262101623436
+                },
+                "Component_[16022529382103047184]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16022529382103047184,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 5141705
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{86CCDC2B-DD2B-5E1E-A152-EDD2404B41FF}"
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_chairmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1233813837
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_pillowmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1970635140
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{86CCDC2B-DD2B-5E1E-A152-EDD2404B41FF}"
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_chairmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3149940221
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_pillowmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6218755657429012541]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6218755657429012541
+                },
+                "Component_[7373795095866507372]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7373795095866507372,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -2.384185791015625e-7,
+                            0.1727132797241211,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[8254930735625648541]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8254930735625648541
+                },
+                "Component_[9390176031362331407]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9390176031362331407
+                },
+                "Component_[975226654191565690]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 975226654191565690
+                }
+            }
+        }
+    }
+}

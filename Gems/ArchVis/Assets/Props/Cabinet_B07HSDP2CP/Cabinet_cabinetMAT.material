@@ -1,0 +1,24 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Cabinet_B07HSDP2CP/textures/cabinet_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "irradiance.color": [
+            0.7755092978477478,
+            0.4720836281776428,
+            0.29642176628112793,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Cabinet_B07HSDP2CP/textures/cabinet_Metallic.png",
+        "normal.textureMap": "Props/Cabinet_B07HSDP2CP/textures/cabinet_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Props/Cabinet_B07HSDP2CP/textures/cabinet_Roughness.png"
+    }
+}

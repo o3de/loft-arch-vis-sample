@@ -1,0 +1,35 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Bathroom_Lights_B07QD5RGPB/textures/bathroom_lights_BaseColor.png",
+        "emissive.color": [
+            1.0,
+            0.29121842980384827,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 0.0,
+        "emissive.textureMap": "Props/Bathroom_Lights_B07QD5RGPB/textures/bathroom_lights_Emissive.png",
+        "general.applySpecularAA": true,
+        "irradiance.color": [
+            0.20407415926456451,
+            0.07165636867284775,
+            0.07165636867284775,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Bathroom_Lights_B07QD5RGPB/textures/bathroom_lights_Metallic.png",
+        "normal.textureMap": "Props/Bathroom_Lights_B07QD5RGPB/textures/bathroom_lights_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Bathroom_Lights_B07QD5RGPB/textures/bathroom_lights_Roughness.png"
+    }
+}

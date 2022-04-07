@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wallArt_grid",
+        "Components": {
+            "Component_[12374799932547348746]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12374799932547348746
+            },
+            "Component_[13806110072423228068]": {
+                "$type": "EditorLockComponent",
+                "Id": 13806110072423228068
+            },
+            "Component_[17295930492675923535]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17295930492675923535
+            },
+            "Component_[17786113175830652837]": {
+                "$type": "SelectionComponent",
+                "Id": 17786113175830652837
+            },
+            "Component_[2575080185507519135]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2575080185507519135
+            },
+            "Component_[3117038758077365981]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3117038758077365981,
+                "Parent Entity": ""
+            },
+            "Component_[3504339825392489184]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3504339825392489184
+            },
+            "Component_[3677467799053527227]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3677467799053527227
+            },
+            "Component_[3966121427961445818]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3966121427961445818
+            },
+            "Component_[5445375250405835638]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5445375250405835638
+            },
+            "Component_[9897248234168245882]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9897248234168245882
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11589523033098]": {
+            "Id": "Entity_[11589523033098]",
+            "Name": "wallArt_grid",
+            "Components": {
+                "Component_[10421279732701975363]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10421279732701975363
+                },
+                "Component_[11016088982214079420]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11016088982214079420,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11764485732921756515]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11764485732921756515,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2475982255
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D93A9E7B-861F-58BB-9E3A-86A7F7ED610A}"
+                                            },
+                                            "assetHint": "props/wallart_grid/wallart_grid_wallart_gridmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2475982255
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{D93A9E7B-861F-58BB-9E3A-86A7F7ED610A}"
+                                },
+                                "assetHint": "props/wallart_grid/wallart_grid_wallart_gridmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{90066C64-E196-54DF-8428-3F573BA7642F}",
+                                    "subId": 2475982255
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/wallart_grid/wallart_grid_wallart_gridmat_5786907906244115887.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2475982255
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{90066C64-E196-54DF-8428-3F573BA7642F}",
+                                        "subId": 2475982255
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/wallart_grid/wallart_grid_wallart_gridmat_5786907906244115887.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[13785539953079699481]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13785539953079699481,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11016088982214079420
+                        },
+                        {
+                            "ComponentId": 15053893666603686474,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11764485732921756515,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14200240678509159916]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14200240678509159916
+                },
+                "Component_[15053893666603686474]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15053893666603686474,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{90066C64-E196-54DF-8428-3F573BA7642F}",
+                                    "subId": 284361059
+                                },
+                                "assetHint": "props/wallart_grid/wallart_grid.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16252482090666125072]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16252482090666125072
+                },
+                "Component_[2932168994822202791]": {
+                    "$type": "SelectionComponent",
+                    "Id": 2932168994822202791
+                },
+                "Component_[6692033307151802920]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6692033307151802920
+                },
+                "Component_[8581660880883531426]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8581660880883531426
+                },
+                "Component_[930005929271686749]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 930005929271686749
+                },
+                "Component_[9756016418141332738]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9756016418141332738
+                }
+            }
+        }
+    }
+}

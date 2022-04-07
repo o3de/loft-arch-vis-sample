@@ -1,0 +1,182 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wall_painting_collection_three",
+        "Components": {
+            "Component_[10628843265651323895]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10628843265651323895
+            },
+            "Component_[11212884841703467127]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 11212884841703467127
+            },
+            "Component_[11856448081849531323]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11856448081849531323,
+                "Child Entity Order": [
+                    "Entity_[2453854144539]"
+                ]
+            },
+            "Component_[13160565245870957545]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13160565245870957545
+            },
+            "Component_[17499247271728452626]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17499247271728452626,
+                "Parent Entity": ""
+            },
+            "Component_[2137274248981395080]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2137274248981395080
+            },
+            "Component_[3496759247179200902]": {
+                "$type": "EditorLockComponent",
+                "Id": 3496759247179200902
+            },
+            "Component_[3589674891434971325]": {
+                "$type": "SelectionComponent",
+                "Id": 3589674891434971325
+            },
+            "Component_[6939696691164101596]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 6939696691164101596
+            },
+            "Component_[9014281440586969616]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9014281440586969616
+            },
+            "Component_[9711999391191020040]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9711999391191020040
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2453854144539]": {
+            "Id": "Entity_[2453854144539]",
+            "Name": "wall_painting_collection_three",
+            "Components": {
+                "Component_[10126209226803571948]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10126209226803571948
+                },
+                "Component_[10609676482643697315]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10609676482643697315
+                },
+                "Component_[12181636089505703153]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12181636089505703153
+                },
+                "Component_[14519831383417821403]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14519831383417821403
+                },
+                "Component_[15082057187848235811]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15082057187848235811
+                },
+                "Component_[16351616525781740035]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16351616525781740035
+                },
+                "Component_[16560977146164170288]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16560977146164170288
+                },
+                "Component_[2247643189384880211]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2247643189384880211,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[2659929037756996335]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2659929037756996335,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1526506372
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{18D3AAAC-4E42-5CAC-9920-626D814F2603}"
+                                            },
+                                            "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three_painting_threemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4096428273
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{153A1174-719F-5B9E-A64C-7663CCD7F46D}"
+                                            },
+                                            "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three_painting_twomat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4228716444
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1449262A-C755-5707-B55D-B7FA28A89866}"
+                                            },
+                                            "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three_painting_onemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3589545047982629418]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3589545047982629418
+                },
+                "Component_[7686853041151401971]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7686853041151401971,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2247643189384880211
+                        },
+                        {
+                            "ComponentId": 8516085766046900578,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2659929037756996335,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8516085766046900578]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8516085766046900578,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B8DD23EC-CF97-5937-9D84-CF1E95F719E3}",
+                                    "subId": 283125612
+                                },
+                                "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

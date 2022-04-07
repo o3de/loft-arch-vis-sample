@@ -1,0 +1,330 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bathroom_sink_cabinet",
+        "Components": {
+            "Component_[10939089020270719418]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10939089020270719418
+            },
+            "Component_[12986627345395598757]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12986627345395598757
+            },
+            "Component_[13692508914648818419]": {
+                "$type": "SelectionComponent",
+                "Id": 13692508914648818419
+            },
+            "Component_[1730102328948647657]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1730102328948647657
+            },
+            "Component_[17613827526515796171]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17613827526515796171
+            },
+            "Component_[3097941397343844855]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3097941397343844855
+            },
+            "Component_[3970201607130008307]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3970201607130008307
+            },
+            "Component_[4262736717844943210]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4262736717844943210
+            },
+            "Component_[4280499387491310541]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4280499387491310541,
+                "Parent Entity": ""
+            },
+            "Component_[8289855886115414367]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8289855886115414367
+            },
+            "Component_[8583033159120766258]": {
+                "$type": "EditorLockComponent",
+                "Id": 8583033159120766258
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[804354189145]": {
+            "Id": "Entity_[804354189145]",
+            "Name": "bathroom_sink_cabinet",
+            "Components": {
+                "Component_[12959359886315244672]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12959359886315244672
+                },
+                "Component_[14856319899912436997]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14856319899912436997
+                },
+                "Component_[15391422158945678417]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15391422158945678417
+                },
+                "Component_[16048921528794815147]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16048921528794815147
+                },
+                "Component_[17499200477775462097]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17499200477775462097,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 392119082
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{61FF1E3B-3146-50A9-98A5-0B17641B21AE}"
+                                            },
+                                            "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part2.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1027531355
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E33BF6E5-8A46-5D95-8F36-9960DD222FA6}"
+                                            },
+                                            "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part3.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2951936161
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FA1987A4-A6D8-56AC-B33C-F02BAE4D6603}"
+                                            },
+                                            "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_main.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3491704501
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EE748C8E-F3A0-5BDD-9520-7C26DC296503}"
+                                            },
+                                            "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2951936161
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{FA1987A4-A6D8-56AC-B33C-F02BAE4D6603}"
+                                },
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_main.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                    "subId": 2951936161
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_main_16404208169287612577.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 3491704501
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{EE748C8E-F3A0-5BDD-9520-7C26DC296503}"
+                                },
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part1.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                    "subId": 3491704501
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part1_5815654668832812725.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 392119082
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{61FF1E3B-3146-50A9-98A5-0B17641B21AE}"
+                                },
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part2.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                    "subId": 392119082
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part2_9090559751395164970.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 1027531355
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{E33BF6E5-8A46-5D95-8F36-9960DD222FA6}"
+                                },
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part3.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                    "subId": 1027531355
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part3_16203738915259998811.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2951936161
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                        "subId": 2951936161
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_main_16404208169287612577.azmaterial"
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3491704501
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                        "subId": 3491704501
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part1_5815654668832812725.azmaterial"
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 392119082
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                        "subId": 392119082
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part2_9090559751395164970.azmaterial"
+                                }
+                            },
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1027531355
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                        "subId": 1027531355
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet_part3_16203738915259998811.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[18048773294851898731]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18048773294851898731
+                },
+                "Component_[2078854099513657324]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2078854099513657324
+                },
+                "Component_[2138184218347793982]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2138184218347793982
+                },
+                "Component_[313429497374635863]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 313429497374635863,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 525034360519452390
+                        },
+                        {
+                            "ComponentId": 8360251511791114720,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17499200477775462097,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[525034360519452390]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 525034360519452390,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6614677531359225476]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6614677531359225476
+                },
+                "Component_[8360251511791114720]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8360251511791114720,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{952FBF7C-675D-5FCC-8C97-CDDDA6FD6186}",
+                                    "subId": 271346154
+                                },
+                                "assetHint": "props/bathroom_sink_cabinet/bathroom_sink_cabinet.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

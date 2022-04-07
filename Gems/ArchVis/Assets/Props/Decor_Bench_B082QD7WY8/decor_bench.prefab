@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "decor_bench",
+        "Components": {
+            "Component_[13328638575106816141]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13328638575106816141
+            },
+            "Component_[13356686577034389968]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13356686577034389968
+            },
+            "Component_[16822817524173856106]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16822817524173856106
+            },
+            "Component_[2380743057371333544]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2380743057371333544
+            },
+            "Component_[2605043769811221043]": {
+                "$type": "SelectionComponent",
+                "Id": 2605043769811221043
+            },
+            "Component_[4243842774426780688]": {
+                "$type": "EditorLockComponent",
+                "Id": 4243842774426780688
+            },
+            "Component_[4629441615789463873]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4629441615789463873
+            },
+            "Component_[5900278204732209125]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5900278204732209125
+            },
+            "Component_[7382983318063577570]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7382983318063577570
+            },
+            "Component_[9110443181314998188]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9110443181314998188
+            },
+            "Component_[9357852794734263367]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9357852794734263367,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[722825461610]": {
+            "Id": "Entity_[722825461610]",
+            "Name": "decor_bench",
+            "Components": {
+                "Component_[12874252152937448070]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12874252152937448070
+                },
+                "Component_[15031657690000441560]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15031657690000441560
+                },
+                "Component_[16677456497736923559]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16677456497736923559
+                },
+                "Component_[18181312073938036063]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18181312073938036063,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5107516950089359414
+                        },
+                        {
+                            "ComponentId": 340944033303102320,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3579608360610360551,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[1916266347254324427]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1916266347254324427
+                },
+                "Component_[2987939981718617646]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2987939981718617646
+                },
+                "Component_[340944033303102320]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 340944033303102320,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DDA97F91-269E-5AC0-B2B0-9D2FDFF31D58}",
+                                    "subId": 280296204
+                                },
+                                "assetHint": "props/decor_bench_b082qd7wy8/decor_bench.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[3579608360610360551]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3579608360610360551,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1877950487
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2161B00F-FEE6-52FC-8E91-50FA1C8B8C3A}"
+                                            },
+                                            "assetHint": "props/decor_bench_b082qd7wy8/decor_bench_decorbenchmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5107516950089359414]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5107516950089359414,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6685942406996108956]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 6685942406996108956
+                },
+                "Component_[9664823026564934077]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9664823026564934077
+                },
+                "Component_[9944245371717666619]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9944245371717666619
+                }
+            }
+        }
+    }
+}

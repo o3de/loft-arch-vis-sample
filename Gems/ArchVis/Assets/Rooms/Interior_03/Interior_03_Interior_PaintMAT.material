@@ -1,0 +1,21 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.25169891119003296,
+            0.24702639877796173,
+            0.25052589178085327,
+            1.0
+        ],
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Rooms/Interior_03/textures/Interior_Paint_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.6299999952316284
+    }
+}

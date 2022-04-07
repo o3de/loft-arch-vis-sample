@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "plates",
+        "Components": {
+            "Component_[12111266639570768694]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12111266639570768694
+            },
+            "Component_[13651931881912959465]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13651931881912959465
+            },
+            "Component_[1571789579901852857]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1571789579901852857
+            },
+            "Component_[16405647368667203628]": {
+                "$type": "EditorLockComponent",
+                "Id": 16405647368667203628
+            },
+            "Component_[3701583818773016865]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3701583818773016865
+            },
+            "Component_[4535577679456364075]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4535577679456364075
+            },
+            "Component_[493856113414166617]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 493856113414166617
+            },
+            "Component_[5539407467020747924]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5539407467020747924
+            },
+            "Component_[6397005342976236398]": {
+                "$type": "SelectionComponent",
+                "Id": 6397005342976236398
+            },
+            "Component_[81301643539438183]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 81301643539438183,
+                "Parent Entity": ""
+            },
+            "Component_[977629581190269880]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 977629581190269880
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[525922867043]": {
+            "Id": "Entity_[525922867043]",
+            "Name": "plates",
+            "Components": {
+                "Component_[10656113423447211498]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10656113423447211498
+                },
+                "Component_[11235709235758603289]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11235709235758603289,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2814810689
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B23B2AE3-2AE2-5D92-B94C-AF6851B1F420}"
+                                            },
+                                            "assetHint": "props/plates/plates_platesmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2814810689
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{B23B2AE3-2AE2-5D92-B94C-AF6851B1F420}"
+                                },
+                                "assetHint": "props/plates/plates_platesmat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2814810689
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[1548686502905760682]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1548686502905760682
+                },
+                "Component_[1906887385470011346]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1906887385470011346,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4C5DC31D-5CDF-57CA-9C64-6CDA13DA3789}",
+                                    "subId": 281467296
+                                },
+                                "assetHint": "props/plates/plates.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2425722260951659483]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 2425722260951659483
+                },
+                "Component_[2825766819995510405]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2825766819995510405
+                },
+                "Component_[2875136320935624519]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2875136320935624519
+                },
+                "Component_[3560551516429923110]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3560551516429923110,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 660228957889727645
+                        },
+                        {
+                            "ComponentId": 1906887385470011346,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11235709235758603289,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4881867843325518836]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4881867843325518836
+                },
+                "Component_[5368521204776771760]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5368521204776771760
+                },
+                "Component_[660228957889727645]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 660228957889727645,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[8339811468722660423]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8339811468722660423
+                }
+            }
+        }
+    }
+}

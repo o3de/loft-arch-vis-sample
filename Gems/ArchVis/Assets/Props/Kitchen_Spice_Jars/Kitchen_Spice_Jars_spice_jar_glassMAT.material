@@ -1,0 +1,29 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.9096513390541077,
+            0.9096513390541077,
+            0.9096513390541077,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "clearCoat.enable": true,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "general.doubleSided": true,
+        "metallic.factor": 0.4300000071525574,
+        "metallic.useTexture": false,
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.23999999463558197,
+        "roughness.useTexture": false
+    }
+}

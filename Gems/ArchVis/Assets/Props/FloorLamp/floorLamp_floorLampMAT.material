@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Props/FloorLamp/textures/floorLamp_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "enable": true,
+            "textureMap": "Props/FloorLamp/textures/floorLamp_Emissive_Transmissive.png"
+        },
+        "metallic": {
+            "textureMap": "Props/FloorLamp/textures/floorLamp_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Props/FloorLamp/textures/floorLamp_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.33000001311302185,
+            "textureMap": "Props/FloorLamp/textures/floorLamp_Roughness.png"
+        }
+    }
+}

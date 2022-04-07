@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "window",
+        "Components": {
+            "Component_[12289122733583225694]": {
+                "$type": "EditorLockComponent",
+                "Id": 12289122733583225694
+            },
+            "Component_[13367089379764612719]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13367089379764612719
+            },
+            "Component_[14519935897536581920]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14519935897536581920
+            },
+            "Component_[15473178310575148699]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15473178310575148699
+            },
+            "Component_[15530977064668064916]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15530977064668064916
+            },
+            "Component_[17458537640742964527]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17458537640742964527
+            },
+            "Component_[17654239037164403425]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17654239037164403425
+            },
+            "Component_[2667704534695765426]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2667704534695765426
+            },
+            "Component_[3272545266023512530]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3272545266023512530
+            },
+            "Component_[8281950230534266637]": {
+                "$type": "SelectionComponent",
+                "Id": 8281950230534266637
+            },
+            "Component_[8390992042786455228]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8390992042786455228,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[13487898577930]": {
+            "Id": "Entity_[13487898577930]",
+            "Name": "window",
+            "Components": {
+                "Component_[10205573117100269613]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10205573117100269613
+                },
+                "Component_[1336906501631596999]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1336906501631596999
+                },
+                "Component_[1442425869465708260]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1442425869465708260
+                },
+                "Component_[14765642480833527131]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14765642480833527131
+                },
+                "Component_[15450990337131517844]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15450990337131517844
+                },
+                "Component_[15977534959442101964]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15977534959442101964
+                },
+                "Component_[16287069405995909595]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16287069405995909595
+                },
+                "Component_[17612021174929318612]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17612021174929318612,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3782249984
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3D4A683E-02C4-500B-B516-E119ACD6D9A6}"
+                                            },
+                                            "assetHint": "props/window/window_windowsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3782249984
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{3D4A683E-02C4-500B-B516-E119ACD6D9A6}"
+                                },
+                                "assetHint": "props/window/window_windowsmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{152B5850-ABC4-5B58-A314-0A2D0C62ABA9}",
+                                    "subId": 3782249984
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/window/window_windowsmat_7513009994857483776.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3782249984
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{152B5850-ABC4-5B58-A314-0A2D0C62ABA9}",
+                                        "subId": 3782249984
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/window/window_windowsmat_7513009994857483776.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[436627723655563589]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 436627723655563589,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[4743588661861438273]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4743588661861438273
+                },
+                "Component_[5023938588274693026]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5023938588274693026,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 436627723655563589
+                        },
+                        {
+                            "ComponentId": 7068374829683138269,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17612021174929318612,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7068374829683138269]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7068374829683138269,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{152B5850-ABC4-5B58-A314-0A2D0C62ABA9}",
+                                    "subId": 283441629
+                                },
+                                "assetHint": "props/window/window.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

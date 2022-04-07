@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_utensils",
+        "Components": {
+            "Component_[10631566755515123498]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10631566755515123498
+            },
+            "Component_[1125267905595153612]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1125267905595153612
+            },
+            "Component_[1182728265574491454]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1182728265574491454,
+                "Parent Entity": ""
+            },
+            "Component_[1482553045647294709]": {
+                "$type": "SelectionComponent",
+                "Id": 1482553045647294709
+            },
+            "Component_[15813776801463798361]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15813776801463798361
+            },
+            "Component_[2194241661344282408]": {
+                "$type": "EditorLockComponent",
+                "Id": 2194241661344282408
+            },
+            "Component_[3030077650368899581]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3030077650368899581
+            },
+            "Component_[5023510281843685208]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5023510281843685208
+            },
+            "Component_[6261180544684526463]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6261180544684526463
+            },
+            "Component_[6847174714443730216]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6847174714443730216
+            },
+            "Component_[7320840881984374702]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7320840881984374702
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2608816661209]": {
+            "Id": "Entity_[2608816661209]",
+            "Name": "kitchen_utensils",
+            "Components": {
+                "Component_[10848318651291360987]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10848318651291360987,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2921698348
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{260DDA1D-4303-5F76-A82E-87AB9D50F3E2}"
+                                            },
+                                            "assetHint": "props/kitchen_utensils/kitchen_utensils_kitchen_utensilsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[10878666945970239818]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10878666945970239818,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11957230140134230767]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11957230140134230767
+                },
+                "Component_[14358159924601805345]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14358159924601805345,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8A42B566-4777-5D92-802D-055684D1BDF7}",
+                                    "subId": 283863100
+                                },
+                                "assetHint": "props/kitchen_utensils/kitchen_utensils.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[3277782297105409441]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3277782297105409441,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10878666945970239818
+                        },
+                        {
+                            "ComponentId": 14358159924601805345,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10848318651291360987,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4658560059322144172]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4658560059322144172
+                },
+                "Component_[4878426898398359221]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4878426898398359221
+                },
+                "Component_[5280932098969691028]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5280932098969691028
+                },
+                "Component_[7020969489580153262]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7020969489580153262
+                },
+                "Component_[8019865572149421709]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8019865572149421709
+                },
+                "Component_[8101057064727708780]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8101057064727708780
+                },
+                "Component_[9833176393008813414]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9833176393008813414
+                }
+            }
+        }
+    }
+}

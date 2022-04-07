@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bathroom_lights",
+        "Components": {
+            "Component_[10996124804899678525]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10996124804899678525
+            },
+            "Component_[14977242317132907189]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14977242317132907189
+            },
+            "Component_[17498377593246169107]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17498377593246169107
+            },
+            "Component_[3232505596964956629]": {
+                "$type": "SelectionComponent",
+                "Id": 3232505596964956629
+            },
+            "Component_[3302281465821772476]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3302281465821772476
+            },
+            "Component_[3390585639369026493]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3390585639369026493
+            },
+            "Component_[3464930804040983625]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3464930804040983625
+            },
+            "Component_[3567932214563279696]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3567932214563279696
+            },
+            "Component_[6298177938597217155]": {
+                "$type": "EditorLockComponent",
+                "Id": 6298177938597217155
+            },
+            "Component_[6590736413741362771]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6590736413741362771,
+                "Parent Entity": ""
+            },
+            "Component_[7894777850818193786]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7894777850818193786
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2889481024222]": {
+            "Id": "Entity_[2889481024222]",
+            "Name": "bathroom_lights",
+            "Components": {
+                "Component_[10438601166001339073]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10438601166001339073
+                },
+                "Component_[12569135944225211617]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12569135944225211617
+                },
+                "Component_[14209338179067443431]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14209338179067443431,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15759504103441027389]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15759504103441027389
+                },
+                "Component_[15910341627029261175]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15910341627029261175
+                },
+                "Component_[16032307809488909703]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16032307809488909703,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{69103DA6-85A0-5971-BD91-521C1C78EDA3}",
+                                    "subId": 283070699
+                                },
+                                "assetHint": "props/bathroom_lights_b07qd5rgpb/bathroom_lights.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17229987886807691343]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17229987886807691343
+                },
+                "Component_[3868952244238302945]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3868952244238302945
+                },
+                "Component_[5920257108064870112]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5920257108064870112
+                },
+                "Component_[6468373253238926285]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6468373253238926285,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2631497952
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6DDA50F8-B43C-5C04-9999-038E5CF3FFD2}"
+                                            },
+                                            "assetHint": "props/bathroom_lights_b07qd5rgpb/bathroom_lights_bathroom_lightsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6866513883010701876]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6866513883010701876,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14209338179067443431
+                        },
+                        {
+                            "ComponentId": 16032307809488909703,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6468373253238926285,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[898778001193606624]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 898778001193606624
+                }
+            }
+        }
+    }
+}

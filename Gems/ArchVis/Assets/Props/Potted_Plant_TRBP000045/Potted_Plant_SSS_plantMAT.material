@@ -1,0 +1,24 @@
+{
+    "materialType": "Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_BaseColor.png",
+        "normal.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Normal.png",
+        "roughness.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Roughness.png",
+        "subsurfaceScattering.enableSubsurfaceScattering": true,
+        "subsurfaceScattering.quality": 0.671999990940094,
+        "subsurfaceScattering.scatterColor": [
+            0.050003815442323685,
+            1.0,
+            0.0,
+            1.0
+        ],
+        "subsurfaceScattering.scatterDistance": 6.0,
+        "subsurfaceScattering.subsurfaceScatterFactor": 0.5,
+        "subsurfaceScattering.thickness": 0.3700000047683716,
+        "subsurfaceScattering.thicknessMap": "Props/Potted_Plant_TRBP000045/textures/plant_Roughness.png",
+        "subsurfaceScattering.transmissionDistortion": 0.3499999940395355,
+        "subsurfaceScattering.transmissionMode": "ThickObject",
+        "subsurfaceScattering.transmissionPower": 11.0
+    }
+}

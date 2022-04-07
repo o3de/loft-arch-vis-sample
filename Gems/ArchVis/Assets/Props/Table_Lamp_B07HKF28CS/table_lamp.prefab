@@ -1,0 +1,175 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "table_lamp",
+        "Components": {
+            "Component_[12503009786186699069]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12503009786186699069,
+                "Parent Entity": ""
+            },
+            "Component_[13799454561551733111]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 13799454561551733111
+            },
+            "Component_[13926379603926170740]": {
+                "$type": "EditorLockComponent",
+                "Id": 13926379603926170740
+            },
+            "Component_[14309690677278986602]": {
+                "$type": "SelectionComponent",
+                "Id": 14309690677278986602
+            },
+            "Component_[14990246215705864593]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14990246215705864593
+            },
+            "Component_[15067086394992575407]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15067086394992575407
+            },
+            "Component_[18349537521856725818]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18349537521856725818
+            },
+            "Component_[4232772028441526814]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4232772028441526814
+            },
+            "Component_[5376683907449352105]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5376683907449352105
+            },
+            "Component_[7784539323587339439]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7784539323587339439
+            },
+            "Component_[9243883161618057513]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9243883161618057513
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[555893497598]": {
+            "Id": "Entity_[555893497598]",
+            "Name": "table_lamp",
+            "Components": {
+                "Component_[13238160330441541806]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13238160330441541806
+                },
+                "Component_[13418625698360321556]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13418625698360321556
+                },
+                "Component_[13988060277813828387]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13988060277813828387,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[14301062730637626644]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14301062730637626644,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13988060277813828387
+                        },
+                        {
+                            "ComponentId": 15453850067030571079,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14516341996171178453,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14516341996171178453]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14516341996171178453,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2335198399
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A25474F1-2B72-55B8-909B-C07E9F881512}"
+                                            },
+                                            "assetHint": "props/table_lamp_b07hkf28cs/table_lamp_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4005493637
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4332F31F-35CA-5094-9D1F-CBC174BC3439}"
+                                            },
+                                            "assetHint": "props/table_lamp_b07hkf28cs/table_lamp_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[1453989611229426298]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1453989611229426298
+                },
+                "Component_[15453850067030571079]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15453850067030571079,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DB3EB534-DA2E-5B5D-B4A9-E60E1BEC897F}",
+                                    "subId": 270602925
+                                },
+                                "assetHint": "props/table_lamp_b07hkf28cs/table_lamp.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[15775643334734662227]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15775643334734662227
+                },
+                "Component_[1596732105347230311]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1596732105347230311
+                },
+                "Component_[17420561946348862865]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17420561946348862865
+                },
+                "Component_[3425607196026404363]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3425607196026404363
+                },
+                "Component_[3801834752541642727]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3801834752541642727
+                }
+            }
+        }
+    }
+}

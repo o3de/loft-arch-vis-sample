@@ -1,0 +1,34 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Bar_Stool_B075YPTF9H/textures/bar_stool_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "general.applySpecularAA": true,
+        "irradiance.color": [
+            0.0,
+            0.5411612391471863,
+            0.7551079392433167,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Bar_Stool_B075YPTF9H/textures/bar_stool_Metallic.png",
+        "normal.textureMap": "Props/Bar_Stool_B075YPTF9H/textures/bar_stool_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Bar_Stool_B075YPTF9H/textures/bar_stool_Roughness.png"
+    }
+}

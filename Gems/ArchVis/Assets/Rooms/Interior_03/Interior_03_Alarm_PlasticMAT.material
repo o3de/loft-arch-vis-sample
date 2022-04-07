@@ -1,0 +1,24 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Rooms/Interior_03/textures/Alarm_Plastic_base_color.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.textureMap": "Rooms/Interior_03/textures/Alarm_Plastic_metallic.png",
+        "normal.textureMap": "Rooms/Interior_03/textures/Alarm_Plastic_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.8299999833106995
+    }
+}

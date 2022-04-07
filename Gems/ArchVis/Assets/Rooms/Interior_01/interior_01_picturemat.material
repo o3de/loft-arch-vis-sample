@@ -1,0 +1,54 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "Rooms/Interior_01/textures/picture_BaseColor.png"
+        },
+        "clearCoat": {
+            "enable": true,
+            "normalMap": "Rooms/Interior_01/textures/picture_Normal.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "irradiance": {
+            "color": [
+                0.8468757271766663,
+                0.8069581389427185,
+                0.6866865158081055,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Rooms/Interior_01/textures/picture_Metallic.png"
+        },
+        "normal": {
+            "flipY": true,
+            "textureMap": "Rooms/Interior_01/textures/picture_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.33000001311302187,
+            "textureMap": "Rooms/Interior_01/textures/picture_Roughness.png"
+        },
+        "specularF0": {
+            "enableMultiScatterCompensation": true
+        }
+    }
+}

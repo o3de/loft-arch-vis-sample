@@ -1,0 +1,43 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "general.applySpecularAA": true,
+        "irradiance.color": [
+            0.0,
+            0.383337140083313,
+            1.0,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_Metallic.png",
+        "normal.factor": 0.6399999856948853,
+        "normal.flipX": true,
+        "normal.flipY": true,
+        "normal.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_Normal.png",
+        "occlusion.diffuseFactor": 1.0399999618530273,
+        "occlusion.diffuseTextureMap": "Props/Chair_B082VM23MF/textures/chairMAT_AO.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true,
+        "specularF0.factor": 0.41999998688697815,
+        "specularF0.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_SpecularReflectance.png",
+        "specularF0.useTexture": false
+    }
+}

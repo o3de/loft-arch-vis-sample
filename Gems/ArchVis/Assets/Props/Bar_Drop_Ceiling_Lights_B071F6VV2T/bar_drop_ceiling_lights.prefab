@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bar_drop_ceiling_lights",
+        "Components": {
+            "Component_[10987667005393420151]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10987667005393420151
+            },
+            "Component_[11601186827011155577]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11601186827011155577
+            },
+            "Component_[12934163835511301108]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12934163835511301108
+            },
+            "Component_[13136892290345917550]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13136892290345917550
+            },
+            "Component_[13138981176218181598]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13138981176218181598
+            },
+            "Component_[17696069259493276394]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17696069259493276394
+            },
+            "Component_[3702664153889701179]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3702664153889701179
+            },
+            "Component_[3772299976998754238]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3772299976998754238
+            },
+            "Component_[4237734388437842750]": {
+                "$type": "SelectionComponent",
+                "Id": 4237734388437842750
+            },
+            "Component_[8510902484781513853]": {
+                "$type": "EditorLockComponent",
+                "Id": 8510902484781513853
+            },
+            "Component_[9559878043841233505]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9559878043841233505,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[461773518383]": {
+            "Id": "Entity_[461773518383]",
+            "Name": "bar_drop_ceiling_lights",
+            "Components": {
+                "Component_[11964975249472578394]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11964975249472578394
+                },
+                "Component_[13193256724460633017]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13193256724460633017
+                },
+                "Component_[13779083812324477510]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13779083812324477510,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3860263370
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0151AD2E-440B-5C26-B11A-3D171A382FC1}"
+                                            },
+                                            "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights_dropceilinglightsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15714944938678533640]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15714944938678533640
+                },
+                "Component_[15765643438642872194]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15765643438642872194
+                },
+                "Component_[16232326086975042525]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16232326086975042525
+                },
+                "Component_[1995021287546556989]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1995021287546556989
+                },
+                "Component_[4551598154706652079]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4551598154706652079
+                },
+                "Component_[5770119706861331530]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5770119706861331530,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5921351318025852903
+                        },
+                        {
+                            "ComponentId": 9573904982155412668,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13779083812324477510,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5921351318025852903]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5921351318025852903,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6330147308401542046]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6330147308401542046
+                },
+                "Component_[9573904982155412668]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9573904982155412668,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{143E3DE1-3E38-57C8-B9EB-DAF44CB7F97C}",
+                                    "subId": 281766129
+                                },
+                                "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

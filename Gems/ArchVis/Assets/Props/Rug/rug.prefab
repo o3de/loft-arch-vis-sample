@@ -1,0 +1,366 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "rug",
+        "Components": {
+            "Component_[10554002397326421495]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10554002397326421495,
+                "Parent Entity": ""
+            },
+            "Component_[12023895877457134707]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12023895877457134707
+            },
+            "Component_[13464628767644826351]": {
+                "$type": "SelectionComponent",
+                "Id": 13464628767644826351
+            },
+            "Component_[17130832350067592072]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17130832350067592072
+            },
+            "Component_[17821516144027859563]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17821516144027859563
+            },
+            "Component_[18343828163024126036]": {
+                "$type": "EditorLockComponent",
+                "Id": 18343828163024126036
+            },
+            "Component_[18359758223697050221]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18359758223697050221
+            },
+            "Component_[4211177584719305339]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4211177584719305339
+            },
+            "Component_[4921807250495324635]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4921807250495324635
+            },
+            "Component_[5773651669569401084]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5773651669569401084
+            },
+            "Component_[5799289357752116987]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5799289357752116987
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5585228997337]": {
+            "Id": "Entity_[5585228997337]",
+            "Name": "rug",
+            "Components": {
+                "Component_[10684522340818005797]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10684522340818005797
+                },
+                "Component_[10844934668071538708]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10844934668071538708,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[11317938189695371324]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11317938189695371324
+                },
+                "Component_[11850556894128467978]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11850556894128467978,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2815315404
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                            },
+                                            "assetHint": "props/rug/rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        },
+                        {
+                            "id": {
+                                "materialSlotStableId": 2815315404
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{BB4DE30B-C7C5-5BC9-936E-405EAEC0A8A0}"
+                                },
+                                "assetHint": "props/rug/rug_rugmat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ],
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2815315404
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[12127221716859670831]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12127221716859670831
+                },
+                "Component_[12747848411836106878]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12747848411836106878,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B6B9A620-B284-5075-A880-50DED02938F8}",
+                                    "subId": 279583844
+                                },
+                                "assetHint": "props/rug/rug.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14324968300056329341]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14324968300056329341
+                },
+                "Component_[16241384122276100462]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16241384122276100462
+                },
+                "Component_[16541941485035891055]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16541941485035891055,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10844934668071538708
+                        },
+                        {
+                            "ComponentId": 12747848411836106878,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11850556894128467978,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4331610924531686784]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4331610924531686784
+                },
+                "Component_[566999679503013592]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 566999679503013592
+                },
+                "Component_[7378440358695365565]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7378440358695365565
+                }
+            }
+        }
+    }
+}
