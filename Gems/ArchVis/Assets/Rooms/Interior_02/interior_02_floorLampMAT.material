@@ -1,0 +1,26 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Rooms/Interior_02/textures/floorLamp_BaseColor.png",
+        "emissive.color": [
+            0.9542076587677002,
+            0.8644693493843079,
+            0.5821927189826965,
+            1.0
+        ],
+        "emissive.intensity": 4.559999942779541,
+        "metallic.textureMap": "Rooms/Interior_02/textures/floorLamp_Metallic.png",
+        "normal.textureMap": "Rooms/Interior_02/textures/floorLamp_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Rooms/Interior_02/textures/floorLamp_Roughness.png"
+    }
+}

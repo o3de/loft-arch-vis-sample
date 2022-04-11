@@ -1,0 +1,180 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "single_bed_frame",
+        "Components": {
+            "Component_[10636214401684850478]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10636214401684850478
+            },
+            "Component_[12017054594034540547]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12017054594034540547
+            },
+            "Component_[12032533301644267498]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12032533301644267498
+            },
+            "Component_[15805644616917366189]": {
+                "$type": "SelectionComponent",
+                "Id": 15805644616917366189
+            },
+            "Component_[16072785689235445020]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16072785689235445020
+            },
+            "Component_[17818594909456552807]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 17818594909456552807
+            },
+            "Component_[2885728317498394465]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2885728317498394465
+            },
+            "Component_[3079438039084703751]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3079438039084703751
+            },
+            "Component_[5332598393702191717]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5332598393702191717,
+                "Parent Entity": ""
+            },
+            "Component_[6207724821958164212]": {
+                "$type": "EditorLockComponent",
+                "Id": 6207724821958164212
+            },
+            "Component_[9732407723269379360]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9732407723269379360
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5924531413721]": {
+            "Id": "Entity_[5924531413721]",
+            "Name": "single_bed_frame",
+            "Components": {
+                "Component_[11776474076357135992]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11776474076357135992,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15163426345613617770
+                        },
+                        {
+                            "ComponentId": 13723596531085138212,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13432125654114673280,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13432125654114673280]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13432125654114673280,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1982047513
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E09EE4D8-229A-5B8E-8D6C-1B84E2A9CB0C}"
+                                            },
+                                            "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_bedmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3149940221
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8E0B0B14-D9C0-521E-A9F1-95E705D0CEE1}"
+                                            },
+                                            "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_pillowmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3593455910
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{235B784C-83AD-56F0-ABCE-D5F20E34A423}"
+                                            },
+                                            "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_framemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13445801019192371743]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13445801019192371743
+                },
+                "Component_[13723596531085138212]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13723596531085138212,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B0CF775B-F52B-58A1-969C-7E4DD44B4F49}",
+                                    "subId": 272547922
+                                },
+                                "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[13779696167809261315]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13779696167809261315
+                },
+                "Component_[15163426345613617770]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15163426345613617770,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15598234045844742424]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15598234045844742424
+                },
+                "Component_[16946512550308890914]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16946512550308890914
+                },
+                "Component_[16958663505704264404]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16958663505704264404
+                },
+                "Component_[17335388245100114700]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17335388245100114700
+                },
+                "Component_[18322450601296185927]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18322450601296185927
+                },
+                "Component_[9397677546824248316]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9397677546824248316
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,545 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "interior_03",
+        "Components": {
+            "Component_[11412863551663905611]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11412863551663905611
+            },
+            "Component_[12785365552446477226]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12785365552446477226,
+                "Parent Entity": ""
+            },
+            "Component_[13322524448451542416]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13322524448451542416
+            },
+            "Component_[14321625970089037727]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14321625970089037727
+            },
+            "Component_[1587986414147560843]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1587986414147560843
+            },
+            "Component_[17092236708575323205]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17092236708575323205
+            },
+            "Component_[2269916773073209554]": {
+                "$type": "EditorLockComponent",
+                "Id": 2269916773073209554
+            },
+            "Component_[3191175646941140568]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3191175646941140568
+            },
+            "Component_[549406598454283146]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 549406598454283146,
+                "Child Entity Order": [
+                    "Entity_[13292394972768]"
+                ]
+            },
+            "Component_[7663701510374293606]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7663701510374293606
+            },
+            "Component_[9641978631746648494]": {
+                "$type": "SelectionComponent",
+                "Id": 9641978631746648494
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[13292394972768]": {
+            "Id": "Entity_[13292394972768]",
+            "Name": "interior_03",
+            "Components": {
+                "Component_[11636095235585789607]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11636095235585789607
+                },
+                "Component_[12369918107656431496]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12369918107656431496,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1251307382115135923]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1251307382115135923
+                },
+                "Component_[17013253040440995433]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17013253040440995433,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12369918107656431496
+                        },
+                        {
+                            "ComponentId": 3151742810798896557,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6976729613557409178,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17347215252697242678]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17347215252697242678
+                },
+                "Component_[186747305602581183]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 186747305602581183
+                },
+                "Component_[1969164338549515639]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1969164338549515639
+                },
+                "Component_[2313971074654182765]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2313971074654182765
+                },
+                "Component_[3151742810798896557]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3151742810798896557,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B4801185-3B5D-5D53-B6DC-022827FB5E58}",
+                                    "subId": 274348263
+                                },
+                                "assetHint": "rooms/interior_03/interior_03.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[5626770283710439694]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5626770283710439694
+                },
+                "Component_[6976729613557409178]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 6976729613557409178,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{21E975BA-13B2-584E-88CE-D5B6ED11C2D7}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 70883562
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A65E29FF-79B3-5202-A60F-441594125F8F}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_interior_paintmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 354527130
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6C9B0A63-09F3-5C6C-BBF2-F52F90F684F1}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_dinning_room_curtainmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 430946747
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0EED2E14-3AF9-55AC-966C-FA75D8F2C283}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_door_paintmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 935462508
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5390FBEC-9F7B-52F6-8253-3684767F84A9}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_cabinet_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 971375212
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3482D197-2EF6-5411-B3F5-367DEAB6775D}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_white_plasticmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 977955844
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{744B3FAF-E37E-5850-BBC1-48B1B187B059}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_curtain_rallmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1195717552
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9999ADF2-01F1-5946-8551-C097799F9A11}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_wood_floormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1198995508
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7102DF13-8918-5F67-A190-FB32F9AC57DD}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_loft_curtainsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1327577144
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1CB9751A-FAD8-5444-8F81-500F0B1EF3EF}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_baseboard_paintmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1440703822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E4EBF7CB-24A0-5D90-95D5-831BA8736221}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_ceiling_led_plasticmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1839047619
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B3DF2C79-35D1-5E25-8A84-A148F6BE4454}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_frontdoor_paintedmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1921885169
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9840744A-2AF7-5FBA-B2C7-578716B9DE6B}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_kitchen_cabinetmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{21E975BA-13B2-584E-88CE-D5B6ED11C2D7}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_defaultmaterial.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2191807691
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{744B3FAF-E37E-5850-BBC1-48B1B187B059}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_curtain_rallmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2423917669
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{366C8672-5B67-58B6-ABBB-E1C1D188E70C}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_ceiling_paintmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2537864968
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9F9646B-254E-517D-9634-47C5BEE441EC}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_alarm_plasticmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2736108960
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9D3A9FE2-765A-5223-895F-F25E54889FD8}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_exterior_paintmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2772045834
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3D07FEA2-4F1F-509B-BA3F-77D0D7573B9E}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_window_outer_framemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2781405523
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F13E625F-483B-5B85-A142-364E07D746BE}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_blindsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3376989311
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{554209B4-D7AA-5578-BCF4-DB0B1A3A06D3}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_ktichen_countertopmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3544926049
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3DF6798C-514F-50D9-B2C3-F096147ACB84}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_ceiling_led_lightmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3592563607
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F386BF54-5F8F-52F8-9500-6A21D9726FF7}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_black_plasticmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3636108929
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{95FAF7F5-9A9F-5B4B-867C-D5411C834F5A}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_smoke_detectormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3868049033
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6C9B0A63-09F3-5C6C-BBF2-F52F90F684F1}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_dinning_room_curtainmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3879731007
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3F514693-B641-528E-8397-C758CBC9609E}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_brushed_steelmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4216774644
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{84BF2D64-8314-5B3E-A6CA-12FD341E0191}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_fire_sprinklermat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4221941908
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{07E3A9CA-35B8-5235-A6B5-F118C804D097}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_kitchensink_hardwaremat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4236374148
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{89D1093E-3198-5B07-A967-05056A210CEF}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_window_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4267619543
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CB085B3E-A653-5943-8B11-206F51A45B1B}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_window_framemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4268364738
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7ACA15BB-0A09-5C63-B644-A06AC8F52384}"
+                                            },
+                                            "assetHint": "rooms/interior_03/interior_03_door_handelmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8339147168484781481]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8339147168484781481
+                }
+            }
+        }
+    }
+}

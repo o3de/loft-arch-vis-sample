@@ -1,0 +1,176 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchenTable",
+        "Components": {
+            "Component_[1135270353782254787]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1135270353782254787
+            },
+            "Component_[12389130514779333639]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12389130514779333639
+            },
+            "Component_[12582706521896627598]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12582706521896627598
+            },
+            "Component_[13420301457665384245]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13420301457665384245
+            },
+            "Component_[16059375804739998014]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16059375804739998014
+            },
+            "Component_[17481112162924286331]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17481112162924286331
+            },
+            "Component_[17654223910170944684]": {
+                "$type": "EditorLockComponent",
+                "Id": 17654223910170944684
+            },
+            "Component_[2465796463384403652]": {
+                "$type": "SelectionComponent",
+                "Id": 2465796463384403652
+            },
+            "Component_[4041347288079890505]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4041347288079890505
+            },
+            "Component_[6891284384449314672]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6891284384449314672
+            },
+            "Component_[8342661558482006389]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8342661558482006389,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[783620904803]": {
+            "Id": "Entity_[783620904803]",
+            "Name": "kitchentable",
+            "Components": {
+                "Component_[11498723256078579725]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11498723256078579725
+                },
+                "Component_[11821786291606808151]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11821786291606808151
+                },
+                "Component_[12773896233170693548]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12773896233170693548,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{295A5FEC-BC4E-5594-9D20-90CDD642D61B}",
+                                    "subId": 280359018
+                                },
+                                "assetHint": "props/kitchentable/kitchentable.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14513239629466334242]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14513239629466334242
+                },
+                "Component_[14988260225766499552]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14988260225766499552,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15333008164015801593
+                        },
+                        {
+                            "ComponentId": 12773896233170693548,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 631861346733430788,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[1499618162691775553]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1499618162691775553
+                },
+                "Component_[15333008164015801593]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15333008164015801593,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1638990019481234495]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1638990019481234495
+                },
+                "Component_[1813260366782280598]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1813260366782280598
+                },
+                "Component_[2216076300970539147]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2216076300970539147
+                },
+                "Component_[3437725707070531282]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3437725707070531282
+                },
+                "Component_[631861346733430788]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 631861346733430788,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 857688900
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4A936A08-4F16-5587-96AC-82A564C680C8}"
+                                            },
+                                            "assetHint": "props/kitchentable/kitchentable_tablemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 857688900
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{4A936A08-4F16-5587-96AC-82A564C680C8}"
+                                },
+                                "assetHint": "props/kitchentable/kitchentable_tablemat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 857688900
+                                }
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

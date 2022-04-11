@@ -1,0 +1,164 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bedroom_night_stand",
+        "Components": {
+            "Component_[12342663125756964466]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12342663125756964466,
+                "Parent Entity": ""
+            },
+            "Component_[13459640860474208451]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13459640860474208451
+            },
+            "Component_[1547361696840827057]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1547361696840827057,
+                "Child Entity Order": [
+                    "Entity_[3056984748766]"
+                ]
+            },
+            "Component_[15590610628451104250]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15590610628451104250
+            },
+            "Component_[2294281114027282688]": {
+                "$type": "SelectionComponent",
+                "Id": 2294281114027282688
+            },
+            "Component_[288231474581574358]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 288231474581574358
+            },
+            "Component_[318455761111351116]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 318455761111351116
+            },
+            "Component_[3234602907654113423]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3234602907654113423
+            },
+            "Component_[7179282300607814253]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7179282300607814253
+            },
+            "Component_[7630045757398268076]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7630045757398268076
+            },
+            "Component_[8605085398674057599]": {
+                "$type": "EditorLockComponent",
+                "Id": 8605085398674057599
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3056984748766]": {
+            "Id": "Entity_[3056984748766]",
+            "Name": "bedroom_night_stand",
+            "Components": {
+                "Component_[10129406247916110812]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10129406247916110812
+                },
+                "Component_[10202566262910507912]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10202566262910507912,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 738895079
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B4EAC08D-7A34-5D00-9982-6C4A62A4838A}"
+                                            },
+                                            "assetHint": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand_night_standmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11128315046594642372]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11128315046594642372,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14322705443252477996
+                        },
+                        {
+                            "ComponentId": 18264965368259515209,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10202566262910507912,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12818202443681826620]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12818202443681826620
+                },
+                "Component_[14322705443252477996]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14322705443252477996,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[16602977417737851804]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16602977417737851804
+                },
+                "Component_[18264965368259515209]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18264965368259515209,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7AD2CD13-D37C-5364-A674-3D24FA395B7A}",
+                                    "subId": 282967044
+                                },
+                                "assetHint": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[2016163072798032758]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2016163072798032758
+                },
+                "Component_[3387161315635871649]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3387161315635871649
+                },
+                "Component_[8487452012846688817]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8487452012846688817
+                },
+                "Component_[8992506460531177955]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8992506460531177955
+                },
+                "Component_[9808233233817054274]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9808233233817054274
+                }
+            }
+        }
+    }
+}

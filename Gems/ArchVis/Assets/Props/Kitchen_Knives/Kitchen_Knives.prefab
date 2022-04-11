@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_knives",
+        "Components": {
+            "Component_[1434518378237972422]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1434518378237972422
+            },
+            "Component_[15107817138965201417]": {
+                "$type": "EditorLockComponent",
+                "Id": 15107817138965201417
+            },
+            "Component_[16976667112809201434]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16976667112809201434,
+                "Parent Entity": ""
+            },
+            "Component_[17002456378964028770]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17002456378964028770
+            },
+            "Component_[476294245913187353]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 476294245913187353
+            },
+            "Component_[4924950984555900322]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4924950984555900322
+            },
+            "Component_[6175534800129775096]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6175534800129775096
+            },
+            "Component_[7487988045224587512]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7487988045224587512
+            },
+            "Component_[7799983282122214301]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7799983282122214301
+            },
+            "Component_[7851255337246482955]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7851255337246482955
+            },
+            "Component_[8740974626647303505]": {
+                "$type": "SelectionComponent",
+                "Id": 8740974626647303505
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2763435483865]": {
+            "Id": "Entity_[2763435483865]",
+            "Name": "kitchen_knives",
+            "Components": {
+                "Component_[14080185616634985540]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14080185616634985540
+                },
+                "Component_[14922576228381351591]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14922576228381351591
+                },
+                "Component_[15389384612645995041]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15389384612645995041
+                },
+                "Component_[15761379137348048791]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15761379137348048791,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2271836334578957856
+                        },
+                        {
+                            "ComponentId": 16884020220851445589,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8696864931915012649,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16884020220851445589]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16884020220851445589,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7C65567B-E71F-5767-98C3-35457E1ED3C2}",
+                                    "subId": 278911237
+                                },
+                                "assetHint": "props/kitchen_knives/kitchen_knives.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[17027217870028804263]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17027217870028804263
+                },
+                "Component_[17368975515465099967]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17368975515465099967
+                },
+                "Component_[2271836334578957856]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2271836334578957856,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[6792732792196094553]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6792732792196094553
+                },
+                "Component_[6830770612466225042]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6830770612466225042
+                },
+                "Component_[8067018562880363784]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8067018562880363784
+                },
+                "Component_[8696864931915012649]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8696864931915012649,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 252441551
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1F4CE8A1-A843-58AF-831E-59BB78A33D79}"
+                                            },
+                                            "assetHint": "props/kitchen_knives/kitchen_knives_kitchen_knivesmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

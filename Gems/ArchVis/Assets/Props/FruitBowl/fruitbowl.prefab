@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "fruitbowl",
+        "Components": {
+            "Component_[11572362664923140148]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11572362664923140148
+            },
+            "Component_[16202269796768390086]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16202269796768390086
+            },
+            "Component_[16653735290949642660]": {
+                "$type": "SelectionComponent",
+                "Id": 16653735290949642660
+            },
+            "Component_[17861594960528343965]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17861594960528343965
+            },
+            "Component_[3158602601154977481]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3158602601154977481
+            },
+            "Component_[3884271969668352336]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3884271969668352336
+            },
+            "Component_[4252350672970278434]": {
+                "$type": "EditorLockComponent",
+                "Id": 4252350672970278434
+            },
+            "Component_[6343564942613172812]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6343564942613172812,
+                "Parent Entity": ""
+            },
+            "Component_[8368143915532280333]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8368143915532280333
+            },
+            "Component_[9383168524385494530]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9383168524385494530
+            },
+            "Component_[9439172807472371718]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9439172807472371718
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1268952209251]": {
+            "Id": "Entity_[1268952209251]",
+            "Name": "fruitbowl",
+            "Components": {
+                "Component_[11223141071967967653]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11223141071967967653
+                },
+                "Component_[14858540229859593615]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14858540229859593615,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15978338443268586154
+                        },
+                        {
+                            "ComponentId": 6811180323520823024,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 2975087985633793935,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14904045407340395593]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14904045407340395593
+                },
+                "Component_[15978338443268586154]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15978338443268586154,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[2583703176665893935]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2583703176665893935
+                },
+                "Component_[2975087985633793935]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2975087985633793935,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4277798144
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E7FA87C6-9F57-515A-A937-DA5CF49988FB}"
+                                            },
+                                            "assetHint": "props/fruitbowl/fruitbowl_applebowlmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 4277798144
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{E7FA87C6-9F57-515A-A937-DA5CF49988FB}"
+                                },
+                                "assetHint": "props/fruitbowl/fruitbowl_applebowlmat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 4277798144
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[586919497893250754]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 586919497893250754
+                },
+                "Component_[6441628741547548865]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 6441628741547548865
+                },
+                "Component_[6811180323520823024]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6811180323520823024,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{64A44476-F455-59B1-BE2B-F543357EDFA0}",
+                                    "subId": 270724267
+                                },
+                                "assetHint": "props/fruitbowl/fruitbowl.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[6933099206050023997]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6933099206050023997
+                },
+                "Component_[7050121984952855521]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7050121984952855521
+                },
+                "Component_[8944522234263179588]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8944522234263179588
+                }
+            }
+        }
+    }
+}

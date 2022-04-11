@@ -1,0 +1,162 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wall_painting",
+        "Components": {
+            "Component_[12335057895025101420]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12335057895025101420
+            },
+            "Component_[12771116936989358053]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12771116936989358053
+            },
+            "Component_[14001885847672162636]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14001885847672162636
+            },
+            "Component_[14048240556595142617]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14048240556595142617
+            },
+            "Component_[14226504466060197725]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14226504466060197725
+            },
+            "Component_[15607615189641367785]": {
+                "$type": "EditorLockComponent",
+                "Id": 15607615189641367785
+            },
+            "Component_[18427857684686420537]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 18427857684686420537
+            },
+            "Component_[2241401585427710114]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2241401585427710114
+            },
+            "Component_[8980527089668936068]": {
+                "$type": "SelectionComponent",
+                "Id": 8980527089668936068
+            },
+            "Component_[9105297834536471009]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9105297834536471009
+            },
+            "Component_[9111704394290940795]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9111704394290940795,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1560915844862]": {
+            "Id": "Entity_[1560915844862]",
+            "Name": "wall_painting",
+            "Components": {
+                "Component_[10260915273151729803]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10260915273151729803
+                },
+                "Component_[11204479918377056313]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11204479918377056313
+                },
+                "Component_[16419721742644649070]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16419721742644649070,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{13A53885-86EA-59CC-AC1A-566BEE42B4C2}",
+                                    "subId": 274810454
+                                },
+                                "assetHint": "props/wall_painting/wall_painting.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[1683260744414507915]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1683260744414507915,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2193514238
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{03EFCB06-3914-5EED-82C0-6FDB2171EA25}"
+                                            },
+                                            "assetHint": "props/wall_painting/wall_painting_paintingmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17321211400488670854]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17321211400488670854,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[18063547253088067525]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18063547253088067525
+                },
+                "Component_[3703681170532780941]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3703681170532780941
+                },
+                "Component_[4333275353607617131]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4333275353607617131,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17321211400488670854
+                        },
+                        {
+                            "ComponentId": 16419721742644649070,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1683260744414507915,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5548610416562923101]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 5548610416562923101
+                },
+                "Component_[708665527950122781]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 708665527950122781
+                },
+                "Component_[7996676381668364075]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7996676381668364075
+                },
+                "Component_[8596341455434614897]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8596341455434614897
+                }
+            }
+        }
+    }
+}

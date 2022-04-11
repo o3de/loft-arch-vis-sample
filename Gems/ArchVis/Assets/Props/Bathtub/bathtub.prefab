@@ -1,0 +1,166 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bathtub",
+        "Components": {
+            "Component_[10725386489517723347]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10725386489517723347
+            },
+            "Component_[11894198696903972544]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11894198696903972544
+            },
+            "Component_[16135294762400226641]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16135294762400226641
+            },
+            "Component_[3907218062187132196]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3907218062187132196
+            },
+            "Component_[4340343462567461514]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4340343462567461514,
+                "Parent Entity": ""
+            },
+            "Component_[5111002787177870238]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 5111002787177870238
+            },
+            "Component_[5405646355829504901]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5405646355829504901
+            },
+            "Component_[5918646962181885060]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5918646962181885060
+            },
+            "Component_[6094413784142001226]": {
+                "$type": "EditorLockComponent",
+                "Id": 6094413784142001226
+            },
+            "Component_[6512403949621086164]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6512403949621086164
+            },
+            "Component_[8910170305271626572]": {
+                "$type": "SelectionComponent",
+                "Id": 8910170305271626572
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2541588673246]": {
+            "Id": "Entity_[2541588673246]",
+            "Name": "bathtub",
+            "Components": {
+                "Component_[12493841738812876329]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12493841738812876329,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1273046252
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D6A35207-DCF9-5C32-BDC3-F375D2DF1531}"
+                                            },
+                                            "assetHint": "props/bathtub/bathtub_tubmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2904594082
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{AECB43FF-770A-52C3-B850-894EE89711BE}"
+                                            },
+                                            "assetHint": "props/bathtub/bathtub_tub_metalmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14995988241933485089]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14995988241933485089
+                },
+                "Component_[15174025069388589211]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15174025069388589211
+                },
+                "Component_[15781202032941318873]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15781202032941318873
+                },
+                "Component_[15967689581030440811]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15967689581030440811
+                },
+                "Component_[18196526280003709251]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 18196526280003709251,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2056834128424347221
+                        },
+                        {
+                            "ComponentId": 18308011595510125837,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12493841738812876329,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[18308011595510125837]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18308011595510125837,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F1AE83F9-FA9A-561B-9B29-85D85E237E73}",
+                                    "subId": 270633701
+                                },
+                                "assetHint": "props/bathtub/bathtub.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[18315146210699236095]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18315146210699236095
+                },
+                "Component_[196341134866898226]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 196341134866898226
+                },
+                "Component_[2056834128424347221]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2056834128424347221,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[24395165271801038]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 24395165271801038
+                },
+                "Component_[6458762750136404655]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6458762750136404655
+                }
+            }
+        }
+    }
+}

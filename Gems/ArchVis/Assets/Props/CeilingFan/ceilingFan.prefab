@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ceilingFan",
+        "Components": {
+            "Component_[11179342387395594328]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 11179342387395594328
+            },
+            "Component_[11572403636450026595]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11572403636450026595
+            },
+            "Component_[16376045900323747938]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16376045900323747938
+            },
+            "Component_[16460084627163264964]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16460084627163264964
+            },
+            "Component_[16564197152875152357]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16564197152875152357
+            },
+            "Component_[1883815258558068662]": {
+                "$type": "SelectionComponent",
+                "Id": 1883815258558068662
+            },
+            "Component_[2914628265319028898]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2914628265319028898
+            },
+            "Component_[5033638789750279418]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5033638789750279418
+            },
+            "Component_[6227359892240137558]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6227359892240137558
+            },
+            "Component_[7303982375916966041]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 7303982375916966041,
+                "Parent Entity": ""
+            },
+            "Component_[9813246999475128044]": {
+                "$type": "EditorLockComponent",
+                "Id": 9813246999475128044
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2372523215882]": {
+            "Id": "Entity_[2372523215882]",
+            "Name": "ceilingFan",
+            "Components": {
+                "Component_[10351580846286214954]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10351580846286214954,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[10883870925218668098]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10883870925218668098
+                },
+                "Component_[12141186816745338113]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12141186816745338113
+                },
+                "Component_[1220154990261197897]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1220154990261197897
+                },
+                "Component_[14787109313385783012]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14787109313385783012
+                },
+                "Component_[15413579985076318182]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15413579985076318182,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10351580846286214954
+                        },
+                        {
+                            "ComponentId": 1763868760635160295,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3589613500195128412,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15488169612447794366]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 15488169612447794366
+                },
+                "Component_[1763868760635160295]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1763868760635160295,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{749BBC22-ECEB-5990-9F26-02F21849A487}",
+                                    "subId": 279082944
+                                },
+                                "assetHint": "props/ceilingfan/ceilingfan.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17682571567938041457]": {
+                    "$type": "SelectionComponent",
+                    "Id": 17682571567938041457
+                },
+                "Component_[17760803062173566707]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17760803062173566707
+                },
+                "Component_[2109883992941701721]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2109883992941701721
+                },
+                "Component_[3589613500195128412]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3589613500195128412,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2419403449
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DCC3207E-77D8-59C0-8C8A-5D4CFC34030B}"
+                                            },
+                                            "assetHint": "props/ceilingfan/ceilingfan_ceilingfanmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 2419403449
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{DCC3207E-77D8-59C0-8C8A-5D4CFC34030B}"
+                                },
+                                "assetHint": "props/ceilingfan/ceilingfan_ceilingfanmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{749BBC22-ECEB-5990-9F26-02F21849A487}",
+                                    "subId": 2419403449
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/ceilingfan/ceilingfan_ceilingfanmat_8070269518975675065.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 2419403449
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{749BBC22-ECEB-5990-9F26-02F21849A487}",
+                                        "subId": 2419403449
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/ceilingfan/ceilingfan_ceilingfanmat_8070269518975675065.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

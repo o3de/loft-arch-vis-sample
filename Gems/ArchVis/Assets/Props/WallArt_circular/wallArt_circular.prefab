@@ -1,0 +1,199 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "wallArt_circular",
+        "Components": {
+            "Component_[13623949745241613236]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13623949745241613236
+            },
+            "Component_[15307773174601103704]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15307773174601103704
+            },
+            "Component_[16158937596524258783]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16158937596524258783
+            },
+            "Component_[17551697954222569887]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17551697954222569887
+            },
+            "Component_[1857136286150571073]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1857136286150571073,
+                "Parent Entity": ""
+            },
+            "Component_[291529000939469983]": {
+                "$type": "EditorLockComponent",
+                "Id": 291529000939469983
+            },
+            "Component_[3439036898062066283]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3439036898062066283
+            },
+            "Component_[5752804607551728584]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5752804607551728584
+            },
+            "Component_[7032556268365288388]": {
+                "$type": "SelectionComponent",
+                "Id": 7032556268365288388
+            },
+            "Component_[7884027168815229352]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7884027168815229352
+            },
+            "Component_[8124174357958889357]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8124174357958889357
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[12512941001738]": {
+            "Id": "Entity_[12512941001738]",
+            "Name": "wallArt_circular",
+            "Components": {
+                "Component_[11187564558649197460]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11187564558649197460,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2E22F43E-4EC7-51D5-A932-60A60709D1E2}",
+                                    "subId": 277062822
+                                },
+                                "assetHint": "props/wallart_circular/wallart_circular.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11198648567501281252]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11198648567501281252
+                },
+                "Component_[14770483618295404690]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14770483618295404690
+                },
+                "Component_[15669205851691598606]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15669205851691598606,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            2.384185791015625e-7
+                        ]
+                    }
+                },
+                "Component_[1895776797163714745]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1895776797163714745
+                },
+                "Component_[2149511164209021673]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2149511164209021673,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15669205851691598606
+                        },
+                        {
+                            "ComponentId": 11187564558649197460,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9347522449618111396,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[3229221978387408929]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3229221978387408929
+                },
+                "Component_[3861806350310218275]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3861806350310218275
+                },
+                "Component_[5028764049045355044]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5028764049045355044
+                },
+                "Component_[5724825627865595465]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5724825627865595465
+                },
+                "Component_[7223387647248724442]": {
+                    "$type": "SelectionComponent",
+                    "Id": 7223387647248724442
+                },
+                "Component_[9347522449618111396]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9347522449618111396,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3680712761
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E9D898DB-17C3-5D39-9FB3-30776082805E}"
+                                            },
+                                            "assetHint": "props/wallart_circular/wallart_circular_wallart_circularmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3680712761
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{E9D898DB-17C3-5D39-9FB3-30776082805E}"
+                                },
+                                "assetHint": "props/wallart_circular/wallart_circular_wallart_circularmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{2E22F43E-4EC7-51D5-A932-60A60709D1E2}",
+                                    "subId": 3680712761
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/wallart_circular/wallart_circular_wallart_circularmat_499726067114915897.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3680712761
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{2E22F43E-4EC7-51D5-A932-60A60709D1E2}",
+                                        "subId": 3680712761
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/wallart_circular/wallart_circular_wallart_circularmat_499726067114915897.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

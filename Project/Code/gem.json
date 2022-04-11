@@ -1,0 +1,14 @@
+{
+    "gem_name": "Samples",
+    "origin": "The primary repo for Samples goes here: i.e. http://www.mydomain.com",
+    "license": "What license Samples uses goes here: i.e. https://opensource.org/licenses/MIT",
+    "display_name": "Samples",
+    "summary": "A short description of Samples.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Samples"
+    ],
+    "icon_path": "preview.png"
+}

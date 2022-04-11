@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "one_piece_toilet",
+        "Components": {
+            "Component_[10032972113485706206]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10032972113485706206,
+                "Parent Entity": ""
+            },
+            "Component_[10182279071599545836]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10182279071599545836
+            },
+            "Component_[10953071435938859099]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10953071435938859099
+            },
+            "Component_[12836681107653253964]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12836681107653253964
+            },
+            "Component_[15992917152985888340]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15992917152985888340
+            },
+            "Component_[2693707677293883451]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2693707677293883451
+            },
+            "Component_[5717988232273595454]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5717988232273595454
+            },
+            "Component_[6300395878662299096]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6300395878662299096
+            },
+            "Component_[6365160964266053598]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6365160964266053598
+            },
+            "Component_[9148723030112310833]": {
+                "$type": "EditorLockComponent",
+                "Id": 9148723030112310833
+            },
+            "Component_[9907495962075115415]": {
+                "$type": "SelectionComponent",
+                "Id": 9907495962075115415
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4674695930585]": {
+            "Id": "Entity_[4674695930585]",
+            "Name": "one_piece_toilet",
+            "Components": {
+                "Component_[11068568347745825982]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11068568347745825982,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{7F2F9564-9DBD-515F-84F7-612389CC4F17}",
+                                    "subId": 275553442
+                                },
+                                "assetHint": "props/one_piece_toilet/one_piece_toilet.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[11597922700672765558]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11597922700672765558,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 482566068763309588
+                        },
+                        {
+                            "ComponentId": 11068568347745825982,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1379107143546224082,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12056724406625487941]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12056724406625487941
+                },
+                "Component_[12638599359256987822]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12638599359256987822
+                },
+                "Component_[12931761785791679481]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12931761785791679481
+                },
+                "Component_[1379107143546224082]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1379107143546224082,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2793120293
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0078739C-9792-5398-B6D7-5941894B69B7}"
+                                            },
+                                            "assetHint": "props/one_piece_toilet/one_piece_toilet_toiletmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14925098021940417506]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14925098021940417506
+                },
+                "Component_[15302806726101847396]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15302806726101847396
+                },
+                "Component_[17059059511455276393]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17059059511455276393
+                },
+                "Component_[17422950791442288455]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17422950791442288455
+                },
+                "Component_[482566068763309588]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 482566068763309588,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[7575138089340233398]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7575138089340233398
+                }
+            }
+        }
+    }
+}

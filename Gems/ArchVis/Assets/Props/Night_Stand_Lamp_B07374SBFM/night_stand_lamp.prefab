@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "night_stand_lamp",
+        "Components": {
+            "Component_[10045781472230888634]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10045781472230888634
+            },
+            "Component_[10926548968918514303]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10926548968918514303
+            },
+            "Component_[13800468377713047214]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13800468377713047214
+            },
+            "Component_[14148150344138427361]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14148150344138427361
+            },
+            "Component_[15898904735557644600]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15898904735557644600
+            },
+            "Component_[17114222026410164769]": {
+                "$type": "SelectionComponent",
+                "Id": 17114222026410164769
+            },
+            "Component_[17586694826734235817]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17586694826734235817,
+                "Parent Entity": ""
+            },
+            "Component_[4546487903814895064]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4546487903814895064
+            },
+            "Component_[4653186444218470874]": {
+                "$type": "EditorLockComponent",
+                "Id": 4653186444218470874
+            },
+            "Component_[4854094799834738379]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4854094799834738379
+            },
+            "Component_[861869757405628587]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 861869757405628587
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4180774691545]": {
+            "Id": "Entity_[4180774691545]",
+            "Name": "night_stand_lamp",
+            "Components": {
+                "Component_[10190956490590486452]": {
+                    "$type": "SelectionComponent",
+                    "Id": 10190956490590486452
+                },
+                "Component_[12109230588446972512]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12109230588446972512
+                },
+                "Component_[12997255732548536103]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12997255732548536103,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16430823481975613736]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16430823481975613736
+                },
+                "Component_[264080195943988153]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 264080195943988153
+                },
+                "Component_[419812218483559935]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 419812218483559935
+                },
+                "Component_[893373087033468659]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 893373087033468659,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12997255732548536103
+                        },
+                        {
+                            "ComponentId": 9022078767778901143,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9264321245188221945,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8972615205580722502]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8972615205580722502
+                },
+                "Component_[9022078767778901143]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9022078767778901143,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BA9F448B-F8A5-5DB1-85A3-85193B83C6C6}",
+                                    "subId": 280133301
+                                },
+                                "assetHint": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[9264321245188221945]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9264321245188221945,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4005493637
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{26460E51-3116-5DF0-AC53-364962DF0524}"
+                                            },
+                                            "assetHint": "props/night_stand_lamp_b07374sbfm/night_stand_lamp_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9482755453869695744]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9482755453869695744
+                },
+                "Component_[9788953860148762804]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9788953860148762804
+                }
+            }
+        }
+    }
+}

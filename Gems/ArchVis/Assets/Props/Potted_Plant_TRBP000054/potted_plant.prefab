@@ -1,0 +1,167 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "potted_plant",
+        "Components": {
+            "Component_[10016065406476242441]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10016065406476242441
+            },
+            "Component_[12227779265238545939]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12227779265238545939
+            },
+            "Component_[12429566462881617709]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12429566462881617709
+            },
+            "Component_[12633484373090235323]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12633484373090235323
+            },
+            "Component_[1436453101546575262]": {
+                "$type": "EditorLockComponent",
+                "Id": 1436453101546575262
+            },
+            "Component_[15404432106813529255]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15404432106813529255
+            },
+            "Component_[15737964347433070858]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15737964347433070858
+            },
+            "Component_[17113450368329276835]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17113450368329276835,
+                "Parent Entity": ""
+            },
+            "Component_[5228494141917261538]": {
+                "$type": "SelectionComponent",
+                "Id": 5228494141917261538
+            },
+            "Component_[604767983437462225]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 604767983437462225
+            },
+            "Component_[8957302599539670438]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8957302599539670438
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5426315207385]": {
+            "Id": "Entity_[5426315207385]",
+            "Name": "potted_plant",
+            "Components": {
+                "Component_[13089008080223741850]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13089008080223741850
+                },
+                "Component_[16610279670578352102]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16610279670578352102,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2DBC831B-9E89-5B82-AF6A-E7AD6D6A6A15}",
+                                    "subId": 274011194
+                                },
+                                "assetHint": "props/potted_plant_trbp000054/potted_plant.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[2077912948004812003]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2077912948004812003
+                },
+                "Component_[3307653644081368326]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3307653644081368326
+                },
+                "Component_[4087643925236930631]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4087643925236930631
+                },
+                "Component_[4501797465271984880]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4501797465271984880
+                },
+                "Component_[6108412333605887571]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6108412333605887571,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7922432856294156587
+                        },
+                        {
+                            "ComponentId": 16610279670578352102,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 926430562714395201,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6443953396680928567]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6443953396680928567
+                },
+                "Component_[7922432856294156587]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7922432856294156587,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8449537983702865378]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8449537983702865378
+                },
+                "Component_[8606544397996391378]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8606544397996391378
+                },
+                "Component_[926430562714395201]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 926430562714395201,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3962573083
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A8ED22EE-FE7A-564F-9651-DCC3A0E27C6A}"
+                                            },
+                                            "assetHint": "props/potted_plant_trbp000054/potted_plant_potted_plantmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4128588818
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A8ED22EE-FE7A-564F-9651-DCC3A0E27C6A}"
+                                            },
+                                            "assetHint": "props/potted_plant_trbp000054/potted_plant_potted_plantmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

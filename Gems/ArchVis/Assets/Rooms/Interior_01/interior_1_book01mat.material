@@ -1,0 +1,35 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "Rooms/Interior_01/textures/book01_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "metallic": {
+            "useTexture": false
+        },
+        "normal": {
+            "textureMap": "Rooms/Interior_01/textures/book01_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.33000001311302187,
+            "textureMap": "Rooms/Interior_01/textures/book01_Roughness.png"
+        }
+    }
+}

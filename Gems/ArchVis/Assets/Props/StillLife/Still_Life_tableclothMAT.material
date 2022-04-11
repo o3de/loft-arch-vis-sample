@@ -1,0 +1,45 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Props/StillLife/textures/tablecloth_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "metallic": {
+            "useTexture": false
+        },
+        "normal": {
+            "textureMap": "Props/StillLife/textures/tablecloth_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.8399999737739563,
+            "useTexture": false
+        },
+        "uv": {
+            "tileU": 10.0,
+            "tileV": 10.0
+        }
+    }
+}

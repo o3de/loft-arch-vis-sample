@@ -1,0 +1,64 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "parentMaterial": "",
+    "propertyLayoutVersion": 3,
+    "properties": {
+        "baseColor": {
+            "textureBlendMode": "Lerp",
+            "textureMap": "Rooms/Interior_01/textures/dresser_BaseColor.png"
+        },
+        "clearCoat": {
+            "enable": true,
+            "factor": 0.10000000149011612,
+            "normalMap": "Props/Dresser/textures/dresser_Normal.png",
+            "normalStrength": 0.800000011920929,
+            "roughness": 0.20000000298023225
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "general": {
+            "applySpecularAA": true
+        },
+        "irradiance": {
+            "color": [
+                1.0,
+                0.7968719005584717,
+                0.5668421387672424,
+                1.0
+            ]
+        },
+        "metallic": {
+            "textureMap": "Rooms/Interior_01/textures/dresser_Metallic.png"
+        },
+        "normal": {
+            "factor": 0.8999999761581421,
+            "flipY": true,
+            "textureMap": "Rooms/Interior_01/textures/dresser_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "parallax": {
+            "algorithm": "ContactRefinement",
+            "factor": 0.0010000000474974514,
+            "quality": "Ultra",
+            "textureMap": "Rooms/Interior_01/textures/dresser_Height.png"
+        },
+        "roughness": {
+            "factor": 0.33000001311302187,
+            "textureMap": "Rooms/Interior_01/textures/dresser_Roughness.png"
+        },
+        "specularF0": {
+            "enableMultiScatterCompensation": true
+        }
+    }
+}

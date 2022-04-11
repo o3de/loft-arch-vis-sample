@@ -1,0 +1,41 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 0,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Props/CuttingBoard/textures/knife_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "metallic": {
+            "textureMap": "Props/CuttingBoard/textures/knife_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Props/CuttingBoard/textures/knife_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0
+        },
+        "roughness": {
+            "factor": 0.33000001311302185,
+            "textureMap": "Props/CuttingBoard/textures/knife_Roughness.png"
+        }
+    }
+}

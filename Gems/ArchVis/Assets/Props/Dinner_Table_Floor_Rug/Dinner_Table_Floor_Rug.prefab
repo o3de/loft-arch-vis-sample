@@ -1,0 +1,154 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "dinner_table_floor_rug",
+        "Components": {
+            "Component_[1070068105151035708]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1070068105151035708
+            },
+            "Component_[12356140542081720579]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12356140542081720579
+            },
+            "Component_[13152789842858417183]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 13152789842858417183
+            },
+            "Component_[14520866505816828900]": {
+                "$type": "SelectionComponent",
+                "Id": 14520866505816828900
+            },
+            "Component_[14582704527588228858]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14582704527588228858
+            },
+            "Component_[1973761740604573334]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1973761740604573334,
+                "Parent Entity": ""
+            },
+            "Component_[3927916517197008834]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3927916517197008834
+            },
+            "Component_[4239053145206285469]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4239053145206285469
+            },
+            "Component_[6206048377817741703]": {
+                "$type": "EditorLockComponent",
+                "Id": 6206048377817741703
+            },
+            "Component_[7346432754207782797]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7346432754207782797
+            },
+            "Component_[8879312230596652299]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8879312230596652299
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[727620985561]": {
+            "Id": "Entity_[727620985561]",
+            "Name": "dinner_table_floor_rug",
+            "Components": {
+                "Component_[11753592721486948664]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11753592721486948664
+                },
+                "Component_[12009203558432691165]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12009203558432691165
+                },
+                "Component_[16611835425084668379]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16611835425084668379,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16700437106313655210
+                        },
+                        {
+                            "ComponentId": 17717679906418140838,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8797326685111546333,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16700437106313655210]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16700437106313655210,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17717679906418140838]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17717679906418140838,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C1F29172-0EED-5D6A-9A5A-92F736B9255B}",
+                                    "subId": 271631215
+                                },
+                                "assetHint": "props/dinner_table_floor_rug/dinner_table_floor_rug.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[3257969637509391165]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3257969637509391165
+                },
+                "Component_[3956185272539086506]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3956185272539086506
+                },
+                "Component_[5597586985667599128]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5597586985667599128
+                },
+                "Component_[6389097479235996113]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6389097479235996113
+                },
+                "Component_[6973899403870601776]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6973899403870601776
+                },
+                "Component_[8797326685111546333]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8797326685111546333,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2815315404
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C9969275-0502-5226-9AF8-7F618BD047A4}"
+                                            },
+                                            "assetHint": "props/dinner_table_floor_rug/dinner_table_floor_rug_rugmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[9612541977307374819]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9612541977307374819
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "irradiance.color": [
+            0.7142900824546814,
+            0.5428549647331238,
+            0.5428549647331238,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Metallic.png",
+        "normal.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Roughness.png"
+    }
+}

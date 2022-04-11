@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_cutting_boards",
+        "Components": {
+            "Component_[11186764570337680994]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11186764570337680994
+            },
+            "Component_[11688047257568446187]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11688047257568446187,
+                "Parent Entity": ""
+            },
+            "Component_[11742713979467804179]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11742713979467804179
+            },
+            "Component_[12778353542193976035]": {
+                "$type": "SelectionComponent",
+                "Id": 12778353542193976035
+            },
+            "Component_[14864396548868144105]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14864396548868144105
+            },
+            "Component_[16219193079253265614]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16219193079253265614
+            },
+            "Component_[16568415936680830551]": {
+                "$type": "EditorLockComponent",
+                "Id": 16568415936680830551
+            },
+            "Component_[5898805977570384147]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5898805977570384147
+            },
+            "Component_[8026884117179530999]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8026884117179530999
+            },
+            "Component_[8168802012194274842]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8168802012194274842
+            },
+            "Component_[9486980951092853785]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 9486980951092853785
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2454197838553]": {
+            "Id": "Entity_[2454197838553]",
+            "Name": "kitchen_cutting_boards",
+            "Components": {
+                "Component_[12072168030209706892]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12072168030209706892
+                },
+                "Component_[13300392693167291878]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13300392693167291878
+                },
+                "Component_[13425224762993987435]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13425224762993987435
+                },
+                "Component_[13479820823462654565]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13479820823462654565
+                },
+                "Component_[14670270627016000694]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14670270627016000694
+                },
+                "Component_[14898676837601160134]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14898676837601160134
+                },
+                "Component_[17072089793419681679]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17072089793419681679
+                },
+                "Component_[17574456875525161606]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17574456875525161606,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[6186239390458772404]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6186239390458772404,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F81C19EE-2E16-5BB1-9062-5104A010963D}",
+                                    "subId": 271061907
+                                },
+                                "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[7443541291948709589]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7443541291948709589
+                },
+                "Component_[7951835468451013304]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7951835468451013304,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17574456875525161606
+                        },
+                        {
+                            "ComponentId": 6186239390458772404,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8908025385891044091,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[8908025385891044091]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8908025385891044091,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3920339947
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8F4ADE22-5888-552E-88F8-5AD2EBC2C7FB}"
+                                            },
+                                            "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards_cuttingboardsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

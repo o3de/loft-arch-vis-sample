@@ -1,0 +1,169 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "sunglasses",
+        "Components": {
+            "Component_[14539469980278382298]": {
+                "$type": "SelectionComponent",
+                "Id": 14539469980278382298
+            },
+            "Component_[15660598357975206414]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15660598357975206414
+            },
+            "Component_[15964526742719001805]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15964526742719001805
+            },
+            "Component_[17329570789222302997]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17329570789222302997
+            },
+            "Component_[5974869204983609880]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5974869204983609880,
+                "Parent Entity": ""
+            },
+            "Component_[6430715281580290394]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 6430715281580290394
+            },
+            "Component_[7065075948559836359]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7065075948559836359
+            },
+            "Component_[7199065742520082930]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7199065742520082930
+            },
+            "Component_[7793332123898603196]": {
+                "$type": "EditorLockComponent",
+                "Id": 7793332123898603196
+            },
+            "Component_[7823733594342245054]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7823733594342245054
+            },
+            "Component_[8980746193588199516]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8980746193588199516
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[371209903870]": {
+            "Id": "Entity_[371209903870]",
+            "Name": "sunglasses",
+            "Components": {
+                "Component_[10326878245563299697]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10326878245563299697,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1587688607
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{060BE268-0974-5735-A27E-FB66CBA782A3}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2774134497
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{FBD9B3A9-1C58-5A00-B492-506C5846B090}"
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14603146083399874962]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14603146083399874962,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8AB7EA23-2CC5-58C5-8EC2-EAA8BA4F2A73}",
+                                    "subId": 275769174
+                                },
+                                "assetHint": "props/sunglasses_trb000046/sunglasses.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[14851593526005099691]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14851593526005099691
+                },
+                "Component_[18395494474564326648]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18395494474564326648
+                },
+                "Component_[192256380285794198]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 192256380285794198,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ],
+                        "UniformScale": 100.0
+                    }
+                },
+                "Component_[2322561724019925808]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2322561724019925808
+                },
+                "Component_[255103869127151806]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 255103869127151806,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 192256380285794198
+                        },
+                        {
+                            "ComponentId": 14603146083399874962,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[2698969574878000118]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2698969574878000118
+                },
+                "Component_[3012871832492468923]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 3012871832492468923
+                },
+                "Component_[5430381958332590264]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5430381958332590264
+                },
+                "Component_[9283837627767959487]": {
+                    "$type": "SelectionComponent",
+                    "Id": 9283837627767959487
+                },
+                "Component_[9469151848128424079]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9469151848128424079
+                }
+            }
+        }
+    }
+}

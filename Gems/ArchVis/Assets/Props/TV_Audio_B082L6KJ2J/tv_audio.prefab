@@ -1,0 +1,193 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "tv_audio",
+        "Components": {
+            "Component_[1111272684793974710]": {
+                "$type": "EditorLockComponent",
+                "Id": 1111272684793974710
+            },
+            "Component_[11653080833421791239]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11653080833421791239,
+                "Parent Entity": ""
+            },
+            "Component_[12288848220688374308]": {
+                "$type": "SelectionComponent",
+                "Id": 12288848220688374308
+            },
+            "Component_[12739549340015439397]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 12739549340015439397
+            },
+            "Component_[16326058240481141489]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16326058240481141489
+            },
+            "Component_[16444486885465243294]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16444486885465243294
+            },
+            "Component_[3467516722470723743]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3467516722470723743
+            },
+            "Component_[5380259706607285901]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5380259706607285901
+            },
+            "Component_[5915136919570100711]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5915136919570100711
+            },
+            "Component_[6061679191481633368]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6061679191481633368
+            },
+            "Component_[8405357776617254885]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8405357776617254885
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[4893163054937]": {
+            "Id": "Entity_[4893163054937]",
+            "Name": "tv_audio",
+            "Components": {
+                "Component_[12276338075677814981]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12276338075677814981,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5D3CE47C-EB75-5E8A-A69C-3CB571407C87}",
+                                    "subId": 268951224
+                                },
+                                "assetHint": "props/tv_audio_b082l6kj2j/tv_audio.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[13080418106997335760]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13080418106997335760
+                },
+                "Component_[15707550101131808264]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15707550101131808264,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1671190249418993828]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1671190249418993828
+                },
+                "Component_[4626033346789649623]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4626033346789649623
+                },
+                "Component_[4998821953894794944]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4998821953894794944,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1027531355
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D22763B4-EC69-5665-A098-A84FB5D5100D}"
+                                            },
+                                            "assetHint": "props/tv_audio_b082l6kj2j/tv_audio_part3.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2475999277
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{71A4F33F-4354-57F3-BA33-0933AA45ED60}"
+                                            },
+                                            "assetHint": "props/tv_audio_b082l6kj2j/tv_audio_part4.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2951936161
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5ECC7BBB-A7B2-5040-AD54-B05BA30E8BF3}"
+                                            },
+                                            "assetHint": "props/tv_audio_b082l6kj2j/tv_audio_main.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3491704501
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BC54C751-FF12-5BAE-BDA6-F957B85B355D}"
+                                            },
+                                            "assetHint": "props/tv_audio_b082l6kj2j/tv_audio_part1.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[552304781523057260]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 552304781523057260
+                },
+                "Component_[7949399400345368338]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7949399400345368338
+                },
+                "Component_[8500525783369745364]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8500525783369745364
+                },
+                "Component_[8971163595971639796]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8971163595971639796
+                },
+                "Component_[9468493728228324163]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9468493728228324163
+                },
+                "Component_[9632836137749974685]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9632836137749974685,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15707550101131808264
+                        },
+                        {
+                            "ComponentId": 12276338075677814981,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4998821953894794944,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

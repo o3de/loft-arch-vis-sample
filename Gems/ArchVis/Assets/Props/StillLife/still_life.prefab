@@ -1,0 +1,283 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "still_life",
+        "Components": {
+            "Component_[10351135893831589860]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10351135893831589860
+            },
+            "Component_[13786879499296632278]": {
+                "$type": "EditorLockComponent",
+                "Id": 13786879499296632278
+            },
+            "Component_[1562646706507326815]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1562646706507326815
+            },
+            "Component_[17923450859317230875]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17923450859317230875
+            },
+            "Component_[3179751143137418341]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3179751143137418341
+            },
+            "Component_[3842907220608841185]": {
+                "$type": "SelectionComponent",
+                "Id": 3842907220608841185
+            },
+            "Component_[4965968390687462592]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4965968390687462592
+            },
+            "Component_[507610467826533481]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 507610467826533481
+            },
+            "Component_[5261193436805862280]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5261193436805862280,
+                "Parent Entity": ""
+            },
+            "Component_[5285801614066585163]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5285801614066585163
+            },
+            "Component_[6767212652851371369]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6767212652851371369
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6560186573529]": {
+            "Id": "Entity_[6560186573529]",
+            "Name": "still_life",
+            "Components": {
+                "Component_[10112517383854748928]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10112517383854748928
+                },
+                "Component_[12306193448422537468]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12306193448422537468
+                },
+                "Component_[12664675882781198427]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12664675882781198427
+                },
+                "Component_[14261396054680911993]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14261396054680911993,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14509803248021908475]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14509803248021908475
+                },
+                "Component_[15782677735324358443]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15782677735324358443
+                },
+                "Component_[6036304012451000949]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6036304012451000949
+                },
+                "Component_[699880048280324441]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 699880048280324441
+                },
+                "Component_[7227763887269461068]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7227763887269461068,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{488C7D4B-7173-533A-95AC-6EFA8CB97051}",
+                                    "subId": 284504044
+                                },
+                                "assetHint": "props/stilllife/still_life.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7810123230116798047]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7810123230116798047,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 351860435
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{87361550-BAEB-5947-A94C-5C12FCDF7CCA}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_candlesandshakersmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 438677171
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{ADFA983B-F4AC-50A7-A392-060A7ED5B598}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_tableclothmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 742634643
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B07D4499-202C-5D21-A010-219A893FE6C5}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_teapotmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 857688900
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DDF23803-00F7-5392-8821-062C180D8462}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_tablemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1324219017
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{571D5483-B8C9-5F76-B9C8-2FD2E85A8690}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_teacupmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1604948302
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{17A6D64F-2E41-5C6F-A6FE-05F5E7F8E5BE}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_still_life_tablemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1966748652
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6954965F-3D14-548D-A2EA-B86EEAF23283}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_slicedapplemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2682981894
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{07FB8B10-ECD8-55A0-8C7A-E24FE00CD9D2}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_cuttingboardmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2814810689
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{45E56093-9B04-5A16-A870-569E69B87431}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_platesmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3774747136
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{38653D27-040C-5647-9886-EDEB44D2027E}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_knifemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4277798144
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7C785DEF-DDCF-54E0-B279-7F43CCDBF551}"
+                                            },
+                                            "assetHint": "props/stilllife/still_life_applebowlmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8850399136105692554]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 8850399136105692554,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14261396054680911993
+                        },
+                        {
+                            "ComponentId": 7227763887269461068,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7810123230116798047,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9688450372797707284]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9688450372797707284
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Emissive.png",
+        "emissive.color": [
+            1.0,
+            0.7499961853027344,
+            0.0,
+            1.0
+        ],
+        "emissive.enable": true,
+        "emissive.intensity": 10.0,
+        "emissive.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Emissive.png",
+        "metallic.useTexture": false,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.useTexture": false
+    }
+}

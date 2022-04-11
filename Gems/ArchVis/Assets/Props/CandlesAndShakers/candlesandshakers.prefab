@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "candlesandshakers",
+        "Components": {
+            "Component_[10841367926100469673]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10841367926100469673
+            },
+            "Component_[14578229027945998920]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14578229027945998920
+            },
+            "Component_[1904031878244692422]": {
+                "$type": "EditorLockComponent",
+                "Id": 1904031878244692422
+            },
+            "Component_[2074552673341453793]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2074552673341453793
+            },
+            "Component_[3223318106173621439]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3223318106173621439
+            },
+            "Component_[4113920550239415822]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4113920550239415822,
+                "Parent Entity": ""
+            },
+            "Component_[536427204615692097]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 536427204615692097
+            },
+            "Component_[7097426262395277595]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7097426262395277595
+            },
+            "Component_[7223579183442250292]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7223579183442250292
+            },
+            "Component_[7520321225047867118]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7520321225047867118
+            },
+            "Component_[9002447098629301879]": {
+                "$type": "SelectionComponent",
+                "Id": 9002447098629301879
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1028434040675]": {
+            "Id": "Entity_[1028434040675]",
+            "Name": "candlesandshakers",
+            "Components": {
+                "Component_[1087141068456405972]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1087141068456405972,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12334172286431729090
+                        },
+                        {
+                            "ComponentId": 5727647452491094903,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12582874529358866062,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12334172286431729090]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12334172286431729090,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[12582874529358866062]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12582874529358866062,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 351860435
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B44131CC-B2D2-578B-8D2E-D13851748D18}"
+                                            },
+                                            "assetHint": "props/candlesandshakers/candlesandshakers_candlesandshakersmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 351860435
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{B44131CC-B2D2-578B-8D2E-D13851748D18}"
+                                },
+                                "assetHint": "props/candlesandshakers/candlesandshakers_candlesandshakersmat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 351860435
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[12784046983222831091]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12784046983222831091
+                },
+                "Component_[13033655534927584389]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13033655534927584389
+                },
+                "Component_[17474455402350975356]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17474455402350975356
+                },
+                "Component_[2098926910902711840]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2098926910902711840
+                },
+                "Component_[4031707000325587213]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4031707000325587213
+                },
+                "Component_[4397495539523373790]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4397495539523373790
+                },
+                "Component_[5727647452491094903]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5727647452491094903,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D1961A71-0933-57F7-A0AD-A853D1F0E670}",
+                                    "subId": 278081716
+                                },
+                                "assetHint": "props/candlesandshakers/candlesandshakers.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[7757749102274223867]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7757749102274223867
+                },
+                "Component_[8410786056896602655]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8410786056896602655
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "refrigerator",
+        "Components": {
+            "Component_[120014679457343346]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 120014679457343346
+            },
+            "Component_[13674123640949914238]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13674123640949914238
+            },
+            "Component_[14233843870799655304]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14233843870799655304,
+                "Parent Entity": ""
+            },
+            "Component_[1445396962508943673]": {
+                "$type": "SelectionComponent",
+                "Id": 1445396962508943673
+            },
+            "Component_[17358495795448932964]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17358495795448932964
+            },
+            "Component_[3465261435723185334]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3465261435723185334
+            },
+            "Component_[4566248168342172836]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4566248168342172836
+            },
+            "Component_[4646776538578047749]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4646776538578047749
+            },
+            "Component_[6039596188866858164]": {
+                "$type": "EditorLockComponent",
+                "Id": 6039596188866858164
+            },
+            "Component_[6698684363985543502]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6698684363985543502
+            },
+            "Component_[9561445132377440585]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 9561445132377440585
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3094147965657]": {
+            "Id": "Entity_[3094147965657]",
+            "Name": "refrigerator",
+            "Components": {
+                "Component_[10311596869287372686]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10311596869287372686
+                },
+                "Component_[11755868307902649292]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11755868307902649292
+                },
+                "Component_[16191857164222196952]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16191857164222196952
+                },
+                "Component_[16430493570262275525]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16430493570262275525
+                },
+                "Component_[16883793726776807753]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16883793726776807753,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1548374111
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1BC6D96C-54C8-5EE2-B442-9C6DEEAA1C51}"
+                                            },
+                                            "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator_refrigeratormat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17982694768054210659]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17982694768054210659
+                },
+                "Component_[2080627730078777350]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2080627730078777350
+                },
+                "Component_[354933875823538917]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 354933875823538917
+                },
+                "Component_[4651833611211973428]": {
+                    "$type": "SelectionComponent",
+                    "Id": 4651833611211973428
+                },
+                "Component_[5364438418896680112]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5364438418896680112,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EC94D6F5-7014-5C98-97A5-6D54E394C97C}",
+                                    "subId": 270118709
+                                },
+                                "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[581391529272969363]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 581391529272969363,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[658123411250503750]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 658123411250503750,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 581391529272969363
+                        },
+                        {
+                            "ComponentId": 5364438418896680112,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16883793726776807753,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
