@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "dresser",
+        "Components": {
+            "Component_[13735430526721919116]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13735430526721919116
+            },
+            "Component_[14088865436595658245]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14088865436595658245
+            },
+            "Component_[14198982852912592165]": {
+                "$type": "SelectionComponent",
+                "Id": 14198982852912592165
+            },
+            "Component_[14809407487690067708]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14809407487690067708
+            },
+            "Component_[18057182577777819151]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18057182577777819151
+            },
+            "Component_[4129759084827148485]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4129759084827148485
+            },
+            "Component_[4634309220114938086]": {
+                "$type": "EditorLockComponent",
+                "Id": 4634309220114938086
+            },
+            "Component_[5798129426619250104]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5798129426619250104
+            },
+            "Component_[6841521621368289645]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6841521621368289645
+            },
+            "Component_[7838821036513172601]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7838821036513172601
+            },
+            "Component_[8549819633731861485]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8549819633731861485,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[998203925209]": {
+            "Id": "Entity_[998203925209]",
+            "Name": "dresser",
+            "Components": {
+                "Component_[12587762423158457564]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12587762423158457564
+                },
+                "Component_[1314779341199531408]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1314779341199531408
+                },
+                "Component_[1519671564027529428]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1519671564027529428,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16412139995255721783]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16412139995255721783
+                },
+                "Component_[18142656254220419775]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 18142656254220419775
+                },
+                "Component_[1889511080248254305]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1889511080248254305
+                },
+                "Component_[2579128216804600129]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2579128216804600129,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{49109237-884C-50D8-803A-A270B512D433}",
+                                    "subId": 269596150
+                                },
+                                "assetHint": "props/dresser/dresser.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4672846108827961293]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 4672846108827961293,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4131388198
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{94ABD473-2EB2-569A-A992-68A81E3857E6}"
+                                            },
+                                            "assetHint": "props/dresser/dresser_dressermat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4939413204765327681]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4939413204765327681
+                },
+                "Component_[5907146950558698721]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5907146950558698721,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1519671564027529428
+                        },
+                        {
+                            "ComponentId": 2579128216804600129,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4672846108827961293,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[7288988865683088656]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7288988865683088656
+                },
+                "Component_[8061172583082527693]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8061172583082527693
+                }
+            }
+        }
+    }
+}

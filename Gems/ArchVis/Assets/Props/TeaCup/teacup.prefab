@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "teacup",
+        "Components": {
+            "Component_[10615375875175939295]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 10615375875175939295
+            },
+            "Component_[12453925617028111251]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12453925617028111251,
+                "Parent Entity": ""
+            },
+            "Component_[15692194345735182063]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15692194345735182063
+            },
+            "Component_[17726909633985175410]": {
+                "$type": "SelectionComponent",
+                "Id": 17726909633985175410
+            },
+            "Component_[4754763765942064805]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4754763765942064805
+            },
+            "Component_[6324229236567402082]": {
+                "$type": "EditorLockComponent",
+                "Id": 6324229236567402082
+            },
+            "Component_[6445143627853010835]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6445143627853010835
+            },
+            "Component_[67397121302531703]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 67397121302531703
+            },
+            "Component_[7155085252816538907]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7155085252816538907
+            },
+            "Component_[8623083304019745983]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8623083304019745983
+            },
+            "Component_[896987605077493290]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 896987605077493290
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1509470377827]": {
+            "Id": "Entity_[1509470377827]",
+            "Name": "teacup",
+            "Components": {
+                "Component_[10248202886871242774]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10248202886871242774,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[12218051982670669364]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12218051982670669364
+                },
+                "Component_[1349112684559967838]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1349112684559967838
+                },
+                "Component_[1365197217524640919]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1365197217524640919
+                },
+                "Component_[14424450229086965748]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14424450229086965748
+                },
+                "Component_[16294982352231282211]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16294982352231282211
+                },
+                "Component_[18115951245361741484]": {
+                    "$type": "SelectionComponent",
+                    "Id": 18115951245361741484
+                },
+                "Component_[3008433534697326700]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3008433534697326700,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C1000B2B-6836-5528-8781-14B11D935CB4}",
+                                    "subId": 283447257
+                                },
+                                "assetHint": "props/teacup/teacup.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4541078101854522472]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4541078101854522472
+                },
+                "Component_[5020060626913228704]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5020060626913228704,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10248202886871242774
+                        },
+                        {
+                            "ComponentId": 3008433534697326700,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9526312966363988167,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6195743992465837372]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6195743992465837372
+                },
+                "Component_[9526312966363988167]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9526312966363988167,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1324219017
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E79126B1-1261-55F8-921D-D6F1EBF91DED}"
+                                            },
+                                            "assetHint": "props/teacup/teacup_teacupmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 1324219017
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{E79126B1-1261-55F8-921D-D6F1EBF91DED}"
+                                },
+                                "assetHint": "props/teacup/teacup_teacupmat.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 1324219017
+                                }
+                            }
+                        ]
+                    ]
+                }
+            }
+        }
+    }
+}

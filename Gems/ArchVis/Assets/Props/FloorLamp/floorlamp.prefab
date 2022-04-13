@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "floorlamp",
+        "Components": {
+            "Component_[10122040258714003449]": {
+                "$type": "SelectionComponent",
+                "Id": 10122040258714003449
+            },
+            "Component_[11212440217910968033]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11212440217910968033
+            },
+            "Component_[14111470310727475980]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14111470310727475980
+            },
+            "Component_[14142958991560869584]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 14142958991560869584
+            },
+            "Component_[14214289046531211130]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14214289046531211130
+            },
+            "Component_[15455842974685669050]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15455842974685669050
+            },
+            "Component_[15484999538101539741]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15484999538101539741
+            },
+            "Component_[18102378680568564588]": {
+                "$type": "EditorLockComponent",
+                "Id": 18102378680568564588
+            },
+            "Component_[1961849843833083798]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1961849843833083798
+            },
+            "Component_[5612192900115010720]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5612192900115010720
+            },
+            "Component_[9225297603389929410]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9225297603389929410,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1947391697625]": {
+            "Id": "Entity_[1947391697625]",
+            "Name": "floorlamp",
+            "Components": {
+                "Component_[12110345646026731106]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12110345646026731106,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8962859842626084326
+                        },
+                        {
+                            "ComponentId": 12718440918827052115,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15727676535610890879,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12654624830478200141]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12654624830478200141
+                },
+                "Component_[12718440918827052115]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12718440918827052115,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{920A2CDF-4197-50B0-85FD-4BD2A6D52CC1}",
+                                    "subId": 281667106
+                                },
+                                "assetHint": "props/floorlamp/floorlamp.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[13056631374395549013]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13056631374395549013
+                },
+                "Component_[15089082320125499385]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 15089082320125499385
+                },
+                "Component_[15129409521532189260]": {
+                    "$type": "SelectionComponent",
+                    "Id": 15129409521532189260
+                },
+                "Component_[15727676535610890879]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15727676535610890879,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1293519612
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2A3A145C-9487-5C79-8F92-16B4CA2CBFD7}"
+                                            },
+                                            "assetHint": "props/floorlamp/floorlamp_floorlampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16716450447312534307]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16716450447312534307
+                },
+                "Component_[3115585786296186100]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3115585786296186100
+                },
+                "Component_[7669178050668107516]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7669178050668107516
+                },
+                "Component_[8545361907272871726]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8545361907272871726
+                },
+                "Component_[8962859842626084326]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8962859842626084326,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            5.590498924255371,
+                            25.937795639038086,
+                            4.535695552825928
+                        ],
+                        "UniformScale": 5.14484167098999
+                    }
+                }
+            }
+        }
+    }
+}

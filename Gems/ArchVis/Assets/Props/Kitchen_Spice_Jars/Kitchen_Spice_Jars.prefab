@@ -1,0 +1,180 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_spice_jars",
+        "Components": {
+            "Component_[10289383099960026954]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10289383099960026954
+            },
+            "Component_[10464611571102767786]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10464611571102767786
+            },
+            "Component_[1417720326797745590]": {
+                "$type": "SelectionComponent",
+                "Id": 1417720326797745590
+            },
+            "Component_[15840304665972375133]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15840304665972375133
+            },
+            "Component_[16853189609827935644]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16853189609827935644
+            },
+            "Component_[1937605546113714175]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 1937605546113714175
+            },
+            "Component_[2224319481886281934]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2224319481886281934
+            },
+            "Component_[3386876137776201213]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 3386876137776201213,
+                "Parent Entity": ""
+            },
+            "Component_[4984386752447755090]": {
+                "$type": "EditorLockComponent",
+                "Id": 4984386752447755090
+            },
+            "Component_[5367304841612309268]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5367304841612309268
+            },
+            "Component_[8212259156653177019]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8212259156653177019
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3287421493977]": {
+            "Id": "Entity_[3287421493977]",
+            "Name": "kitchen_spice_jars",
+            "Components": {
+                "Component_[1398056854193228585]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1398056854193228585,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5F2D9A42-0517-5F9F-82FC-917281465EC0}",
+                                    "subId": 283853525
+                                },
+                                "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[15408183905046946619]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15408183905046946619,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17365592027627902761]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17365592027627902761
+                },
+                "Component_[18436394437866673060]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 18436394437866673060,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 397778236
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6F4F9408-EE9B-5FC4-98DB-92F664470240}"
+                                            },
+                                            "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars_spice_jar_glassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1487374732
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2983D0F8-33E9-5AB4-91CE-C1759B3F7839}"
+                                            },
+                                            "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars_spice_jar_saltmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2810619146
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7F88C618-A03A-5066-B7AA-D2528A5C6936}"
+                                            },
+                                            "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars_spice_jar_lidsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[44472983014378288]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 44472983014378288
+                },
+                "Component_[5052228686842122735]": {
+                    "$type": "SelectionComponent",
+                    "Id": 5052228686842122735
+                },
+                "Component_[5138225458320332650]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5138225458320332650,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15408183905046946619
+                        },
+                        {
+                            "ComponentId": 1398056854193228585,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 18436394437866673060,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6473387802420173736]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6473387802420173736
+                },
+                "Component_[7746287939788490160]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 7746287939788490160
+                },
+                "Component_[7873287638570735213]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7873287638570735213
+                },
+                "Component_[8281231516023280100]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8281231516023280100
+                },
+                "Component_[9299843983858164723]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9299843983858164723
+                }
+            }
+        }
+    }
+}

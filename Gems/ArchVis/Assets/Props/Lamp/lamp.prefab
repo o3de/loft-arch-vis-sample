@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "lamp",
+        "Components": {
+            "Component_[14243780516170226495]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14243780516170226495
+            },
+            "Component_[1623697556314593909]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1623697556314593909
+            },
+            "Component_[17689106487973602757]": {
+                "$type": "SelectionComponent",
+                "Id": 17689106487973602757
+            },
+            "Component_[18325108494335324603]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18325108494335324603
+            },
+            "Component_[2328788527311932460]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 2328788527311932460
+            },
+            "Component_[5086278344911758528]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 5086278344911758528,
+                "Parent Entity": ""
+            },
+            "Component_[6870301458879300135]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6870301458879300135
+            },
+            "Component_[8898294124823701146]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 8898294124823701146
+            },
+            "Component_[9361407130771194150]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 9361407130771194150
+            },
+            "Component_[9834002761716588978]": {
+                "$type": "EditorLockComponent",
+                "Id": 9834002761716588978
+            },
+            "Component_[9978886745535498659]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9978886745535498659
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3463515153113]": {
+            "Id": "Entity_[3463515153113]",
+            "Name": "lamp",
+            "Components": {
+                "Component_[10825279323207019256]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10825279323207019256
+                },
+                "Component_[12603327733305659253]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 12603327733305659253
+                },
+                "Component_[15758842762188923212]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15758842762188923212,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[15764535034715364202]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15764535034715364202,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15758842762188923212
+                        },
+                        {
+                            "ComponentId": 8488786797330045631,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17303841926023113016,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17303841926023113016]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17303841926023113016,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4005493637
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F8125AA7-D06A-5545-A8B1-5B037E73414D}"
+                                            },
+                                            "assetHint": "props/lamp/lamp_lampmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17919375845826597619]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17919375845826597619
+                },
+                "Component_[3704374565956989409]": {
+                    "$type": "SelectionComponent",
+                    "Id": 3704374565956989409
+                },
+                "Component_[5635124300974995785]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5635124300974995785
+                },
+                "Component_[8315162214298051666]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8315162214298051666
+                },
+                "Component_[8488786797330045631]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8488786797330045631,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0331D1F7-60E2-5914-906A-DCFD37D38855}",
+                                    "subId": 284643942
+                                },
+                                "assetHint": "props/lamp/lamp.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[9245696652775317158]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9245696652775317158
+                },
+                "Component_[9863101626411952310]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9863101626411952310
+                }
+            }
+        }
+    }
+}

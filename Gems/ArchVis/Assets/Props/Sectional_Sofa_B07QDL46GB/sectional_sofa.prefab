@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "sectional_sofa",
+        "Components": {
+            "Component_[10279405036576680015]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10279405036576680015
+            },
+            "Component_[1209832268025662828]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1209832268025662828
+            },
+            "Component_[13061046228670919793]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 13061046228670919793,
+                "Parent Entity": ""
+            },
+            "Component_[13660139245677714284]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13660139245677714284
+            },
+            "Component_[15529175958946819788]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15529175958946819788
+            },
+            "Component_[17982537960701409816]": {
+                "$type": "SelectionComponent",
+                "Id": 17982537960701409816
+            },
+            "Component_[3280132572019456402]": {
+                "$type": "EditorLockComponent",
+                "Id": 3280132572019456402
+            },
+            "Component_[5376265865963044833]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5376265865963044833
+            },
+            "Component_[5890948834690663419]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 5890948834690663419
+            },
+            "Component_[907229764779822915]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 907229764779822915
+            },
+            "Component_[9755496347368013200]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9755496347368013200
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[5752732721881]": {
+            "Id": "Entity_[5752732721881]",
+            "Name": "sectional_sofa",
+            "Components": {
+                "Component_[1282068591054115300]": {
+                    "$type": "SelectionComponent",
+                    "Id": 1282068591054115300
+                },
+                "Component_[13389172003601302059]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13389172003601302059,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[14595209655906147580]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14595209655906147580
+                },
+                "Component_[14780340692586077902]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 14780340692586077902
+                },
+                "Component_[17405367311171993486]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17405367311171993486
+                },
+                "Component_[5419282969929464004]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5419282969929464004,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13389172003601302059
+                        },
+                        {
+                            "ComponentId": 8795011371574085975,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 589004912506861595,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[589004912506861595]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 589004912506861595,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4269690797
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{92D11ED4-480F-597F-BA9F-07CA587202C5}"
+                                            },
+                                            "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_sofamat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[7167150565683344193]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7167150565683344193
+                },
+                "Component_[8795011371574085975]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8795011371574085975,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
+                                    "subId": 279970865
+                                },
+                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[8828030567794791635]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8828030567794791635
+                },
+                "Component_[9290265390390090256]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9290265390390090256
+                },
+                "Component_[9558050113593757914]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9558050113593757914
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "gem_name": "ArchVis",
+    "display_name": "Samples:ArchVis Assets",
+    "origin": "https://github.com/aws-lumberyard/o3de-samples-project-gems",
+    "license": "Content/Assets: CC-BY-4.0, Code: Apache-2.0 Or MIT",
+    "summary": "An O3DE Architectural Visualization (ArchVis) Gem with sample assets.",
+    "canonical_tags": [
+        "Gem"
+    ],
+    "user_tags": [
+        "Content",
+        "Assets",
+        "ArchVis",
+        "InteriorDesign"
+    ],
+    "icon_path": "preview.png"
+}

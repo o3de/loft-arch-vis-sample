@@ -1,0 +1,166 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "flat_screen_television",
+        "Components": {
+            "Component_[10967158561262355286]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10967158561262355286
+            },
+            "Component_[10979190468679100337]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10979190468679100337
+            },
+            "Component_[12403420398040919850]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12403420398040919850,
+                "Parent Entity": ""
+            },
+            "Component_[13108651472191588193]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13108651472191588193
+            },
+            "Component_[14486241735669878953]": {
+                "$type": "SelectionComponent",
+                "Id": 14486241735669878953
+            },
+            "Component_[14809712239315415129]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14809712239315415129
+            },
+            "Component_[6241423711484925957]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6241423711484925957
+            },
+            "Component_[7022116562714818786]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7022116562714818786
+            },
+            "Component_[7221857156332045580]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7221857156332045580
+            },
+            "Component_[7845715259578984942]": {
+                "$type": "EditorLockComponent",
+                "Id": 7845715259578984942
+            },
+            "Component_[9465621030028372227]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9465621030028372227
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1320326472409]": {
+            "Id": "Entity_[1320326472409]",
+            "Name": "flat_screen_television",
+            "Components": {
+                "Component_[11288651388729482510]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11288651388729482510
+                },
+                "Component_[11627034224338382070]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11627034224338382070
+                },
+                "Component_[15119198979798048059]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15119198979798048059
+                },
+                "Component_[15376114466395011986]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15376114466395011986
+                },
+                "Component_[3004468748467653048]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3004468748467653048
+                },
+                "Component_[3614190093245922589]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3614190093245922589
+                },
+                "Component_[453651176081533844]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 453651176081533844,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1381657378
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3D0ACEA1-2E1B-5A25-B839-45FEE60F8744}"
+                                            },
+                                            "assetHint": "props/flatscreentelevision/flat_screen_television_remotecontrolmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3521787417
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A141D3C4-C52B-50BC-8EA3-2EC62EC5784B}"
+                                            },
+                                            "assetHint": "props/flatscreentelevision/flat_screen_television_televisionmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[6109493619138323402]": {
+                    "$type": "SelectionComponent",
+                    "Id": 6109493619138323402
+                },
+                "Component_[727295486645070273]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 727295486645070273,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C5979754-5635-5871-B5EB-314C9320F6DE}",
+                                    "subId": 274924008
+                                },
+                                "assetHint": "props/flatscreentelevision/flat_screen_television.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[8360258549647637540]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8360258549647637540
+                },
+                "Component_[9147565903945043079]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 9147565903945043079,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[9649767159267432926]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9649767159267432926,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 9147565903945043079
+                        },
+                        {
+                            "ComponentId": 727295486645070273,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 453651176081533844,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

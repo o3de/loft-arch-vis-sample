@@ -1,0 +1,126 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "figTree",
+        "Components": {
+            "Component_[13222106287053773467]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13222106287053773467
+            },
+            "Component_[1472296138824696209]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1472296138824696209
+            },
+            "Component_[17040039456568714456]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17040039456568714456,
+                "Parent Entity": ""
+            },
+            "Component_[1776014397501929905]": {
+                "$type": "EditorLockComponent",
+                "Id": 1776014397501929905
+            },
+            "Component_[3646617793183054381]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3646617793183054381
+            },
+            "Component_[3857892017533445318]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3857892017533445318
+            },
+            "Component_[4652892230107584940]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4652892230107584940
+            },
+            "Component_[5085882370794807359]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5085882370794807359
+            },
+            "Component_[7028683506853817188]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7028683506853817188
+            },
+            "Component_[7296722554142675172]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7296722554142675172
+            },
+            "Component_[7525366768420150532]": {
+                "$type": "SelectionComponent",
+                "Id": 7525366768420150532
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3751207717898]": {
+            "Id": "Entity_[3751207717898]",
+            "Name": "figTree",
+            "Components": {
+                "Component_[11010742530653592219]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11010742530653592219
+                },
+                "Component_[11940317919175588120]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11940317919175588120
+                },
+                "Component_[12465694609457885925]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12465694609457885925
+                },
+                "Component_[13204942467613712204]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13204942467613712204
+                },
+                "Component_[14488439339945064218]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14488439339945064218,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 3180239787569757937
+                        },
+                        {
+                            "ComponentId": 17997146415012050859,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[15990736752565195533]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15990736752565195533
+                },
+                "Component_[17997146415012050859]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17997146415012050859,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{D06F220D-1843-5F9C-BC1A-25EB7899117F}",
+                                    "subId": 278516398
+                                },
+                                "assetHint": "props/figtree/figtree.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[228314741944741516]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 228314741944741516
+                },
+                "Component_[3180239787569757937]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 3180239787569757937,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[4682606058946933635]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4682606058946933635
+                },
+                "Component_[9430531708296656158]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9430531708296656158
+                }
+            }
+        }
+    }
+}

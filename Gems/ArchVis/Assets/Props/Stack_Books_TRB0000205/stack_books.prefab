@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "stack_books",
+        "Components": {
+            "Component_[11301023118633006372]": {
+                "$type": "SelectionComponent",
+                "Id": 11301023118633006372
+            },
+            "Component_[13141086456685976401]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13141086456685976401
+            },
+            "Component_[13294181923371544302]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 13294181923371544302
+            },
+            "Component_[14592658596250531315]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14592658596250531315
+            },
+            "Component_[16061599818586267235]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 16061599818586267235
+            },
+            "Component_[2634924649671010989]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2634924649671010989
+            },
+            "Component_[2786445566806099340]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2786445566806099340
+            },
+            "Component_[4798135010297754004]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4798135010297754004
+            },
+            "Component_[5195249964296992408]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5195249964296992408
+            },
+            "Component_[6642723766928980062]": {
+                "$type": "EditorLockComponent",
+                "Id": 6642723766928980062
+            },
+            "Component_[9453052330095085754]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9453052330095085754,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6109215007449]": {
+            "Id": "Entity_[6109215007449]",
+            "Name": "stack_books",
+            "Components": {
+                "Component_[10704461093304906463]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10704461093304906463
+                },
+                "Component_[12803419653644033642]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12803419653644033642
+                },
+                "Component_[12882727587433310990]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12882727587433310990,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{B56F3A17-404E-5765-8ABB-4197258CC4F9}",
+                                    "subId": 281669105
+                                },
+                                "assetHint": "props/stack_books_trb0000205/stack_books.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14621404539907749669]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14621404539907749669
+                },
+                "Component_[164469569195757692]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 164469569195757692,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1714851445
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5E9167E4-F726-597A-BD2C-B6CB9CF865EC}"
+                                            },
+                                            "assetHint": "props/stack_books_trb0000205/stack_books_book_twomat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3114812098
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1F8B416D-2A30-5780-991A-DC27E6C59CB5}"
+                                            },
+                                            "assetHint": "props/stack_books_trb0000205/stack_books_book_onemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3319920587
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5C6D88DB-F70E-58CC-BC83-A742B29D37F4}"
+                                            },
+                                            "assetHint": "props/stack_books_trb0000205/stack_books_book_threemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4589994210257100082]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4589994210257100082
+                },
+                "Component_[6503398541149148889]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6503398541149148889
+                },
+                "Component_[6751335546298171132]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6751335546298171132
+                },
+                "Component_[8200551864000342068]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8200551864000342068,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8548754372391709646]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8548754372391709646
+                },
+                "Component_[979936409052016888]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 979936409052016888
+                },
+                "Component_[9899743918665625819]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9899743918665625819,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8200551864000342068
+                        },
+                        {
+                            "ComponentId": 12882727587433310990,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 164469569195757692,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

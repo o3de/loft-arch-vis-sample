@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "tv_stand_wood",
+        "Components": {
+            "Component_[10597398258033706118]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 10597398258033706118
+            },
+            "Component_[10814204290868792335]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10814204290868792335
+            },
+            "Component_[15160165875131737262]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15160165875131737262
+            },
+            "Component_[17337843671341088076]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17337843671341088076,
+                "Parent Entity": ""
+            },
+            "Component_[17483058536333766156]": {
+                "$type": "SelectionComponent",
+                "Id": 17483058536333766156
+            },
+            "Component_[2864346811412281641]": {
+                "$type": "EditorLockComponent",
+                "Id": 2864346811412281641
+            },
+            "Component_[3207944372957027290]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3207944372957027290
+            },
+            "Component_[4869915318233164279]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4869915318233164279
+            },
+            "Component_[5554516319578366292]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5554516319578366292
+            },
+            "Component_[8274707633135852982]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8274707633135852982
+            },
+            "Component_[9996285613546025996]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9996285613546025996
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1071289573118]": {
+            "Id": "Entity_[1071289573118]",
+            "Name": "tv_stand_wood",
+            "Components": {
+                "Component_[10284698862016614793]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10284698862016614793,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16884577931140511487
+                        },
+                        {
+                            "ComponentId": 3431603523143978034,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9092064883354540958,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[11734295736265130951]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11734295736265130951
+                },
+                "Component_[14017798290968006294]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14017798290968006294
+                },
+                "Component_[14233481559279206107]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14233481559279206107
+                },
+                "Component_[15468543650720407671]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15468543650720407671
+                },
+                "Component_[16047449184164599131]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16047449184164599131
+                },
+                "Component_[16884577931140511487]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16884577931140511487,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            5.585381507873535,
+                            25.982261657714844,
+                            4.592641830444336
+                        ],
+                        "UniformScale": 10.0
+                    }
+                },
+                "Component_[17317950459802750550]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17317950459802750550
+                },
+                "Component_[3431603523143978034]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3431603523143978034,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3E5B7D4B-DD8A-50AE-9650-8E1591135BF4}",
+                                    "subId": 269399550
+                                },
+                                "assetHint": "props/tvstandwood/tv_stand_wood.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3624159765208260070]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3624159765208260070
+                },
+                "Component_[8572951108916758728]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8572951108916758728
+                },
+                "Component_[9092064883354540958]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9092064883354540958,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1744995042
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4395CEB0-D6CB-5653-9AE1-4BE9A42DD74B}"
+                                            },
+                                            "assetHint": "props/tvstandwood/tv_stand_wood_tvstandwoodmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

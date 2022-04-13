@@ -1,0 +1,166 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "bathroom_mirror",
+        "Components": {
+            "Component_[16419510219368703114]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16419510219368703114
+            },
+            "Component_[17522785476786436722]": {
+                "$type": "SelectionComponent",
+                "Id": 17522785476786436722
+            },
+            "Component_[17652684601971182124]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 17652684601971182124
+            },
+            "Component_[2579289687096343305]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2579289687096343305
+            },
+            "Component_[3750245231646671935]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3750245231646671935
+            },
+            "Component_[387656263673647334]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 387656263673647334
+            },
+            "Component_[4292110061707047430]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4292110061707047430
+            },
+            "Component_[530454976365673946]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 530454976365673946,
+                "Parent Entity": ""
+            },
+            "Component_[581243803907609380]": {
+                "$type": "EditorLockComponent",
+                "Id": 581243803907609380
+            },
+            "Component_[625020164740850041]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 625020164740850041
+            },
+            "Component_[6821459833273355217]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 6821459833273355217
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2726272266974]": {
+            "Id": "Entity_[2726272266974]",
+            "Name": "bathroom_mirror",
+            "Components": {
+                "Component_[1119803540948562776]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1119803540948562776
+                },
+                "Component_[11817508154655285392]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11817508154655285392
+                },
+                "Component_[11977268394999281864]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11977268394999281864,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3283627974
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DF9F6B76-8964-5ACC-9074-28EFEA0CE7A4}"
+                                            },
+                                            "assetHint": "props/bathroom_mirror_b07b92c9wt/bathroom_mirror_mirrormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4185186331
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B14FDB0E-B187-56D5-964E-081F823B746D}"
+                                            },
+                                            "assetHint": "props/bathroom_mirror_b07b92c9wt/bathroom_mirror_mirror_framemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[12467872913097175057]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12467872913097175057,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16459784418373020114]": {
+                    "$type": "SelectionComponent",
+                    "Id": 16459784418373020114
+                },
+                "Component_[16997272830356719226]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16997272830356719226
+                },
+                "Component_[17376325522645872539]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17376325522645872539,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{AD76CFE7-2C82-55E6-8776-9293F9F621CA}",
+                                    "subId": 281344329
+                                },
+                                "assetHint": "props/bathroom_mirror_b07b92c9wt/bathroom_mirror.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[17928755632108076952]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17928755632108076952
+                },
+                "Component_[2735861139398759176]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2735861139398759176
+                },
+                "Component_[3074810008242306406]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3074810008242306406,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12467872913097175057
+                        },
+                        {
+                            "ComponentId": 17376325522645872539,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11977268394999281864,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[6736825476695841021]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6736825476695841021
+                },
+                "Component_[9512536756075080523]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9512536756075080523
+                }
+            }
+        }
+    }
+}

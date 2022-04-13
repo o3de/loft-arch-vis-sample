@@ -1,0 +1,42 @@
+{
+    "description": "",
+    "parentMaterial": "",
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Props/LumberyardPicture/textures/lumberyardPicture_BaseColor.png"
+        },
+        "emissive": {
+            "color": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "intensity": 0.0,
+            "useTexture": false
+        },
+        "metallic": {
+            "textureMap": "Props/LumberyardPicture/textures/lumberyardPicture_Metallic.png"
+        },
+        "normal": {
+            "textureMap": "Props/LumberyardPicture/textures/lumberyardPicture_Normal.png"
+        },
+        "opacity": {
+            "factor": 1.0,
+            "mode": "Blended"
+        },
+        "roughness": {
+            "factor": 0.33000001311302185,
+            "textureMap": "Props/LumberyardPicture/textures/lumberyardPicture_Roughness.png"
+        }
+    }
+}

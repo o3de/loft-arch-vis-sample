@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "blinds",
+        "Components": {
+            "Component_[10043645353591437413]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 10043645353591437413
+            },
+            "Component_[1141200401008990405]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1141200401008990405
+            },
+            "Component_[12095626765743682367]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12095626765743682367
+            },
+            "Component_[13829639230687904736]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13829639230687904736
+            },
+            "Component_[15939352462119660019]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 15939352462119660019
+            },
+            "Component_[6049035009971275187]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 6049035009971275187
+            },
+            "Component_[6705564234336292302]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6705564234336292302
+            },
+            "Component_[6875922557176436440]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6875922557176436440,
+                "Parent Entity": ""
+            },
+            "Component_[7574180498760726023]": {
+                "$type": "EditorLockComponent",
+                "Id": 7574180498760726023
+            },
+            "Component_[7897629493886627821]": {
+                "$type": "SelectionComponent",
+                "Id": 7897629493886627821
+            },
+            "Component_[8566495622997442623]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8566495622997442623
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[524113431395]": {
+            "Id": "Entity_[524113431395]",
+            "Name": "blinds",
+            "Components": {
+                "Component_[10984753271835478960]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10984753271835478960
+                },
+                "Component_[12356575188660799516]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12356575188660799516
+                },
+                "Component_[13553378647770110973]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13553378647770110973
+                },
+                "Component_[14852999320631780306]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14852999320631780306,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 359010471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{27819411-53E6-5AF9-BE4F-996CB95F7C30}"
+                                            },
+                                            "assetHint": "props/blinds/blinds_blindsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 359010471
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{27819411-53E6-5AF9-BE4F-996CB95F7C30}"
+                                },
+                                "assetHint": "props/blinds/blinds_blindsmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{79C64D01-D167-5ED3-B92E-0E0FBBCF1289}",
+                                    "subId": 359010471
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/blinds/blinds_blindsmat_9123653268946686119.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 359010471
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{79C64D01-D167-5ED3-B92E-0E0FBBCF1289}",
+                                        "subId": 359010471
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/blinds/blinds_blindsmat_9123653268946686119.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[14954385829752328145]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14954385829752328145
+                },
+                "Component_[15995292306001169152]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15995292306001169152
+                },
+                "Component_[16266213159923966714]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16266213159923966714
+                },
+                "Component_[16469892832231066511]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16469892832231066511,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{79C64D01-D167-5ED3-B92E-0E0FBBCF1289}",
+                                    "subId": 281429304
+                                },
+                                "assetHint": "props/blinds/blinds.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16956253332257903442]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16956253332257903442,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3939467873411599616]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3939467873411599616
+                },
+                "Component_[5769481117967303160]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5769481117967303160
+                },
+                "Component_[6283526208439809913]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6283526208439809913,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16956253332257903442
+                        },
+                        {
+                            "ComponentId": 16469892832231066511,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14852999320631780306,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

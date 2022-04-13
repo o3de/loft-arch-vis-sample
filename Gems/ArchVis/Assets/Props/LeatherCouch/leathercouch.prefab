@@ -1,0 +1,153 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "leathercouch",
+        "Components": {
+            "Component_[11584103009261640265]": {
+                "$type": "SelectionComponent",
+                "Id": 11584103009261640265
+            },
+            "Component_[13061679247772374507]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13061679247772374507
+            },
+            "Component_[17099025652347279723]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17099025652347279723
+            },
+            "Component_[1950789509133008343]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1950789509133008343,
+                "Parent Entity": ""
+            },
+            "Component_[3050175126329855076]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 3050175126329855076
+            },
+            "Component_[3151818064722062063]": {
+                "$type": "EditorLockComponent",
+                "Id": 3151818064722062063
+            },
+            "Component_[3290844162911207957]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3290844162911207957
+            },
+            "Component_[6430604340504974284]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6430604340504974284
+            },
+            "Component_[7024323027186379722]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7024323027186379722
+            },
+            "Component_[7421838355522430568]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 7421838355522430568
+            },
+            "Component_[7765021082617781099]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7765021082617781099
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[3648198746841]": {
+            "Id": "Entity_[3648198746841]",
+            "Name": "leathercouch",
+            "Components": {
+                "Component_[10613305744993248572]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10613305744993248572
+                },
+                "Component_[11036925410558889086]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 11036925410558889086
+                },
+                "Component_[13323299488659540408]": {
+                    "$type": "SelectionComponent",
+                    "Id": 13323299488659540408
+                },
+                "Component_[13473314350929430519]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13473314350929430519,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[14489329812871595185]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14489329812871595185
+                },
+                "Component_[239148659662804330]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 239148659662804330
+                },
+                "Component_[2557723710142974393]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2557723710142974393,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C99672CA-395F-5140-ACE3-A879509690CC}",
+                                    "subId": 274384368
+                                },
+                                "assetHint": "props/leathercouch/leathercouch.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3837984860427815985]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3837984860427815985,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13473314350929430519
+                        },
+                        {
+                            "ComponentId": 2557723710142974393,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 7182265590808520415,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[440541558222604782]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 440541558222604782
+                },
+                "Component_[4724425895845505258]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4724425895845505258
+                },
+                "Component_[5230994667016761013]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5230994667016761013
+                },
+                "Component_[7182265590808520415]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 7182265590808520415,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2887964206
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C5658043-1BAB-5631-9A3A-728378EDC4C2}"
+                                            },
+                                            "assetHint": "props/leathercouch/leathercouch_leathercouchmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

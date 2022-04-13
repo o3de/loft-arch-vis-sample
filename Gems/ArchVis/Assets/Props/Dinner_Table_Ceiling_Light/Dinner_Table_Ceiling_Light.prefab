@@ -1,0 +1,215 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "dinner_table_ceiling_light",
+        "Components": {
+            "Component_[10229680266015774916]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10229680266015774916
+            },
+            "Component_[1378796485097376051]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1378796485097376051
+            },
+            "Component_[1432674949143082020]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1432674949143082020
+            },
+            "Component_[15321529643331118364]": {
+                "$type": "EditorLockComponent",
+                "Id": 15321529643331118364
+            },
+            "Component_[17478272448134381963]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17478272448134381963
+            },
+            "Component_[2057470401529988463]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2057470401529988463
+            },
+            "Component_[2167868239984346393]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 2167868239984346393
+            },
+            "Component_[2507911443174483191]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2507911443174483191,
+                "Parent Entity": ""
+            },
+            "Component_[3154913892101654506]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3154913892101654506
+            },
+            "Component_[7240026170358048154]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 7240026170358048154
+            },
+            "Component_[9487362017662405837]": {
+                "$type": "SelectionComponent",
+                "Id": 9487362017662405837
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[573002162905]": {
+            "Id": "Entity_[573002162905]",
+            "Name": "dinner_table_ceiling_light",
+            "Components": {
+                "Component_[11304362432591287512]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11304362432591287512
+                },
+                "Component_[11429937988734995309]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11429937988734995309
+                },
+                "Component_[12378120647433380967]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12378120647433380967
+                },
+                "Component_[13921808729672150910]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13921808729672150910
+                },
+                "Component_[16390925717903334107]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16390925717903334107,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17511669830766078199
+                        },
+                        {
+                            "ComponentId": 862012812422921037,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 9210901761506330126,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17511669830766078199]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17511669830766078199,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[4348608216088932631]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4348608216088932631
+                },
+                "Component_[4396560805040696992]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4396560805040696992
+                },
+                "Component_[5329200380050422279]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5329200380050422279
+                },
+                "Component_[8415030259949418618]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 8415030259949418618
+                },
+                "Component_[862012812422921037]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 862012812422921037,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{EA052530-9CB1-5A7C-BCF8-B1C1CEB7A3DE}",
+                                    "subId": 270264743
+                                },
+                                "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[9210901761506330126]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 9210901761506330126,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 72698918
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8BF5A946-0CAF-56E6-A179-B11FCF00043F}"
+                                            },
+                                            "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light_ceilinglightbasemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1551610298
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A32929B5-6D16-538D-8357-824CAEFBE885}"
+                                            },
+                                            "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light_ceilinglightglassmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "emissive.color": {
+                                                "$type": "Color",
+                                                "Value": [
+                                                    1.0,
+                                                    0.618738055229187,
+                                                    0.10804913192987442,
+                                                    1.0
+                                                ]
+                                            },
+                                            "emissive.intensity": {
+                                                "$type": "float",
+                                                "Value": 11.15999984741211
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1692133968
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A32929B5-6D16-538D-8357-824CAEFBE885}"
+                                            },
+                                            "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light_ceilinglightglassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2655491977
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8BF5A946-0CAF-56E6-A179-B11FCF00043F}"
+                                            },
+                                            "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light_ceilinglightbasemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

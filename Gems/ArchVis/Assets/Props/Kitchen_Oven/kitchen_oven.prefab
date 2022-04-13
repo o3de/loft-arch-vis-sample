@@ -1,0 +1,179 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "kitchen_oven",
+        "Components": {
+            "Component_[10228538988323572475]": {
+                "$type": "EditorLockComponent",
+                "Id": 10228538988323572475
+            },
+            "Component_[10248167090657579748]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10248167090657579748
+            },
+            "Component_[10338548751289875239]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10338548751289875239,
+                "Parent Entity": ""
+            },
+            "Component_[10716409265086064900]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10716409265086064900
+            },
+            "Component_[12769441900869533989]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 12769441900869533989
+            },
+            "Component_[14929538372956544994]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 14929538372956544994
+            },
+            "Component_[4462100974582025268]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 4462100974582025268
+            },
+            "Component_[5077183392851377782]": {
+                "$type": "SelectionComponent",
+                "Id": 5077183392851377782
+            },
+            "Component_[6985457998583947340]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6985457998583947340
+            },
+            "Component_[8513836577384483981]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8513836577384483981
+            },
+            "Component_[9016916551015546052]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9016916551015546052
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2939529143001]": {
+            "Id": "Entity_[2939529143001]",
+            "Name": "kitchen_oven",
+            "Components": {
+                "Component_[11843716524808326138]": {
+                    "$type": "SelectionComponent",
+                    "Id": 11843716524808326138
+                },
+                "Component_[1341599435564560035]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1341599435564560035
+                },
+                "Component_[14590098270568870517]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14590098270568870517,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            -0.009279370307922363,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[17282523455370069792]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17282523455370069792,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1095723795
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{32AB4687-FF98-5A0E-B4A6-76A169DF3D9A}"
+                                            },
+                                            "assetHint": "props/kitchen_oven/kitchen_oven_towelmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1613199279
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B18AE589-1E62-5242-877B-BA91691AC829}"
+                                            },
+                                            "assetHint": "props/kitchen_oven/kitchen_oven_ovenmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2497087882966090242]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2497087882966090242,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14590098270568870517
+                        },
+                        {
+                            "ComponentId": 7601646293875946262,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17282523455370069792,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2780150358538278861]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 2780150358538278861
+                },
+                "Component_[5827273021279887345]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5827273021279887345
+                },
+                "Component_[6008895314946518116]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6008895314946518116
+                },
+                "Component_[7601646293875946262]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 7601646293875946262,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{910953D9-E17C-5B5A-98F4-66AEF114600D}",
+                                    "subId": 272953377
+                                },
+                                "assetHint": "props/kitchen_oven/kitchen_oven.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[7692907000332025240]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 7692907000332025240
+                },
+                "Component_[9008305132191061642]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9008305132191061642
+                },
+                "Component_[9488967207243193705]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9488967207243193705
+                }
+            }
+        }
+    }
+}

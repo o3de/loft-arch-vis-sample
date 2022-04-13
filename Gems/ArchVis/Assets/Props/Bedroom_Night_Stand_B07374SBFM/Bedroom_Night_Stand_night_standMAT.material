@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 4,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Bedroom_Night_Stand_B07374SBFM/textures/night_stand_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "irradiance.color": [
+            0.5170061588287354,
+            0.3143358528614044,
+            0.08271915465593338,
+            1.0
+        ],
+        "metallic.textureMap": "Props/Bedroom_Night_Stand_B07374SBFM/textures/night_stand_Metallic.png",
+        "normal.textureMap": "Props/Bedroom_Night_Stand_B07374SBFM/textures/night_stand_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Bedroom_Night_Stand_B07374SBFM/textures/night_stand_Roughness.png"
+    }
+}

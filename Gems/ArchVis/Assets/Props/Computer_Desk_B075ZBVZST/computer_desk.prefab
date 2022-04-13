@@ -1,0 +1,161 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "computer_desk",
+        "Components": {
+            "Component_[13994941932145916824]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13994941932145916824
+            },
+            "Component_[14024615091058435837]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14024615091058435837
+            },
+            "Component_[16733507063614441496]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16733507063614441496
+            },
+            "Component_[18185968106047180993]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18185968106047180993
+            },
+            "Component_[1934981118639607512]": {
+                "$type": "SelectionComponent",
+                "Id": 1934981118639607512
+            },
+            "Component_[4579497820762232178]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4579497820762232178
+            },
+            "Component_[4580573834552273115]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4580573834552273115
+            },
+            "Component_[5161385492684897875]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 5161385492684897875
+            },
+            "Component_[5697716857882241930]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 5697716857882241930
+            },
+            "Component_[810072750057997656]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 810072750057997656,
+                "Parent Entity": ""
+            },
+            "Component_[8927358892617508584]": {
+                "$type": "EditorLockComponent",
+                "Id": 8927358892617508584
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[563911671658]": {
+            "Id": "Entity_[563911671658]",
+            "Name": "computer_desk",
+            "Components": {
+                "Component_[11393903677850933613]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 11393903677850933613,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            180.0
+                        ]
+                    }
+                },
+                "Component_[138902228057552418]": {
+                    "$type": "SelectionComponent",
+                    "Id": 138902228057552418
+                },
+                "Component_[1490226298353474638]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1490226298353474638
+                },
+                "Component_[15121858623508487843]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 15121858623508487843,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{4B725895-A39C-5FAB-AF2D-91984CC97BF6}",
+                                    "subId": 278997204
+                                },
+                                "assetHint": "props/computer_desk_b075zbvzst/computer_desk.azmodel"
+                            },
+                            "LodType": 2
+                        }
+                    }
+                },
+                "Component_[16496125197331400317]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16496125197331400317
+                },
+                "Component_[17387176262429655075]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17387176262429655075,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 203305068
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9AB497BE-8748-53DC-AE61-3BC92E87C3B0}"
+                                            },
+                                            "assetHint": "props/computer_desk_b075zbvzst/computer_desk_computerdeskmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3455773854544158753]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3455773854544158753
+                },
+                "Component_[5167722281581601254]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5167722281581601254
+                },
+                "Component_[5404398586167952305]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5404398586167952305
+                },
+                "Component_[6619678416091402715]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6619678416091402715
+                },
+                "Component_[6693361317612951287]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6693361317612951287
+                },
+                "Component_[9649747607656642026]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9649747607656642026,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 11393903677850933613
+                        },
+                        {
+                            "ComponentId": 15121858623508487843,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17387176262429655075,
+                            "SortIndex": 2
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}
