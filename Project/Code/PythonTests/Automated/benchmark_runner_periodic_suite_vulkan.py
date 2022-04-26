@@ -8,10 +8,12 @@ import logging
 import os
 import subprocess
 import psutil
+import time
 
 import pytest
 
 import ly_test_tools.environment.process_utils as process_utils
+import ly_test_tools.environment.file_system as file_system
 import ly_test_tools.launchers.platforms.base
 from ly_test_tools.benchmark.data_aggregator import BenchmarkDataAggregator
 
@@ -47,23 +49,31 @@ class TestPerformanceBenchmarksPeriodicSuite:
     @pytest.mark.parametrize('rhi', ['-rhi=vulkan'])
     def test_LoftSampleFrameTimingTest_GatherBenchmarkMetrics_Vulkan(
             self, request, workspace, launcher_platform, rhi, loftsample_gamelauncher_log_monitor):
+        benchmark_name = 'LoftSample_vulkan'
         cmd = os.path.join(workspace.paths.build_directory(),
                            'LoftSample.GameLauncher.exe '
                            f'--project-path={workspace.paths.project()} '
-                           '--rhi vulkan ',
-                           '--regset="/O3DE/Performance/FrameTimeRecording/Activate=true"',
-                           '--regset="/O3DE/Performance/FrameTimeRecording/QuitOnComplete=true"',
-                           '--regset="/O3DE/Performance/FrameTimeRecording/ProfileName=LoftSampleFrameTime_vulkan"',
-                           '+loadlevel levels\archvis\loft\interior_03.spawnable')
+                           '--rhi vulkan '
+                           '--regset="/O3DE/Performance/FrameTimeRecording/Activate=true" '
+                           '--regset="/O3DE/Performance/FrameTimeRecording/QuitOnComplete=false" '
+                           f'--regset="/O3DE/Performance/FrameTimeRecording/ProfileName={benchmark_name}" '
+                           '+loadlevel levels/archvis/loft/interior_03.spawnable')
 
         def teardown():
             process_utils.kill_processes_named(['AssetProcessor', 'LoftSample.GameLauncher'], ignore_extensions=True)
         request.addfinalizer(teardown)
 
+        # delete any pre-existing data
+        benchmark_data_folder = [os.path.join(
+                workspace.paths.project(), "user", "Scripts", "PerformanceBenchmarks", benchmark_name)]
+        file_system.delete(benchmark_data_folder, True, True)
+
+
         # Execute test.
-        process_utils.safe_check_call(cmd, stderr=subprocess.STDOUT, encoding='UTF-8', shell=True)
+        launcherPid = subprocess.Popen(cmd, stderr=subprocess.STDOUT, encoding='UTF-8', shell=True).pid
+        time.sleep(30) # Game.log doesn't exist for about 30 seconds after the process launches
         try:
-            expected_lines = ["Script: OutputProfileData complete"]
+            expected_lines = ["(Script) - OutputProfileData complete"]
             loftsample_gamelauncher_log_monitor.monitor_log_for_lines(expected_lines, timeout=180)
         except ly_test_tools.log.log_monitor.LogMonitorException as e:
             raise LoftSampleException(f'Data capturing did not complete in time for RHI {rhi}, got error: {e}')
@@ -76,5 +86,5 @@ class TestPerformanceBenchmarksPeriodicSuite:
         """
 
         aggregator = BenchmarkDataAggregator(workspace, logger, 'periodic')
-        aggregator.upload_metrics('vulkan')
+        aggregator.upload_metrics('windows_vulkan')
 
