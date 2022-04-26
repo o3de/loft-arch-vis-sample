@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -15,6 +15,8 @@
             0.0,
             1.0
         ],
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "Manual",
         "metallic.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_metallic.png",
         "normal.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_normal.png",
         "opacity.factor": 1.0

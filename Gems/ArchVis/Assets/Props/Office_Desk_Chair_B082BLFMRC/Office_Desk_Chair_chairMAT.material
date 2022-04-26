@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.843533992767334,
@@ -18,6 +18,8 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "Manual",
         "metallic.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_Metallic.png",
         "normal.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_Normal.png",
         "opacity.factor": 1.0,
