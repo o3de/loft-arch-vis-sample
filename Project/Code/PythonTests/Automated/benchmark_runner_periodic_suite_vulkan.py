@@ -20,6 +20,7 @@ class TestPerformanceBenchmarksPeriodicSuite:
             self, request, workspace, launcher_platform, rhi, loftsample_gamelauncher_log_monitor):
             LoftSampleFrameTimingTest_GatherBenchmarkMetrics_Common(self, request, workspace, rhi, loftsample_gamelauncher_log_monitor)
 
+
     @pytest.mark.skipif(not filebeat_service_running(), reason="filebeat service not running")
     def test_LoftSampleFrameTimingTest_SendBenchmarkMetrics_Vulkan(
             self, request, editor, workspace, project, launcher_platform, level):
