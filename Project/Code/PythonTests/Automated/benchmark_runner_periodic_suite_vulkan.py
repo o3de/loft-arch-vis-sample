@@ -4,42 +4,11 @@ For complete copyright and license terms please see the LICENSE at the root of t
 
 SPDX-License-Identifier: Apache-2.0 OR MIT
 """
-import logging
-import os
-import subprocess
-import psutil
-import time
-
 import pytest
-
-import ly_test_tools.environment.process_utils as process_utils
-import ly_test_tools.environment.file_system as file_system
 import ly_test_tools.launchers.platforms.base
-from ly_test_tools.benchmark.data_aggregator import BenchmarkDataAggregator
-
-logger = logging.getLogger(__name__)
-
-def filebeat_service_running():
-    """
-    Checks if the filebeat service is currently running on the OS.
-    :return: True if filebeat service detected and running, False otherwise.
-    """
-    result = False
-    try:
-        filebeat_service = psutil.win_service_get('filebeat')
-        filebeat_service_info = filebeat_service.as_dict()
-        if filebeat_service_info['status'] == 'running':
-            result = True
-    except psutil.NoSuchProcess:
-        return result
-
-    return result
-
-
-class LoftSampleException(Exception):
-    """Custom Exception class for LoftSample tests."""
-    pass
-
+from Automated.benchmark_runner_periodic_suite_common import LoftSampleFrameTimingTest_GatherBenchmarkMetrics_Common
+from Automated.benchmark_runner_periodic_suite_common import LoftSampleFrameTimingTest_SendBenchmarkMetrics_Common
+from Automated.benchmark_runner_periodic_suite_common import filebeat_service_running
 
 @pytest.mark.parametrize('launcher_platform', ['windows'])
 @pytest.mark.parametrize("project", ["LoftSample"])
@@ -49,34 +18,7 @@ class TestPerformanceBenchmarksPeriodicSuite:
     @pytest.mark.parametrize('rhi', ['-rhi=vulkan'])
     def test_LoftSampleFrameTimingTest_GatherBenchmarkMetrics_Vulkan(
             self, request, workspace, launcher_platform, rhi, loftsample_gamelauncher_log_monitor):
-        benchmark_name = 'LoftSample_vulkan'
-        cmd = os.path.join(workspace.paths.build_directory(),
-                           'LoftSample.GameLauncher.exe '
-                           f'--project-path={workspace.paths.project()} '
-                           '--rhi vulkan '
-                           '--regset="/O3DE/Performance/FrameTimeRecording/Activate=true" '
-                           '--regset="/O3DE/Performance/FrameTimeRecording/QuitOnComplete=false" '
-                           f'--regset="/O3DE/Performance/FrameTimeRecording/ProfileName={benchmark_name}" '
-                           '+loadlevel levels/archvis/loft/interior_03.spawnable')
-
-        def teardown():
-            process_utils.kill_processes_named(['AssetProcessor', 'LoftSample.GameLauncher'], ignore_extensions=True)
-        request.addfinalizer(teardown)
-
-        # delete any pre-existing data
-        benchmark_data_folder = [os.path.join(
-                workspace.paths.project(), "user", "Scripts", "PerformanceBenchmarks", benchmark_name)]
-        file_system.delete(benchmark_data_folder, True, True)
-
-
-        # Execute test.
-        launcherPid = subprocess.Popen(cmd, stderr=subprocess.STDOUT, encoding='UTF-8', shell=True).pid
-        time.sleep(30) # Game.log doesn't exist for about 30 seconds after the process launches
-        try:
-            expected_lines = ["(Script) - OutputProfileData complete"]
-            loftsample_gamelauncher_log_monitor.monitor_log_for_lines(expected_lines, timeout=180)
-        except ly_test_tools.log.log_monitor.LogMonitorException as e:
-            raise LoftSampleException(f'Data capturing did not complete in time for RHI {rhi}, got error: {e}')
+            LoftSampleFrameTimingTest_GatherBenchmarkMetrics_Common(self, request, workspace, rhi, loftsample_gamelauncher_log_monitor)
 
     @pytest.mark.skipif(not filebeat_service_running(), reason="filebeat service not running")
     def test_LoftSampleFrameTimingTest_SendBenchmarkMetrics_Vulkan(
@@ -85,6 +27,6 @@ class TestPerformanceBenchmarksPeriodicSuite:
         Gathers the Vulkan benchmark metrics and uses filebeat to send the metrics data.
         """
 
-        aggregator = BenchmarkDataAggregator(workspace, logger, 'periodic')
-        aggregator.upload_metrics('windows_vulkan')
+        LoftSampleFrameTimingTest_SendBenchmarkMetrics_Common(
+                    workspace, launcher_platform, rhi)
 

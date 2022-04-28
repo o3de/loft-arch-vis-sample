@@ -12,6 +12,7 @@ from Automated.benchmark_runner_periodic_suite_common import LoftSampleFrameTimi
 from Automated.benchmark_runner_periodic_suite_common import filebeat_service_running
 
 @pytest.mark.parametrize('launcher_platform', ['windows'])
+@pytest.mark.parametrize("project", ["LoftSample"])
 @pytest.mark.parametrize('rhi', ['dx12'])
 @pytest.mark.usefixtures("clean_loftsample_gamelauncher_logs", "loftsample_gamelauncher_log_monitor")
 class TestPerformanceBenchmarksPeriodicSuite:
