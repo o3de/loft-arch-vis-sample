@@ -4,7 +4,7 @@ For complete copyright and license terms please see the LICENSE at the root of t
 
 SPDX-License-Identifier: Apache-2.0 OR MIT
 
-pytest test configuration file for launching AtomSampleViewerStandalone tests.
+pytest test configuration file for launching LoftSample.GameLauncher tests.
 """
 
 import logging
@@ -22,7 +22,7 @@ logger = logging.getLogger(__name__)
 
 @pytest.fixture(scope="function", autouse=True)
 def clean_loftsample_gamelauncher_logs(request, workspace):
-    """Deletes any AtomSampleViewer log files so that the test run can start with empty logs."""
+    """Deletes any LoftSample log files so that the test run can start with empty logs."""
     logs = ['Game.log']
     logger.info(f'Deleting log files for LoftSample.GameLauncher tests: {logs}')
 
@@ -43,7 +43,7 @@ def loftsample_gamelauncher_log_monitor(request, workspace):
     launcher = ly_test_tools.launchers.platforms.base.Launcher(workspace, [])  # Needed for log monitor to work.
     launcher.is_alive = types.MethodType(is_alive, launcher)
     file_to_monitor = os.path.join(workspace.paths.project_log(), 'Game.log')
-    log_monitor = ly_test_tools.log.log_monitor.LogMonitor(launcher=launcher, log_file_path=file_to_monitor)
+    log_monitor = ly_test_tools.log.log_monitor.LogMonitor(launcher=launcher, log_file_path=file_to_monitor,  log_creation_max_wait_time=40)
     log_monitor.file_to_monitor = file_to_monitor
 
     return log_monitor
