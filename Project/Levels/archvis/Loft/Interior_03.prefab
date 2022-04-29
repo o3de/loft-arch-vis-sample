@@ -22,7 +22,8 @@
                     "Entity_[2511113093496]",
                     "Entity_[4844759642882]",
                     "Entity_[4857644544770]",
-                    "Entity_[50747416825914]"
+                    "Entity_[50747416825914]",
+                    "Entity_[2425721989581]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -469,341 +470,6 @@
                 }
             }
         },
-        "Entity_[13806916062189]": {
-            "Id": "Entity_[13806916062189]",
-            "Name": "Camera_2_sequence",
-            "Components": {
-                "Component_[11459236853624425886]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11459236853624425886
-                },
-                "Component_[12912019921440185094]": {
-                    "$type": "EditorSequenceComponent",
-                    "Id": 12912019921440185094,
-                    "Sequence": {
-                        "$type": "CAnimSequence",
-                        "Name": "Camera_2_sequence",
-                        "SequenceEntityId": "Entity_[13806916062189]",
-                        "ID": 3,
-                        "Nodes": [
-                            {
-                                "$type": "CAnimAzEntityNode",
-                                "ID": 1,
-                                "Name": "Camera_2",
-                                "Flags": 6,
-                                "Entity": "Entity_[25411404746810]"
-                            },
-                            {
-                                "$type": "CAnimComponentNode",
-                                "ID": 2,
-                                "Name": "Camera",
-                                "Parent": 1,
-                                "ComponentID": 15167504043951880023,
-                                "ComponentTypeID": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D}"
-                            },
-                            {
-                                "$type": "CAnimComponentNode",
-                                "ID": 3,
-                                "Name": "Transform",
-                                "Tracks": [
-                                    {
-                                        "$type": "CCompoundSplineTrack",
-                                        "Flags": 0,
-                                        "ParamType": {
-                                            "Type": 1,
-                                            "Name": "Position"
-                                        },
-                                        "NumSubTracks": 3,
-                                        "SubTracks": [
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": 0.9085613489151001
-                                                },
-                                                "ParamType": {
-                                                    "Type": 51
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": 0.9087580442428589
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 2
-                                            },
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": 0.40944766998291016
-                                                },
-                                                "ParamType": {
-                                                    "Type": 52
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": 0.40747642517089844
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 3
-                                            },
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": 0.9421180486679077
-                                                },
-                                                "ParamType": {
-                                                    "Type": 53
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": 0.9423604011535645
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 4
-                                            },
-                                            null
-                                        ],
-                                        "SubTrackNames": [
-                                            "X",
-                                            "Y",
-                                            "Z",
-                                            "W"
-                                        ],
-                                        "ValueType": 1,
-                                        "Id": 1
-                                    },
-                                    {
-                                        "$type": "CCompoundSplineTrack",
-                                        "Flags": 0,
-                                        "ParamType": {
-                                            "Type": 2,
-                                            "Name": "Rotation"
-                                        },
-                                        "NumSubTracks": 3,
-                                        "SubTracks": [
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": -0.020242756232619286
-                                                },
-                                                "ParamType": {
-                                                    "Type": 54
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": -16.007184982299805
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        },
-                                                        {
-                                                            "time": 10.0,
-                                                            "flags": 65609,
-                                                            "value": {
-                                                                "x": 10.0,
-                                                                "y": -0.010491961613297462
-                                                            },
-                                                            "ds": {
-                                                                "x": 3.3333334922790527
-                                                            },
-                                                            "dd": {
-                                                                "x": 3.3333334922790527
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 6
-                                            },
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": -0.0038474942557513714
-                                                },
-                                                "ParamType": {
-                                                    "Type": 55
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": 0.6177763938903809
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        },
-                                                        {
-                                                            "time": 10.0,
-                                                            "flags": 65609,
-                                                            "value": {
-                                                                "x": 10.0,
-                                                                "y": 0.01701253093779087
-                                                            },
-                                                            "ds": {
-                                                                "x": 3.3333334922790527
-                                                            },
-                                                            "dd": {
-                                                                "x": 3.3333334922790527
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 7
-                                            },
-                                            {
-                                                "$type": "TAnimSplineTrack<Vec2 >",
-                                                "DefaultValue": {
-                                                    "y": -141.8582000732422
-                                                },
-                                                "ParamType": {
-                                                    "Type": 56
-                                                },
-                                                "Spline": {
-                                                    "Keys": [
-                                                        {
-                                                            "flags": 73,
-                                                            "value": {
-                                                                "y": 181.76699829101563
-                                                            },
-                                                            "ds": {
-                                                                "x": 1.0
-                                                            },
-                                                            "dd": {
-                                                                "x": 1.0
-                                                            }
-                                                        },
-                                                        {
-                                                            "time": 10.0,
-                                                            "flags": 65609,
-                                                            "value": {
-                                                                "x": 10.0,
-                                                                "y": 221.8647918701172
-                                                            },
-                                                            "ds": {
-                                                                "x": 3.3333334922790527
-                                                            },
-                                                            "dd": {
-                                                                "x": 3.3333334922790527
-                                                            }
-                                                        }
-                                                    ]
-                                                },
-                                                "Id": 8
-                                            },
-                                            null
-                                        ],
-                                        "SubTrackNames": [
-                                            "X",
-                                            "Y",
-                                            "Z",
-                                            "W"
-                                        ],
-                                        "ValueType": 2,
-                                        "Expanded": true,
-                                        "Id": 5
-                                    }
-                                ],
-                                "Parent": 1,
-                                "ComponentID": 9224029992366719161,
-                                "ComponentTypeID": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0}"
-                            }
-                        ]
-                    }
-                },
-                "Component_[13114606845507842974]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 13114606845507842974
-                },
-                "Component_[13832143975720516738]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13832143975720516738
-                },
-                "Component_[14014780290906177752]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 14014780290906177752
-                },
-                "Component_[2930053153844570697]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 2930053153844570697
-                },
-                "Component_[3181566632898454489]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 3181566632898454489,
-                    "Parent Entity": "Entity_[25411404746810]",
-                    "Transform Data": {
-                        "Translate": [
-                            -11.948732376098633,
-                            16.283470153808594,
-                            0.006695389747619629
-                        ],
-                        "Rotate": [
-                            0.018338359892368317,
-                            -0.004389107692986727,
-                            178.13523864746094
-                        ]
-                    }
-                },
-                "Component_[7378814331199363576]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 7378814331199363576
-                },
-                "Component_[751743016390015336]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 751743016390015336
-                },
-                "Component_[7674011608767217553]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 7674011608767217553
-                },
-                "Component_[7740981466697976364]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 7740981466697976364
-                }
-            }
-        },
         "Entity_[13823153345901]": {
             "Id": "Entity_[13823153345901]",
             "Name": "GlobeLight",
@@ -922,14 +588,14 @@
                     "Parent Entity": "Entity_[50747416825914]",
                     "Transform Data": {
                         "Translate": [
-                            4.551631927490234,
-                            -7.317844390869141,
-                            0.4337751865386963
+                            4.550556182861328,
+                            -7.3159894943237305,
+                            0.4337831735610962
                         ],
                         "Rotate": [
-                            -9.12898063659668,
-                            7.3583502769470215,
-                            -38.555397033691406
+                            -9.12112045288086,
+                            7.361390590667725,
+                            -38.59132385253906
                         ]
                     }
                 },
@@ -947,7 +613,8 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 13825764214116
+                            "EditorEntityId": 13825764214116,
+                            "MakeActiveViewOnActivation": false
                         }
                     }
                 },
@@ -1242,6 +909,101 @@
                 "Component_[9295509542163268030]": {
                     "$type": "SelectionComponent",
                     "Id": 9295509542163268030
+                }
+            }
+        },
+        "Entity_[2425721989581]": {
+            "Id": "Entity_[2425721989581]",
+            "Name": "BenchmarkEntity",
+            "Components": {
+                "Component_[1139584416914842089]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1139584416914842089
+                },
+                "Component_[12857517895964335700]": {
+                    "$type": "SelectionComponent",
+                    "Id": 12857517895964335700
+                },
+                "Component_[12892392692750690399]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12892392692750690399,
+                    "Parent Entity": "Entity_[1146574390643]"
+                },
+                "Component_[13824613473265908415]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13824613473265908415
+                },
+                "Component_[14630136217036010474]": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 14630136217036010474,
+                    "ScriptComponent": {
+                        "Properties": {
+                            "Properties": [
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 2278759636,
+                                    "name": "FrameCaptureCount",
+                                    "value": 100.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyNumber",
+                                    "id": 4087794795,
+                                    "name": "FrameDelayCount",
+                                    "value": 100.0
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyString",
+                                    "id": 3186282179,
+                                    "name": "ProfileName",
+                                    "value": "LoftSample"
+                                },
+                                {
+                                    "$type": "AzFramework::ScriptPropertyBoolean",
+                                    "id": 1762171146,
+                                    "name": "QuitOnComplete"
+                                }
+                            ]
+                        },
+                        "Script": {
+                            "assetId": {
+                                "guid": "{7003B5DC-6EEB-5B8A-8D6A-B7A374779C13}",
+                                "subId": 1
+                            },
+                            "loadBehavior": "QueueLoad",
+                            "assetHint": "scripts/profiling/outputprofiledata.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{7003B5DC-6EEB-5B8A-8D6A-B7A374779C13}",
+                            "subId": 1
+                        },
+                        "assetHint": "scripts/profiling/outputprofiledata.luac"
+                    }
+                },
+                "Component_[14675633212452723131]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14675633212452723131
+                },
+                "Component_[16698345051832491822]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16698345051832491822
+                },
+                "Component_[5012607880347185097]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5012607880347185097
+                },
+                "Component_[520062868236621743]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 520062868236621743
+                },
+                "Component_[6318207998272786415]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6318207998272786415
+                },
+                "Component_[6789725613863593500]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6789725613863593500
                 }
             }
         },
@@ -3196,8 +2958,8 @@
                             1.1697092056274414
                         ],
                         "Rotate": [
-                            -2.529738664627075,
-                            -0.8444197773933411,
+                            -2.5297389030456543,
+                            -0.8444189429283142,
                             -161.55294799804688
                         ]
                     }
@@ -3269,7 +3031,7 @@
                     "Id": 7964244520954565055,
                     "Controller": {
                         "Configuration": {
-                            "CameraEntityId": "Entity_[25411404746810]",
+                            "CameraEntityId": "",
                             "ApertureF": 0.20000000298023224,
                             "FNumber": 0.5988770723342896,
                             "FocusDistance": 5.0
@@ -3867,85 +3629,6 @@
                             "Shadow Filter Method": 1,
                             "Filtering Sample Count": 64
                         }
-                    }
-                }
-            }
-        },
-        "Entity_[25411404746810]": {
-            "Id": "Entity_[25411404746810]",
-            "Name": "Camera_2",
-            "Components": {
-                "Component_[14682103420275641589]": {
-                    "$type": "SelectionComponent",
-                    "Id": 14682103420275641589
-                },
-                "Component_[15167504043951880023]": {
-                    "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 15167504043951880023,
-                    "Controller": {
-                        "Configuration": {
-                            "Field of View": 60.00014877319336,
-                            "EditorEntityId": 10479247204736925607
-                        }
-                    }
-                },
-                "Component_[15872843715766287181]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 15872843715766287181
-                },
-                "Component_[16174687614071435480]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 16174687614071435480
-                },
-                "Component_[2614556763287184556]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 2614556763287184556
-                },
-                "Component_[3088016109626553695]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 3088016109626553695
-                },
-                "Component_[4753840875727285020]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 4753840875727285020,
-                    "Child Entity Order": [
-                        "Entity_[13806916062189]"
-                    ]
-                },
-                "Component_[6921334852620403743]": {
-                    "$type": "EditorSequenceAgentComponent",
-                    "Id": 6921334852620403743,
-                    "SequenceComponentEntityIds": [
-                        "Entity_[13806916062189]"
-                    ]
-                },
-                "Component_[7284825861670971807]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 7284825861670971807
-                },
-                "Component_[7485315840081187197]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 7485315840081187197
-                },
-                "Component_[823937359856963504]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 823937359856963504
-                },
-                "Component_[9224029992366719161]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 9224029992366719161,
-                    "Parent Entity": "Entity_[50747416825914]",
-                    "Transform Data": {
-                        "Translate": [
-                            0.9087580442428589,
-                            0.40747642517089844,
-                            0.9423604011535645
-                        ],
-                        "Rotate": [
-                            0.049210768193006516,
-                            0.019176337867975235,
-                            -138.23291015625
-                        ]
                     }
                 }
             }
@@ -5416,8 +5099,7 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 1567426647346820031,
                     "Child Entity Order": [
-                        "Entity_[13830059181412]",
-                        "Entity_[25411404746810]"
+                        "Entity_[13830059181412]"
                     ]
                 },
                 "Component_[16124588238573395524]": {
