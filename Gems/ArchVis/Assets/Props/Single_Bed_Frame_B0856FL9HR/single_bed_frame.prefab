@@ -80,6 +80,19 @@
                             "materials": [
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 815127857
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E09EE4D8-229A-5B8E-8D6C-1B84E2A9CB0C}"
+                                            },
+                                            "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_bedmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 1982047513
                                     },
                                     "Value": {
@@ -114,6 +127,19 @@
                                                 "guid": "{235B784C-83AD-56F0-ABCE-D5F20E34A423}"
                                             },
                                             "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_framemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3976666238
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E09EE4D8-229A-5B8E-8D6C-1B84E2A9CB0C}"
+                                            },
+                                            "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame_bedmat.azmaterial"
                                         }
                                     }
                                 }
