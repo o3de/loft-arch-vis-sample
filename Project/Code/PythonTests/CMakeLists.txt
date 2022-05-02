@@ -19,7 +19,7 @@ include(${pal_dir}/PAL_${PAL_PLATFORM_NAME_LOWERCASE}.cmake)
 
 if(PAL_TRAIT_LOFT_SAMPLE_PERF_DX12_TESTS_SUPPORTED)
     ly_add_pytest(
-        NAME LoftSample::PeriodicPerformanceBenchmarks
+        NAME LoftSample::PeriodicPerformanceBenchmarks_DX12
         PATH ${CMAKE_CURRENT_LIST_DIR}/Automated/benchmark_runner_periodic_suite_dx12.py
         TEST_REQUIRES gpu
         TEST_SUITE main
@@ -35,7 +35,7 @@ endif()
 
 if(PAL_TRAIT_LOFT_SAMPLE_PERF_VULKAN_TESTS_SUPPORTED)
     ly_add_pytest(
-        NAME LoftSample::PeriodicPerformanceBenchmarks
+        NAME LoftSample::PeriodicPerformanceBenchmarks_Vulkan
         PATH ${CMAKE_CURRENT_LIST_DIR}/Automated/benchmark_runner_periodic_suite_vulkan.py
         TEST_REQUIRES gpu
         TEST_SUITE main
