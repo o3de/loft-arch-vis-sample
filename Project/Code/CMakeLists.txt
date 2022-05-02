@@ -40,6 +40,8 @@ ly_add_target(
             AZ::AzCore
 )
 
+add_subdirectory(PythonTests)
+
 # if enabled, LoftSample is used by all kinds of applications
 ly_create_alias(NAME LoftSample.Builders NAMESPACE Gem TARGETS Gem::LoftSample)
 ly_create_alias(NAME LoftSample.Tools    NAMESPACE Gem TARGETS Gem::LoftSample)
