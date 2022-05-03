@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.37625429034233093,
@@ -14,8 +14,11 @@
             0.0,
             1.0
         ],
+        "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "Manual",
         "metallic.factor": 1.0,
         "opacity.factor": 1.0,
-        "roughness.factor": 0.25999999046325684
+        "roughness.factor": 0.25999999046325684,
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

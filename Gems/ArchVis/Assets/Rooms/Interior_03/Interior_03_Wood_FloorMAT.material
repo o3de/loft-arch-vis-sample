@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -8,12 +8,14 @@
             0.800000011920929,
             1.0
         ],
-        "baseColor.factor": 0.949999988079071,
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Rooms/Interior_03/textures/Wood_Floor_base_color.png",
         "clearCoat.enable": true,
-        "clearCoat.factor": 0.6499999761581421,
-        "clearCoat.roughness": 0.4300000071525574,
+        "clearCoat.factor": 0.8500000238418579,
+        "clearCoat.normalMap": "Rooms/Interior_03/textures/Wood_Floor_normal.png",
+        "clearCoat.normalStrength": 0.07999999821186066,
+        "clearCoat.roughness": 0.9800000190734863,
+        "clearCoat.useRoughnessMap": false,
         "emissive.color": [
             0.0,
             0.0,
@@ -21,9 +23,23 @@
             1.0
         ],
         "general.applySpecularAA": true,
+        "normal.flipY": true,
         "normal.textureMap": "Rooms/Interior_03/textures/Wood_Floor_normal.png",
+        "occlusion.diffuseFactor": 0.5,
+        "occlusion.diffuseTextureMap": "Rooms/Interior_03/textures/wood_floor_ao.bmp",
+        "occlusion.specularFactor": 0.25,
+        "occlusion.specularTextureMap": "Rooms/Interior_03/textures/wood_floor_edge.bmp",
         "opacity.factor": 1.0,
+        "parallax.algorithm": "ContactRefinement",
+        "parallax.factor": 0.004999999888241291,
+        "parallax.quality": "Medium",
+        "parallax.textureMap": "Rooms/Interior_03/textures/wood_floor_height.bmp",
+        "parallax.useTexture": false,
         "roughness.factor": 0.44999998807907104,
+        "roughness.lowerBound": 0.18000000715255737,
+        "roughness.textureMap": "Rooms/Interior_03/textures/wood_floor_smoothness.bmp",
+        "roughness.upperBound": 0.8199999928474426,
+        "specularF0.enableMultiScatterCompensation": true,
         "specularF0.factor": 0.6899999976158142
     }
 }
