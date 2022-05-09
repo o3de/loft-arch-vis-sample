@@ -43,7 +43,9 @@ def loftsample_gamelauncher_log_monitor(request, workspace):
     launcher = ly_test_tools.launchers.platforms.base.Launcher(workspace, [])  # Needed for log monitor to work.
     launcher.is_alive = types.MethodType(is_alive, launcher)
     file_to_monitor = os.path.join(workspace.paths.project_log(), 'Game.log')
-    log_monitor = ly_test_tools.log.log_monitor.LogMonitor(launcher=launcher, log_file_path=file_to_monitor,  log_creation_max_wait_time=120)
+    log_monitor = ly_test_tools.log.log_monitor.LogMonitor(launcher=launcher, 
+                                                           log_file_path=file_to_monitor,  
+                                                           log_creation_max_wait_time=120) # 120 seconds to allow time for AP to start up
     log_monitor.file_to_monitor = file_to_monitor
 
     return log_monitor
