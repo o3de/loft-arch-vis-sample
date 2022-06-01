@@ -1,0 +1,65 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D45D098A-7749-55D3-9F56-DB1C86A6E747}",
+            "name": "Kitchen_Knives",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Knives",
+                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "kitchen_knivesMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Kitchen_Knives",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Knives",
+                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Kitchen_Knives",
+                                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Kitchen_Knives.Kitchen_Knives_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{AC742D2B-68A5-5778-ADB4-FC2676580854}"
+        }
+    ]
+}

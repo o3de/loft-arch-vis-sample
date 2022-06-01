@@ -1,0 +1,66 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{960FF657-0588-5A63-B7A4-10DB9E465FA6}",
+            "name": "Night_Stand_Lamp",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Night_Stand_Lamp",
+                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod0"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "lampMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Night_Stand_Lamp",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Night_Stand_Lamp",
+                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Night_Stand_Lamp",
+                                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Night_Stand_Lamp.Night_Stand_Lamp_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{463FBBA5-55CA-56BC-ABE9-F22C818DEFD1}"
+        }
+    ]
+}

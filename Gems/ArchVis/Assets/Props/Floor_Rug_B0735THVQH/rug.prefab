@@ -157,6 +157,38 @@
                         }
                     ]
                 },
+                "Component_[9728572962386384451]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9728572962386384451,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{151889CA-291B-5358-B685-E5DFDE04DFCB}",
+                                    "subId": 2029028484
+                                },
+                                "assetHint": "props/floor_rug_b0735thvqh/rug.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{151889CA-291B-5358-B685-E5DFDE04DFCB}",
+                                        "subId": 2029028484
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/floor_rug_b0735thvqh/rug.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[9948822730120631817]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 9948822730120631817

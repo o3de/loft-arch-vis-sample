@@ -90,6 +90,38 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 1524931509187334113
                 },
+                "Component_[15639442239210968572]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15639442239210968572,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{6AF051C5-7263-50E4-9950-5503639F083B}",
+                                    "subId": 3021027788
+                                },
+                                "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{6AF051C5-7263-50E4-9950-5503639F083B}",
+                                        "subId": 3021027788
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[1591285332999096147]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 1591285332999096147

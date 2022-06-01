@@ -1,0 +1,66 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8EB32697-C875-53A5-8D96-63985A0AB43E}",
+            "name": "Stack_Magazines",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Stack_Magazines.Stack_Magazines_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Stack_Magazines",
+                    "RootNode.Stack_Magazines.Stack_Magazines_lod1"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "stack_magazinesMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Stack_Magazines",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Stack_Magazines",
+                    "RootNode.Stack_Magazines.Stack_Magazines_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Stack_Magazines.Stack_Magazines_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Stack_Magazines",
+                                    "RootNode.Stack_Magazines.Stack_Magazines_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Stack_Magazines.Stack_Magazines_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{CD88C736-C879-5B0F-ABDB-C6ADB57F71CA}"
+        }
+    ]
+}

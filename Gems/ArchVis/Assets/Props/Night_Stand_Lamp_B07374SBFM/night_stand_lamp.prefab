@@ -76,6 +76,38 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 264080195943988153
                 },
+                "Component_[3209123840354871791]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 3209123840354871791,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{BA9F448B-F8A5-5DB1-85A3-85193B83C6C6}",
+                                    "subId": 1817974750
+                                },
+                                "assetHint": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{BA9F448B-F8A5-5DB1-85A3-85193B83C6C6}",
+                                        "subId": 1817974750
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[419812218483559935]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 419812218483559935

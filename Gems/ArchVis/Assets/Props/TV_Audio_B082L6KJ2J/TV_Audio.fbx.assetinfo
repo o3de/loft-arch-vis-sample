@@ -1,0 +1,71 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{DF55C299-6993-5718-830F-6D091E91BFB3}",
+            "name": "TV_Audio",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.TV_Audio_B082L6KJ2J",
+                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "part1",
+                "part4",
+                "main",
+                "part3"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "TV_Audio",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.TV_Audio_B082L6KJ2J",
+                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.TV_Audio_B082L6KJ2J",
+                                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.TV_Audio_B082L6KJ2J.TV_Audio_B082L6KJ2J_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{CC8C04ED-D468-5C4C-9AE2-32A2B4993FF9}"
+        }
+    ]
+}

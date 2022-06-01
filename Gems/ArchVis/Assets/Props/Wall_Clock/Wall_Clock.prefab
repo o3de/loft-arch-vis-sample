@@ -83,6 +83,38 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 15919337670898642848
                 },
+                "Component_[15968303691183849831]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15968303691183849831,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B1EDF2F9-8915-5C90-B4EF-257618243A17}",
+                                    "subId": 1311843042
+                                },
+                                "assetHint": "props/wall_clock/wall_clock.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B1EDF2F9-8915-5C90-B4EF-257618243A17}",
+                                        "subId": 1311843042
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/wall_clock/wall_clock.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[16249213920096614709]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16249213920096614709

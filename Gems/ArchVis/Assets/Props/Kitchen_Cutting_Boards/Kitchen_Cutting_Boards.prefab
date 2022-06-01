@@ -79,6 +79,38 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 14898676837601160134
                 },
+                "Component_[167628118935154807]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 167628118935154807,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{F81C19EE-2E16-5BB1-9062-5104A010963D}",
+                                    "subId": 829012437
+                                },
+                                "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{F81C19EE-2E16-5BB1-9062-5104A010963D}",
+                                        "subId": 829012437
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[17072089793419681679]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 17072089793419681679

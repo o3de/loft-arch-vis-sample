@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{05EBFB10-F18D-581B-B8C9-7496963070E4}",
+            "name": "Table_Potted_Plant",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Table_Potted_Plant",
+                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "potMAT",
+                "plantMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Table_Potted_Plant",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Table_Potted_Plant",
+                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Table_Potted_Plant",
+                                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Table_Potted_Plant.Table_Potted_Plant_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{6B3A913E-C434-5266-9319-397045367A32}"
+        }
+    ]
+}

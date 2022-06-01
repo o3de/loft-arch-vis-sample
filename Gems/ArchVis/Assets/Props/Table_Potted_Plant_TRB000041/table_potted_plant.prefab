@@ -92,6 +92,39 @@
                         "UniformScale": 10.0
                     }
                 },
+                "Component_[6309917713295944295]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6309917713295944295,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{8863D291-BC22-50D5-9AE8-AA0CFDD1BAD5}",
+                                    "subId": 3940682314
+                                },
+                                "assetHint": "props/table_potted_plant_trb000041/table_potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{8863D291-BC22-50D5-9AE8-AA0CFDD1BAD5}",
+                                        "subId": 3940682314
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/table_potted_plant_trb000041/table_potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[6873055244588449832]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6873055244588449832

@@ -108,6 +108,38 @@
                     "$type": "SelectionComponent",
                     "Id": 17368975515465099967
                 },
+                "Component_[17716965496971507354]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17716965496971507354,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{7C65567B-E71F-5767-98C3-35457E1ED3C2}",
+                                    "subId": 2463718684
+                                },
+                                "assetHint": "props/kitchen_knives/kitchen_knives.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{7C65567B-E71F-5767-98C3-35457E1ED3C2}",
+                                        "subId": 2463718684
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_knives/kitchen_knives.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[2271836334578957856]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 2271836334578957856,

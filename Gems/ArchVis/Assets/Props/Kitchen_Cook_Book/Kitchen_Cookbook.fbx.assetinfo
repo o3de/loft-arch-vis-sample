@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8F1D24F5-B328-51D3-93A7-A91C4A229F0D}",
+            "name": "Kitchen_Cookbook",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Cook_Book",
+                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "bookMAT",
+                "bookHolderMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Kitchen_Cookbook",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Cook_Book",
+                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Kitchen_Cook_Book",
+                                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Kitchen_Cook_Book.Kitchen_Cook_Book_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{E087248B-3CE6-545E-9309-CBB75DDF8964}"
+        }
+    ]
+}

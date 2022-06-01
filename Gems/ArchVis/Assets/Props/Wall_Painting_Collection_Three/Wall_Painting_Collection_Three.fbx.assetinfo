@@ -1,0 +1,69 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{616D5453-F180-587D-B021-C5388C7FF819}",
+            "name": "Wall_Painting_Collection_Three",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Painting_Collection_Three",
+                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "painting_oneMAT",
+                "painting_threeMAT",
+                "painting_twoMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Wall_Painting_Collection_Three",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Painting_Collection_Three",
+                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Painting_Collection_Three",
+                                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Painting_Collection_Three.Painting_Collection_Three_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{85606ABC-CB9F-55A5-AA37-3FD3FD3CE36D}"
+        }
+    ]
+}

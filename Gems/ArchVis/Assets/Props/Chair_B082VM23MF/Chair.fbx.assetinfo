@@ -1,0 +1,71 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{A26D2CFD-EB9B-5BB7-BA5B-9F167B586A6A}",
+            "name": "Chair",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.chair.chair_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.chair",
+                    "RootNode.chair.chair_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "chairMAT_001",
+                "pillowMAT_001"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Chair",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.chair",
+                    "RootNode.chair.chair_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.chair.chair_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.chair",
+                                    "RootNode.chair.chair_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.chair.chair_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "StaticMeshAdvancedRule",
+                        "vertexColorStreamName": "Col0"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{BAB16A32-4992-579C-83C2-477BA6DDC946}"
+        }
+    ]
+}

@@ -122,6 +122,31 @@
                     "$type": "SelectionComponent",
                     "Id": 16602977417737851804
                 },
+                "Component_[17775225480107915307]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17775225480107915307,
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{7AD2CD13-D37C-5364-A674-3D24FA395B7A}",
+                                    "subId": 2589838948
+                                },
+                                "assetHint": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{7AD2CD13-D37C-5364-A674-3D24FA395B7A}",
+                                        "subId": 2589838948
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[18264965368259515209]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 18264965368259515209,

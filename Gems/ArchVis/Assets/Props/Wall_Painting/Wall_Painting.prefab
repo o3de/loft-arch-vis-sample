@@ -63,6 +63,38 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 11204479918377056313
                 },
+                "Component_[11885409761003560783]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 11885409761003560783,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{13A53885-86EA-59CC-AC1A-566BEE42B4C2}",
+                                    "subId": 3483606653
+                                },
+                                "assetHint": "props/wall_painting/wall_painting.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{13A53885-86EA-59CC-AC1A-566BEE42B4C2}",
+                                        "subId": 3483606653
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/wall_painting/wall_painting.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[16419721742644649070]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 16419721742644649070,

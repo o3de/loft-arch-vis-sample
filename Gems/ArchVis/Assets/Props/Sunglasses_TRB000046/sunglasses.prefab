@@ -69,7 +69,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{060BE268-0974-5735-A27E-FB66CBA782A3}"
-                                            }
+                                            },
+                                            "assetHint": "props/sunglasses_trb000046/sunglasses_framesmat.azmaterial"
                                         }
                                     }
                                 },
@@ -81,7 +82,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{FBD9B3A9-1C58-5A00-B492-506C5846B090}"
-                                            }
+                                            },
+                                            "assetHint": "props/sunglasses_trb000046/sunglasses_lensesmat.azmaterial"
                                         }
                                     }
                                 }
@@ -154,6 +156,39 @@
                 "Component_[5430381958332590264]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 5430381958332590264
+                },
+                "Component_[6136831406637616568]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6136831406637616568,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{8AB7EA23-2CC5-58C5-8EC2-EAA8BA4F2A73}",
+                                    "subId": 589313274
+                                },
+                                "assetHint": "props/sunglasses_trb000046/sunglasses.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{8AB7EA23-2CC5-58C5-8EC2-EAA8BA4F2A73}",
+                                        "subId": 589313274
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/sunglasses_trb000046/sunglasses.pxmesh"
+                                }
+                            }
+                        }
+                    }
                 },
                 "Component_[9283837627767959487]": {
                     "$type": "SelectionComponent",

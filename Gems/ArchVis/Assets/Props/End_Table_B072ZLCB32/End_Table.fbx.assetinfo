@@ -1,0 +1,65 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{0B95727B-5738-5523-A9B3-008BA1441EEA}",
+            "name": "End_Table",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.End_Table.End_Table_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.End_Table",
+                    "RootNode.End_Table.End_Table_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "endtableMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "End_Table",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.End_Table",
+                    "RootNode.End_Table.End_Table_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.End_Table.End_Table_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.End_Table",
+                                    "RootNode.End_Table.End_Table_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.End_Table.End_Table_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{8161DC05-7861-5975-9D78-69A5EB46C583}"
+        }
+    ]
+}

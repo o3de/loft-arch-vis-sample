@@ -166,6 +166,41 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 8971163595971639796
                 },
+                "Component_[9394952916952932761]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9394952916952932761,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{5D3CE47C-EB75-5E8A-A69C-3CB571407C87}",
+                                    "subId": 496234530
+                                },
+                                "assetHint": "props/tv_audio_b082l6kj2j/tv_audio.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{5D3CE47C-EB75-5E8A-A69C-3CB571407C87}",
+                                        "subId": 496234530
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/tv_audio_b082l6kj2j/tv_audio.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[9468493728228324163]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 9468493728228324163

@@ -55,6 +55,38 @@
             "Id": "Entity_[5426315207385]",
             "Name": "potted_plant",
             "Components": {
+                "Component_[1104764010385244140]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1104764010385244140,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{2DBC831B-9E89-5B82-AF6A-E7AD6D6A6A15}",
+                                    "subId": 4062743273
+                                },
+                                "assetHint": "props/potted_plant_trbp000054/potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{2DBC831B-9E89-5B82-AF6A-E7AD6D6A6A15}",
+                                        "subId": 4062743273
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/potted_plant_trbp000054/potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[13089008080223741850]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 13089008080223741850

@@ -96,6 +96,38 @@
                         ]
                     }
                 },
+                "Component_[12282705548812581643]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12282705548812581643,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{5B7DE02D-7DC2-5C7C-AB7D-015B363458CF}",
+                                    "subId": 382899612
+                                },
+                                "assetHint": "props/potted_plant_trbp000002/potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{5B7DE02D-7DC2-5C7C-AB7D-015B363458CF}",
+                                        "subId": 382899612
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/potted_plant_trbp000002/potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[14961013493114212718]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 14961013493114212718,

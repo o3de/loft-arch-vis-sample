@@ -140,6 +140,39 @@
                         }
                     ]
                 },
+                "Component_[18289645534834094934]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 18289645534834094934,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{217DEE2F-575F-5695-81D7-F9C8C3119070}",
+                                    "subId": 3109350212
+                                },
+                                "assetHint": "props/kitchen_cook_book/kitchen_cookbook.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{217DEE2F-575F-5695-81D7-F9C8C3119070}",
+                                        "subId": 3109350212
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_cook_book/kitchen_cookbook.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[2083322273964428063]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 2083322273964428063

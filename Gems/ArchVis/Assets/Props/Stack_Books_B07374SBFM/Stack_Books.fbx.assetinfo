@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D43837D9-30D4-5676-93E3-802FEFC442BB}",
+            "name": "Stack_Books",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Stack_Books.Stack_Books_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Stack_Books",
+                    "RootNode.Stack_Books.Stack_Books_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "bottom_booksMAT",
+                "top_bookMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Stack_Books",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Stack_Books",
+                    "RootNode.Stack_Books.Stack_Books_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Stack_Books.Stack_Books_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Stack_Books",
+                                    "RootNode.Stack_Books.Stack_Books_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Stack_Books.Stack_Books_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{A1416B3B-8447-59B4-A4D2-79E268B9F389}"
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{D46F9F04-CBE6-56BC-A60A-D06331FD0759}",
+            "name": "Table_Lamp",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Table_Lamp.Table_Lamp_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Table_Lamp",
+                    "RootNode.Table_Lamp.Table_Lamp_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "glassMAT",
+                "lampMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Table_Lamp",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Table_Lamp",
+                    "RootNode.Table_Lamp.Table_Lamp_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Table_Lamp.Table_Lamp_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Table_Lamp",
+                                    "RootNode.Table_Lamp.Table_Lamp_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Table_Lamp.Table_Lamp_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{5EF13E59-7615-5AE5-94D2-388C924517E6}"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{F885A781-9E57-5E11-A843-4833339233F2}",
+            "name": "Kitchen_Oven",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Oven",
+                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod1"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "ovenMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Kitchen_Oven",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Oven",
+                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Kitchen_Oven",
+                                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Kitchen_Oven.Kitchen_Oven_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{6CD4A3B6-CD8C-5445-A7CD-374177153CE0}"
+        }
+    ]
+}

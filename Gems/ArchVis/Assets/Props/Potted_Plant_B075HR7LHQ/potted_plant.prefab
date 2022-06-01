@@ -104,6 +104,39 @@
                         }
                     }
                 },
+                "Component_[12264693579384619534]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12264693579384619534,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{895D5BEC-0CC1-5BF8-8E23-EB7D4DBF3C1D}",
+                                    "subId": 3685664983
+                                },
+                                "assetHint": "props/potted_plant_b075hr7lhq/potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{895D5BEC-0CC1-5BF8-8E23-EB7D4DBF3C1D}",
+                                        "subId": 3685664983
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/potted_plant_b075hr7lhq/potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[13747740759615299385]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 13747740759615299385,

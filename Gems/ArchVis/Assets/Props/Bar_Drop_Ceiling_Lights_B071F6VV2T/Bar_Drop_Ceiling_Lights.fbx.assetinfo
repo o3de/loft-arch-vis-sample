@@ -1,0 +1,83 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8C3F61A6-209A-5E6E-979C-DC78E8024984}",
+            "name": "Bar_Drop_Ceiling_Lights",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1"
+                ],
+                "unselectedNodes": [
+                    "RootNode",
+                    "RootNode.Bar_Drop_Ceiling_Lights",
+                    "RootNode.Bar_Drop_Ceiling_Lights.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.UVMap",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.dropCeilingLightsMAT",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.UVMap",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.dropCeilingLightsMAT"
+                ]
+            },
+            "MaterialSlots": [
+                "dropCeilingLightsMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Bar_Drop_Ceiling_Lights",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.Bar_Drop_Ceiling_Lights",
+                    "RootNode.Bar_Drop_Ceiling_Lights.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.UVMap",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.dropCeilingLightsMAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.custom_properties",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.UVMap",
+                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.dropCeilingLightsMAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    "RootNode",
+                                    "RootNode.Bar_Drop_Ceiling_Lights",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.custom_properties",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.custom_properties",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.UVMap",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod1.dropCeilingLightsMAT"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.custom_properties",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.UVMap",
+                                    "RootNode.Bar_Drop_Ceiling_Lights.Bar_Drop_Ceiling_Lights_lod0.dropCeilingLightsMAT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{7D67FD3E-AE18-52D8-95C5-ED181C504C89}"
+        }
+    ]
+}
