@@ -58,6 +58,40 @@
             "Id": "Entity_[2356905079518]",
             "Name": "bar_stool",
             "Components": {
+                "Component_[10026616198511755833]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 10026616198511755833,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{71A6A255-5C6B-55B5-8E0D-1A6B2A9DF90D}",
+                                    "subId": 3780737187
+                                },
+                                "assetHint": "props/bar_stool_b075yptf9h/bar_stool.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{71A6A255-5C6B-55B5-8E0D-1A6B2A9DF90D}",
+                                        "subId": 3780737187
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/bar_stool_b075yptf9h/bar_stool.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[10536287574423402570]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10536287574423402570,

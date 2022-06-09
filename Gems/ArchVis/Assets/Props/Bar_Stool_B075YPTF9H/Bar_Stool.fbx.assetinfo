@@ -6,16 +6,30 @@
             "name": "Bar_Stool",
             "NodeSelectionList": {
                 "selectedNodes": [
-                    "RootNode.Bar_Stool.Bar_Stool_lod1"
+                    "RootNode.Bar_Stool.Bar_Stool_lod1",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.transform",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.UVMap",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.bar_stoolMAT"
                 ],
                 "unselectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Bar_Stool",
-                    "RootNode.Bar_Stool.Bar_Stool_lod0"
+                    "RootNode.Bar_Stool.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.transform",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.UVMap",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.bar_stoolMAT"
                 ]
             },
-            "export method": 1,
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "bar_stoolMAT"
+                    }
+                ]
+            },
             "MaterialSlots": [
                 "bar_stoolMAT"
             ],
@@ -28,13 +42,21 @@
             "name": "Bar_Stool",
             "nodeSelectionList": {
                 "selectedNodes": [
-                    {},
                     "RootNode",
                     "RootNode.Bar_Stool",
-                    "RootNode.Bar_Stool.Bar_Stool_lod0"
+                    "RootNode.Bar_Stool.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.transform",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.UVMap",
+                    "RootNode.Bar_Stool.Bar_Stool_lod0.bar_stoolMAT"
                 ],
                 "unselectedNodes": [
-                    "RootNode.Bar_Stool.Bar_Stool_lod1"
+                    "RootNode.Bar_Stool.Bar_Stool_lod1",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.transform",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.custom_properties",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.UVMap",
+                    "RootNode.Bar_Stool.Bar_Stool_lod1.bar_stoolMAT"
                 ]
             },
             "rules": {
@@ -44,13 +66,21 @@
                         "nodeSelectionList": [
                             {
                                 "selectedNodes": [
-                                    {},
                                     "RootNode",
                                     "RootNode.Bar_Stool",
-                                    "RootNode.Bar_Stool.Bar_Stool_lod1"
+                                    "RootNode.Bar_Stool.custom_properties",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod1",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod1.transform",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod1.custom_properties",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod1.UVMap",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod1.bar_stoolMAT"
                                 ],
                                 "unselectedNodes": [
-                                    "RootNode.Bar_Stool.Bar_Stool_lod0"
+                                    "RootNode.Bar_Stool.Bar_Stool_lod0",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod0.transform",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod0.custom_properties",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod0.UVMap",
+                                    "RootNode.Bar_Stool.Bar_Stool_lod0.bar_stoolMAT"
                                 ]
                             }
                         ]
