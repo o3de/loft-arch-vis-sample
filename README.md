@@ -27,15 +27,15 @@ You can clone the gems to any folder locally, including inside the engine folder
 ```shell
 # clone into a folder outside your engine repository folder
 > git clone https://github.com/aws-lumberyard/loft-arch-vis-sample.git
-Cloning into 'o3de-samples-project-gems'...
+Cloning into 'loft-arch-vis-sample'...
 ```
 
 #### Option #2 - cloning into the engine repository folder
 
 ```shell
-# clone the project into a folder named 'o3de-samples-project-gems' in your existing engine repository folder
+# clone the project into a folder named 'loft-arch-vis-sample' in your existing engine repository folder
 > git clone https://github.com/aws-lumberyard/loft-arch-vis-sample.git c:/path/to/o3de/loft-arch-vis-sample
-Cloning into 'o3de-samples-project-gems'...
+Cloning into 'loft-arch-vis-sample'...
 
 # modify the local engine git exclude file to ignore the project folder
 > echo loft-arch-vis-sample > c:/path/to/o3de/.git/info/exclude
@@ -46,11 +46,14 @@ If you have a Git credential helper configured, you should not be prompted for y
 ### Step 2. Register the engine and gems 
 
 ```shell
-# register the engine (only need to do this once)
+# register the engine (If you already have built O3DE in project-centric mode then you don't need this step.)
 > c:/path/to/o3de/scripts/o3de register --this-engine
 
-# register the gems 
-> c:/path/to/o3de/scripts/o3de register -g c:/path/to/loft-arch-vis-sample
+# register the project 
+> c:/path/to/o3de/scripts/o3de register -pp c:/path/to/loft-arch-vis-sample/Project
+
+# register the gem (OPTIONAL) - Only needed if you plan to use the gem from another project. 
+> c:/path/to/o3de/scripts/o3de register -gp c:/path/to/loft-arch-vis-sample/Gems/ArchVis
 ```
 
 You are now setup to use these gems in your projects.
