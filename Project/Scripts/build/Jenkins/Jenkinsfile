@@ -747,6 +747,7 @@ try {
             if (isUnix()) {
                 envVarList.add('IS_UNIX=1')
             }
+            envVarList.add('GIT_LFS_SKIP_SMUDGE=1')
             withEnv(envVarList) {
                 timestamps {
                     repositoryUrl = scm.getUserRemoteConfigs()[0].getUrl()
