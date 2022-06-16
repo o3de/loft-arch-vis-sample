@@ -16,6 +16,7 @@ EMPTY_JSON = readJSON text: '{}'
 
 PROJECT_REPOSITORY_NAME = 'loft-arch-vis-sample'
 PROJECT_ORGANIZATION_NAME = 'aws-lumberyard'
+PROJECT_PATH = "Project"
 ENGINE_REPOSITORY_NAME = 'o3de'
 ENGINE_ORGANIZATION_NAME = 'o3de'
 ENGINE_BRANCH_DEFAULT = "${env.BRANCH_DEFAULT}" ?: "${env.BRANCH_NAME}"
@@ -243,6 +244,7 @@ def CheckoutRepo(boolean disableSubmodules = false) {
             palMkdir(projectAndUrl.key)
         }
         dir(projectAndUrl.key) {
+            palSh('git lfs uninstall', 'Git LFS Uninstall') // Prevent git from pulling lfs objects during checkout
             if (fileExists('.git')) {
                 // If the repository after checkout is locked, likely we took a snapshot while git was running,
                 // to leave the repo in a usable state, garbage collect.
@@ -372,6 +374,11 @@ def PreBuildCommonSteps(Map pipelineConfig, String snapshot, String repositoryNa
         else command += '.cmd'
         command += " -u ${pipelineConfig.BUILD_ENTRY_POINT} --platform ${platform} --type clean"
         palSh(command, "Running ${platform} clean")
+        
+        // Run lfs in a separate step. Jenkins is unable to load the credentials for the custom LFS endpoint
+        withCredentials([usernamePassword(credentialsId: "${env.GITHUB_USER}", passwordVariable: 'accesstoken', usernameVariable: 'username')]) {
+            palSh("git config -f .lfsconfig lfs.url https://${username}:${accesstoken}@${env.LFS_URL}", 'Set credentials', false)
+        }
 
         if(fileExists('.lfsconfig')) {
             palSh("git lfs install", "LFS config exists. Installing LFS hooks to local repo")
@@ -401,7 +408,7 @@ def Build(Map pipelineConfig, String platform, String type, String workspace) {
             pathToEngine = "../${ENGINE_REPOSITORY_NAME}/"
         } else {
             dir("${workspace}/${ENGINE_REPOSITORY_NAME}") {
-                palSh("scripts/o3de${ext} register --project-path ${workspace}/${PROJECT_REPOSITORY_NAME}", "Registering project ${PROJECT_REPOSITORY_NAME}")
+                palSh("scripts/o3de${ext} register --project-path ${workspace}/${PROJECT_REPOSITORY_NAME}/${PROJECT_PATH}", "Registering project ${PROJECT_REPOSITORY_NAME}")
             }
         }
         command += " -u ${pipelineConfig.BUILD_ENTRY_POINT} --platform ${platform} --type ${type}"
@@ -747,7 +754,6 @@ try {
             if (isUnix()) {
                 envVarList.add('IS_UNIX=1')
             }
-            envVarList.add('GIT_LFS_SKIP_SMUDGE=1')
             withEnv(envVarList) {
                 timestamps {
                     repositoryUrl = scm.getUserRemoteConfigs()[0].getUrl()
@@ -858,7 +864,7 @@ try {
             if (IsJobEnabled(branchName, build_job, pipelineName, platform.key)) {   // User can filter jobs, jobs are tagged by pipeline
                 def envVars = GetBuildEnvVars(platform.value.PIPELINE_ENV ?: EMPTY_JSON, build_job.value.PIPELINE_ENV ?: EMPTY_JSON, pipelineName)
                 envVars['JOB_NAME'] = "${branchName}_${platform.key}_${build_job.key}" // backwards compatibility, some scripts rely on this
-                envVars['CMAKE_LY_PROJECTS'] = "../${PROJECT_REPOSITORY_NAME}"
+                envVars['CMAKE_LY_PROJECTS'] = "../${PROJECT_REPOSITORY_NAME}/${PROJECT_PATH}"
                 def nodeLabel = envVars['NODE_LABEL']
                 someBuildHappened = true
 
