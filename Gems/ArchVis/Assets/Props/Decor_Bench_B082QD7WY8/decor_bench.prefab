@@ -63,6 +63,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 14376407054765774658,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}
@@ -89,6 +96,9 @@
                                 }
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "Component_[15031657690000441560]": {

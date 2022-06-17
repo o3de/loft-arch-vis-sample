@@ -107,6 +107,15 @@
                 "Component_[14503148882391113363]": {
                     "$type": "EditorColliderComponent",
                     "Id": 14503148882391113363,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
                     "ShapeConfiguration": {
                         "PhysicsAsset": {
                             "Asset": {
@@ -127,6 +136,9 @@
                                 }
                             }
                         }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
                     }
                 },
                 "Component_[16022529382103047184]": {

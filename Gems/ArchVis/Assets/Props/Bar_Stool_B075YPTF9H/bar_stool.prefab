@@ -184,6 +184,43 @@
                         }
                     }
                 },
+                "Component_[4611969092363961158]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4611969092363961158,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "bar_stoolMAT"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{71A6A255-5C6B-55B5-8E0D-1A6B2A9DF90D}",
+                                    "subId": 3780737187
+                                },
+                                "assetHint": "props/bar_stool_b075yptf9h/bar_stool.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{71A6A255-5C6B-55B5-8E0D-1A6B2A9DF90D}",
+                                        "subId": 3780737187
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/bar_stool_b075yptf9h/bar_stool.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[5982895097166909237]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 5982895097166909237
