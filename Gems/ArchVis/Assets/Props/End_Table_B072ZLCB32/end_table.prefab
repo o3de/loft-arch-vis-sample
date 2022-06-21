@@ -84,6 +84,48 @@
                         }
                     ]
                 },
+                "Component_[17133388636626932378]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17133388636626932378,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{77F60839-22EF-507F-AE3E-2D45AB06685C}",
+                                    "subId": 4109027920
+                                },
+                                "assetHint": "props/end_table_b072zlcb32/end_table.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{77F60839-22EF-507F-AE3E-2D45AB06685C}",
+                                        "subId": 4109027920
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/end_table_b072zlcb32/end_table.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[1841836623666583218]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1841836623666583218

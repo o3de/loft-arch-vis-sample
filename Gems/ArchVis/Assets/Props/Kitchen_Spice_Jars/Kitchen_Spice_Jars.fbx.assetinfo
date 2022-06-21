@@ -1,0 +1,66 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8A4D84BE-799A-5DD7-B085-E2939AE1194B}",
+            "name": "Kitchen_Spice_Jars",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Spice_Jars.Spice_Jars_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Spice_Jars",
+                    "RootNode.Spice_Jars.Spice_Jars_lod0"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "spice_jar_glassMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Kitchen_Spice_Jars",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Spice_Jars",
+                    "RootNode.Spice_Jars.Spice_Jars_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Spice_Jars.Spice_Jars_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Spice_Jars",
+                                    "RootNode.Spice_Jars.Spice_Jars_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Spice_Jars.Spice_Jars_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{CC4992D2-1C31-5C54-B420-8D33E69EF40A}"
+        }
+    ]
+}

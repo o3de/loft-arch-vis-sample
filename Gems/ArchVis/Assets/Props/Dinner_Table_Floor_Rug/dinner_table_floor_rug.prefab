@@ -63,6 +63,48 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 12009203558432691165
                 },
+                "Component_[12765071306608823372]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12765071306608823372,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{C1F29172-0EED-5D6A-9A5A-92F736B9255B}",
+                                    "subId": 107561280
+                                },
+                                "assetHint": "props/dinner_table_floor_rug/dinner_table_floor_rug.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{C1F29172-0EED-5D6A-9A5A-92F736B9255B}",
+                                        "subId": 107561280
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/dinner_table_floor_rug/dinner_table_floor_rug.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[16611835425084668379]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 16611835425084668379,

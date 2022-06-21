@@ -127,6 +127,38 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 4469866794322698325
                 },
+                "Component_[5436624600400660822]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 5436624600400660822,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{9690EC18-27B7-56AF-B962-8B126A23CD30}",
+                                    "subId": 4010054169
+                                },
+                                "assetHint": "props/potted_plant_trbp000045/potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{9690EC18-27B7-56AF-B962-8B126A23CD30}",
+                                        "subId": 4010054169
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/potted_plant_trbp000045/potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[5865202503264672526]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 5865202503264672526,

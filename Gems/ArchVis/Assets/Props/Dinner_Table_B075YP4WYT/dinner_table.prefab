@@ -140,6 +140,48 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6842166626713226172
                 },
+                "Component_[7149451247539743307]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7149451247539743307,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B5A06871-255B-5E97-B44F-569B6E042C7D}",
+                                    "subId": 481269282
+                                },
+                                "assetHint": "props/dinner_table_b075yp4wyt/dinner_table.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B5A06871-255B-5E97-B44F-569B6E042C7D}",
+                                        "subId": 481269282
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/dinner_table_b075yp4wyt/dinner_table.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[8894796025871548631]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 8894796025871548631

@@ -67,6 +67,49 @@
                     "$type": "EditorLockComponent",
                     "Id": 12378120647433380967
                 },
+                "Component_[1349120696000774594]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1349120696000774594,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{EA052530-9CB1-5A7C-BCF8-B1C1CEB7A3DE}",
+                                    "subId": 1570786373
+                                },
+                                "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{EA052530-9CB1-5A7C-BCF8-B1C1CEB7A3DE}",
+                                        "subId": 1570786373
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[13921808729672150910]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 13921808729672150910

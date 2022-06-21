@@ -129,6 +129,48 @@
                         }
                     }
                 },
+                "Component_[1896423964440584177]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1896423964440584177,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{5F2D9A42-0517-5F9F-82FC-917281465EC0}",
+                                    "subId": 1785719806
+                                },
+                                "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{5F2D9A42-0517-5F9F-82FC-917281465EC0}",
+                                        "subId": 1785719806
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_spice_jars/kitchen_spice_jars.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[44472983014378288]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 44472983014378288

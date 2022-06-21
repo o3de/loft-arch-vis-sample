@@ -120,6 +120,48 @@
                         }
                     ]
                 },
+                "Component_[4362766204661301864]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4362766204661301864,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{8A42B566-4777-5D92-802D-055684D1BDF7}",
+                                    "subId": 2750057697
+                                },
+                                "assetHint": "props/kitchen_utensils/kitchen_utensils.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{8A42B566-4777-5D92-802D-055684D1BDF7}",
+                                        "subId": 2750057697
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_utensils/kitchen_utensils.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[4658560059322144172]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 4658560059322144172

@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{DA80DBFA-3A13-5BD3-A2AB-162EFF8E6C95}",
+            "name": "Potted_Plant",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Potted_Plant.Potted_Plant_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Potted_Plant",
+                    "RootNode.Potted_Plant.Potted_Plant_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "potMAT",
+                "plantMAT_002"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Potted_Plant",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Potted_Plant",
+                    "RootNode.Potted_Plant.Potted_Plant_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Potted_Plant.Potted_Plant_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Potted_Plant",
+                                    "RootNode.Potted_Plant.Potted_Plant_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Potted_Plant.Potted_Plant_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{0A1699C8-D6DF-5055-93DB-1162117DD4E7}"
+        }
+    ]
+}

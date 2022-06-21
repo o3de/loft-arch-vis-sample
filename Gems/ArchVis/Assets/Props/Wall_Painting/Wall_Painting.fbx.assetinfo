@@ -1,0 +1,65 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{8B3FC5B0-AD16-5520-ADAE-A105CA6491FF}",
+            "name": "Wall_Painting",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wall_Painting.Wall_Painting_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Wall_Painting",
+                    "RootNode.Wall_Painting.Wall_Painting_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "paintingMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Wall_Painting",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Wall_Painting",
+                    "RootNode.Wall_Painting.Wall_Painting_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Wall_Painting.Wall_Painting_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Wall_Painting",
+                                    "RootNode.Wall_Painting.Wall_Painting_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Wall_Painting.Wall_Painting_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{73C10D71-FD20-5F95-8896-518CAC5E447A}"
+        }
+    ]
+}

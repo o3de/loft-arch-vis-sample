@@ -166,6 +166,49 @@
                     "$type": "EditorLockComponent",
                     "Id": 16186312037769869476
                 },
+                "Component_[17169885993470343239]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 17169885993470343239,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E283A932-5C03-57BD-BF9D-A8B448B63132}",
+                                    "subId": 2017637373
+                                },
+                                "assetHint": "props/stack_books_b07374sbfm/stack_books.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E283A932-5C03-57BD-BF9D-A8B448B63132}",
+                                        "subId": 2017637373
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/stack_books_b07374sbfm/stack_books.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[1773947674975247389]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 1773947674975247389

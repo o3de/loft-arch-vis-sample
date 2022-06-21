@@ -81,7 +81,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{E28F6129-B21E-5397-A4FA-4532BB6CEF31}"
-                                            }
+                                            },
+                                            "assetHint": "props/cabinet_b07hsdp2cp/cabinet_cabinetmat.azmaterial"
                                         }
                                     }
                                 }
@@ -92,6 +93,43 @@
                 "Component_[16685673422636032207]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 16685673422636032207
+                },
+                "Component_[16745041218502227783]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16745041218502227783,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{2FACE2F0-BE33-53E0-A1F7-78F410A15099}",
+                                    "subId": 2826604828
+                                },
+                                "assetHint": "props/cabinet_b07hsdp2cp/cabinet.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{2FACE2F0-BE33-53E0-A1F7-78F410A15099}",
+                                        "subId": 2826604828
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/cabinet_b07hsdp2cp/cabinet.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
                 },
                 "Component_[18127788519639010981]": {
                     "$type": "AZ::Render::EditorMeshComponent",

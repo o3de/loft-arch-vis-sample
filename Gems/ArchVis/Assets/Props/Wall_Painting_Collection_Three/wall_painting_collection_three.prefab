@@ -175,6 +175,43 @@
                             }
                         }
                     }
+                },
+                "Component_[8743155322547890019]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8743155322547890019,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B8DD23EC-CF97-5937-9D84-CF1E95F719E3}",
+                                    "subId": 766278468
+                                },
+                                "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B8DD23EC-CF97-5937-9D84-CF1E95F719E3}",
+                                        "subId": 766278468
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/wall_painting_collection_three/wall_painting_collection_three.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
                 }
             }
         }

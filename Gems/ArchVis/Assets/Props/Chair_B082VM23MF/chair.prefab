@@ -104,6 +104,43 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14163871262101623436
                 },
+                "Component_[14503148882391113363]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14503148882391113363,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{7B03EB5D-FD2B-5B1B-9A5C-817AF35DB8DF}",
+                                    "subId": 4193723223
+                                },
+                                "assetHint": "props/chair_b082vm23mf/chair.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{7B03EB5D-FD2B-5B1B-9A5C-817AF35DB8DF}",
+                                        "subId": 4193723223
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/chair_b082vm23mf/chair.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[16022529382103047184]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 16022529382103047184,

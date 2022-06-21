@@ -130,6 +130,43 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 5404398586167952305
                 },
+                "Component_[549566275919980709]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 549566275919980709,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{4B725895-A39C-5FAB-AF2D-91984CC97BF6}",
+                                    "subId": 1658296132
+                                },
+                                "assetHint": "props/computer_desk_b075zbvzst/computer_desk.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{4B725895-A39C-5FAB-AF2D-91984CC97BF6}",
+                                        "subId": 1658296132
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/computer_desk_b075zbvzst/computer_desk.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[6619678416091402715]": {
                     "$type": "EditorLockComponent",
                     "Id": 6619678416091402715

@@ -64,6 +64,48 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 11837171408357876688
                 },
+                "Component_[12980665234040873846]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12980665234040873846,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{E91A7501-B969-552F-900D-5C6387513AE5}",
+                                    "subId": 2480780159
+                                },
+                                "assetHint": "props/stack_magazines/stack_magazines.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{E91A7501-B969-552F-900D-5C6387513AE5}",
+                                        "subId": 2480780159
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/stack_magazines/stack_magazines.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[13008211283756287584]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 13008211283756287584

@@ -103,6 +103,39 @@
                     "$type": "EditorLockComponent",
                     "Id": 14935419640938699758
                 },
+                "Component_[1521301945076782066]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1521301945076782066,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{46BD22C4-B0EB-5F87-8A35-70111BF3FBE3}",
+                                    "subId": 1147891246
+                                },
+                                "assetHint": "props/wall_art_two_set/wall_art_two_set.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{46BD22C4-B0EB-5F87-8A35-70111BF3FBE3}",
+                                        "subId": 1147891246
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/wall_art_two_set/wall_art_two_set.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[15336089270810769994]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 15336089270810769994

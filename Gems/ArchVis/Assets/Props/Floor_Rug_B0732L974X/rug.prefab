@@ -71,6 +71,38 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 11872640725570577469
                 },
+                "Component_[12384181215514172824]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12384181215514172824,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{3F154D22-0087-5F51-9FD1-E52D6F457F60}",
+                                    "subId": 694083021
+                                },
+                                "assetHint": "props/floor_rug_b0732l974x/rug.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{3F154D22-0087-5F51-9FD1-E52D6F457F60}",
+                                        "subId": 694083021
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/floor_rug_b0732l974x/rug.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[1266128230815981133]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 1266128230815981133,

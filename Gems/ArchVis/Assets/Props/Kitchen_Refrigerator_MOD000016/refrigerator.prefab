@@ -63,6 +63,38 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 11755868307902649292
                 },
+                "Component_[15809170977647956888]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 15809170977647956888,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{EC94D6F5-7014-5C98-97A5-6D54E394C97C}",
+                                    "subId": 2911215106
+                                },
+                                "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{EC94D6F5-7014-5C98-97A5-6D54E394C97C}",
+                                        "subId": 2911215106
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[16191857164222196952]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16191857164222196952

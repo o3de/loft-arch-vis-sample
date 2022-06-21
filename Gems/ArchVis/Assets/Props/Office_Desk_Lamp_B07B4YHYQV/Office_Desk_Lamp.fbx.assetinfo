@@ -1,0 +1,66 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{ACB98739-60AD-51A2-ADDE-CEBDEF80E4E6}",
+            "name": "Office_Desk_Lamp",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Office_Desk_Lamp",
+                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod0"
+                ]
+            },
+            "export method": 1,
+            "MaterialSlots": [
+                "office_desk_lampMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Office_Desk_Lamp",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Office_Desk_Lamp",
+                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Office_Desk_Lamp",
+                                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Office_Desk_Lamp.Office_Desk_Lamp_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{21914CEC-0F82-5FB4-8F9B-A2919BCF2EC4}"
+        }
+    ]
+}

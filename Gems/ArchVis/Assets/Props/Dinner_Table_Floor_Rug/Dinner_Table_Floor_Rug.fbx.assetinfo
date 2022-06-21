@@ -1,0 +1,65 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{647B1A61-CCC4-5C2E-BFF0-C766E8F49564}",
+            "name": "Dinner_Table_Floor_Rug",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Dinner_Table_Floor_Rug",
+                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "rugMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Dinner_Table_Floor_Rug",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Dinner_Table_Floor_Rug",
+                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Dinner_Table_Floor_Rug",
+                                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Dinner_Table_Floor_Rug.Dinner_Table_Floor_Rug_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{B8C56FEB-4E8A-50F5-B5C2-64E864D45146}"
+        }
+    ]
+}

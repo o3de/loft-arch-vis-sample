@@ -59,6 +59,48 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12874252152937448070
                 },
+                "Component_[14376407054765774658]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14376407054765774658,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{DDA97F91-269E-5AC0-B2B0-9D2FDFF31D58}",
+                                    "subId": 632456753
+                                },
+                                "assetHint": "props/decor_bench_b082qd7wy8/decor_bench.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{DDA97F91-269E-5AC0-B2B0-9D2FDFF31D58}",
+                                        "subId": 632456753
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/decor_bench_b082qd7wy8/decor_bench.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[15031657690000441560]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 15031657690000441560

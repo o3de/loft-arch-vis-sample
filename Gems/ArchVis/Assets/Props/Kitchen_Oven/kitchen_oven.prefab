@@ -145,6 +145,48 @@
                     "$type": "EditorLockComponent",
                     "Id": 6008895314946518116
                 },
+                "Component_[6240048751332204635]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6240048751332204635,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{910953D9-E17C-5B5A-98F4-66AEF114600D}",
+                                    "subId": 1167532505
+                                },
+                                "assetHint": "props/kitchen_oven/kitchen_oven.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{910953D9-E17C-5B5A-98F4-66AEF114600D}",
+                                        "subId": 1167532505
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/kitchen_oven/kitchen_oven.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[7601646293875946262]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 7601646293875946262,

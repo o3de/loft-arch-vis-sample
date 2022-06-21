@@ -96,6 +96,38 @@
                         ]
                     }
                 },
+                "Component_[12282705548812581643]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12282705548812581643,
+                    "ColliderConfiguration": {
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{5B7DE02D-7DC2-5C7C-AB7D-015B363458CF}",
+                                    "subId": 382899612
+                                },
+                                "assetHint": "props/potted_plant_trbp000002/potted_plant.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{5B7DE02D-7DC2-5C7C-AB7D-015B363458CF}",
+                                        "subId": 382899612
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/potted_plant_trbp000002/potted_plant.pxmesh"
+                                }
+                            }
+                        }
+                    }
+                },
                 "Component_[14961013493114212718]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 14961013493114212718,
@@ -121,19 +153,6 @@
                             "materials": [
                                 {
                                     "Key": {
-                                        "materialSlotStableId": 600740457
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{25ABF347-6660-55C4-96FD-BA07E80BA92D}"
-                                            },
-                                            "assetHint": "props/potted_plant_trbp000002/potted_plant_potted_plantmat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
                                         "materialSlotStableId": 4058066167
                                     },
                                     "Value": {
@@ -142,19 +161,6 @@
                                                 "guid": "{EC45B01B-463F-553F-A7E4-F3A54B30A7CF}"
                                             },
                                             "assetHint": "props/potted_plant_trbp000002/potted_plant_potted_sss_plantmat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 4128588818
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{25ABF347-6660-55C4-96FD-BA07E80BA92D}"
-                                            },
-                                            "assetHint": "props/potted_plant_trbp000002/potted_plant_potted_plantmat.azmaterial"
                                         }
                                     }
                                 }

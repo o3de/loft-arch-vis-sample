@@ -71,6 +71,74 @@
                     "$type": "SelectionComponent",
                     "Id": 1251307382115135923
                 },
+                "Component_[16690343428122660713]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16690343428122660713,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B4801185-3B5D-5D53-B6DC-022827FB5E58}",
+                                    "subId": 3536238351
+                                },
+                                "assetHint": "rooms/interior_03/interior_03.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B4801185-3B5D-5D53-B6DC-022827FB5E58}",
+                                        "subId": 3536238351
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "rooms/interior_03/interior_03.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[17013253040440995433]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 17013253040440995433,

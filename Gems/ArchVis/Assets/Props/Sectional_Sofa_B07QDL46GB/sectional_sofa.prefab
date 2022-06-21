@@ -83,6 +83,48 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 17405367311171993486
                 },
+                "Component_[18098730244130404488]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 18098730244130404488,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
+                                    "subId": 1234869281
+                                },
+                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
+                                        "subId": 1234869281
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[5419282969929464004]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 5419282969929464004,

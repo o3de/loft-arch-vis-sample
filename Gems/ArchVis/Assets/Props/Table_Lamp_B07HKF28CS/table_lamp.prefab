@@ -168,6 +168,49 @@
                 "Component_[3801834752541642727]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 3801834752541642727
+                },
+                "Component_[8955785890418585536]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 8955785890418585536,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {},
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{DB3EB534-DA2E-5B5D-B4A9-E60E1BEC897F}",
+                                    "subId": 1536892994
+                                },
+                                "assetHint": "props/table_lamp_b07hkf28cs/table_lamp.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{DB3EB534-DA2E-5B5D-B4A9-E60E1BEC897F}",
+                                        "subId": 1536892994
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/table_lamp_b07hkf28cs/table_lamp.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
                 }
             }
         }

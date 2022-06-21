@@ -102,6 +102,48 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 1995021287546556989
                 },
+                "Component_[2710058381432013883]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 2710058381432013883,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{143E3DE1-3E38-57C8-B9EB-DAF44CB7F97C}",
+                                    "subId": 3506833995
+                                },
+                                "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    0.800000011920929,
+                                    0.800000011920929,
+                                    0.800000011920929
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{143E3DE1-3E38-57C8-B9EB-DAF44CB7F97C}",
+                                        "subId": 3506833995
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[4551598154706652079]": {
                     "$type": "SelectionComponent",
                     "Id": 4551598154706652079

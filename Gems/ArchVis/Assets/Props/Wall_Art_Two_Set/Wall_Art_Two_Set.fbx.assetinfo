@@ -1,0 +1,67 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{F006EB4E-00F6-5EDE-8227-1F2C50DF0DDC}",
+            "name": "Wall_Art_Two_Set",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod0"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Wall_Art_Two_Set",
+                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod1"
+                ]
+            },
+            "MaterialSlots": [
+                "picture_oneMAT",
+                "picture_twoMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>",
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Wall_Art_Two_Set",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Wall_Art_Two_Set",
+                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Wall_Art_Two_Set",
+                                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Wall_Art_Two_Set.Wall_Art_Two_Set_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{2203BF43-D68F-5B7B-90AC-64AD11DCFF68}"
+        }
+    ]
+}

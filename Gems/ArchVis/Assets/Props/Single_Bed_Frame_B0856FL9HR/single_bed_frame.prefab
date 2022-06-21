@@ -196,6 +196,48 @@
                     "$type": "EditorLockComponent",
                     "Id": 18322450601296185927
                 },
+                "Component_[4939001040384211321]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 4939001040384211321,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{B0CF775B-F52B-58A1-969C-7E4DD44B4F49}",
+                                    "subId": 2746595711
+                                },
+                                "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{B0CF775B-F52B-58A1-969C-7E4DD44B4F49}",
+                                        "subId": 2746595711
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/single_bed_frame_b0856fl9hr/single_bed_frame.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[9397677546824248316]": {
                     "$type": "SelectionComponent",
                     "Id": 9397677546824248316

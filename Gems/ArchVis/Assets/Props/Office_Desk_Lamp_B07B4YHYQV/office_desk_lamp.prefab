@@ -63,6 +63,48 @@
                     "$type": "EditorLockComponent",
                     "Id": 11713920357012905635
                 },
+                "Component_[12757208755810017111]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12757208755810017111,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        },
+                        "MaterialSelection": {
+                            "MaterialIds": [
+                                {}
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{CB3C0BFD-A59B-508A-8687-59F169B28809}",
+                                    "subId": 1988255344
+                                },
+                                "assetHint": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{CB3C0BFD-A59B-508A-8687-59F169B28809}",
+                                        "subId": 1988255344
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
                 "Component_[12875146621598740320]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 12875146621598740320,

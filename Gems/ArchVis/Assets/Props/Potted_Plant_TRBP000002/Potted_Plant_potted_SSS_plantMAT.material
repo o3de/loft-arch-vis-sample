@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/EnhancedPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialTypeVersion": 6,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Potted_Plant_TRBP000002/textures/potted_plant_BaseColor.png",

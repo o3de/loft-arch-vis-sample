@@ -1,0 +1,65 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{1DC80BD3-5A84-5819-AF7F-6166ABFB8025}",
+            "name": "Kitchen_Cutting_Boards",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod1"
+                ],
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Cutting_Boards",
+                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod0"
+                ]
+            },
+            "MaterialSlots": [
+                "cuttingBoardsMAT"
+            ],
+            "PhysicsMaterials": [
+                "<Default Physics Material>"
+            ]
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Kitchen_Cutting_Boards",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Kitchen_Cutting_Boards",
+                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod0"
+                ],
+                "unselectedNodes": [
+                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod1"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    {},
+                                    "RootNode",
+                                    "RootNode.Kitchen_Cutting_Boards",
+                                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod1"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.Kitchen_Cutting_Boards.Kitchen_Cutting_Boards_lod0"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{047167D1-1172-5A1F-A2AE-0B42FA64ADB8}"
+        }
+    ]
+}
