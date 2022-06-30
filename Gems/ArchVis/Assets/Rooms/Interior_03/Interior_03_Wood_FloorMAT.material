@@ -23,6 +23,7 @@
             1.0
         ],
         "general.applySpecularAA": true,
+        "general.forwardPassIBLSpecular": true,
         "normal.flipY": true,
         "normal.textureMap": "Rooms/Interior_03/textures/Wood_Floor_normal.png",
         "occlusion.diffuseFactor": 0.5,

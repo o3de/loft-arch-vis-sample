@@ -35,6 +35,11 @@
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 16239496886950819870
             },
+            "Component_[16671061717601874576]": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 16671061717601874576,
+                "LocalBookmarkFileName": "Interior_03_185092891692.setreg"
+            },
             "Component_[5688118765544765547]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 5688118765544765547
@@ -429,7 +434,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_computerdesk__c8761f0c-24e4-4160-8d76-fc9cc08875f0__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 11206823811684634105,
+                            "EntityId": 8252733855237071673,
                             "ShowVisualization": false
                         }
                     },
@@ -613,7 +618,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 13825764214116,
+                            "EditorEntityId": 12846510211086588731,
                             "MakeActiveViewOnActivation": false
                         }
                     }
@@ -669,12 +674,13 @@
                                 },
                                 "assetHint": "reflectionprobes/reflection_main__55e4bf1b-3c8d-4302-b6e1-0a8254976bdd__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 10904052151376551496,
+                            "EntityId": 13855915414608332025,
                             "ShowVisualization": false
                         }
                     },
                     "bakedCubeMapQualityLevel": 3,
-                    "bakedCubeMapRelativePath": "ReflectionProbes/Reflection_main__55E4BF1B-3C8D-4302-B6E1-0A8254976BDD__iblspecularcm512.dds"
+                    "bakedCubeMapRelativePath": "ReflectionProbes/Reflection_main__55E4BF1B-3C8D-4302-B6E1-0A8254976BDD__iblspecularcm512.dds",
+                    "bakeExposure": 8.0
                 },
                 "Component_[15738643535787039494]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -715,6 +721,76 @@
                 "Component_[9858055153409735714]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 9858055153409735714
+                }
+            }
+        },
+        "Entity_[22150196339240]": {
+            "Id": "Entity_[22150196339240]",
+            "Name": "IBL",
+            "Components": {
+                "Component_[10548246284864919604]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10548246284864919604
+                },
+                "Component_[12228264347376173415]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12228264347376173415,
+                    "Parent Entity": "Entity_[4844759642882]"
+                },
+                "Component_[16024411830993245880]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16024411830993245880
+                },
+                "Component_[16811628148581609662]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16811628148581609662
+                },
+                "Component_[17590585349352348017]": {
+                    "$type": "AZ::Render::EditorImageBasedLightComponent",
+                    "Id": 17590585349352348017,
+                    "Controller": {
+                        "Configuration": {
+                            "diffuseImageAsset": {
+                                "assetId": {
+                                    "guid": "{37CCAC59-619C-588A-9860-18C97E0D58F8}",
+                                    "subId": 3000
+                                },
+                                "assetHint": "assets/lightbake/loft_capture_iblglobalcm_ibldiffuse.dds.streamingimage"
+                            },
+                            "specularImageAsset": {
+                                "assetId": {
+                                    "guid": "{37CCAC59-619C-588A-9860-18C97E0D58F8}",
+                                    "subId": 2000
+                                },
+                                "assetHint": "assets/lightbake/loft_capture_iblglobalcm_iblspecular.dds.streamingimage"
+                            },
+                            "exposure": 1.0
+                        }
+                    }
+                },
+                "Component_[4927100906365580765]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4927100906365580765
+                },
+                "Component_[7477876796874507144]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7477876796874507144
+                },
+                "Component_[8027139402050437540]": {
+                    "$type": "SelectionComponent",
+                    "Id": 8027139402050437540
+                },
+                "Component_[8658452260867261749]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 8658452260867261749
+                },
+                "Component_[9007841895897114382]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 9007841895897114382
+                },
+                "Component_[9176911837916893185]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9176911837916893185
                 }
             }
         },
@@ -969,7 +1045,6 @@
                                 "guid": "{7003B5DC-6EEB-5B8A-8D6A-B7A374779C13}",
                                 "subId": 1
                             },
-                            "loadBehavior": "QueueLoad",
                             "assetHint": "scripts/profiling/outputprofiledata.luac"
                         }
                     },
@@ -1062,16 +1137,15 @@
                                 0.5372549295425415,
                                 0.23137255012989044
                             ],
-                            "Intensity": 8.0,
+                            "Intensity": 12.0,
                             "AngularDiameter": 1.0,
                             "CameraEntityId": "Entity_[2511113093496]",
                             "ShadowFarClipDistance": 8.0,
                             "ShadowmapSize": "Size2048",
-                            "CascadeCount": 1,
+                            "CascadeCount": 2,
                             "SplitRatio": 0.3199999928474426,
                             "IsCascadeCorrectionEnabled": true,
                             "ShadowFilterMethod": 1,
-                            "PcfFilteringSampleCount": 16,
                             "CascadeBlendingEnabled": true
                         }
                     }
@@ -1262,22 +1336,22 @@
                     "Controller": {
                         "Configuration": {
                             "ProbeSpacing": [
-                                1.7999999523162842,
-                                1.7999999523162842,
+                                1.5,
+                                1.5,
                                 1.0
                             ],
                             "Extents": [
-                                10.0,
+                                12.337302207946777,
                                 18.0,
-                                6.0
+                                3.9153177738189697
                             ],
                             "ViewBias": 0.6499999761581421,
                             "NormalBias": 0.30000001192092896,
                             "VisualizationSphereRadius": 0.30000001192092896
                         }
                     },
-                    "probeSpacingX": 1.7999999523162842,
-                    "probeSpacingY": 1.7999999523162842,
+                    "probeSpacingX": 1.5,
+                    "probeSpacingY": 1.5,
                     "probeSpacingZ": 1.0,
                     "viewBias": 0.6499999761581421,
                     "normalBias": 0.30000001192092896,
@@ -1296,9 +1370,9 @@
                         "Configuration": {
                             "IsFilled": false,
                             "Dimensions": [
-                                10.0,
+                                12.337302207946777,
                                 18.0,
-                                6.0
+                                3.9153177738189697
                             ]
                         }
                     }
@@ -1309,9 +1383,9 @@
                     "Parent Entity": "Entity_[24358259808379]",
                     "Transform Data": {
                         "Translate": [
-                            2.0860748291015625,
+                            1.1714420318603516,
                             3.820452928543091,
-                            0.5506988763809204
+                            0.10841429233551025
                         ]
                     }
                 },
@@ -2943,7 +3017,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 2351562991095658060
+                            "EditorEntityId": 8795277539131731520
                         }
                     }
                 },
@@ -2969,6 +3043,7 @@
                     "Id": 14907155315153807367,
                     "Controller": {
                         "Configuration": {
+                            "Enabled": true,
                             "Threshold": 30.0,
                             "Knee": 0.11999999731779099,
                             "Intensity": 0.10000000149011612,
@@ -3031,7 +3106,7 @@
                     "Id": 7964244520954565055,
                     "Controller": {
                         "Configuration": {
-                            "CameraEntityId": "",
+                            "CameraEntityId": "Entity_[2511113093496]",
                             "ApertureF": 0.20000000298023224,
                             "FNumber": 0.5988770723342896,
                             "FocusDistance": 5.0
@@ -3946,8 +4021,7 @@
                 },
                 "Component_[1048441368193845607]": {
                     "$type": "EditorOnlyEntityComponent",
-                    "Id": 1048441368193845607,
-                    "IsEditorOnly": true
+                    "Id": 1048441368193845607
                 },
                 "Component_[1242773844536849519]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -3963,9 +4037,9 @@
                     "BoxShape": {
                         "Configuration": {
                             "Dimensions": [
-                                8.127503395080566,
+                                7.560876369476318,
                                 7.77813196182251,
-                                2.908522844314575
+                                2.589372158050537
                             ]
                         }
                     }
@@ -3975,9 +4049,9 @@
                     "Id": 1571906511175791283,
                     "Controller": {
                         "Configuration": {
-                            "OuterHeight": 2.908522844314575,
+                            "OuterHeight": 2.589372158050537,
                             "OuterLength": 7.77813196182251,
-                            "OuterWidth": 8.127503395080566,
+                            "OuterWidth": 7.560876369476318,
                             "InnerHeight": 2.0,
                             "InnerLength": 6.0,
                             "InnerWidth": 7.0,
@@ -3996,7 +4070,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 12495628496118832218
+                            "EntityId": 6634440475210754862
                         }
                     },
                     "bakedCubeMapRelativePath": "ReflectionProbes/Reflection_Kitchen__EB11F20A-D88A-4994-87B8-F6F527C1A806__iblspecularcm256.dds",
@@ -4007,7 +4081,7 @@
                         },
                         "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
                     },
-                    "bakeExposure": 4.0
+                    "bakeExposure": 8.0
                 },
                 "Component_[15932989343349520833]": {
                     "$type": "EditorLockComponent",
@@ -4023,8 +4097,7 @@
                 },
                 "Component_[4929364805968760508]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 4929364805968760508,
-                    "VisibilityFlag": false
+                    "Id": 4929364805968760508
                 },
                 "Component_[9382043224075263784]": {
                     "$type": "SelectionComponent",
@@ -4234,7 +4307,7 @@
         },
         "Entity_[2575537602936]": {
             "Id": "Entity_[2575537602936]",
-            "Name": "IBLsky",
+            "Name": "Sky",
             "Components": {
                 "Component_[11004870604729034086]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -4264,29 +4337,6 @@
                             "SortIndex": 2
                         }
                     ]
-                },
-                "Component_[1492929318186531944]": {
-                    "$type": "AZ::Render::EditorImageBasedLightComponent",
-                    "Id": 1492929318186531944,
-                    "Controller": {
-                        "Configuration": {
-                            "diffuseImageAsset": {
-                                "assetId": {
-                                    "guid": "{7C0EA521-353D-5D74-8A2B-AC83AD7BD40D}",
-                                    "subId": 3000
-                                },
-                                "assetHint": "lightingpresets/blouberg_sunrise_2_8k_iblskyboxcm_ibldiffuse.exr.streamingimage"
-                            },
-                            "specularImageAsset": {
-                                "assetId": {
-                                    "guid": "{7C0EA521-353D-5D74-8A2B-AC83AD7BD40D}",
-                                    "subId": 2000
-                                },
-                                "assetHint": "lightingpresets/blouberg_sunrise_2_8k_iblskyboxcm_iblspecular.exr.streamingimage"
-                            },
-                            "exposure": 4.0
-                        }
-                    }
                 },
                 "Component_[1510476164095358309]": {
                     "$type": "EditorEntitySortComponent",
@@ -4337,7 +4387,7 @@
                                 },
                                 "assetHint": "lightingpresets/blouberg_sunrise_2_8k_iblskyboxcm.exr.streamingimage"
                             },
-                            "Exposure": 4.0
+                            "Exposure": 8.0
                         }
                     }
                 }
@@ -4599,7 +4649,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_livingroom__08eadce6-da11-42de-b55d-62aae4d80878__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 9318338882240431636,
+                            "EntityId": 1100365635180229226,
                             "ShowVisualization": false
                         }
                     },
@@ -4942,7 +4992,8 @@
                     "Id": 15118407407985285587,
                     "Child Entity Order": [
                         "Entity_[2575537602936]",
-                        "Entity_[2429508714872]"
+                        "Entity_[2429508714872]",
+                        "Entity_[22150196339240]"
                     ]
                 },
                 "Component_[1529618977462565148]": {
@@ -4994,7 +5045,8 @@
                 },
                 "Component_[14659039258619427067]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 14659039258619427067
+                    "Id": 14659039258619427067,
+                    "VisibilityFlag": false
                 },
                 "Component_[3348550454049932960]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

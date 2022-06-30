@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -18,6 +18,8 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
+        "general.applySpecularAA": true,
+        "general.forwardPassIBLSpecular": true,
         "metallic.textureMap": "Props/Kitchen_Refrigerator_MOD000016/textures/refrigerator_Metallic.png",
         "normal.textureMap": "Props/Kitchen_Refrigerator_MOD000016/textures/refrigerator_Normal.png",
         "opacity.factor": 1.0,

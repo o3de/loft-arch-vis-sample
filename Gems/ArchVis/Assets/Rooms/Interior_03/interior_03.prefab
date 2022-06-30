@@ -131,17 +131,6 @@
                         "Configuration": {
                             "materials": [
                                 {
-                                    "Key": {},
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{21E975BA-13B2-584E-88CE-D5B6ED11C2D7}"
-                                            },
-                                            "assetHint": "rooms/interior_03/interior_03_defaultmaterial.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
                                     "Key": {
                                         "materialSlotStableId": 70883562
                                     },
@@ -213,9 +202,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{744B3FAF-E37E-5850-BBC1-48B1B187B059}"
+                                                "guid": "{3E650D30-90C9-564D-AC01-3E25F1BB3612}"
                                             },
-                                            "assetHint": "rooms/interior_03/interior_03_curtain_rallmat.azmaterial"
+                                            "assetHint": "rooms/interior_03/interior_03_curtain_railmat.azmaterial"
                                         }
                                     }
                                 },
@@ -294,32 +283,6 @@
                                                 "guid": "{9840744A-2AF7-5FBA-B2C7-578716B9DE6B}"
                                             },
                                             "assetHint": "rooms/interior_03/interior_03_kitchen_cabinetmat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2084814471
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{21E975BA-13B2-584E-88CE-D5B6ED11C2D7}"
-                                            },
-                                            "assetHint": "rooms/interior_03/interior_03_defaultmaterial.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 2191807691
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{744B3FAF-E37E-5850-BBC1-48B1B187B059}"
-                                            },
-                                            "assetHint": "rooms/interior_03/interior_03_curtain_rallmat.azmaterial"
                                         }
                                     }
                                 },
@@ -437,19 +400,6 @@
                                                 "guid": "{95FAF7F5-9A9F-5B4B-867C-D5411C834F5A}"
                                             },
                                             "assetHint": "rooms/interior_03/interior_03_smoke_detectormat.azmaterial"
-                                        }
-                                    }
-                                },
-                                {
-                                    "Key": {
-                                        "materialSlotStableId": 3868049033
-                                    },
-                                    "Value": {
-                                        "MaterialAsset": {
-                                            "assetId": {
-                                                "guid": "{6C9B0A63-09F3-5C6C-BBF2-F52F90F684F1}"
-                                            },
-                                            "assetHint": "rooms/interior_03/interior_03_dinning_room_curtainmat.azmaterial"
                                         }
                                     }
                                 },
