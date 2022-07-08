@@ -183,7 +183,13 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "painting_oneMAT"
+                                },
+                                {
+                                    "Name": "painting_threeMAT"
+                                },
+                                {
+                                    "Name": "painting_twoMAT"
                                 }
                             ]
                         }

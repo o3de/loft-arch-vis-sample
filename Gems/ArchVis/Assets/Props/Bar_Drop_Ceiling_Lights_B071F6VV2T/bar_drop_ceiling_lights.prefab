@@ -109,7 +109,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "dropCeilingLightsMAT"
                                 }
                             ]
                         }

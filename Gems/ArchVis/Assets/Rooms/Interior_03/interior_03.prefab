@@ -78,7 +78,85 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "Alarm_PlasticMAT"
+                                },
+                                {
+                                    "Name": "White_PlasticMAT"
+                                },
+                                {
+                                    "Name": "BlindsMAT"
+                                },
+                                {
+                                    "Name": "Fire_SprinklerMAT"
+                                },
+                                {
+                                    "Name": "Baseboard_PaintMAT"
+                                },
+                                {
+                                    "Name": "Ceiling_LED_LightMAT"
+                                },
+                                {
+                                    "Name": "Kitchen_CabinetMAT"
+                                },
+                                {
+                                    "Name": "Door_HandelMAT"
+                                },
+                                {
+                                    "Name": "Smoke_DetectorMAT"
+                                },
+                                {
+                                    "Name": "Ceiling_LED_PlasticMAT"
+                                },
+                                {
+                                    "Name": "KitchenSink_HardwareMAT"
+                                },
+                                {
+                                    "Name": "Interior_PaintMAT"
+                                },
+                                {
+                                    "Name": "Brushed_SteelMAT"
+                                },
+                                {
+                                    "Name": "Black_PlasticMAT"
+                                },
+                                {
+                                    "Name": "Window_Outer_FrameMAT"
+                                },
+                                {
+                                    "Name": "Ktichen_CountertopMAT"
+                                },
+                                {
+                                    "Name": "Curtain_RailMat"
+                                },
+                                {
+                                    "Name": "Cabinet_GlassMAT"
+                                },
+                                {
+                                    "Name": "Window_FrameMAT"
+                                },
+                                {
+                                    "Name": "Door_PaintMAT"
+                                },
+                                {
+                                    "Name": "Window_GlassMAT"
+                                },
+                                {
+                                    "Name": "FrontDoor_PaintedMAT"
+                                },
+                                {
+                                    "Name": "Ceiling_PaintMAT"
+                                },
+                                {
+                                    "Name": "Exterior_PaintMAT"
+                                },
+                                {
+                                    "Name": "Dinning_Room_CurtainMAT"
+                                },
+                                {
+                                    "Name": "Loft_CurtainsMAT"
+                                },
+                                {
+                                    "Name": "Wood_FloorMAT"
                                 }
                             ]
                         },

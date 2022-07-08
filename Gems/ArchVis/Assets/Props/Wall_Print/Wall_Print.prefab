@@ -88,6 +88,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 15026422971092846704,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "wall_printMAT"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}

@@ -59,6 +59,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 1104764010385244140,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "potted_plantMAT_005"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}

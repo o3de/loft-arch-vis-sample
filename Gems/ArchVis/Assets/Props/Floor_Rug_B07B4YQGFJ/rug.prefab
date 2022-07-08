@@ -161,6 +161,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 7640891002383393583,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "rugMAT_003"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}

@@ -147,7 +147,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "bookMAT"
+                                },
+                                {
+                                    "Name": "bookHolderMAT"
                                 }
                             ]
                         },

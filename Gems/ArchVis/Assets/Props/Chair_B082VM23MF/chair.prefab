@@ -111,7 +111,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "chairMAT_001"
+                                },
+                                {
+                                    "Name": "pillowMAT_001"
                                 }
                             ]
                         }

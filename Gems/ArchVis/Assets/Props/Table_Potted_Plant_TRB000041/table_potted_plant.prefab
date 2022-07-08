@@ -99,7 +99,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "potMAT"
+                                },
+                                {
+                                    "Name": "plantMAT"
                                 }
                             ]
                         },

@@ -90,7 +90,7 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "sofaMAT"
                                 }
                             ]
                         },
@@ -155,9 +155,32 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{92D11ED4-480F-597F-BA9F-07CA587202C5}"
+                                                "guid": "{62C2849F-C1D8-555C-8ADE-D99C67E8C1ED}"
                                             },
-                                            "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_sofamat.azmaterial"
+                                            "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l_sofamat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{D4366E6D-5853-5937-874E-708FFCD98513}",
+                                                    "subId": 1000
+                                                }
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{D01105BA-D54F-5002-A1C6-74BCE1A54905}",
+                                                    "subId": 1000
+                                                }
+                                            },
+                                            "normal.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{3FC7BB25-60BB-5264-A44D-D3E5C1F6FC00}",
+                                                    "subId": 1000
+                                                }
+                                            }
                                         }
                                     }
                                 }
@@ -176,10 +199,10 @@
                         "Configuration": {
                             "ModelAsset": {
                                 "assetId": {
-                                    "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
-                                    "subId": 279970865
+                                    "guid": "{E48EB7AF-CB90-5FFB-AA17-13B052C541DB}",
+                                    "subId": 281954316
                                 },
-                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.azmodel"
+                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.azmodel"
                             },
                             "LodType": 2
                         }

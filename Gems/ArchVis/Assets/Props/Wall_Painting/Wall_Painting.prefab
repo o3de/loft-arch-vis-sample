@@ -67,6 +67,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 11885409761003560783,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "paintingMAT"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}
