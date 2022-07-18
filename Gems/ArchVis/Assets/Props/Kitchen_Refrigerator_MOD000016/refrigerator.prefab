@@ -67,6 +67,13 @@
                     "$type": "EditorColliderComponent",
                     "Id": 15809170977647956888,
                     "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "refrigeratorMAT"
+                                }
+                            ]
+                        },
                         "MaterialSelection": {
                             "MaterialIds": [
                                 {}

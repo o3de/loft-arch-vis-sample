@@ -173,7 +173,16 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "part1"
+                                },
+                                {
+                                    "Name": "part4"
+                                },
+                                {
+                                    "Name": "main"
+                                },
+                                {
+                                    "Name": "part3"
                                 }
                             ]
                         },

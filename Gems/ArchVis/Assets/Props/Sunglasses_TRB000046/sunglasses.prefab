@@ -164,7 +164,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "framesMAT"
+                                },
+                                {
+                                    "Name": "lensesMAT"
                                 }
                             ]
                         },

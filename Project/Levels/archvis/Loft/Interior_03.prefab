@@ -7,6 +7,11 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 10641544592923449938
             },
+            "Component_[11999215882071706376]": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 11999215882071706376,
+                "LocalBookmarkFileName": "Interior_03_28198098237.setreg"
+            },
             "Component_[12039882709170782873]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 12039882709170782873
@@ -67,6 +72,10 @@
                         "QualityLevel": 1
                     }
                 }
+            },
+            "Component_[922030488112710569]": {
+                "$type": "AZ::Render::RenderDebugEditorComponent",
+                "Id": 922030488112710569
             },
             "Component_[9307224322037797205]": {
                 "$type": "EditorLockComponent",

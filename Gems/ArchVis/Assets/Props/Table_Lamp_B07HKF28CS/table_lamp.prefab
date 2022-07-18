@@ -176,7 +176,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "glassMAT"
+                                },
+                                {
+                                    "Name": "lampMAT"
                                 }
                             ]
                         },

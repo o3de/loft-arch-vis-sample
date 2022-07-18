@@ -74,7 +74,10 @@
                         "MaterialSlots": {
                             "Slots": [
                                 {
-                                    "Name": "Entire object"
+                                    "Name": "ceilingLightBaseMAT_001"
+                                },
+                                {
+                                    "Name": "ceilingLightGlassMAT_001"
                                 }
                             ]
                         },
