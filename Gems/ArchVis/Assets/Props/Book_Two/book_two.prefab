@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "book_bucketList",
+        "Name": "book_two",
         "Components": {
             "Component_[10447685532499203772]": {
                 "$type": "EditorInspectorComponent",
@@ -53,7 +53,7 @@
     "Entities": {
         "Entity_[607291657226]": {
             "Id": "Entity_[607291657226]",
-            "Name": "book_bucketList",
+            "Name": "book_two",
             "Components": {
                 "Component_[11296872188689898055]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -77,7 +77,7 @@
                                     "guid": "{246EC4E7-8CF3-5B22-A0C5-9640B0FDE0CF}",
                                     "subId": 271790263
                                 },
-                                "assetHint": "props/book_bucketlist/book_bucketlist.azmodel"
+                                "assetHint": "props/book_two/book_two.azmodel"
                             }
                         }
                     }
@@ -134,7 +134,7 @@
                                     "subId": 4147083583
                                 },
                                 "loadBehavior": "PreLoad",
-                                "assetHint": "props/book_bucketlist/book_bucketlist_book_bucketlistmat_2587307407272016191.azmaterial"
+                                "assetHint": "props/book_two/book_two_book_twomat_2587307407272016191.azmaterial"
                             }
                         }
                     ],
@@ -151,7 +151,7 @@
                                         "subId": 4147083583
                                     },
                                     "loadBehavior": "PreLoad",
-                                    "assetHint": "props/book_bucketlist/book_bucketlist_book_bucketlistmat_2587307407272016191.azmaterial"
+                                    "assetHint": "props/book_two/book_two_book_twomat_2587307407272016191.azmaterial"
                                 }
                             }
                         ]

@@ -12,7 +12,7 @@
                 1.0
             ],
             "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_02/textures/book_mondo_BaseColor.png"
+            "textureMap": "Props/Book_four/textures/book_four_BaseColor.png"
         },
         "emissive": {
             "color": [
@@ -28,14 +28,14 @@
             "useTexture": false
         },
         "normal": {
-            "textureMap": "Rooms/Interior_02/textures/book_mondo_Normal.png"
+            "textureMap": "Props/Book_four/textures/book_four_Normal.png"
         },
         "opacity": {
             "factor": 1.0
         },
         "roughness": {
-            "factor": 0.33000001311302185,
-            "textureMap": "Rooms/Interior_02/textures/book_mondo_Roughness.png"
+            "factor": 0.33000001311302187,
+            "textureMap": "Props/Book_four/textures/book_four_Roughness.png"
         }
     }
 }

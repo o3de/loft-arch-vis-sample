@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "book_ElementsOfStyle",
+        "Name": "book_four",
         "Components": {
             "Component_[10078690463960964188]": {
                 "$type": "EditorLockComponent",
@@ -53,7 +53,7 @@
     "Entities": {
         "Entity_[1711098252298]": {
             "Id": "Entity_[1711098252298]",
-            "Name": "book_ElementsOfStyle",
+            "Name": "book_four",
             "Components": {
                 "Component_[10146371728887363339]": {
                     "$type": "EditorPendingCompositionComponent",
@@ -95,7 +95,7 @@
                                             "assetId": {
                                                 "guid": "{E84BBE90-EFA9-5A5F-A6B8-77B4D77E5457}"
                                             },
-                                            "assetHint": "props/book_elementsofstyle/book_elementsofstyle_book_elementsofstylemat.azmaterial"
+                                            "assetHint": "props/book_four/book_four_book_fourmat.azmaterial"
                                         }
                                     }
                                 }
@@ -111,7 +111,7 @@
                                 "assetId": {
                                     "guid": "{E84BBE90-EFA9-5A5F-A6B8-77B4D77E5457}"
                                 },
-                                "assetHint": "props/book_elementsofstyle/book_elementsofstyle_book_elementsofstylemat.azmaterial"
+                                "assetHint": "props/book_four/book_four_book_fourmat.azmaterial"
                             },
                             "defaultMaterialAsset": {
                                 "assetId": {
@@ -119,7 +119,7 @@
                                     "subId": 3332642883
                                 },
                                 "loadBehavior": "PreLoad",
-                                "assetHint": "props/book_elementsofstyle/book_elementsofstyle_book_elementsofstylemat_15613339261219379267.azmaterial"
+                                "assetHint": "props/book_four/book_four_book_fourmat_15613339261219379267.azmaterial"
                             }
                         }
                     ],
@@ -136,7 +136,7 @@
                                         "subId": 3332642883
                                     },
                                     "loadBehavior": "PreLoad",
-                                    "assetHint": "props/book_elementsofstyle/book_elementsofstyle_book_elementsofstylemat_15613339261219379267.azmaterial"
+                                    "assetHint": "props/book_four/book_four_book_fourmat_15613339261219379267.azmaterial"
                                 }
                             }
                         ]
@@ -181,7 +181,7 @@
                                     "guid": "{DCD8B53E-9993-5608-B75C-248C61F32163}",
                                     "subId": 270919028
                                 },
-                                "assetHint": "props/book_elementsofstyle/book_elementsofstyle.azmodel"
+                                "assetHint": "props/book_four/book_four.azmodel"
                             }
                         }
                     }

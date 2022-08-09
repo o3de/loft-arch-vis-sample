@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "book_arthouse",
+        "Name": "book_one",
         "Components": {
             "Component_[10371841166258004592]": {
                 "$type": "EditorLockComponent",
@@ -53,7 +53,7 @@
     "Entities": {
         "Entity_[405428194314]": {
             "Id": "Entity_[405428194314]",
-            "Name": "book_arthouse",
+            "Name": "book_one",
             "Components": {
                 "Component_[10287963362625554519]": {
                     "$type": "SelectionComponent",
@@ -86,7 +86,7 @@
                                     "guid": "{53495A75-C3B6-58EF-B9D1-65AE801CAE0F}",
                                     "subId": 271526208
                                 },
-                                "assetHint": "props/book_arthouse/book_arthouse.azmodel"
+                                "assetHint": "props/book_one/book_one.azmodel"
                             }
                         }
                     }
@@ -114,7 +114,7 @@
                                             "assetId": {
                                                 "guid": "{D1C5786E-65A1-5AC7-AB11-D5291F4F0C2A}"
                                             },
-                                            "assetHint": "props/book_arthouse/book_arthouse_book_arthousemat.azmaterial"
+                                            "assetHint": "props/book_one/book_one_book_onemat.azmaterial"
                                         }
                                     }
                                 }
@@ -130,7 +130,7 @@
                                 "assetId": {
                                     "guid": "{D1C5786E-65A1-5AC7-AB11-D5291F4F0C2A}"
                                 },
-                                "assetHint": "props/book_arthouse/book_arthouse_book_arthousemat.azmaterial"
+                                "assetHint": "props/book_one/book_one_book_onemat.azmaterial"
                             },
                             "defaultMaterialAsset": {
                                 "assetId": {
@@ -138,7 +138,7 @@
                                     "subId": 3245953667
                                 },
                                 "loadBehavior": "PreLoad",
-                                "assetHint": "props/book_arthouse/book_arthouse_book_arthousemat_9747349833940292227.azmaterial"
+                                "assetHint": "props/book_one/book_one_book_onemat_9747349833940292227.azmaterial"
                             }
                         }
                     ],
@@ -155,7 +155,7 @@
                                         "subId": 3245953667
                                     },
                                     "loadBehavior": "PreLoad",
-                                    "assetHint": "props/book_arthouse/book_arthouse_book_arthousemat_9747349833940292227.azmaterial"
+                                    "assetHint": "props/book_one/book_one_book_onemat_9747349833940292227.azmaterial"
                                 }
                             }
                         ]

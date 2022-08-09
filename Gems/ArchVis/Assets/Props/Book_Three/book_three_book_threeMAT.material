@@ -5,8 +5,14 @@
     "propertyLayoutVersion": 3,
     "properties": {
         "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
             "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/book01_BaseColor.png"
+            "textureMap": "Props/Book_three/textures/book_three_BaseColor.png"
         },
         "emissive": {
             "color": [
@@ -22,14 +28,14 @@
             "useTexture": false
         },
         "normal": {
-            "textureMap": "Rooms/Interior_01/textures/book01_Normal.png"
+            "textureMap": "Props/Book_three/textures/book_three_Normal.png"
         },
         "opacity": {
             "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302187,
-            "textureMap": "Rooms/Interior_01/textures/book01_Roughness.png"
+            "textureMap": "Props/Book_three/textures/book_three_Roughness.png"
         }
     }
 }

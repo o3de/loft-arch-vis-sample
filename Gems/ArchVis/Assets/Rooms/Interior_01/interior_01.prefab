@@ -133,9 +133,9 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{CFE6B025-C162-5211-94C8-62F304DC4750}"
+                                                "guid": "{B497DA74-AB1C-5ED5-A72D-CFF4B92F17C1}"
                                             },
-                                            "assetHint": "rooms/interior_01/interior_01_book01mat.azmaterial"
+                                            "assetHint": "props/book_three/book_three_book_threemat.azmaterial"
                                         }
                                     }
                                 },
@@ -159,9 +159,8 @@
                                     "Value": {
                                         "MaterialAsset": {
                                             "assetId": {
-                                                "guid": "{FD9896F8-3477-5BAB-BB0A-E21CEF4FD30C}"
-                                            },
-                                            "assetHint": "rooms/interior_01/interior_01_book02mat.azmaterial"
+                                                "guid": "{830D415F-DB0D-5D99-8267-4593E67AA3C3}"
+                                            }
                                         }
                                     }
                                 },
@@ -206,200 +205,7 @@
                                 }
                             ]
                         }
-                    },
-                    "materialSlots": [
-                        {
-                            "id": {
-                                "materialSlotStableId": 2741620876
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{CFE6B025-C162-5211-94C8-62F304DC4750}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_book01mat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3669000672
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{FD9896F8-3477-5BAB-BB0A-E21CEF4FD30C}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_book02mat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 2509765847
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{8B501488-DDB1-55CB-AAC8-D07F7858E37B}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_picturemat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 4182867567
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{8B60A7B1-E3CB-579B-AF75-706BFF784F20}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_cactusmat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 2626873854
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{ED2BF8D3-7220-585C-B43F-9AA1A62524B5}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_cactuspotmat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 4131388198
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{BB40A90C-BA6A-5E17-B027-2D5E6E8DE393}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_dressermat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 2370120520
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{EA4B36EB-3722-59A2-83C7-D67FD93DA157}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_floormat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 902256226
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{CBAA77DE-22D0-515B-8CC4-CDE76CF17425}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_lambert1.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 4005493637
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{4C3F71CE-A9C1-5FD1-8802-26261F65501F}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_lampmat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 3303608480
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{B41D6A5C-B6A9-5680-ACA1-34CD39CCE5E7}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_wallmat.azmaterial"
-                            }
-                        },
-                        {
-                            "id": {
-                                "materialSlotStableId": 2097614765
-                            },
-                            "materialAsset": {
-                                "assetId": {
-                                    "guid": "{8133BC79-FEC6-5672-94A9-6097529CDE66}"
-                                },
-                                "assetHint": "rooms/interior_01/interior_01_whitewallmat.azmaterial"
-                            }
-                        }
-                    ],
-                    "materialSlotsByLod": [
-                        [
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 2741620876
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3669000672
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 2509765847
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 4182867567
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 2626873854
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 4131388198
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 2370120520
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 902256226
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 4005493637
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 3303608480
-                                }
-                            },
-                            {
-                                "id": {
-                                    "lodIndex": 0,
-                                    "materialSlotStableId": 2097614765
-                                }
-                            }
-                        ]
-                    ]
+                    }
                 },
                 "Component_[10462319685079815930]": {
                     "$type": "EditorLockComponent",

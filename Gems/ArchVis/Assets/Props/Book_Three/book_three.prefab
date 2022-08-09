@@ -1,7 +1,7 @@
 {
     "ContainerEntity": {
         "Id": "ContainerEntity",
-        "Name": "book_Mondo",
+        "Name": "book_three",
         "Components": {
             "Component_[10916027984662429230]": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -53,7 +53,7 @@
     "Entities": {
         "Entity_[2016040930314]": {
             "Id": "Entity_[2016040930314]",
-            "Name": "book_Mondo",
+            "Name": "book_three",
             "Components": {
                 "Component_[10190338524934163834]": {
                     "$type": "EditorInspectorComponent",
@@ -104,7 +104,7 @@
                                             "assetId": {
                                                 "guid": "{5F0E79BD-7708-5BE1-839E-9FD7114575F0}"
                                             },
-                                            "assetHint": "props/book_mondo/book_mondo_book_mondomat.azmaterial"
+                                            "assetHint": "props/book_three/book_three_book_threemat.azmaterial"
                                         }
                                     }
                                 }
@@ -120,7 +120,7 @@
                                 "assetId": {
                                     "guid": "{5F0E79BD-7708-5BE1-839E-9FD7114575F0}"
                                 },
-                                "assetHint": "props/book_mondo/book_mondo_book_mondomat.azmaterial"
+                                "assetHint": "props/book_three/book_three_book_threemat.azmaterial"
                             },
                             "defaultMaterialAsset": {
                                 "assetId": {
@@ -128,7 +128,7 @@
                                     "subId": 1924340936
                                 },
                                 "loadBehavior": "PreLoad",
-                                "assetHint": "props/book_mondo/book_mondo_book_mondomat_2540930683194514632.azmaterial"
+                                "assetHint": "props/book_three/book_three_book_threemat_2540930683194514632.azmaterial"
                             }
                         }
                     ],
@@ -145,7 +145,7 @@
                                         "subId": 1924340936
                                     },
                                     "loadBehavior": "PreLoad",
-                                    "assetHint": "props/book_mondo/book_mondo_book_mondomat_2540930683194514632.azmaterial"
+                                    "assetHint": "props/book_three/book_three_book_threemat_2540930683194514632.azmaterial"
                                 }
                             }
                         ]
@@ -169,7 +169,7 @@
                                     "guid": "{52D2BFD5-1C97-5AEB-9A60-31430B6C169C}",
                                     "subId": 282231437
                                 },
-                                "assetHint": "props/book_mondo/book_mondo.azmodel"
+                                "assetHint": "props/book_three/book_three.azmodel"
                             }
                         }
                     }
