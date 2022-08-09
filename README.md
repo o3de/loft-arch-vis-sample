@@ -1,4 +1,6 @@
-# Loft Scene Sample
+# O3DE Loft ArchVis Sample Scene
+
+![image](https://user-images.githubusercontent.com/23222931/183764769-a5042a47-60cb-49e2-8ced-138ce8bcda3d.png)
 
 ## Download and Install
 
