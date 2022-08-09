@@ -49,4 +49,5 @@ set(ENABLED_GEMS
     Sponza
     DevTextures
     MaterialEditor
+    ScriptAutomation
 )
