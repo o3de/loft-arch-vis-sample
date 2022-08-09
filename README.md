@@ -4,21 +4,18 @@
 
 This repository uses Git LFS for storing large binary files.  You will need to create a Github personal access token to authenticate with the LFS service.
 
-
 ### Create a Git Personal Access Token
 
 You will need your personal access token credentials to authenticate when you clone the repository.
 
 [Create a personal access token with the 'repo' scope.](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
 
-
-### (Recommended) Verify you have a credential manager installed to store your credentials 
+### (Recommended) Verify you have a credential manager installed to store your credentials
 
 Recent versions of Git install a credential manager to store your credentials so you don't have to put in the credentials for every request.  
 It is highly recommended you check that you have a [credential manager installed and configured](https://github.com/microsoft/Git-Credential-Manager-Core)
 
-
-### Step 1. Clone the repository 
+### Step 1. Clone the repository
 
 You can clone the gems to any folder locally, including inside the engine folder. If you clone to a folder inside an existing Git repository (e.g. o3de) you should add the folder to the Git exclude file for the existing repository.
 
@@ -43,7 +40,7 @@ Cloning into 'loft-arch-vis-sample'...
 
 If you have a Git credential helper configured, you should not be prompted for your credentials anymore.
 
-### Step 2. Register the engine and gems 
+### Step 2. Register the engine and gems
 
 ```shell
 # register the engine (If you already have built O3DE in project-centric mode then you don't need this step.)
@@ -60,6 +57,4 @@ You are now setup to use these gems in your projects.
 
 ## License
 
-For terms please see the LICENSE*.TXT file at the root of this distribution.
-
-
+For terms please see the LICENSE*.TXT files within this distribution.
