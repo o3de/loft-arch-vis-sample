@@ -50,4 +50,5 @@ set(ENABLED_GEMS
     DevTextures
     MaterialEditor
     ScriptAutomation
+    DiffuseProbeGrid
 )
