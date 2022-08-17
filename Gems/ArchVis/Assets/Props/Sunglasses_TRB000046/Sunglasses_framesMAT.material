@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Sunglasses_TRB000046/textures/frames_BaseColor.png",
@@ -10,9 +10,9 @@
             0.0,
             1.0
         ],
-        "irradiance.color": [
+        "irradiance.manualColor": [
             1.0,
-            0.616662859916687,
+            0.6166629195213318,
             0.0,
             1.0
         ],

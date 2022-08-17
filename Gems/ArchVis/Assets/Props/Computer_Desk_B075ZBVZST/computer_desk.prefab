@@ -19,10 +19,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 18185968106047180993
             },
-            "Component_[1934981118639607512]": {
-                "$type": "SelectionComponent",
-                "Id": 1934981118639607512
-            },
             "Component_[4579497820762232178]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 4579497820762232178
@@ -67,10 +63,6 @@
                         ]
                     }
                 },
-                "Component_[138902228057552418]": {
-                    "$type": "SelectionComponent",
-                    "Id": 138902228057552418
-                },
                 "Component_[1490226298353474638]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 1490226298353474638
@@ -111,6 +103,12 @@
                                                 "guid": "{9AB497BE-8748-53DC-AE61-3BC92E87C3B0}"
                                             },
                                             "assetHint": "props/computer_desk_b075zbvzst/computer_desk_computerdeskmat.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "general.applySpecularAA": {
+                                                "$type": "bool",
+                                                "Value": false
+                                            }
                                         }
                                     }
                                 }

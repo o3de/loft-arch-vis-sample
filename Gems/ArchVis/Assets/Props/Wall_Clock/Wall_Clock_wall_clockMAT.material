@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -19,16 +19,17 @@
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
         "general.applySpecularAA": true,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.26315709948539734,
             0.5163195133209229,
-            0.8707408308982849,
+            0.8707407712936401,
             1.0
         ],
         "metallic.textureMap": "Props/Wall_Clock/textures/wall_clock_Metallic.png",
         "normal.textureMap": "Props/Wall_Clock/textures/wall_clock_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Wall_Clock/textures/wall_clock_Roughness.png"
+        "roughness.textureMap": "Props/Wall_Clock/textures/wall_clock_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

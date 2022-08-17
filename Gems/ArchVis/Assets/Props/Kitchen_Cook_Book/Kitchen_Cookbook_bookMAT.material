@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -18,10 +18,10 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.9863889813423157,
-            0.9035324454307556,
-            0.7102006673812866,
+            0.9035323858261108,
+            0.7102007269859314,
             1.0
         ],
         "metallic.useTexture": false,

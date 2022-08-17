@@ -18,10 +18,10 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.irradianceColorSource": "Manual",
+        "general.applySpecularAA": true,
         "irradiance.manualColor": [
             1.0,
-            0.8215762376785278,
+            0.8215761780738831,
             0.5400015115737915,
             1.0
         ],
@@ -29,6 +29,7 @@
         "normal.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Roughness.png"
+        "roughness.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

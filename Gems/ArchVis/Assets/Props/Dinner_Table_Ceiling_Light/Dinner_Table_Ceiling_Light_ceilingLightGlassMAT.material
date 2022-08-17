@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -22,6 +22,7 @@
         "metallic.useTexture": false,
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.useTexture": false
+        "roughness.useTexture": false,
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

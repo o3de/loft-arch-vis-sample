@@ -21,8 +21,8 @@
         "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "irradiance.manualColor": [
-            0.31020066142082214,
-            0.5940184593200684,
+            0.31020069122314453,
+            0.5940185189247131,
             0.9183642268180847,
             1.0
         ],

@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -14,6 +14,12 @@
             0.0,
             0.0,
             0.0,
+            1.0
+        ],
+        "irradiance.manualColor": [
+            0.572549045085907,
+            0.729411780834198,
+            0.7960784435272217,
             1.0
         ],
         "metallic.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Metallic.png",
