@@ -1,6 +1,6 @@
 # O3DE Loft ArchVis Sample Scene
 
-![image](https://user-images.githubusercontent.com/23222931/183764769-a5042a47-60cb-49e2-8ced-138ce8bcda3d.png)
+![image](https://user-images.githubusercontent.com/23222931/187786108-fec21285-5c78-4e93-88ae-51e74eb4ffdb.png)
 
 ## Download and Install
 
