@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -18,10 +18,10 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
-            0.3537346422672272,
-            0.20962844789028168,
-            0.007858396507799625,
+        "irradiance.manualColor": [
+            0.3537346124649048,
+            0.2096284031867981,
+            0.007858400233089924,
             1.0
         ],
         "metallic.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Metallic.png",

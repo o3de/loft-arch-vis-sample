@@ -1,41 +1,27 @@
 {
-    "description": "",
-    "parentMaterial": "",
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 0,
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-            ],
-            "textureBlendMode": "Lerp",
-            "textureMap": "Props/Wall_Art_Two_Set/textures/picture_two_BaseColor.png"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "normal": {
-            "textureMap": "Props/Wall_Art_Two_Set/textures/picture_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.33000001311302185,
-            "textureMap": "Props/Wall_Art_Two_Set/textures/picture_Roughness.png"
-        }
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Wall_Art_Two_Set/textures/picture_two_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "normal.textureMap": "Props/Wall_Art_Two_Set/textures/picture_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "Props/Wall_Art_Two_Set/textures/picture_Roughness.png"
     }
 }

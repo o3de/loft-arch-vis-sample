@@ -47,6 +47,11 @@
             "Component_[9562516168917670048]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 9562516168917670048
+            },
+            "Component_[9689086435717947138]": {
+                "$type": "LocalViewBookmarkComponent",
+                "Id": 9689086435717947138,
+                "LocalBookmarkFileName": "Interior_01_1290537917785.setreg"
             }
         }
     },
@@ -375,30 +380,13 @@
                 "Component_[5855590796136709437]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 5855590796136709437,
-                    "ChildEntityOrderEntryArray": [
-                        {
-                            "EntityId": "Entity_[1155164325235]"
-                        },
-                        {
-                            "EntityId": "Entity_[1180934129011]",
-                            "SortIndex": 1
-                        },
-                        {
-                            "EntityId": "",
-                            "SortIndex": 2
-                        },
-                        {
-                            "EntityId": "Entity_[1168049227123]",
-                            "SortIndex": 3
-                        },
-                        {
-                            "EntityId": "Entity_[1163754259827]",
-                            "SortIndex": 4
-                        },
-                        {
-                            "EntityId": "Entity_[1159459292531]",
-                            "SortIndex": 5
-                        }
+                    "Child Entity Order": [
+                        "Entity_[1155164325235]",
+                        "Entity_[1180934129011]",
+                        "",
+                        "Entity_[1168049227123]",
+                        "Entity_[1163754259827]",
+                        "Entity_[1159459292531]"
                     ]
                 },
                 "Component_[9277695270015777859]": {

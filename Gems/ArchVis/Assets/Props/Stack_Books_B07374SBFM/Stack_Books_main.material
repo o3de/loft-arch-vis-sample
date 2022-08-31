@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -14,6 +14,12 @@
             0.0,
             0.0,
             0.0,
+            1.0
+        ],
+        "irradiance.manualColor": [
+            0.3803921639919281,
+            0.615686297416687,
+            0.6352941393852234,
             1.0
         ],
         "normal.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Normal.png",

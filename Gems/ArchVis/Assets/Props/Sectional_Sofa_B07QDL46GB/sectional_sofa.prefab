@@ -24,10 +24,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 15529175958946819788
             },
-            "Component_[17982537960701409816]": {
-                "$type": "SelectionComponent",
-                "Id": 17982537960701409816
-            },
             "Component_[3280132572019456402]": {
                 "$type": "EditorLockComponent",
                 "Id": 3280132572019456402
@@ -55,10 +51,6 @@
             "Id": "Entity_[5752732721881]",
             "Name": "sectional_sofa",
             "Components": {
-                "Component_[1282068591054115300]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1282068591054115300
-                },
                 "Component_[13389172003601302059]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13389172003601302059,
@@ -158,29 +150,6 @@
                                                 "guid": "{62C2849F-C1D8-555C-8ADE-D99C67E8C1ED}"
                                             },
                                             "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l_sofamat.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "baseColor.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{D4366E6D-5853-5937-874E-708FFCD98513}",
-                                                    "subId": 1000
-                                                }
-                                            },
-                                            "roughness.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{D01105BA-D54F-5002-A1C6-74BCE1A54905}",
-                                                    "subId": 1000
-                                                }
-                                            },
-                                            "normal.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{3FC7BB25-60BB-5264-A44D-D3E5C1F6FC00}",
-                                                    "subId": 1000
-                                                }
-                                            }
                                         }
                                     }
                                 }

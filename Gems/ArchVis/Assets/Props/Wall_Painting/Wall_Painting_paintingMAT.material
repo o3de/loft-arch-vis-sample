@@ -1,38 +1,26 @@
 {
-    "description": "",
-    "parentMaterial": "",
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 0,
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-            ],
-            "textureBlendMode": "Lerp",
-            "textureMap": "Props/Wall_Painting/textures/painting_BaseColor.png"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.7317072749137878,
-            "useTexture": false
-        }
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "Props/Wall_Painting/textures/painting_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.7317072749137878,
+        "roughness.useTexture": false
     }
 }

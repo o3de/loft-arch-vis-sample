@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_BaseColor.png",
@@ -8,6 +8,13 @@
             0.0,
             0.0,
             0.0,
+            1.0
+        ],
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.24313725531101227,
+            0.22745098173618317,
+            0.2078431397676468,
             1.0
         ],
         "metallic.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_Metallic.png",

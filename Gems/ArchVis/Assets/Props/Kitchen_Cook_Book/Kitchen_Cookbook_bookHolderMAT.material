@@ -1,11 +1,11 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.8104981780052185,
-            0.4166170656681061,
-            0.015594720840454102,
+            0.41661709547042847,
+            0.01559470035135746,
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
@@ -17,7 +17,7 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             1.0,
             0.8666666746139526,
             0.0,
@@ -27,6 +27,7 @@
         "metallic.useTexture": false,
         "opacity.factor": 1.0,
         "roughness.factor": 0.23999999463558197,
-        "roughness.useTexture": false
+        "roughness.useTexture": false,
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

@@ -19,7 +19,6 @@
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
         "general.applySpecularAA": true,
-        "irradiance.irradianceColorSource": "Manual",
         "metallic.useTexture": false,
         "normal.flipY": true,
         "normal.textureMap": "Props/Floor_Rug_B0735THVQH/textures/rug_Normal.png",

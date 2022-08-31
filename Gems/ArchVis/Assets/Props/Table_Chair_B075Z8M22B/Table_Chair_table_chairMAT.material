@@ -21,8 +21,8 @@
         "general.applySpecularAA": true,
         "irradiance.manualColor": [
             0.7142900824546814,
-            0.5428549647331238,
-            0.5428549647331238,
+            0.5428550243377686,
+            0.5428550243377686,
             1.0
         ],
         "metallic.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Metallic.png",

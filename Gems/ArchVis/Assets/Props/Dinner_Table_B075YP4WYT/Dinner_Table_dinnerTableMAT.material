@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -18,10 +18,11 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
             0.687067985534668,
-            0.43566033244132996,
-            0.29010453820228577,
+            0.43566030263900757,
+            0.2901045083999634,
             1.0
         ],
         "metallic.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Metallic.png",

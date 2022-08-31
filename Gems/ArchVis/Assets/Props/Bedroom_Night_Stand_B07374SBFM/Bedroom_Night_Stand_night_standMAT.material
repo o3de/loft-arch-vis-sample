@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Bedroom_Night_Stand_B07374SBFM/textures/night_stand_BaseColor.png",
@@ -12,7 +12,8 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
             0.5170061588287354,
             0.3143358528614044,
             0.08271915465593338,

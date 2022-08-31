@@ -1,11 +1,11 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
-            0.14966048300266266,
-            0.0632944256067276,
-            0.013305867090821266,
+            0.14966049790382385,
+            0.06329440325498581,
+            0.013305899687111378,
             1.0
         ],
         "clearCoat.enable": true,
