@@ -40,10 +40,6 @@
                 "Id": 7239648080415832902,
                 "Parent Entity": ""
             },
-            "Component_[9189717105076543467]": {
-                "$type": "SelectionComponent",
-                "Id": 9189717105076543467
-            },
             "Component_[9739372956651711600]": {
                 "$type": "EditorInspectorComponent",
                 "Id": 9739372956651711600
@@ -131,10 +127,6 @@
                         }
                     ]
                 },
-                "Component_[15976809509734672026]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15976809509734672026
-                },
                 "Component_[16255784355187180597]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 16255784355187180597,
@@ -165,6 +157,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1025425980
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EAFFC45C-0FF9-5959-BCCA-362AD0D7BF4E}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 1977253547

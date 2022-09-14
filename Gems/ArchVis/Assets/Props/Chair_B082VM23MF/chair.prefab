@@ -40,10 +40,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 670345798098463884
             },
-            "Component_[7123431047274749154]": {
-                "$type": "SelectionComponent",
-                "Id": 7123431047274749154
-            },
             "Component_[928576198217393780]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 928576198217393780
@@ -58,10 +54,6 @@
                 "Component_[1223936186271531899]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1223936186271531899
-                },
-                "Component_[12459741027185271939]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12459741027185271939
                 },
                 "Component_[12652173119112881554]": {
                     "$type": "EditorInspectorComponent",
@@ -191,6 +183,18 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 2932225145
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 3149940221
                                     },
                                     "Value": {
@@ -199,6 +203,19 @@
                                                 "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
                                             },
                                             "assetHint": "props/chair_b082vm23mf/chair_pillowmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3389794772
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{86CCDC2B-DD2B-5E1E-A152-EDD2404B41FF}"
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_chairmat.azmaterial"
                                         }
                                     }
                                 }

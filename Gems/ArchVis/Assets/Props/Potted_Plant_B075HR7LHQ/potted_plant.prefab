@@ -43,10 +43,6 @@
             "Component_[757974431489739497]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 757974431489739497
-            },
-            "Component_[7601874984439890701]": {
-                "$type": "SelectionComponent",
-                "Id": 7601874984439890701
             }
         }
     },
@@ -97,6 +93,31 @@
                                                 "guid": "{3A8B481D-31C4-5C15-B84E-06F661327886}"
                                             },
                                             "assetHint": "props/potted_plant_b075hr7lhq/potted_plant_plantmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2354573659
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3A8B481D-31C4-5C15-B84E-06F661327886}"
+                                            },
+                                            "assetHint": "props/potted_plant_b075hr7lhq/potted_plant_plantmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3923991944
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CFF8429B-30BB-54F4-BFED-A4720B0D04E3}"
+                                            }
                                         }
                                     }
                                 }
@@ -166,10 +187,6 @@
                 "Component_[13923389822110366752]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 13923389822110366752
-                },
-                "Component_[15369028496523590506]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15369028496523590506
                 },
                 "Component_[154792677440616745]": {
                     "$type": "EditorEntitySortComponent",

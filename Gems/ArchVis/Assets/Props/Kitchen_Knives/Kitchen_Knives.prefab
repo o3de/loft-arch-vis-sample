@@ -43,10 +43,6 @@
             "Component_[7851255337246482955]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 7851255337246482955
-            },
-            "Component_[8740974626647303505]": {
-                "$type": "SelectionComponent",
-                "Id": 8740974626647303505
             }
         }
     },
@@ -103,10 +99,6 @@
                 "Component_[17027217870028804263]": {
                     "$type": "EditorLockComponent",
                     "Id": 17027217870028804263
-                },
-                "Component_[17368975515465099967]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17368975515465099967
                 },
                 "Component_[17716965496971507354]": {
                     "$type": "EditorColliderComponent",
@@ -190,6 +182,18 @@
                                                 "guid": "{1F4CE8A1-A843-58AF-831E-59BB78A33D79}"
                                             },
                                             "assetHint": "props/kitchen_knives/kitchen_knives_kitchen_knivesmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3339465669
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1F4CE8A1-A843-58AF-831E-59BB78A33D79}"
+                                            }
                                         }
                                     }
                                 }

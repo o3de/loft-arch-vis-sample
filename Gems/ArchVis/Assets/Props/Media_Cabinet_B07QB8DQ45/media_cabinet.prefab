@@ -7,10 +7,6 @@
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 10519327272241000031
             },
-            "Component_[10662466469334293145]": {
-                "$type": "SelectionComponent",
-                "Id": 10662466469334293145
-            },
             "Component_[11921566437156779285]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 11921566437156779285
@@ -79,10 +75,6 @@
                         }
                     }
                 },
-                "Component_[1541037915991143731]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1541037915991143731
-                },
                 "Component_[17590796931286878707]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 17590796931286878707
@@ -147,6 +139,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 350004703
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{16278723-6BC2-5502-BCDF-E3FCFA0562D9}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 731542502

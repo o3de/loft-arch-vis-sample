@@ -3,10 +3,6 @@
         "Id": "ContainerEntity",
         "Name": "sunglasses",
         "Components": {
-            "Component_[14539469980278382298]": {
-                "$type": "SelectionComponent",
-                "Id": 14539469980278382298
-            },
             "Component_[15660598357975206414]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 15660598357975206414
@@ -61,6 +57,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1177026722
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{060BE268-0974-5735-A27E-FB66CBA782A3}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 1587688607
@@ -202,10 +210,6 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
-                },
-                "Component_[9283837627767959487]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9283837627767959487
                 },
                 "Component_[9469151848128424079]": {
                     "$type": "EditorLockComponent",

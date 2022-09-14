@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5000076293945313,
@@ -16,9 +16,10 @@
             0.0,
             1.0
         ],
+        "irradiance.irradianceColorSource": "BaseColor",
         "normal.textureMap": "Rooms/Interior_03/textures/Ktichen_Countertop_base_normal.png",
         "opacity.factor": 1.0,
-        "roughness.factor": 0.20000000298023224,
+        "roughness.factor": 0.1899999976158142,
         "specularF0.factor": 0.47999998927116394
     }
 }

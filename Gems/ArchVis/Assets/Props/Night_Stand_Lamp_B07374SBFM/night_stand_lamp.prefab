@@ -23,10 +23,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 15898904735557644600
             },
-            "Component_[17114222026410164769]": {
-                "$type": "SelectionComponent",
-                "Id": 17114222026410164769
-            },
             "Component_[17586694826734235817]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 17586694826734235817,
@@ -55,10 +51,6 @@
             "Id": "Entity_[4180774691545]",
             "Name": "night_stand_lamp",
             "Components": {
-                "Component_[10190956490590486452]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10190956490590486452
-                },
                 "Component_[12109230588446972512]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12109230588446972512
@@ -165,6 +157,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3075985053
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{26460E51-3116-5DF0-AC53-364962DF0524}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 4005493637

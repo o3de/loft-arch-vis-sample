@@ -11,10 +11,6 @@
                 "$type": "EditorLockComponent",
                 "Id": 11545497849542012357
             },
-            "Component_[12445186235493827368]": {
-                "$type": "SelectionComponent",
-                "Id": 12445186235493827368
-            },
             "Component_[1379112263293247270]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 1379112263293247270
@@ -62,10 +58,6 @@
                 "Component_[12278926135034944500]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12278926135034944500
-                },
-                "Component_[12936060579598020300]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12936060579598020300
                 },
                 "Component_[13776324375945566753]": {
                     "$type": "EditorInspectorComponent",
@@ -169,6 +161,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1716906218
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{33BB593B-D558-5164-B274-51E420E771EA}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 4154642210

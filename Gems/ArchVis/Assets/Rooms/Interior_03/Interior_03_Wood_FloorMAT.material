@@ -36,7 +36,7 @@
         "parallax.textureMap": "Rooms/Interior_03/textures/wood_floor_height.bmp",
         "parallax.useTexture": false,
         "roughness.factor": 0.44999998807907104,
-        "roughness.lowerBound": 0.18000000715255737,
+        "roughness.lowerBound": 0.38999998569488525,
         "roughness.textureMap": "Rooms/Interior_03/textures/wood_floor_smoothness.bmp",
         "roughness.upperBound": 0.8199999928474426,
         "specularF0.enableMultiScatterCompensation": true,
