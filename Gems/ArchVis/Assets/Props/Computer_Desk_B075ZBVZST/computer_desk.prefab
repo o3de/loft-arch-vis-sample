@@ -111,6 +111,18 @@
                                             }
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2830548440
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9AB497BE-8748-53DC-AE61-3BC92E87C3B0}"
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         }

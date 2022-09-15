@@ -16,10 +16,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 11742713979467804179
             },
-            "Component_[12778353542193976035]": {
-                "$type": "SelectionComponent",
-                "Id": 12778353542193976035
-            },
             "Component_[14864396548868144105]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 14864396548868144105
@@ -62,10 +58,6 @@
                 "Component_[13300392693167291878]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 13300392693167291878
-                },
-                "Component_[13425224762993987435]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13425224762993987435
                 },
                 "Component_[13479820823462654565]": {
                     "$type": "EditorEntityIconComponent",
@@ -180,6 +172,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1497675822
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8F4ADE22-5888-552E-88F8-5AD2EBC2C7FB}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 3920339947

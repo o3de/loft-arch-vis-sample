@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.48299381136894226,
@@ -20,7 +20,7 @@
         "metallic.factor": 0.5199999809265137,
         "opacity.factor": 1.0,
         "opacity.mode": "Blended",
-        "roughness.factor": 0.14000000059604645,
+        "roughness.factor": 0.23999999463558197,
         "specularF0.factor": 1.0
     }
 }

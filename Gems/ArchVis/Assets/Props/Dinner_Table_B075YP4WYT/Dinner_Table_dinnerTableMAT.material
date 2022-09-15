@@ -19,6 +19,7 @@
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
         "general.applySpecularAA": true,
+        "irradiance.irradianceColorSource": "BaseColor",
         "irradiance.manualColor": [
             0.687067985534668,
             0.43566030263900757,
@@ -29,6 +30,8 @@
         "normal.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Roughness.png"
+        "roughness.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Roughness.png",
+        "roughness.upperBound": 0.4000000059604645,
+        "specularF0.factor": 0.3799999952316284
     }
 }

@@ -19,10 +19,6 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 15590323600821681862
             },
-            "Component_[15699416783564158939]": {
-                "$type": "SelectionComponent",
-                "Id": 15699416783564158939
-            },
             "Component_[18420029770804746679]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 18420029770804746679
@@ -70,10 +66,6 @@
                 "Component_[3775759128618609658]": {
                     "$type": "EditorLockComponent",
                     "Id": 3775759128618609658
-                },
-                "Component_[4218302201165349176]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4218302201165349176
                 },
                 "Component_[5061054010311567057]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -208,6 +200,31 @@
                                                 "guid": "{218A9522-FD2D-5591-9DC7-EC792CC04978}"
                                             },
                                             "assetHint": "props/table_potted_plant_trb000041/table_potted_plant_potmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3141760474
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{95112F5F-9AFD-5301-906A-4C75C07E8226}"
+                                            },
+                                            "assetHint": "props/table_potted_plant_trb000041/table_potted_plant_plantmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3923991944
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{218A9522-FD2D-5591-9DC7-EC792CC04978}"
+                                            }
                                         }
                                     }
                                 }

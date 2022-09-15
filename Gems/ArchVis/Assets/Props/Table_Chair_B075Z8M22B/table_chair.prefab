@@ -19,10 +19,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 14912809259302406062
             },
-            "Component_[16184521991830305452]": {
-                "$type": "SelectionComponent",
-                "Id": 16184521991830305452
-            },
             "Component_[16449143782889419044]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 16449143782889419044,
@@ -55,10 +51,6 @@
             "Id": "Entity_[6899488989913]",
             "Name": "table_chair",
             "Components": {
-                "Component_[10084604462118155759]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10084604462118155759
-                },
                 "Component_[11489954147337954969]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 11489954147337954969
@@ -69,6 +61,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 811502699
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4E17EC7C-4150-5066-A3C4-06D9541F2A21}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 989098592

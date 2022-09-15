@@ -15,10 +15,9 @@
             1.0
         ],
         "general.applySpecularAA": true,
-        "irradiance.irradianceColorSource": "Manual",
         "metallic.factor": 1.0,
         "opacity.factor": 1.0,
-        "roughness.factor": 0.25999999046325684,
+        "roughness.factor": 0.20000000298023224,
         "specularF0.enableMultiScatterCompensation": true
     }
 }

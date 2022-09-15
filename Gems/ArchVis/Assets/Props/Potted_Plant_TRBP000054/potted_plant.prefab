@@ -36,10 +36,6 @@
                 "Id": 17113450368329276835,
                 "Parent Entity": ""
             },
-            "Component_[5228494141917261538]": {
-                "$type": "SelectionComponent",
-                "Id": 5228494141917261538
-            },
             "Component_[604767983437462225]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 604767983437462225
@@ -147,10 +143,6 @@
                         }
                     ]
                 },
-                "Component_[6443953396680928567]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6443953396680928567
-                },
                 "Component_[7922432856294156587]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7922432856294156587,
@@ -170,6 +162,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 628332698
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A8ED22EE-FE7A-564F-9651-DCC3A0E27C6A}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 3962573083
