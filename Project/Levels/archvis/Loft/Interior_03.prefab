@@ -197,6 +197,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -205,6 +206,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -286,6 +288,7 @@
                                 1.5
                             ],
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -293,6 +296,7 @@
                     "probeSpacingY": 1.0,
                     "probeSpacingZ": 0.5,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -1226,6 +1230,8 @@
                             ],
                             "ViewBias": 0.6499999761581421,
                             "NormalBias": 0.30000001192092896,
+                            "EdgeBlendIbl": false,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.30000001192092896
                         }
                     },
@@ -1234,6 +1240,8 @@
                     "probeSpacingZ": 1.0,
                     "viewBias": 0.6499999761581421,
                     "normalBias": 0.30000001192092896,
+                    "edgeBlendIbl": false,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.30000001192092896
                 },
                 "Component_[12889401442294884766]": {
@@ -2073,6 +2081,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -2081,6 +2090,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4193,6 +4203,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4201,6 +4212,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4283,6 +4295,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4291,6 +4304,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4478,6 +4492,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4486,6 +4501,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4568,6 +4584,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4576,6 +4593,7 @@
                     "probeSpacingZ": 0.75,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4950,6 +4968,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4958,6 +4977,7 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
