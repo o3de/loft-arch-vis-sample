@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5000076293945313,
@@ -10,15 +10,8 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Rooms/Interior_03/textures/Ktichen_Countertop_base_color.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "irradiance.irradianceColorSource": "BaseColor",
         "normal.textureMap": "Rooms/Interior_03/textures/Ktichen_Countertop_base_normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.1899999976158142,
         "specularF0.factor": 0.47999998927116394
     }

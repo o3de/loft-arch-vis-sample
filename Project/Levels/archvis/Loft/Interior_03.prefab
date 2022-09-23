@@ -197,7 +197,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -206,7 +205,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -288,7 +286,6 @@
                                 1.5
                             ],
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -296,7 +293,6 @@
                     "probeSpacingY": 1.0,
                     "probeSpacingZ": 0.5,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -426,7 +422,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_computerdesk__c8761f0c-24e4-4160-8d76-fc9cc08875f0__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 11206823811684634105,
+                            "EntityId": 12576965168448249891,
                             "ShowVisualization": false
                         }
                     },
@@ -598,7 +594,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 13825764214116,
+                            "EditorEntityId": 9804205532036351885,
                             "MakeActiveViewOnActivation": false
                         }
                     }
@@ -650,7 +646,7 @@
                                 },
                                 "assetHint": "reflectionprobes/reflection_main__55e4bf1b-3c8d-4302-b6e1-0a8254976bdd__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 10904052151376551496,
+                            "EntityId": 16281141653261287443,
                             "ShowVisualization": false
                         }
                     },
@@ -810,15 +806,16 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -860,7 +857,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.3647828102111816,
@@ -938,7 +935,6 @@
                                 "guid": "{7003B5DC-6EEB-5B8A-8D6A-B7A374779C13}",
                                 "subId": 1
                             },
-                            "loadBehavior": "QueueLoad",
                             "assetHint": "scripts/profiling/outputprofiledata.luac"
                         }
                     },
@@ -1029,15 +1025,15 @@
                             ],
                             "Intensity": 8.0,
                             "AngularDiameter": 1.0,
-                            "CameraEntityId": "Entity_[2511113093496]",
+                            "CameraEntityId": "",
                             "ShadowFarClipDistance": 8.0,
-                            "ShadowmapSize": "Size2048",
                             "CascadeCount": 1,
                             "SplitRatio": 0.3199999928474426,
                             "IsCascadeCorrectionEnabled": true,
                             "ShadowFilterMethod": 1,
-                            "PcfFilteringSampleCount": 16,
-                            "CascadeBlendingEnabled": true
+                            "PcfFilteringSampleCount": 9,
+                            "CascadeBlendingEnabled": true,
+                            "FullscreenBlurEnabled": false
                         }
                     }
                 },
@@ -1052,6 +1048,72 @@
                 "Component_[7933142862118406147]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 7933142862118406147
+                }
+            }
+        },
+        "Entity_[2431026906187]": {
+            "Id": "Entity_[2431026906187]",
+            "Name": "Ceiling_Lights",
+            "Components": {
+                "Component_[16015042076446970765]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16015042076446970765
+                },
+                "Component_[16462844185519679140]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16462844185519679140
+                },
+                "Component_[17045426824026601927]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17045426824026601927
+                },
+                "Component_[18311943717051763886]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 18311943717051763886,
+                    "Child Entity Order": [
+                        "Entity_[2528292962680]",
+                        "Entity_[2442393616760]",
+                        "Entity_[2438098649464]",
+                        "Entity_[2468163420536]",
+                        "Entity_[2515408060792]",
+                        "Entity_[2446688584056]",
+                        "Entity_[2502523158904]",
+                        "Entity_[2493933224312]",
+                        "Entity_[2481048322424]",
+                        "Entity_[2476753355128]",
+                        "Entity_[2536882897272]",
+                        "Entity_[2455278518648]",
+                        "Entity_[2498228191608]",
+                        "Entity_[2425213747576]",
+                        "Entity_[2545472831864]",
+                        "Entity_[2463868453240]",
+                        "Entity_[2562652701048]",
+                        "Entity_[2506818126200]",
+                        "Entity_[2554062766456]",
+                        "Entity_[2541177864568]",
+                        "Entity_[2485343289720]"
+                    ]
+                },
+                "Component_[2731238453230979891]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2731238453230979891,
+                    "Parent Entity": "Entity_[2519703028088]"
+                },
+                "Component_[4552217859359154170]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4552217859359154170
+                },
+                "Component_[4662332929831544712]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 4662332929831544712
+                },
+                "Component_[4923658370198476210]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4923658370198476210
+                },
+                "Component_[6112471843764156279]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6112471843764156279
                 }
             }
         },
@@ -1082,13 +1144,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 2.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -1123,7 +1184,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -8.10004997253418,
@@ -1230,8 +1291,6 @@
                             ],
                             "ViewBias": 0.6499999761581421,
                             "NormalBias": 0.30000001192092896,
-                            "EdgeBlendIbl": false,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.30000001192092896
                         }
                     },
@@ -1240,8 +1299,6 @@
                     "probeSpacingZ": 1.0,
                     "viewBias": 0.6499999761581421,
                     "normalBias": 0.30000001192092896,
-                    "edgeBlendIbl": false,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.30000001192092896
                 },
                 "Component_[12889401442294884766]": {
@@ -1352,16 +1409,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 4.300000190734863,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1376,7 +1434,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -9.386574745178223,
@@ -1401,6 +1459,57 @@
                 }
             }
         },
+        "Entity_[2439616840779]": {
+            "Id": "Entity_[2439616840779]",
+            "Name": "Cabinet_Lights",
+            "Components": {
+                "Component_[11846231338822280597]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11846231338822280597
+                },
+                "Component_[15266885931278310172]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15266885931278310172,
+                    "Child Entity Order": [
+                        "Entity_[2472458387832]",
+                        "Entity_[2532587929976]",
+                        "Entity_[2450983551352]",
+                        "Entity_[2523997995384]",
+                        "Entity_[2433803682168]",
+                        "Entity_[2571242635640]"
+                    ]
+                },
+                "Component_[16614260982659512269]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16614260982659512269
+                },
+                "Component_[1678214592232036678]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1678214592232036678
+                },
+                "Component_[3157857474642404301]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3157857474642404301
+                },
+                "Component_[8241138922509791758]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8241138922509791758,
+                    "Parent Entity": "Entity_[2519703028088]"
+                },
+                "Component_[8264631011819953744]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8264631011819953744
+                },
+                "Component_[906676561958364629]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 906676561958364629
+                },
+                "Component_[9362203181873344547]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9362203181873344547
+                }
+            }
+        },
         "Entity_[2442393616760]": {
             "Id": "Entity_[2442393616760]",
             "Name": "Ceiling_Light",
@@ -1417,9 +1526,9 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 14356125247646558254
                 },
-                "Component_[18008819967448336826]": {
+                "Component_[15703263346897420205]": {
                     "$type": "EditorDiskShapeComponent",
-                    "Id": 18008819967448336826,
+                    "Id": 15703263346897420205,
                     "ShapeColor": [
                         1.0,
                         0.991104006767273,
@@ -1447,16 +1556,18 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Shadow Bias": 3.0999999046325684,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1471,7 +1582,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.8413310050964355,
@@ -1511,15 +1622,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1565,7 +1678,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -9.374016761779785,
@@ -1617,13 +1730,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -1643,7 +1755,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -6.280117034912109,
@@ -1712,14 +1824,15 @@
                             ],
                             "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 8.699999809265137,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1753,7 +1866,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -7.509238243103027,
@@ -1797,15 +1910,16 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1847,7 +1961,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -8.75153923034668,
@@ -1918,7 +2032,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -7.552240371704102,
@@ -1944,16 +2058,17 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 0.10000000149011612,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2013,7 +2128,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -7.4224371910095215,
@@ -2039,13 +2154,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -2081,7 +2195,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -2090,7 +2203,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -2167,16 +2279,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 9.600000381469727,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2207,7 +2320,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.8227672576904297,
@@ -2289,16 +2402,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 5.900000095367432,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 4
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2317,7 +2431,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -9.418913841247559,
@@ -2384,16 +2498,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 5.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2412,7 +2527,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -9.33920955657959,
@@ -2479,16 +2594,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 5.300000190734863,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2507,7 +2623,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.747615337371826,
@@ -2586,22 +2702,24 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.7300238609313965,
@@ -2653,16 +2771,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 575.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 10.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2696,7 +2815,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -5.669934272766113,
@@ -2763,16 +2882,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 5.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 9.300000190734863,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2791,7 +2911,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -5.61542272567749,
@@ -2838,7 +2958,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 2351562991095658060
+                            "EditorEntityId": 15144710659493031309
                         }
                     }
                 },
@@ -2858,6 +2978,10 @@
                             -158.31231689453125
                         ]
                     }
+                },
+                "Component_[12969975227254062478]": {
+                    "$type": "AZ::Render::EditorSsaoComponent",
+                    "Id": 12969975227254062478
                 },
                 "Component_[14907155315153807367]": {
                     "$type": "AZ::Render::EditorBloomComponent",
@@ -2908,18 +3032,6 @@
                 "Component_[6621179231853762273]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6621179231853762273
-                },
-                "Component_[7379804398402811395]": {
-                    "$type": "AZ::Render::EditorSsaoComponent",
-                    "Id": 7379804398402811395,
-                    "Controller": {
-                        "Configuration": {
-                            "BlurConstFalloff": 0.5,
-                            "BlurDepthFalloffThreshold": 0.3799999952316284,
-                            "BlurDepthFalloffStrength": 60.0,
-                            "EnableDownsample": false
-                        }
-                    }
                 },
                 "Component_[7964244520954565055]": {
                     "$type": "AZ::Render::EditorDepthOfFieldComponent",
@@ -2997,22 +3109,23 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -4.299577713012695,
@@ -3086,36 +3199,11 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 6324320679469616880,
                     "Child Entity Order": [
-                        "Entity_[2481048322424]",
-                        "Entity_[2476753355128]",
-                        "Entity_[2536882897272]",
-                        "Entity_[2472458387832]",
-                        "Entity_[2528292962680]",
-                        "Entity_[2442393616760]",
                         "Entity_[13823153345901]",
-                        "Entity_[2532587929976]",
-                        "Entity_[2438098649464]",
-                        "Entity_[2468163420536]",
-                        "Entity_[2515408060792]",
-                        "Entity_[2446688584056]",
-                        "Entity_[2502523158904]",
-                        "Entity_[2493933224312]",
-                        "Entity_[2450983551352]",
-                        "Entity_[2455278518648]",
-                        "Entity_[2498228191608]",
-                        "Entity_[2425213747576]",
-                        "Entity_[2545472831864]",
-                        "Entity_[2523997995384]",
-                        "Entity_[2463868453240]",
-                        "Entity_[2562652701048]",
-                        "Entity_[2433803682168]",
-                        "Entity_[2506818126200]",
-                        "Entity_[2554062766456]",
-                        "Entity_[2541177864568]",
-                        "Entity_[2485343289720]",
-                        "Entity_[2571242635640]",
                         "Entity_[13390322950493]",
-                        "Entity_[225843939094875]"
+                        "Entity_[225843939094875]",
+                        "Entity_[2431026906187]",
+                        "Entity_[2439616840779]"
                     ]
                 },
                 "Component_[9664409778166054930]": {
@@ -3166,13 +3254,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -3192,7 +3279,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -8.809956550598145,
@@ -3232,16 +3319,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 7.800000190734863,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3287,7 +3375,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -9.406495094299316,
@@ -3354,13 +3442,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -3380,7 +3467,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -6.971517562866211,
@@ -3436,7 +3523,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -7.508090972900391,
@@ -3485,16 +3572,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 10.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 }
@@ -3515,15 +3603,16 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3569,7 +3658,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -6.276759624481201,
@@ -3644,15 +3733,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3663,7 +3754,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -5.617992877960205,
@@ -3730,16 +3821,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 8.5,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3758,7 +3850,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -3.739306926727295,
@@ -3851,7 +3943,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 12495628496118832218
+                            "EntityId": 11241433646314735844
                         }
                     },
                     "bakedCubeMapRelativePath": "ReflectionProbes/Reflection_Kitchen__EB11F20A-D88A-4994-87B8-F6F527C1A806__iblspecularcm256.dds",
@@ -3937,16 +4029,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 6.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
-                            "Normal Shadow Bias": 8.300000190734863,
+                            "Normal Shadow Bias": 1.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3957,7 +4050,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2431026906187]",
                     "Transform Data": {
                         "Translate": [
                             -7.505686283111572,
@@ -4020,13 +4113,12 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 50.0,
+                            "Intensity": 90.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 1.0,
+                            "AttenuationRadius": 1.5,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 25.0,
+                            "OuterShutterAngleDegrees": 48.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -4050,7 +4142,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2439616840779]",
                     "Transform Data": {
                         "Translate": [
                             -5.558887481689453,
@@ -4203,7 +4295,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4212,7 +4303,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4295,7 +4385,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4304,7 +4393,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4434,7 +4522,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_livingroom__08eadce6-da11-42de-b55d-62aae4d80878__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 9318338882240431636,
+                            "EntityId": 2752629885439488041,
                             "ShowVisualization": false
                         }
                     },
@@ -4492,7 +4580,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4501,7 +4588,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4584,7 +4670,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4593,7 +4678,6 @@
                     "probeSpacingZ": 0.75,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
@@ -4968,7 +5052,6 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
-                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4977,7 +5060,6 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
-                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
                 },
                 "Component_[12566632783525626804]": {
