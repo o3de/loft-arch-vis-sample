@@ -1,15 +1,9 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Sunglasses_TRB000046/textures/frames_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "irradiance.manualColor": [
             1.0,
             0.6166629195213318,
@@ -17,7 +11,6 @@
             1.0
         ],
         "metallic.textureMap": "Props/Sunglasses_TRB000046/textures/frames_Metallic.png",
-        "opacity.factor": 1.0,
         "roughness.textureMap": "Props/Sunglasses_TRB000046/textures/frames_Roughness.png"
     }
 }

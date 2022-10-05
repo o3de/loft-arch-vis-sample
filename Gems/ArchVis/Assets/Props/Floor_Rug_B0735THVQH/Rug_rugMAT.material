@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,23 +10,10 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Floor_Rug_B0735THVQH/textures/rug_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "metallic.useTexture": false,
         "normal.flipY": true,
         "normal.textureMap": "Props/Floor_Rug_B0735THVQH/textures/rug_Normal.png",
-        "opacity.factor": 1.0,
-        "parallax.algorithm": "ContactRefinement",
-        "parallax.factor": 0.0010000000474974513,
-        "parallax.quality": "Medium",
-        "parallax.textureMap": "Props/Floor_Rug_B0735THVQH/textures/rug_alt_Height.png",
         "roughness.factor": 0.800000011920929,
         "roughness.useTexture": false
     }

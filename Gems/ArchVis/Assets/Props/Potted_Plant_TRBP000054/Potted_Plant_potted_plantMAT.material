@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,14 +10,6 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Potted_Plant_TRBP000054/textures/potted_plant_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "irradiance.color": [
             0.3364461660385132,
             0.7278858423233032,

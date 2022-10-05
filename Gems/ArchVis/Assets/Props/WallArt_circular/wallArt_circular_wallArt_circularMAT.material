@@ -1,7 +1,6 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "properties": {
         "baseColor": {
             "color": [
@@ -13,24 +12,11 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Props/WallArt_circular/textures/wallArt_circular_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "textureMap": "Props/WallArt_circular/textures/wallArt_circular_Metallic.png"
         },
         "normal": {
             "textureMap": "Props/WallArt_circular/textures/wallArt_circular_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302187,

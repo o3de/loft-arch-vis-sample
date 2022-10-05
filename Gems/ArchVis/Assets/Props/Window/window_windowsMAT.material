@@ -1,7 +1,5 @@
 {
-    "description": "",
     "materialType": "Materials/Types/BasePBR.materialtype",
-    "parentMaterial": "",
     "properties": {
         "baseColor": {
             "color": [

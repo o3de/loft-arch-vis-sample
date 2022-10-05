@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.7968719005584717,
@@ -11,12 +11,6 @@
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Single_Bed_Frame_B0856FL9HR/textures/bed_BaseColor.png",
         "baseColor.textureMapUv": "Unwrapped",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "irradiance.manualColor": [
             0.9047685265541077,
             0.6936445832252502,
@@ -24,7 +18,6 @@
             1.0
         ],
         "normal.textureMap": "Props/Single_Bed_Frame_B0856FL9HR/textures/bed_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.textureMap": "Props/Single_Bed_Frame_B0856FL9HR/textures/bed_Roughness.png"
     }
 }
