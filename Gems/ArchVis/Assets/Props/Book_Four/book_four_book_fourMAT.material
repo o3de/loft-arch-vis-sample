@@ -1,6 +1,6 @@
 {
     "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "Materials/Types/BasePBR.materialtype",
     "parentMaterial": "",
     "properties": {
         "baseColor": {
@@ -13,24 +13,11 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Props/Book_four/textures/book_four_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "useTexture": false
         },
         "normal": {
             "textureMap": "Props/Book_four/textures/book_four_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302187,

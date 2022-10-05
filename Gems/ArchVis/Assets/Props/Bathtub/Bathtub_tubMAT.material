@@ -16,16 +16,6 @@
         "clearCoat": {
             "enable": true
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "useTexture": false
         },

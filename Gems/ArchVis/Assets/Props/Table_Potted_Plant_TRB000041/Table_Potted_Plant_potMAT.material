@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,14 +10,6 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Table_Potted_Plant_TRB000041/textures/pot_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "irradiance.manualColor": [
             0.65322345495224,
@@ -27,7 +19,6 @@
         ],
         "metallic.textureMap": "Props/Table_Potted_Plant_TRB000041/textures/pot_Metallic.png",
         "normal.textureMap": "Props/Table_Potted_Plant_TRB000041/textures/pot_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Table_Potted_Plant_TRB000041/textures/pot_Roughness.png",
         "specularF0.enableMultiScatterCompensation": true

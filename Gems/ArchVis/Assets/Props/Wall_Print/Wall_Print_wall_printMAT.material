@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,17 +9,7 @@
             1.0
         ],
         "baseColor.textureMap": "Props/Wall_Print/textures/bw_painting_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "normal.textureMap": "Props/Wall_Print/textures/bw_painting_Normal.png",
-        "opacity.factor": 1.0,
-        "parallax.factor": 0.0,
-        "parallax.pdo": true,
-        "parallax.textureMap": "Props/Wall_Print/textures/bw_painting_Height.png",
         "roughness.textureMap": "Props/Wall_Print/textures/bw_painting_Roughness.png"
     }
 }

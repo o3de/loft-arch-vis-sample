@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,14 +10,6 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "irradiance.manualColor": [
             0.3537346124649048,
             0.2096284031867981,
@@ -26,7 +18,6 @@
         ],
         "metallic.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Metallic.png",
         "normal.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Roughness.png"
     }

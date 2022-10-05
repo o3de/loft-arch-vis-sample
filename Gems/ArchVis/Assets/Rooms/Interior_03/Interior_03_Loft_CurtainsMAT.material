@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -9,18 +9,11 @@
             1.0
         ],
         "baseColor.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_base_color.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
         "general.applySpecularAA": true,
         "general.doubleSided": true,
         "irradiance.irradianceColorSource": "BaseColor",
         "metallic.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_metallic.png",
         "normal.textureMap": "Rooms/Interior_03/textures/Loft_Curtains_normal.png",
-        "opacity.factor": 1.0,
         "specularF0.factor": 0.44999998807907104
     }
 }

@@ -10,14 +10,6 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "irradiance.manualColor": [
             0.0,

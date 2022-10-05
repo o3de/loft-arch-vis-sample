@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,14 +10,6 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "irradiance.irradianceColorSource": "BaseColor",
         "irradiance.manualColor": [
@@ -28,7 +20,6 @@
         ],
         "metallic.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Metallic.png",
         "normal.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Roughness.png",
         "roughness.upperBound": 0.4000000059604645,
