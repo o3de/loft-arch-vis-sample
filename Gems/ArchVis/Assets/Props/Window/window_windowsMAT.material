@@ -1,8 +1,5 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
+    "materialType": "Materials/Types/BasePBR.materialtype",
     "properties": {
         "baseColor": {
             "color": [
@@ -14,21 +11,8 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Rooms/Interior_02/textures/windows_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302187,

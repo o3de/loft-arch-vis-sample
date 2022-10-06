@@ -20,10 +20,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 15549646759558687451
             },
-            "Component_[2388113364815044994]": {
-                "$type": "SelectionComponent",
-                "Id": 2388113364815044994
-            },
             "Component_[299491788598903966]": {
                 "$type": "EditorInspectorComponent",
                 "Id": 299491788598903966
@@ -55,10 +51,6 @@
             "Id": "Entity_[5275991352025]",
             "Name": "potted_plant",
             "Components": {
-                "Component_[10707186766384744636]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10707186766384744636
-                },
                 "Component_[11191976368691803063]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 11191976368691803063,
@@ -75,6 +67,18 @@
                                                 "guid": "{C2EC2223-D369-52BD-BD03-C9D529F6F692}"
                                             },
                                             "assetHint": "props/potted_plant_trbp000045/potted_plant_plantmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3141760474
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C2EC2223-D369-52BD-BD03-C9D529F6F692}"
+                                            }
                                         }
                                     }
                                 }

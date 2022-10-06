@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -10,15 +10,10 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Rooms/Interior_03/textures/Dinning_Room_Curtain_base_color.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
+        "general.doubleSided": true,
+        "irradiance.irradianceColorSource": "BaseColor",
         "metallic.factor": 0.12999999523162842,
         "normal.textureMap": "Rooms/Interior_03/textures/Dinning_Room_Curtain_normal.png",
-        "opacity.factor": 1.0,
         "roughness.textureMap": "Rooms/Interior_03/textures/Dinning_Room_Curtain_roughness.png"
     }
 }

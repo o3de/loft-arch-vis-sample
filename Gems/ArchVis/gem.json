@@ -1,9 +1,9 @@
 {
     "gem_name": "ArchVis",
-    "display_name": "Samples:ArchVis Assets",
-    "origin": "https://github.com/aws-lumberyard/o3de-samples-project-gems",
-    "license": "Content/Assets: CC-BY-4.0, Code: Apache-2.0 Or MIT",
-    "summary": "An O3DE Architectural Visualization (ArchVis) Gem with sample assets.",
+    "display_name": "Samples: ArchVis Assets",
+    "origin": "https://github.com/aws-lumberyard/loft-arch-vis-sample",
+    "license": "CC-BY-NC-4.0",
+    "summary": "An O3DE Architectural Visualization (ArchVis) Gem with sample assets and a Loft scene.",
     "canonical_tags": [
         "Gem"
     ],
@@ -11,7 +11,8 @@
         "Content",
         "Assets",
         "ArchVis",
-        "InteriorDesign"
+        "InteriorDesign",
+		"Robotics"
     ],
     "icon_path": "preview.png"
 }

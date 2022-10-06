@@ -7,10 +7,6 @@
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 10691133195619854181
             },
-            "Component_[10998234113560688299]": {
-                "$type": "SelectionComponent",
-                "Id": 10998234113560688299
-            },
             "Component_[12195081848082623334]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 12195081848082623334
@@ -156,10 +152,6 @@
                             ]
                         }
                     }
-                },
-                "Component_[3614604012116605285]": {
-                    "$type": "SelectionComponent",
-                    "Id": 3614604012116605285
                 },
                 "Component_[3914942178737865413]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

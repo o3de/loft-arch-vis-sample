@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,15 +10,8 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
-        "irradiance.color": [
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
             0.8231326937675476,
             0.6950942277908325,
             0.548760175704956,
@@ -26,7 +19,6 @@
         ],
         "metallic.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Metallic.png",
         "normal.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Roughness.png"
     }

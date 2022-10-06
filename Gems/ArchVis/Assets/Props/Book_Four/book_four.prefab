@@ -1,0 +1,192 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "book_four",
+        "Components": {
+            "Component_[10078690463960964188]": {
+                "$type": "EditorLockComponent",
+                "Id": 10078690463960964188
+            },
+            "Component_[10286862508883577620]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 10286862508883577620
+            },
+            "Component_[12468142468441895164]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12468142468441895164
+            },
+            "Component_[1461110917209525105]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1461110917209525105,
+                "Parent Entity": ""
+            },
+            "Component_[15281512557430884652]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 15281512557430884652
+            },
+            "Component_[15341898433439714516]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 15341898433439714516
+            },
+            "Component_[15481500758756149841]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 15481500758756149841
+            },
+            "Component_[15688039169880864034]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15688039169880864034
+            },
+            "Component_[17965535068067011401]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17965535068067011401
+            },
+            "Component_[467167375060971769]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 467167375060971769
+            },
+            "Component_[4852035517971072672]": {
+                "$type": "SelectionComponent",
+                "Id": 4852035517971072672
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[1711098252298]": {
+            "Id": "Entity_[1711098252298]",
+            "Name": "book_four",
+            "Components": {
+                "Component_[10146371728887363339]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10146371728887363339
+                },
+                "Component_[11283387196478292513]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 11283387196478292513
+                },
+                "Component_[14659713925783846123]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14659713925783846123
+                },
+                "Component_[14702300371388147149]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14702300371388147149
+                },
+                "Component_[15167829637621166418]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 15167829637621166418
+                },
+                "Component_[1697046228369851355]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1697046228369851355,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17593512092438283847]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 17593512092438283847,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3332642883
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E84BBE90-EFA9-5A5F-A6B8-77B4D77E5457}"
+                                            },
+                                            "assetHint": "props/book_four/book_four_book_fourmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "materialSlots": [
+                        {
+                            "id": {
+                                "materialSlotStableId": 3332642883
+                            },
+                            "materialAsset": {
+                                "assetId": {
+                                    "guid": "{E84BBE90-EFA9-5A5F-A6B8-77B4D77E5457}"
+                                },
+                                "assetHint": "props/book_four/book_four_book_fourmat.azmaterial"
+                            },
+                            "defaultMaterialAsset": {
+                                "assetId": {
+                                    "guid": "{DCD8B53E-9993-5608-B75C-248C61F32163}",
+                                    "subId": 3332642883
+                                },
+                                "loadBehavior": "PreLoad",
+                                "assetHint": "props/book_four/book_four_book_fourmat_15613339261219379267.azmaterial"
+                            }
+                        }
+                    ],
+                    "materialSlotsByLod": [
+                        [
+                            {
+                                "id": {
+                                    "lodIndex": 0,
+                                    "materialSlotStableId": 3332642883
+                                },
+                                "defaultMaterialAsset": {
+                                    "assetId": {
+                                        "guid": "{DCD8B53E-9993-5608-B75C-248C61F32163}",
+                                        "subId": 3332642883
+                                    },
+                                    "loadBehavior": "PreLoad",
+                                    "assetHint": "props/book_four/book_four_book_fourmat_15613339261219379267.azmaterial"
+                                }
+                            }
+                        ]
+                    ]
+                },
+                "Component_[3244549913845137389]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3244549913845137389
+                },
+                "Component_[3386018201758595778]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3386018201758595778,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 1697046228369851355
+                        },
+                        {
+                            "ComponentId": 9676236954526475,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 17593512092438283847,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5722438051107082083]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5722438051107082083
+                },
+                "Component_[9093720068931231028]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 9093720068931231028
+                },
+                "Component_[9676236954526475]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9676236954526475,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{DCD8B53E-9993-5608-B75C-248C61F32163}",
+                                    "subId": 270919028
+                                },
+                                "assetHint": "props/book_four/book_four.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

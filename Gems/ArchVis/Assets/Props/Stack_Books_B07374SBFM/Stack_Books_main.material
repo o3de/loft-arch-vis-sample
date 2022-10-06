@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -10,14 +10,13 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Stack_Books_B07374SBFM/textures/top_book_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
+        "irradiance.manualColor": [
+            0.3803921639919281,
+            0.615686297416687,
+            0.6352941393852234,
             1.0
         ],
         "normal.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Roughness.png"
     }
 }

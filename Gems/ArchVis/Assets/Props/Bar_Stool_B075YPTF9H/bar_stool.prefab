@@ -20,10 +20,6 @@
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 14907347293190168405
             },
-            "Component_[4163938183836954244]": {
-                "$type": "SelectionComponent",
-                "Id": 4163938183836954244
-            },
             "Component_[4567198759255416922]": {
                 "$type": "EditorLockComponent",
                 "Id": 4567198759255416922
@@ -108,10 +104,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 11783200887630542331
                 },
-                "Component_[13317449770201607324]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13317449770201607324
-                },
                 "Component_[1444637445411404547]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 1444637445411404547
@@ -157,6 +149,18 @@
                                                 "guid": "{6B0C634A-93A6-5CC2-AFE1-536E33B70835}"
                                             },
                                             "assetHint": "props/bar_stool_b075yptf9h/bar_stool_bar_stoolmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2413745165
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6B0C634A-93A6-5CC2-AFE1-536E33B70835}"
+                                            }
                                         }
                                     }
                                 }

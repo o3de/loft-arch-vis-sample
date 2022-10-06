@@ -12,10 +12,6 @@
                 "Id": 11662041448690944048,
                 "Parent Entity": ""
             },
-            "Component_[11951224443844728986]": {
-                "$type": "SelectionComponent",
-                "Id": 11951224443844728986
-            },
             "Component_[12576180100867331606]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 12576180100867331606
@@ -93,6 +89,19 @@
                                             "assetHint": "props/dinner_table_b075yp4wyt/dinner_table_dinnertablemat.azmaterial"
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3614396697
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B495B6C3-9B56-543E-B89B-092025EC6764}"
+                                            },
+                                            "assetHint": "props/dinner_table_b075yp4wyt/dinner_table_dinnertablemat.azmaterial"
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -131,10 +140,6 @@
                             "SortIndex": 1
                         }
                     ]
-                },
-                "Component_[4285561197151937255]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4285561197151937255
                 },
                 "Component_[6842166626713226172]": {
                     "$type": "EditorOnlyEntityComponent",

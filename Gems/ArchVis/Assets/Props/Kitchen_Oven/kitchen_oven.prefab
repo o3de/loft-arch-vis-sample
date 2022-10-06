@@ -32,10 +32,6 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 4462100974582025268
             },
-            "Component_[5077183392851377782]": {
-                "$type": "SelectionComponent",
-                "Id": 5077183392851377782
-            },
             "Component_[6985457998583947340]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 6985457998583947340
@@ -55,10 +51,6 @@
             "Id": "Entity_[2939529143001]",
             "Name": "kitchen_oven",
             "Components": {
-                "Component_[11843716524808326138]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11843716524808326138
-                },
                 "Component_[1341599435564560035]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1341599435564560035

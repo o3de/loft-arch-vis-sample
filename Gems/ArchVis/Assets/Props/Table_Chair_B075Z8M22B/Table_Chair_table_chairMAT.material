@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,26 +10,17 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
         "irradiance.manualColor": [
             0.7142900824546814,
-            0.5428549647331238,
-            0.5428549647331238,
+            0.5428550243377686,
+            0.5428550243377686,
             1.0
         ],
         "metallic.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Metallic.png",
         "normal.factor": 0.75,
         "normal.flipY": true,
         "normal.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Table_Chair_B075Z8M22B/textures/table_chair_Roughness.png",
         "specularF0.enableMultiScatterCompensation": true

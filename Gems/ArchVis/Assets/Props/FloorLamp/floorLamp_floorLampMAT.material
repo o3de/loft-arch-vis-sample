@@ -30,9 +30,6 @@
         "normal": {
             "textureMap": "Props/FloorLamp/textures/floorLamp_Normal.png"
         },
-        "opacity": {
-            "factor": 1.0
-        },
         "roughness": {
             "factor": 0.33000001311302185,
             "textureMap": "Props/FloorLamp/textures/floorLamp_Roughness.png"

@@ -16,10 +16,6 @@
                 "Id": 14233843870799655304,
                 "Parent Entity": ""
             },
-            "Component_[1445396962508943673]": {
-                "$type": "SelectionComponent",
-                "Id": 1445396962508943673
-            },
             "Component_[17358495795448932964]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 17358495795448932964
@@ -128,6 +124,18 @@
                                             "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator_refrigeratormat.azmaterial"
                                         }
                                     }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2715025000
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{1BC6D96C-54C8-5EE2-B442-9C6DEEAA1C51}"
+                                            }
+                                        }
+                                    }
                                 }
                             ]
                         }
@@ -144,10 +152,6 @@
                 "Component_[354933875823538917]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 354933875823538917
-                },
-                "Component_[4651833611211973428]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4651833611211973428
                 },
                 "Component_[5364438418896680112]": {
                     "$type": "AZ::Render::EditorMeshComponent",
