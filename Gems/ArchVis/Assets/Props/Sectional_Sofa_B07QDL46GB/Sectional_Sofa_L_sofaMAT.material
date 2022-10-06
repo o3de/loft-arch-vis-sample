@@ -1,13 +1,18 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
+        "baseColor.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_BaseColor.png",
+        "general.applySpecularAA": true,
+        "irradiance.manualColor": [
+            0.5268635153770447,
+            0.5084306001663208,
+            0.45313191413879395,
             1.0
         ],
-        "opacity.factor": 1.0
+        "normal.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_Normal.png",
+        "roughness.lowerBound": 0.5,
+        "roughness.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

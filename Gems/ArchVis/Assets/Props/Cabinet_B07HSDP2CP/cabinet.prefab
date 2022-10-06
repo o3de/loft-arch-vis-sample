@@ -19,10 +19,6 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 13645401104273913245
             },
-            "Component_[14185625865942601991]": {
-                "$type": "SelectionComponent",
-                "Id": 14185625865942601991
-            },
             "Component_[15430954722542901566]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 15430954722542901566
@@ -83,6 +79,18 @@
                                                 "guid": "{E28F6129-B21E-5397-A4FA-4532BB6CEF31}"
                                             },
                                             "assetHint": "props/cabinet_b07hsdp2cp/cabinet_cabinetmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2699421586
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{E28F6129-B21E-5397-A4FA-4532BB6CEF31}"
+                                            }
                                         }
                                     }
                                 }
@@ -162,10 +170,6 @@
                             180.0
                         ]
                     }
-                },
-                "Component_[5029916194744260314]": {
-                    "$type": "SelectionComponent",
-                    "Id": 5029916194744260314
                 },
                 "Component_[6146282381681623245]": {
                     "$type": "EditorPendingCompositionComponent",

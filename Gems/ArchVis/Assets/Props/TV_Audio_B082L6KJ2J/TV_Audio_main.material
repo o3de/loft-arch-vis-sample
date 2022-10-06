@@ -1,29 +1,19 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.016807399690151216,
-                0.015208500437438488,
-                0.01298299990594387,
-                1.0
-            ]
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ]
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.5899999737739563
-        }
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
+    "propertyValues": {
+        "baseColor.color": [
+            0.016807399690151215,
+            0.015208500437438488,
+            0.01298299990594387,
+            1.0
+        ],
+        "irradiance.manualColor": [
+            0.2235294133424759,
+            0.23529411852359772,
+            0.22745098173618317,
+            1.0
+        ],
+        "roughness.factor": 0.5899999737739563
     }
 }

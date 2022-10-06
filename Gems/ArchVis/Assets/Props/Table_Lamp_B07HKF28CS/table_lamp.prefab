@@ -16,10 +16,6 @@
                 "$type": "EditorLockComponent",
                 "Id": 13926379603926170740
             },
-            "Component_[14309690677278986602]": {
-                "$type": "SelectionComponent",
-                "Id": 14309690677278986602
-            },
             "Component_[14990246215705864593]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 14990246215705864593
@@ -114,6 +110,18 @@
                                 },
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 3075985053
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4332F31F-35CA-5094-9D1F-CBC174BC3439}"
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 4005493637
                                     },
                                     "Value": {
@@ -148,10 +156,6 @@
                             "LodType": 2
                         }
                     }
-                },
-                "Component_[15775643334734662227]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15775643334734662227
                 },
                 "Component_[1596732105347230311]": {
                     "$type": "EditorEntityIconComponent",

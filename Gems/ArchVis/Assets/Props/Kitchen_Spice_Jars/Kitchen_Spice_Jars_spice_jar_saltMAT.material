@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.46938276290893555,
@@ -9,17 +9,8 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "metallic.factor": 0.029999999329447746,
         "metallic.useTexture": false,
-        "opacity.factor": 1.0,
         "roughness.factor": 0.5199999809265137,
         "roughness.useTexture": false
     }

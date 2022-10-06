@@ -163,6 +163,19 @@
                             "materials": [
                                 {
                                     "Key": {
+                                        "materialSlotStableId": 107138628
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4C04886C-FAF8-5C7C-BD29-4E0A01C1BD7C}"
+                                            },
+                                            "assetHint": "props/wall_print/wall_print_wall_printmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
                                         "materialSlotStableId": 1903293215
                                     },
                                     "Value": {
@@ -187,10 +200,10 @@
                     "Id": 8527090404363580731,
                     "Parent Entity": "ContainerEntity",
                     "Transform Data": {
-                        "Rotate": [
+                        "Translate": [
                             0.0,
-                            0.0,
-                            180.0
+                            -0.4517650604248047,
+                            0.0
                         ],
                         "UniformScale": 10.0
                     }

@@ -35,10 +35,6 @@
                 "$type": "EditorVisibilityComponent",
                 "Id": 3772299976998754238
             },
-            "Component_[4237734388437842750]": {
-                "$type": "SelectionComponent",
-                "Id": 4237734388437842750
-            },
             "Component_[8510902484781513853]": {
                 "$type": "EditorLockComponent",
                 "Id": 8510902484781513853
@@ -69,6 +65,18 @@
                     "Controller": {
                         "Configuration": {
                             "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3489381569
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0151AD2E-440B-5C26-B11A-3D171A382FC1}"
+                                            }
+                                        }
+                                    }
+                                },
                                 {
                                     "Key": {
                                         "materialSlotStableId": 3860263370
@@ -143,10 +151,6 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
-                },
-                "Component_[4551598154706652079]": {
-                    "$type": "SelectionComponent",
-                    "Id": 4551598154706652079
                 },
                 "Component_[5770119706861331530]": {
                     "$type": "EditorInspectorComponent",

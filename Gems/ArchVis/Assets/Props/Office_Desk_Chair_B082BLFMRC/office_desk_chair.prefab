@@ -28,10 +28,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 4436244763543208218
             },
-            "Component_[5945931594551765115]": {
-                "$type": "SelectionComponent",
-                "Id": 5945931594551765115
-            },
             "Component_[615010610028169762]": {
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 615010610028169762
@@ -55,10 +51,6 @@
             "Id": "Entity_[4348278416089]",
             "Name": "office_desk_chair",
             "Components": {
-                "Component_[11197585761585484402]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11197585761585484402
-                },
                 "Component_[13536224034841489168]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 13536224034841489168
@@ -79,6 +71,18 @@
                                                 "guid": "{A9D51900-DBD8-559C-BF1B-C07BB82D63F5}"
                                             },
                                             "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair_chairmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1458508393
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9D51900-DBD8-559C-BF1B-C07BB82D63F5}"
+                                            }
                                         }
                                     }
                                 }

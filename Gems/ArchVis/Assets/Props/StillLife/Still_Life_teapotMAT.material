@@ -1,8 +1,6 @@
 {
-    "description": "",
-    "parentMaterial": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 0,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "properties": {
         "baseColor": {
             "color": [
@@ -14,25 +12,12 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Props/StillLife/textures/teapot_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "factor": 0.46590909361839294,
             "textureMap": "Props/StillLife/textures/teapot_Metallic.png"
         },
         "normal": {
             "textureMap": "Props/StillLife/textures/teapot_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.13781249523162842,

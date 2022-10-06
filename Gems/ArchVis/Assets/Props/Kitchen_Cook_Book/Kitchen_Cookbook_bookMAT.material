@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,23 +10,14 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Kitchen_Cook_Book/textures/cookbook_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.9863889813423157,
-            0.9035324454307556,
-            0.7102006673812866,
+            0.9035323858261108,
+            0.7102007269859314,
             1.0
         ],
         "metallic.useTexture": false,
         "normal.textureMap": "Props/Kitchen_Cook_Book/textures/cookbook_Normal.png",
-        "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
         "roughness.textureMap": "Props/Kitchen_Cook_Book/textures/cookbook_Roughness.png"
     }

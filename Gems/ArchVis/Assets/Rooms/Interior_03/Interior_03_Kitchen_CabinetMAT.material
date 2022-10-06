@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "baseColor.color": [
             0.528782308101654,
@@ -10,15 +10,10 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Rooms/Interior_03/textures/Kitchen_Cabinet_base_color.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "metallic.factor": 0.2199999988079071,
+        "irradiance.irradianceColorSource": "BaseColor",
+        "metallic.factor": 0.25999999046325684,
         "normal.textureMap": "Rooms/Interior_03/textures/Kitchen_Cabinet_normal.png",
-        "opacity.factor": 1.0,
+        "roughness.lowerBound": 0.3100000023841858,
         "roughness.textureMap": "Rooms/Interior_03/textures/Kitchen_Cabinet_roughness.png"
     }
 }

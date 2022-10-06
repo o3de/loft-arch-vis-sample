@@ -1,41 +1,28 @@
 {
-    "description": "",
-    "parentMaterial": "",
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.8521705865859985,
-                0.8521705865859985,
-                0.8521705865859985,
-                1.0
-            ],
-            "textureBlendMode": "Lerp"
-        },
-        "clearCoat": {
-            "enable": true
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0,
-            "mode": "TintedTransparent"
-        },
-        "roughness": {
-            "factor": 0.33000001311302185,
-            "useTexture": false
-        }
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.8521705865859985,
+            0.8521705865859985,
+            0.8521705865859985,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "clearCoat.enable": true,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.33000001311302185,
+        "roughness.useTexture": false,
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

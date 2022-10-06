@@ -1,0 +1,27 @@
+{
+    "description": "",
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "parentMaterial": "",
+    "properties": {
+        "baseColor": {
+            "color": [
+                0.5,
+                0.5,
+                0.5,
+                1.0
+            ],
+            "textureBlendMode": "Lerp",
+            "textureMap": "Props/Book_three/textures/book_three_BaseColor.png"
+        },
+        "metallic": {
+            "useTexture": false
+        },
+        "normal": {
+            "textureMap": "Props/Book_three/textures/book_three_Normal.png"
+        },
+        "roughness": {
+            "factor": 0.33000001311302187,
+            "textureMap": "Props/Book_three/textures/book_three_Roughness.png"
+        }
+    }
+}

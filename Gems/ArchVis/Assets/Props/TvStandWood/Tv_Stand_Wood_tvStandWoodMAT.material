@@ -1,8 +1,6 @@
 {
-    "description": "",
-    "parentMaterial": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 0,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "properties": {
         "baseColor": {
             "color": [
@@ -14,24 +12,11 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Props/TvStandWood/textures/tvStandWood_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "useTexture": false
         },
         "normal": {
             "textureMap": "Props/TvStandWood/textures/tvStandWood_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302185,

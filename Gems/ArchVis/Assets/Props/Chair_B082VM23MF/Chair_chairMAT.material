@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -10,18 +10,10 @@
         ],
         "baseColor.textureBlendMode": "Lerp",
         "baseColor.textureMap": "Props/Chair_B082VM23MF/textures/chairMAT_BaseColor.png",
-        "emissive.color": [
-            0.0,
-            0.0,
-            0.0,
-            1.0
-        ],
-        "emissive.intensity": 0.0,
-        "emissive.useTexture": false,
         "general.applySpecularAA": true,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.0,
-            0.383337140083313,
+            0.3833371102809906,
             1.0,
             1.0
         ],

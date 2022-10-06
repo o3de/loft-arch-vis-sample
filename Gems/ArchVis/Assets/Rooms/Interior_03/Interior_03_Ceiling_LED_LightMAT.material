@@ -1,9 +1,8 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "Materials/Types/BasePBR.materialtype",
+    "materialTypeVersion": 1,
     "propertyValues": {
         "emissive.enable": true,
-        "emissive.intensity": 11.380000114440918,
-        "opacity.factor": 1.0
+        "emissive.intensity": 11.380000114440918
     }
 }

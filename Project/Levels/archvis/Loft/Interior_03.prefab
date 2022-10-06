@@ -56,10 +56,6 @@
                     }
                 }
             },
-            "Component_[6545738857812235305]": {
-                "$type": "SelectionComponent",
-                "Id": 6545738857812235305
-            },
             "Component_[7247035804068349658]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 7247035804068349658
@@ -110,7 +106,8 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 21.084999084472656,
                             "Enable Shadow": true,
-                            "Shadow Filter Method": 2
+                            "Shadow Filter Method": 1,
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -118,9 +115,17 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 11974594970306925653
                 },
-                "Component_[12122875476666117245]": {
+                "Component_[13861063674645423299]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13861063674645423299
+                },
+                "Component_[14952928405499759837]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 14952928405499759837
+                },
+                "Component_[15429685579681393231]": {
                     "$type": "EditorDiskShapeComponent",
-                    "Id": 12122875476666117245,
+                    "Id": 15429685579681393231,
                     "ShapeColor": [
                         1.0,
                         0.7407339811325073,
@@ -132,14 +137,6 @@
                             "Radius": 0.05000000074505806
                         }
                     }
-                },
-                "Component_[13861063674645423299]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 13861063674645423299
-                },
-                "Component_[14952928405499759837]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 14952928405499759837
                 },
                 "Component_[17845266178055464525]": {
                     "$type": "EditorInspectorComponent",
@@ -177,10 +174,6 @@
                 "Component_[6325905479840026205]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 6325905479840026205
-                },
-                "Component_[678527683088858422]": {
-                    "$type": "SelectionComponent",
-                    "Id": 678527683088858422
                 }
             }
         },
@@ -205,6 +198,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -213,11 +207,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -298,6 +289,7 @@
                                 1.5
                             ],
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -305,11 +297,8 @@
                     "probeSpacingY": 1.0,
                     "probeSpacingZ": 0.5,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -380,7 +369,7 @@
                     "Parent Entity": "Entity_[4853349577474]",
                     "Transform Data": {
                         "Translate": [
-                            0.9634020328521729,
+                            0.9527838230133057,
                             7.2562031745910645,
                             1.2914128303527832
                         ]
@@ -405,9 +394,9 @@
                     "BoxShape": {
                         "Configuration": {
                             "Dimensions": [
-                                7.5654754638671875,
-                                3.951348304748535,
-                                3.141340732574463
+                                7.507753372192383,
+                                3.976623773574829,
+                                2.8952765464782715
                             ]
                         }
                     }
@@ -417,9 +406,9 @@
                     "Id": 1571906511175791283,
                     "Controller": {
                         "Configuration": {
-                            "OuterHeight": 3.141340732574463,
-                            "OuterLength": 3.951348304748535,
-                            "OuterWidth": 7.5654754638671875,
+                            "OuterHeight": 2.8952765464782715,
+                            "OuterLength": 3.976623773574829,
+                            "OuterWidth": 7.507753372192383,
                             "InnerHeight": 2.550083637237549,
                             "InnerLength": 3.25,
                             "InnerWidth": 6.5,
@@ -438,7 +427,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_computerdesk__c8761f0c-24e4-4160-8d76-fc9cc08875f0__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 11206823811684634105,
+                            "EntityId": 17768062306649462009,
                             "ShowVisualization": false
                         }
                     },
@@ -449,8 +438,7 @@
                             "subId": 2000
                         },
                         "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_computerdesk__c8761f0c-24e4-4160-8d76-fc9cc08875f0__iblspecularcm128.dds.streamingimage"
-                    },
-                    "bakeExposure": 3.0
+                    }
                 },
                 "Component_[15932989343349520833]": {
                     "$type": "EditorLockComponent",
@@ -466,12 +454,7 @@
                 },
                 "Component_[4929364805968760508]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 4929364805968760508,
-                    "VisibilityFlag": false
-                },
-                "Component_[9382043224075263784]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9382043224075263784
+                    "Id": 4929364805968760508
                 },
                 "Component_[9809616418749015402]": {
                     "$type": "EditorEntityIconComponent",
@@ -556,10 +539,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -586,10 +565,6 @@
                 "Component_[15871011433240104260]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 15871011433240104260
-                },
-                "Component_[17353878858003518882]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17353878858003518882
                 },
                 "Component_[18059568838106497295]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -622,7 +597,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 13825764214116,
+                            "EditorEntityId": 6293141136865887823,
                             "MakeActiveViewOnActivation": false
                         }
                     }
@@ -641,19 +616,15 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 10682156909254430269
                 },
-                "Component_[12095103153737213081]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12095103153737213081
-                },
                 "Component_[12240173308643735915]": {
                     "$type": "EditorBoxShapeComponent",
                     "Id": 12240173308643735915,
                     "BoxShape": {
                         "Configuration": {
                             "Dimensions": [
-                                10.338147163391113,
-                                16.06843376159668,
-                                4.322579860687256
+                                7.573635101318359,
+                                13.495538711547852,
+                                3.5
                             ]
                         }
                     }
@@ -663,12 +634,12 @@
                     "Id": 14165082089627124823,
                     "Controller": {
                         "Configuration": {
-                            "OuterHeight": 4.322579860687256,
-                            "OuterLength": 16.06843376159668,
-                            "OuterWidth": 10.338147163391113,
-                            "InnerHeight": 4.322579860687256,
-                            "InnerLength": 16.06843376159668,
-                            "InnerWidth": 10.338147163391113,
+                            "OuterHeight": 3.5,
+                            "OuterLength": 13.495538711547852,
+                            "OuterWidth": 7.573635101318359,
+                            "InnerHeight": 3.5,
+                            "InnerLength": 13.285554885864258,
+                            "InnerWidth": 6.969709873199463,
                             "BakedCubemapQualityLevel": 3,
                             "BakedCubeMapRelativePath": "ReflectionProbes/Reflection_main__55E4BF1B-3C8D-4302-B6E1-0A8254976BDD__iblspecularcm512.dds",
                             "BakedCubeMapAsset": {
@@ -678,7 +649,7 @@
                                 },
                                 "assetHint": "reflectionprobes/reflection_main__55e4bf1b-3c8d-4302-b6e1-0a8254976bdd__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 10904052151376551496,
+                            "EntityId": 6722938576414872871,
                             "ShowVisualization": false
                         }
                     },
@@ -691,7 +662,7 @@
                     "Parent Entity": "Entity_[4853349577474]",
                     "Transform Data": {
                         "Translate": [
-                            1.1192970275878906,
+                            0.8745120763778687,
                             2.4872782230377197,
                             1.369265079498291
                         ]
@@ -749,7 +720,8 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 21.084999084472656,
                             "Enable Shadow": true,
-                            "Shadow Filter Method": 2
+                            "Shadow Filter Method": 1,
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -816,10 +788,6 @@
                 "Component_[6325905479840026205]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 6325905479840026205
-                },
-                "Component_[678527683088858422]": {
-                    "$type": "SelectionComponent",
-                    "Id": 678527683088858422
                 }
             }
         },
@@ -842,15 +810,15 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -892,7 +860,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.3647828102111816,
@@ -914,10 +882,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -928,10 +892,6 @@
                 "Component_[1139584416914842089]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 1139584416914842089
-                },
-                "Component_[12857517895964335700]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12857517895964335700
                 },
                 "Component_[12892392692750690399]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -978,7 +938,6 @@
                                 "guid": "{7003B5DC-6EEB-5B8A-8D6A-B7A374779C13}",
                                 "subId": 1
                             },
-                            "loadBehavior": "QueueLoad",
                             "assetHint": "scripts/profiling/outputprofiledata.luac"
                         }
                     },
@@ -1023,10 +982,6 @@
                 "Component_[11455762219280441737]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 11455762219280441737
-                },
-                "Component_[11908004909077183586]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11908004909077183586
                 },
                 "Component_[13066902325616694193]": {
                     "$type": "EditorEntityIconComponent",
@@ -1073,15 +1028,16 @@
                             ],
                             "Intensity": 8.0,
                             "AngularDiameter": 1.0,
-                            "CameraEntityId": "Entity_[2511113093496]",
+                            "CameraEntityId": "",
                             "ShadowFarClipDistance": 8.0,
                             "ShadowmapSize": "Size2048",
                             "CascadeCount": 1,
                             "SplitRatio": 0.3199999928474426,
                             "IsCascadeCorrectionEnabled": true,
                             "ShadowFilterMethod": 1,
-                            "PcfFilteringSampleCount": 16,
-                            "CascadeBlendingEnabled": true
+                            "PcfFilteringSampleCount": 9,
+                            "CascadeBlendingEnabled": true,
+                            "FullscreenBlurEnabled": false
                         }
                     }
                 },
@@ -1130,9 +1086,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 2.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -1167,7 +1122,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -8.10004997253418,
@@ -1189,10 +1144,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1230,10 +1181,6 @@
                 "Component_[14831501989244995533]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 14831501989244995533
-                },
-                "Component_[17118320450229470249]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17118320450229470249
                 },
                 "Component_[2195784003139861829]": {
                     "$type": "EditorOnlyEntityComponent",
@@ -1282,6 +1229,8 @@
                             ],
                             "ViewBias": 0.6499999761581421,
                             "NormalBias": 0.30000001192092896,
+                            "EdgeBlendIbl": false,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.30000001192092896
                         }
                     },
@@ -1290,6 +1239,8 @@
                     "probeSpacingZ": 1.0,
                     "viewBias": 0.6499999761581421,
                     "normalBias": 0.30000001192092896,
+                    "edgeBlendIbl": false,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.30000001192092896
                 },
                 "Component_[12889401442294884766]": {
@@ -1348,13 +1299,75 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 4602530466291049251
                 },
-                "Component_[8044977900627223784]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8044977900627223784
-                },
                 "Component_[9486538447709192947]": {
                     "$type": "EditorLockComponent",
                     "Id": 9486538447709192947
+                }
+            }
+        },
+        "Entity_[2436372831009]": {
+            "Id": "Entity_[2436372831009]",
+            "Name": "Ceiling_Lights",
+            "Components": {
+                "Component_[10016648237996474755]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10016648237996474755
+                },
+                "Component_[11172901863968441782]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 11172901863968441782
+                },
+                "Component_[11989071750028678021]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11989071750028678021
+                },
+                "Component_[12177124606959745845]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12177124606959745845
+                },
+                "Component_[13299960181829511464]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13299960181829511464,
+                    "Child Entity Order": [
+                        "Entity_[2481048322424]",
+                        "Entity_[2476753355128]",
+                        "Entity_[2536882897272]",
+                        "Entity_[2528292962680]",
+                        "Entity_[2442393616760]",
+                        "Entity_[2438098649464]",
+                        "Entity_[2468163420536]",
+                        "Entity_[2515408060792]",
+                        "Entity_[2446688584056]",
+                        "Entity_[2502523158904]",
+                        "Entity_[2493933224312]",
+                        "Entity_[2455278518648]",
+                        "Entity_[2498228191608]",
+                        "Entity_[2425213747576]",
+                        "Entity_[2545472831864]",
+                        "Entity_[2463868453240]",
+                        "Entity_[2562652701048]",
+                        "Entity_[2506818126200]",
+                        "Entity_[2554062766456]",
+                        "Entity_[2541177864568]",
+                        "Entity_[2485343289720]"
+                    ]
+                },
+                "Component_[18123075332071319160]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18123075332071319160
+                },
+                "Component_[1861932945628870143]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1861932945628870143
+                },
+                "Component_[45035346514513908]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 45035346514513908,
+                    "Parent Entity": "Entity_[2519703028088]"
+                },
+                "Component_[7902343337030052030]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7902343337030052030
                 }
             }
         },
@@ -1404,16 +1417,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 4.300000190734863,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1428,7 +1442,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -9.386574745178223,
@@ -1450,10 +1464,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1473,9 +1483,9 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 14356125247646558254
                 },
-                "Component_[18008819967448336826]": {
+                "Component_[15171952127223022388]": {
                     "$type": "EditorDiskShapeComponent",
-                    "Id": 18008819967448336826,
+                    "Id": 15171952127223022388,
                     "ShapeColor": [
                         1.0,
                         0.991104006767273,
@@ -1503,16 +1513,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Shadow Bias": 3.0999999046325684,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1527,7 +1538,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.8413310050964355,
@@ -1549,10 +1560,57 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
+                }
+            }
+        },
+        "Entity_[2444962765601]": {
+            "Id": "Entity_[2444962765601]",
+            "Name": "Cabinet_Lights",
+            "Components": {
+                "Component_[12538738970140372169]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12538738970140372169,
+                    "Parent Entity": "Entity_[2519703028088]"
                 },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
+                "Component_[12733215726447632807]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12733215726447632807
+                },
+                "Component_[1706043566399713779]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1706043566399713779
+                },
+                "Component_[17956905801668559109]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17956905801668559109
+                },
+                "Component_[3041018310745069526]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3041018310745069526,
+                    "Child Entity Order": [
+                        "Entity_[2472458387832]",
+                        "Entity_[2532587929976]",
+                        "Entity_[2450983551352]",
+                        "Entity_[2523997995384]",
+                        "Entity_[2433803682168]",
+                        "Entity_[2571242635640]"
+                    ]
+                },
+                "Component_[3159167061784358759]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3159167061784358759
+                },
+                "Component_[4064360803053519552]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4064360803053519552
+                },
+                "Component_[4576848399959576544]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4576848399959576544
+                },
+                "Component_[9007097052344577647]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 9007097052344577647
                 }
             }
         },
@@ -1571,15 +1629,16 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1625,7 +1684,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -9.374016761779785,
@@ -1647,10 +1706,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1685,9 +1740,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 3.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -1707,7 +1761,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -6.280117034912109,
@@ -1744,10 +1798,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1782,12 +1832,13 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 8.699999809265137,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1821,7 +1872,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -7.509238243103027,
@@ -1843,10 +1894,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1869,15 +1916,15 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -1919,7 +1966,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -8.75153923034668,
@@ -1941,10 +1988,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -1994,7 +2037,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -7.552240371704102,
@@ -2020,16 +2063,17 @@
                                 0.9921568632125854,
                                 0.95686274766922
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 0.10000000149011612,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2040,10 +2084,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2093,7 +2133,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -7.4224371910095215,
@@ -2123,9 +2163,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 3.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -2137,10 +2176,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2165,6 +2200,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -2173,11 +2209,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -2253,16 +2286,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 9.600000381469727,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2293,7 +2327,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.8227672576904297,
@@ -2315,10 +2349,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 },
                 "Component_[9497406311921069981]": {
                     "$type": "EditorDiskShapeComponent",
@@ -2379,16 +2409,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 5.900000095367432,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 4
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2407,7 +2438,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -9.418913841247559,
@@ -2429,10 +2460,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2478,16 +2505,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 5.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2506,7 +2534,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -9.33920955657959,
@@ -2528,10 +2556,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2577,16 +2601,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 5.300000190734863,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2605,7 +2630,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.747615337371826,
@@ -2627,10 +2652,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2688,22 +2709,23 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.7300238609313965,
@@ -2725,10 +2747,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2759,16 +2777,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 575.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 10.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2802,7 +2821,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -5.669934272766113,
@@ -2824,10 +2843,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2873,16 +2888,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 9.300000190734863,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -2901,7 +2917,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -5.61542272567749,
@@ -2923,10 +2939,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -2952,7 +2964,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 2351562991095658060
+                            "EditorEntityId": 6196235578022219333
                         }
                     }
                 },
@@ -2962,14 +2974,14 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            -1.9582091569900513,
-                            7.74528169631958,
-                            1.1697092056274414
+                            -1.7908339500427246,
+                            7.387489318847656,
+                            1.6930286884307861
                         ],
                         "Rotate": [
-                            -2.5297389030456543,
-                            -0.8444189429283142,
-                            -161.55294799804688
+                            8.693256378173828,
+                            3.486217498779297,
+                            -158.31231689453125
                         ]
                     }
                 },
@@ -3009,6 +3021,10 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 5527527376022384977
                 },
+                "Component_[567278882689407831]": {
+                    "$type": "AZ::Render::EditorSsaoComponent",
+                    "Id": 567278882689407831
+                },
                 "Component_[6620730806860517715]": {
                     "$type": "AZ::Render::EditorExposureControlComponent",
                     "Id": 6620730806860517715,
@@ -3023,18 +3039,6 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6621179231853762273
                 },
-                "Component_[7379804398402811395]": {
-                    "$type": "AZ::Render::EditorSsaoComponent",
-                    "Id": 7379804398402811395,
-                    "Controller": {
-                        "Configuration": {
-                            "BlurConstFalloff": 0.5,
-                            "BlurDepthFalloffThreshold": 0.3799999952316284,
-                            "BlurDepthFalloffStrength": 60.0,
-                            "EnableDownsample": false
-                        }
-                    }
-                },
                 "Component_[7964244520954565055]": {
                     "$type": "AZ::Render::EditorDepthOfFieldComponent",
                     "Id": 7964244520954565055,
@@ -3046,10 +3050,6 @@
                             "FocusDistance": 5.0
                         }
                     }
-                },
-                "Component_[8564722370811063997]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8564722370811063997
                 },
                 "Component_[951476336037622176]": {
                     "$type": "EditorLockComponent",
@@ -3115,22 +3115,22 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -4.299577713012695,
@@ -3152,16 +3152,12 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
         "Entity_[2519703028088]": {
             "Id": "Entity_[2519703028088]",
-            "Name": "Lighst_Group",
+            "Name": "Lights_Group",
             "Components": {
                 "Component_[10935706752708339395]": {
                     "$type": "EditorDisabledCompositionComponent",
@@ -3196,10 +3192,6 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 15735443729344072089
                 },
-                "Component_[1620797055680529529]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1620797055680529529
-                },
                 "Component_[17628605822766214991]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 17628605822766214991
@@ -3212,36 +3204,11 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 6324320679469616880,
                     "Child Entity Order": [
-                        "Entity_[2481048322424]",
-                        "Entity_[2476753355128]",
-                        "Entity_[2536882897272]",
-                        "Entity_[2472458387832]",
-                        "Entity_[2528292962680]",
-                        "Entity_[2442393616760]",
                         "Entity_[13823153345901]",
-                        "Entity_[2532587929976]",
-                        "Entity_[2438098649464]",
-                        "Entity_[2468163420536]",
-                        "Entity_[2515408060792]",
-                        "Entity_[2446688584056]",
-                        "Entity_[2502523158904]",
-                        "Entity_[2493933224312]",
-                        "Entity_[2450983551352]",
-                        "Entity_[2455278518648]",
-                        "Entity_[2498228191608]",
-                        "Entity_[2425213747576]",
-                        "Entity_[2545472831864]",
-                        "Entity_[2523997995384]",
-                        "Entity_[2463868453240]",
-                        "Entity_[2562652701048]",
-                        "Entity_[2433803682168]",
-                        "Entity_[2506818126200]",
-                        "Entity_[2554062766456]",
-                        "Entity_[2541177864568]",
-                        "Entity_[2485343289720]",
-                        "Entity_[2571242635640]",
                         "Entity_[13390322950493]",
-                        "Entity_[225843939094875]"
+                        "Entity_[225843939094875]",
+                        "Entity_[2436372831009]",
+                        "Entity_[2444962765601]"
                     ]
                 },
                 "Component_[9664409778166054930]": {
@@ -3296,9 +3263,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 3.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -3318,7 +3284,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -8.809956550598145,
@@ -3340,10 +3306,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3362,16 +3324,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 7.800000190734863,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3417,7 +3380,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -9.406495094299316,
@@ -3439,10 +3402,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3492,9 +3451,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 3.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -3514,7 +3472,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -6.971517562866211,
@@ -3536,10 +3494,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3574,7 +3528,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -7.508090972900391,
@@ -3612,10 +3566,6 @@
                         }
                     }
                 },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
-                },
                 "Component_[9958633863707310352]": {
                     "$type": "AZ::Render::EditorAreaLightComponent",
                     "Id": 9958633863707310352,
@@ -3627,16 +3577,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 3.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 10.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 }
@@ -3657,15 +3608,15 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
-                            "Shadowmap Max Size": "Size1024",
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3711,7 +3662,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -6.276759624481201,
@@ -3733,10 +3684,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3790,15 +3737,16 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 6.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3809,7 +3757,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -5.617992877960205,
@@ -3831,10 +3779,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3880,16 +3824,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 8.5,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -3908,7 +3853,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -3.739306926727295,
@@ -3930,10 +3875,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -3947,9 +3888,9 @@
                     "Parent Entity": "Entity_[4853349577474]",
                     "Transform Data": {
                         "Translate": [
-                            0.9758167266845703,
+                            -0.3907923102378845,
                             -1.111482858657837,
-                            1.2914128303527832
+                            0.9494202136993408
                         ]
                     }
                 },
@@ -3972,9 +3913,9 @@
                     "BoxShape": {
                         "Configuration": {
                             "Dimensions": [
-                                8.127503395080566,
-                                7.77813196182251,
-                                2.908522844314575
+                                6.0,
+                                3.0,
+                                4.0
                             ]
                         }
                     }
@@ -3984,12 +3925,12 @@
                     "Id": 1571906511175791283,
                     "Controller": {
                         "Configuration": {
-                            "OuterHeight": 2.908522844314575,
-                            "OuterLength": 7.77813196182251,
-                            "OuterWidth": 8.127503395080566,
-                            "InnerHeight": 2.0,
-                            "InnerLength": 6.0,
-                            "InnerWidth": 7.0,
+                            "OuterHeight": 4.0,
+                            "OuterLength": 3.0,
+                            "OuterWidth": 6.0,
+                            "InnerHeight": 3.5,
+                            "InnerLength": 2.180000066757202,
+                            "InnerWidth": 5.150000095367432,
                             "BakedCubeMapRelativePath": "ReflectionProbes/Reflection_Kitchen__EB11F20A-D88A-4994-87B8-F6F527C1A806__iblspecularcm256.dds",
                             "BakedCubeMapAsset": {
                                 "assetId": {
@@ -4005,7 +3946,8 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 12495628496118832218
+                            "EntityId": 3019794134833192610,
+                            "ShowVisualization": false
                         }
                     },
                     "bakedCubeMapRelativePath": "ReflectionProbes/Reflection_Kitchen__EB11F20A-D88A-4994-87B8-F6F527C1A806__iblspecularcm256.dds",
@@ -4015,8 +3957,7 @@
                             "subId": 2000
                         },
                         "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
-                    },
-                    "bakeExposure": 4.0
+                    }
                 },
                 "Component_[15932989343349520833]": {
                     "$type": "EditorLockComponent",
@@ -4032,12 +3973,7 @@
                 },
                 "Component_[4929364805968760508]": {
                     "$type": "EditorVisibilityComponent",
-                    "Id": 4929364805968760508,
-                    "VisibilityFlag": false
-                },
-                "Component_[9382043224075263784]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9382043224075263784
+                    "Id": 4929364805968760508
                 },
                 "Component_[9809616418749015402]": {
                     "$type": "EditorEntityIconComponent",
@@ -4095,16 +4031,17 @@
                                 0.991104006767273,
                                 0.9559776782989502
                             ],
-                            "Intensity": 960.0,
+                            "Intensity": 1000.0,
                             "AttenuationRadiusMode": 0,
-                            "AttenuationRadius": 4.0,
+                            "AttenuationRadius": 5.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 55.0,
-                            "OuterShutterAngleDegrees": 85.0,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 35.0,
                             "Enable Shadow": true,
                             "Normal Shadow Bias": 8.300000190734863,
+                            "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 64
+                            "Filtering Sample Count": 9
                         }
                     }
                 },
@@ -4115,7 +4052,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2436372831009]",
                     "Transform Data": {
                         "Translate": [
                             -7.505686283111572,
@@ -4137,10 +4074,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -4186,9 +4119,8 @@
                             "AttenuationRadiusMode": 0,
                             "AttenuationRadius": 1.0,
                             "EnableShutters": true,
-                            "InnerShutterAngleDegrees": 51.51499938964844,
-                            "OuterShutterAngleDegrees": 85.5250015258789,
-                            "Enable Shadow": true,
+                            "InnerShutterAngleDegrees": 30.0,
+                            "OuterShutterAngleDegrees": 40.0,
                             "Shadow Filter Method": 1
                         }
                     }
@@ -4212,7 +4144,7 @@
                 "Component_[7842351237077523143]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 7842351237077523143,
-                    "Parent Entity": "Entity_[2519703028088]",
+                    "Parent Entity": "Entity_[2444962765601]",
                     "Transform Data": {
                         "Translate": [
                             -5.558887481689453,
@@ -4234,10 +4166,6 @@
                 "Component_[9176113465172568258]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9176113465172568258
-                },
-                "Component_[9295509542163268030]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9295509542163268030
                 }
             }
         },
@@ -4252,10 +4180,6 @@
                 "Component_[11026666477132751158]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 11026666477132751158
-                },
-                "Component_[13337667750502576476]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13337667750502576476
                 },
                 "Component_[13681586586275670994]": {
                     "$type": "EditorInspectorComponent",
@@ -4367,12 +4291,13 @@
                                 0.5
                             ],
                             "Extents": [
-                                3.5,
+                                4.0,
                                 2.0,
                                 2.0
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4381,11 +4306,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -4397,7 +4319,7 @@
                     "BoxShape": {
                         "Configuration": {
                             "Dimensions": [
-                                3.5,
+                                4.0,
                                 2.0,
                                 2.0
                             ]
@@ -4467,6 +4389,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4475,11 +4398,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -4608,7 +4528,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_livingroom__08eadce6-da11-42de-b55d-62aae4d80878__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 9318338882240431636,
+                            "EntityId": 10763771797465995607,
                             "ShowVisualization": false
                         }
                     },
@@ -4639,10 +4559,6 @@
                     "Id": 4929364805968760508,
                     "VisibilityFlag": false
                 },
-                "Component_[9382043224075263784]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9382043224075263784
-                },
                 "Component_[9809616418749015402]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 9809616418749015402
@@ -4670,6 +4586,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4678,11 +4595,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -4764,6 +4678,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 3,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -4772,11 +4687,8 @@
                     "probeSpacingZ": 0.75,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 3,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -4927,10 +4839,6 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 430958247309803836,
                     "Parent Entity": "Entity_[4857644544770]"
-                },
-                "Component_[499292035206661624]": {
-                    "$type": "SelectionComponent",
-                    "Id": 499292035206661624
                 }
             }
         },
@@ -4970,10 +4878,6 @@
                 "Component_[3520643771308007493]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 3520643771308007493
-                },
-                "Component_[6757714488873041443]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6757714488873041443
                 },
                 "Component_[9094183946553944584]": {
                     "$type": "EditorInspectorComponent",
@@ -5023,10 +4927,6 @@
                 "Component_[7896767466230774163]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 7896767466230774163
-                },
-                "Component_[8282810304213872318]": {
-                    "$type": "SelectionComponent",
-                    "Id": 8282810304213872318
                 },
                 "Component_[8599339624830515583]": {
                     "$type": "EditorEntityIconComponent",
@@ -5081,10 +4981,6 @@
                         "Entity_[4853349577474]"
                     ]
                 },
-                "Component_[3634800213708170667]": {
-                    "$type": "SelectionComponent",
-                    "Id": 3634800213708170667
-                },
                 "Component_[5528384919050742819]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 5528384919050742819,
@@ -5118,10 +5014,6 @@
                 "Component_[2113760360954613825]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 2113760360954613825
-                },
-                "Component_[2472292397380287495]": {
-                    "$type": "SelectionComponent",
-                    "Id": 2472292397380287495
                 },
                 "Component_[3075133574349511058]": {
                     "$type": "EditorLockComponent",
@@ -5170,6 +5062,7 @@
                             ],
                             "ViewBias": 0.14000000059604645,
                             "NumRaysPerProbe": 2,
+                            "FrameUpdateCount": 4,
                             "VisualizationSphereRadius": 0.25
                         }
                     },
@@ -5178,11 +5071,8 @@
                     "probeSpacingZ": 0.5,
                     "viewBias": 0.14000000059604645,
                     "numRaysPerProbe": 2,
+                    "frameUpdateCount": 4,
                     "visualizationSphereRadius": 0.25
-                },
-                "Component_[12229688153839024385]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12229688153839024385
                 },
                 "Component_[12566632783525626804]": {
                     "$type": "EditorVisibilityComponent",
@@ -5271,7 +5161,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[3386876137776201213]/Transform Data/Translate/2",
-                    "value": 0.8861960172653198
+                    "value": 0.8823307752609253
                 }
             ]
         },
@@ -5322,6 +5212,55 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12785365552446477226]/Transform Data/Translate/2",
                     "value": -0.005262579768896103
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/0/Name",
+                    "value": "Wood_FloorMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/1/Name",
+                    "value": "Smoke_DetectorMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/2/Name",
+                    "value": "White_PlasticMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/3/Name",
+                    "value": "BlindsMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/4/Name",
+                    "value": "Fire_SprinklerMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/5/Name",
+                    "value": "Baseboard_PaintMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/6/Name",
+                    "value": "Ceiling_LED_LightMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/7/Name",
+                    "value": "Kitchen_CabinetMAT"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/8/Name",
+                    "value": "Door_HandelMAT"
+                },
+                {
+                    "op": "remove",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/26"
                 }
             ]
         },
@@ -6056,7 +5995,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2507911443174483191]/Transform Data/Translate/2",
-                    "value": 2.5137927532196045
+                    "value": 2.7013838291168213
                 }
             ]
         },
@@ -6556,7 +6495,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[11688047257568446187]/Transform Data/Translate/2",
-                    "value": 1.0202680826187134
+                    "value": 1.0098216533660889
                 },
                 {
                     "op": "replace",
@@ -6711,12 +6650,12 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16976667112809201434]/Transform Data/Translate/1",
-                    "value": -1.979731202125549
+                    "value": -1.9797312021255493
                 },
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16976667112809201434]/Transform Data/Translate/2",
-                    "value": 0.8989109992980957
+                    "value": 0.8845833539962769
                 },
                 {
                     "op": "replace",

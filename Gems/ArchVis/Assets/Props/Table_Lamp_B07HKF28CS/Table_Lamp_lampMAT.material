@@ -1,6 +1,6 @@
 {
     "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -12,15 +12,15 @@
         "baseColor.textureMap": "Props/Table_Lamp_B07HKF28CS/textures/lamp_BaseColor.png",
         "emissive.color": [
             1.0,
-            0.5078965425491333,
-            0.08522164076566696,
+            0.5078964829444885,
+            0.08522160351276398,
             1.0
         ],
         "emissive.enable": true,
         "emissive.intensity": 7.420000076293945,
         "emissive.textureMap": "Props/Table_Lamp_B07HKF28CS/textures/lamp_Emissive.png",
         "general.applySpecularAA": true,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.7006790041923523,
             0.6713511943817139,
             0.3487755060195923,
@@ -30,6 +30,7 @@
         "normal.textureMap": "Props/Table_Lamp_B07HKF28CS/textures/lamp_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Table_Lamp_B07HKF28CS/textures/lamp_Roughness.png"
+        "roughness.textureMap": "Props/Table_Lamp_B07HKF28CS/textures/lamp_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

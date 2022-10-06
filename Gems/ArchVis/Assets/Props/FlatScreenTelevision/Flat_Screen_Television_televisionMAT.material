@@ -1,7 +1,7 @@
 {
     "description": "",
     "parentMaterial": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "Materials/Types/BasePBR.materialtype",
     "materialTypeVersion": 0,
     "properties": {
         "baseColor": {
@@ -14,21 +14,8 @@
             "textureBlendMode": "Lerp",
             "textureMap": "Props/FlatScreenTelevision/textures/television_BaseColor.png"
         },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
         "metallic": {
             "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0
         },
         "roughness": {
             "factor": 0.33000001311302185,
