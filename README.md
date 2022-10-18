@@ -25,7 +25,7 @@ You can clone the gems to any folder locally, including inside the engine folder
 
 ```shell
 # clone into a folder outside your engine repository folder
-> git clone https://github.com/aws-lumberyard/loft-arch-vis-sample.git
+> git clone https://github.com/o3de/loft-arch-vis-sample.git
 Cloning into 'loft-arch-vis-sample'...
 ```
 
@@ -33,7 +33,7 @@ Cloning into 'loft-arch-vis-sample'...
 
 ```shell
 # clone the project into a folder named 'loft-arch-vis-sample' in your existing engine repository folder
-> git clone https://github.com/aws-lumberyard/loft-arch-vis-sample.git c:/path/to/o3de/loft-arch-vis-sample
+> git clone https://github.com/o3de/loft-arch-vis-sample.git c:/path/to/o3de/loft-arch-vis-sample
 Cloning into 'loft-arch-vis-sample'...
 
 # modify the local engine git exclude file to ignore the project folder
