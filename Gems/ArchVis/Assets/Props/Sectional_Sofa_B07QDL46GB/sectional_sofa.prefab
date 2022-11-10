@@ -14,7 +14,14 @@
             "Component_[13061046228670919793]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 13061046228670919793,
-                "Parent Entity": ""
+                "Parent Entity": "",
+                "Transform Data": {
+                    "Translate": [
+                        3.8698175330864615e-7,
+                        0.0,
+                        0.0
+                    ]
+                }
             },
             "Component_[13660139245677714284]": {
                 "$type": "EditorDisabledCompositionComponent",
@@ -96,19 +103,19 @@
                         "PhysicsAsset": {
                             "Asset": {
                                 "assetId": {
-                                    "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
-                                    "subId": 1234869281
+                                    "guid": "{E48EB7AF-CB90-5FFB-AA17-13B052C541DB}",
+                                    "subId": 1439839448
                                 },
-                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.pxmesh"
+                                "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.pxmesh"
                             },
                             "Configuration": {
                                 "PhysicsAsset": {
                                     "assetId": {
-                                        "guid": "{2162BFCE-4697-57B7-94F5-C6369CE563F5}",
-                                        "subId": 1234869281
+                                        "guid": "{E48EB7AF-CB90-5FFB-AA17-13B052C541DB}",
+                                        "subId": 1439839448
                                     },
                                     "loadBehavior": "QueueLoad",
-                                    "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa.pxmesh"
+                                    "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.pxmesh"
                                 }
                             }
                         }
@@ -148,7 +155,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{62C2849F-C1D8-555C-8ADE-D99C67E8C1ED}"
-                                            }
+                                            },
+                                            "assetHint": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l_sofamat.azmaterial"
                                         }
                                     }
                                 },

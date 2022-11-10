@@ -1,0 +1,84 @@
+{
+    "values": [
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{E894CEDF-B4A9-56E3-B42F-8660E06A2D64}",
+            "name": "Sectional_Sofa_L",
+            "NodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.sofa_lod1",
+                    "RootNode.sofa_lod1.transform",
+                    "RootNode.sofa_lod1.custom_properties",
+                    "RootNode.sofa_lod1.UVMap",
+                    "RootNode.sofa_lod1.sofaMAT",
+                    "RootNode.sofa_lod0.transform",
+                    "RootNode.sofa_lod0.custom_properties",
+                    "RootNode.sofa_lod0.UVMap",
+                    "RootNode.sofa_lod0.sofaMAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode.sofa_lod0"
+                ]
+            },
+            "PhysicsMaterialSlots": {
+                "Slots": [
+                    {
+                        "Name": "sofaMAT"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "Sectional_Sofa_L",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    "RootNode",
+                    "RootNode.sofa_lod0",
+                    "RootNode.sofa_lod0.transform",
+                    "RootNode.sofa_lod0.custom_properties",
+                    "RootNode.sofa_lod0.UVMap",
+                    "RootNode.sofa_lod0.sofaMAT"
+                ],
+                "unselectedNodes": [
+                    "RootNode.sofa_lod1",
+                    "RootNode.sofa_lod1.transform",
+                    "RootNode.sofa_lod1.custom_properties",
+                    "RootNode.sofa_lod1.UVMap",
+                    "RootNode.sofa_lod1.sofaMAT"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "{6E796AC8-1484-4909-860A-6D3F22A7346F} LodRule",
+                        "nodeSelectionList": [
+                            {
+                                "selectedNodes": [
+                                    "RootNode",
+                                    "RootNode.sofa_lod1",
+                                    "RootNode.sofa_lod1.transform",
+                                    "RootNode.sofa_lod1.custom_properties",
+                                    "RootNode.sofa_lod1.UVMap",
+                                    "RootNode.sofa_lod1.sofaMAT"
+                                ],
+                                "unselectedNodes": [
+                                    "RootNode.sofa_lod0",
+                                    "RootNode.sofa_lod0.transform",
+                                    "RootNode.sofa_lod0.custom_properties",
+                                    "RootNode.sofa_lod0.UVMap",
+                                    "RootNode.sofa_lod0.sofaMAT"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{24394100-1574-5E3A-9D8C-7C7BF72583C0}"
+        }
+    ]
+}
