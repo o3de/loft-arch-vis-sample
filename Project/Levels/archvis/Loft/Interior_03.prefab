@@ -427,7 +427,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_computerdesk__c8761f0c-24e4-4160-8d76-fc9cc08875f0__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 17768062306649462009,
+                            "EntityId": 3710447724102009019,
                             "ShowVisualization": false
                         }
                     },
@@ -597,7 +597,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 6293141136865887823,
+                            "EditorEntityId": 16491923117845252325,
                             "MakeActiveViewOnActivation": false
                         }
                     }
@@ -649,7 +649,7 @@
                                 },
                                 "assetHint": "reflectionprobes/reflection_main__55e4bf1b-3c8d-4302-b6e1-0a8254976bdd__iblspecularcm512.dds.streamingimage"
                             },
-                            "EntityId": 6722938576414872871,
+                            "EntityId": 6671086778616644674,
                             "ShowVisualization": false
                         }
                     },
@@ -2964,7 +2964,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 6196235578022219333
+                            "EditorEntityId": 17464199160979445746
                         }
                     }
                 },
@@ -2990,6 +2990,7 @@
                     "Id": 14907155315153807367,
                     "Controller": {
                         "Configuration": {
+                            "Enabled": true,
                             "Threshold": 30.0,
                             "Knee": 0.11999999731779099,
                             "Intensity": 0.10000000149011612,
@@ -3044,7 +3045,8 @@
                     "Id": 7964244520954565055,
                     "Controller": {
                         "Configuration": {
-                            "CameraEntityId": "",
+                            "CameraEntityId": "Entity_[2511113093496]",
+                            "Enabled": true,
                             "ApertureF": 0.20000000298023224,
                             "FNumber": 0.5988770723342896,
                             "FocusDistance": 5.0
@@ -3946,7 +3948,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_kitchen__bc3d31dc-2109-4b78-aaac-a819d100f77f__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 3019794134833192610,
+                            "EntityId": 477480581445408006,
                             "ShowVisualization": false
                         }
                     },
@@ -4219,7 +4221,22 @@
                             },
                             "exposure": 4.0
                         }
-                    }
+                    },
+                    "diffuseImageAsset": {
+                        "assetId": {
+                            "guid": "{7C0EA521-353D-5D74-8A2B-AC83AD7BD40D}",
+                            "subId": 3000
+                        },
+                        "assetHint": "lightingpresets/blouberg_sunrise_2_8k_iblskyboxcm_ibldiffuse.exr.streamingimage"
+                    },
+                    "specularImageAsset": {
+                        "assetId": {
+                            "guid": "{7C0EA521-353D-5D74-8A2B-AC83AD7BD40D}",
+                            "subId": 2000
+                        },
+                        "assetHint": "lightingpresets/blouberg_sunrise_2_8k_iblskyboxcm_iblspecular.exr.streamingimage"
+                    },
+                    "exposure": 4.0
                 },
                 "Component_[1510476164095358309]": {
                     "$type": "EditorEntitySortComponent",
@@ -4528,7 +4545,7 @@
                                 },
                                 "assetHint": "levels/archvis/interior_03/reflectionprobes/reflection_livingroom__08eadce6-da11-42de-b55d-62aae4d80878__iblspecularcm128.dds.streamingimage"
                             },
-                            "EntityId": 10763771797465995607,
+                            "EntityId": 2578449769232462830,
                             "ShowVisualization": false
                         }
                     },
@@ -6650,7 +6667,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16976667112809201434]/Transform Data/Translate/1",
-                    "value": -1.9797312021255493
+                    "value": -1.979731202125549
                 },
                 {
                     "op": "replace",
