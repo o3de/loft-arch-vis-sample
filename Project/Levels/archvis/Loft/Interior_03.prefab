@@ -107,7 +107,9 @@
                             "InnerShutterAngleDegrees": 21.084999084472656,
                             "Enable Shadow": true,
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -721,7 +723,9 @@
                             "InnerShutterAngleDegrees": 21.084999084472656,
                             "Enable Shadow": true,
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -818,7 +822,9 @@
                             "OuterShutterAngleDegrees": 35.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1088,7 +1094,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1427,7 +1435,9 @@
                             "Normal Shadow Bias": 4.300000190734863,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1523,7 +1533,9 @@
                             "Shadow Bias": 3.0999999046325684,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1638,7 +1650,9 @@
                             "Enable Shadow": true,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1742,7 +1756,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1838,7 +1854,9 @@
                             "Normal Shadow Bias": 8.699999809265137,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -1924,7 +1942,9 @@
                             "OuterShutterAngleDegrees": 35.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2073,7 +2093,9 @@
                             "Normal Shadow Bias": 0.10000000149011612,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2165,7 +2187,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2296,7 +2320,9 @@
                             "Normal Shadow Bias": 9.600000381469727,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2419,7 +2445,9 @@
                             "Normal Shadow Bias": 5.900000095367432,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2515,7 +2543,9 @@
                             "Normal Shadow Bias": 5.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2611,7 +2641,9 @@
                             "Normal Shadow Bias": 5.300000190734863,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2718,7 +2750,9 @@
                             "Enable Shadow": true,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2787,7 +2821,9 @@
                             "Normal Shadow Bias": 10.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2898,7 +2934,9 @@
                             "Normal Shadow Bias": 9.300000190734863,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -2964,7 +3002,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 17464199160979445746
+                            "EditorEntityId": 8263069990027345964
                         }
                     }
                 },
@@ -2974,14 +3012,14 @@
                     "Parent Entity": "Entity_[1146574390643]",
                     "Transform Data": {
                         "Translate": [
-                            -1.7908339500427246,
-                            7.387489318847656,
-                            1.6930286884307861
+                            -1.788722038269043,
+                            7.383889675140381,
+                            1.6926989555358887
                         ],
                         "Rotate": [
-                            8.693256378173828,
-                            3.486217498779297,
-                            -158.31231689453125
+                            8.690266609191895,
+                            3.497493028640747,
+                            -158.24188232421875
                         ]
                     }
                 },
@@ -3024,7 +3062,12 @@
                 },
                 "Component_[567278882689407831]": {
                     "$type": "AZ::Render::EditorSsaoComponent",
-                    "Id": 567278882689407831
+                    "Id": 567278882689407831,
+                    "Controller": {
+                        "Configuration": {
+                            "EnableDownsample": false
+                        }
+                    }
                 },
                 "Component_[6620730806860517715]": {
                     "$type": "AZ::Render::EditorExposureControlComponent",
@@ -3046,7 +3089,6 @@
                     "Controller": {
                         "Configuration": {
                             "CameraEntityId": "Entity_[2511113093496]",
-                            "Enabled": true,
                             "ApertureF": 0.20000000298023224,
                             "FNumber": 0.5988770723342896,
                             "FocusDistance": 5.0
@@ -3125,7 +3167,9 @@
                             "OuterShutterAngleDegrees": 35.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3267,7 +3311,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3336,7 +3382,9 @@
                             "Normal Shadow Bias": 7.800000190734863,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3455,7 +3503,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3589,7 +3639,9 @@
                             "Normal Shadow Bias": 10.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 }
@@ -3618,7 +3670,9 @@
                             "OuterShutterAngleDegrees": 35.0,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3748,7 +3802,9 @@
                             "Enable Shadow": true,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -3836,7 +3892,9 @@
                             "Normal Shadow Bias": 8.5,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -4043,7 +4101,9 @@
                             "Normal Shadow Bias": 8.300000190734863,
                             "Shadowmap Max Size": "Size512",
                             "Shadow Filter Method": 1,
-                            "Filtering Sample Count": 9
+                            "Filtering Sample Count": 9,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
@@ -4123,7 +4183,9 @@
                             "EnableShutters": true,
                             "InnerShutterAngleDegrees": 30.0,
                             "OuterShutterAngleDegrees": 40.0,
-                            "Shadow Filter Method": 1
+                            "Shadow Filter Method": 1,
+                            "Shadow Caching Mode": 1,
+                            "Shadow Caching Enabled": true
                         }
                     }
                 },
