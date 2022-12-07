@@ -3002,7 +3002,7 @@
                     "Id": 11374458009190363397,
                     "Controller": {
                         "Configuration": {
-                            "EditorEntityId": 12995877491404258100
+                            "EditorEntityId": 8263069990027345964
                         }
                     }
                 },
@@ -3089,7 +3089,6 @@
                     "Controller": {
                         "Configuration": {
                             "CameraEntityId": "Entity_[2511113093496]",
-                            "Enabled": true,
                             "ApertureF": 0.20000000298023224,
                             "FNumber": 0.5988770723342896,
                             "FocusDistance": 5.0
