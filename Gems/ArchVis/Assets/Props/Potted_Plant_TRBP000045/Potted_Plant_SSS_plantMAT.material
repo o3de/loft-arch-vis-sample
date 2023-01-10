@@ -1,10 +1,10 @@
 {
-    "materialType": "Materials/Types/EnhancedPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
     "propertyValues": {
-        "baseColor.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_BaseColor.png",
-        "normal.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Normal.png",
-        "roughness.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Roughness.png",
+        "baseColor.textureMap": "textures/plant_BaseColor.png",
+        "normal.textureMap": "textures/plant_Normal.png",
+        "roughness.textureMap": "textures/plant_Roughness.png",
         "subsurfaceScattering.enableSubsurfaceScattering": true,
         "subsurfaceScattering.quality": 0.671999990940094,
         "subsurfaceScattering.scatterColor": [
@@ -16,7 +16,7 @@
         "subsurfaceScattering.scatterDistance": 6.0,
         "subsurfaceScattering.subsurfaceScatterFactor": 0.5,
         "subsurfaceScattering.thickness": 0.3700000047683716,
-        "subsurfaceScattering.thicknessMap": "Props/Potted_Plant_TRBP000045/textures/plant_Roughness.png",
+        "subsurfaceScattering.thicknessMap": "textures/plant_Roughness.png",
         "subsurfaceScattering.transmissionDistortion": 0.3499999940395355,
         "subsurfaceScattering.transmissionMode": "ThickObject",
         "subsurfaceScattering.transmissionPower": 11.0

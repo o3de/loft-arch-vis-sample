@@ -1,47 +1,28 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/cactus_BaseColor.png"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "irradiance": {
-            "color": [
-                0.3139849007129669,
-                0.2541542649269104,
-                0.06662088632583618,
-                1.0
-            ]
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "normal": {
-            "flipY": true,
-            "textureMap": "Rooms/Interior_01/textures/cactus_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.33000001311302187,
-            "textureMap": "Rooms/Interior_01/textures/cactus_Roughness.png"
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/cactus_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "irradiance.manualColor": [
+            0.3139849007129669,
+            0.2541542649269104,
+            0.06662088632583618,
+            1.0
+        ],
+        "metallic.useTexture": false,
+        "normal.flipY": true,
+        "normal.textureMap": "textures/cactus_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "textures/cactus_Roughness.png"
     }
 }

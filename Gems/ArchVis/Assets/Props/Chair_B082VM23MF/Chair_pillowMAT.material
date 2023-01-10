@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.1412658989429474,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_BaseColor.png",
+        "baseColor.textureMap": "textures/pillowMAT_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,20 +18,20 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.8231326937675476,
             0.732402503490448,
             0.14267189800739288,
             1.0
         ],
         "metallic.factor": 0.5400000214576721,
-        "metallic.textureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_Metallic.png",
-        "normal.textureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_Normal.png",
-        "occlusion.diffuseTextureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_AO.png",
+        "metallic.textureMap": "textures/pillowMAT_Metallic.png",
+        "normal.textureMap": "textures/pillowMAT_Normal.png",
+        "occlusion.diffuseTextureMap": "textures/pillowMAT_AO.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.8414633870124817,
-        "roughness.textureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_Roughness.png",
+        "roughness.textureMap": "textures/pillowMAT_Roughness.png",
         "specularF0.enableMultiScatterCompensation": true,
-        "specularF0.textureMap": "Props/Chair_B082VM23MF/textures/pillowMAT_SpecularReflectance.png"
+        "specularF0.textureMap": "textures/pillowMAT_SpecularReflectance.png"
     }
 }

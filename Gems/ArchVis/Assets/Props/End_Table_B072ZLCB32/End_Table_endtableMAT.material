@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/End_Table_B072ZLCB32/textures/endTable_BaseColor.png",
+        "baseColor.textureMap": "textures/endTable_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,17 +18,17 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.7823147773742676,
             0.6022125482559204,
             0.3963683545589447,
             1.0
         ],
-        "metallic.textureMap": "Props/End_Table_B072ZLCB32/textures/endTable_Metallic.png",
-        "normal.textureMap": "Props/End_Table_B072ZLCB32/textures/endTable_Normal.png",
+        "metallic.textureMap": "textures/endTable_Metallic.png",
+        "normal.textureMap": "textures/endTable_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/End_Table_B072ZLCB32/textures/endTable_Roughness.png",
+        "roughness.textureMap": "textures/endTable_Roughness.png",
         "roughness.useTexture": false
     }
 }

@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Rooms/Interior_02/textures/blinds_BaseColor.png",
+        "baseColor.textureMap": "../../Rooms/Interior_02/textures/blinds_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,16 +18,16 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.2585030794143677,
             0.21484702825546265,
             0.21484702825546265,
             1.0
         ],
-        "metallic.textureMap": "Rooms/Interior_02/textures/blinds_Metallic.png",
-        "normal.textureMap": "Rooms/Interior_02/textures/blinds_Normal.png",
+        "metallic.textureMap": "../../Rooms/Interior_02/textures/blinds_Metallic.png",
+        "normal.textureMap": "../../Rooms/Interior_02/textures/blinds_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Rooms/Interior_02/textures/blinds_Roughness.png"
+        "roughness.textureMap": "../../Rooms/Interior_02/textures/blinds_Roughness.png"
     }
 }

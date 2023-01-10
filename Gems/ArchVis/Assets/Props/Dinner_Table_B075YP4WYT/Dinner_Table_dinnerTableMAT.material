@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_BaseColor.png",
+        "baseColor.textureMap": "textures/dinnerTable_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,16 +18,16 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.687067985534668,
             0.43566033244132996,
             0.29010453820228577,
             1.0
         ],
-        "metallic.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Metallic.png",
-        "normal.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Normal.png",
+        "metallic.textureMap": "textures/dinnerTable_Metallic.png",
+        "normal.textureMap": "textures/dinnerTable_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Dinner_Table_B075YP4WYT/textures/dinnerTable_Roughness.png"
+        "roughness.textureMap": "textures/dinnerTable_Roughness.png"
     }
 }

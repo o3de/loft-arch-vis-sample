@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/StillLife/textures/still_life_table_BaseColor.png",
+        "baseColor.textureMap": "textures/still_life_table_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -19,9 +19,9 @@
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
         "metallic.useTexture": false,
-        "normal.textureMap": "Props/StillLife/textures/still_life_table_Normal.png",
+        "normal.textureMap": "textures/still_life_table_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/StillLife/textures/still_life_table_Roughness.png"
+        "roughness.textureMap": "textures/still_life_table_Roughness.png"
     }
 }

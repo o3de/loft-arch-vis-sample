@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.48299381136894226,
@@ -15,7 +15,6 @@
             0.0,
             1.0
         ],
-        "general.applySpecularAA": true,
         "general.doubleSided": true,
         "metallic.factor": 0.5199999809265137,
         "opacity.factor": 1.0,

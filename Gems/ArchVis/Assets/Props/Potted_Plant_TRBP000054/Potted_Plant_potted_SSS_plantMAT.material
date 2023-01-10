@@ -1,10 +1,10 @@
 {
-    "materialType": "Materials/Types/EnhancedPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Potted_Plant_TRBP000054/textures/potted_plant_BaseColor.png",
-        "roughness.textureMap": "Props/Potted_Plant_TRBP000054/textures/potted_plant_Roughness.png",
+        "baseColor.textureMap": "textures/potted_plant_BaseColor.png",
+        "roughness.textureMap": "textures/potted_plant_Roughness.png",
         "subsurfaceScattering.enableSubsurfaceScattering": true,
         "subsurfaceScattering.quality": 0.46399998664855957,
         "subsurfaceScattering.scatterColor": [
@@ -16,7 +16,7 @@
         "subsurfaceScattering.scatterDistance": 3.5999999046325684,
         "subsurfaceScattering.subsurfaceScatterFactor": 0.6700000166893005,
         "subsurfaceScattering.thickness": 0.6000000238418579,
-        "subsurfaceScattering.thicknessMap": "Props/Potted_Plant_TRBP000054/textures/potted_plant_BaseColor.png",
+        "subsurfaceScattering.thicknessMap": "textures/potted_plant_BaseColor.png",
         "subsurfaceScattering.transmissionMode": "ThinObject",
         "subsurfaceScattering.transmissionTint": [
             0.3152818977832794,

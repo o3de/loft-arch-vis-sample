@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_BaseColor.png",
+        "baseColor.textureMap": "textures/rug_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,16 +18,16 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.8231326937675476,
             0.6950942277908325,
             0.548760175704956,
             1.0
         ],
-        "metallic.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Metallic.png",
-        "normal.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Normal.png",
+        "metallic.textureMap": "textures/rug_Metallic.png",
+        "normal.textureMap": "textures/rug_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Dinner_Table_Floor_Rug/textures/rug_Roughness.png"
+        "roughness.textureMap": "textures/rug_Roughness.png"
     }
 }

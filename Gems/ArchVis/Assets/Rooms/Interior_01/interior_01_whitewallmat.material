@@ -1,46 +1,27 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/paint_varnished_basecolor.png"
-        },
-        "clearCoat": {
-            "enable": true,
-            "normalMap": "Rooms/Interior_01/textures/paint_varnished_normal.png",
-            "normalStrength": 2.0,
-            "roughness": 0.5
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "normal": {
-            "factor": 2.0,
-            "flipY": true,
-            "textureMap": "Rooms/Interior_01/textures/paint_varnished_normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.058125000447034839,
-            "textureMap": "Rooms/Interior_01/textures/paint_varnished_roughness.png"
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/paint_varnished_basecolor.png",
+        "clearCoat.enable": true,
+        "clearCoat.normalMap": "textures/paint_varnished_normal.png",
+        "clearCoat.normalStrength": 2.0,
+        "clearCoat.roughness": 0.5,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "normal.factor": 2.0,
+        "normal.flipY": true,
+        "normal.textureMap": "textures/paint_varnished_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.058125000447034836,
+        "roughness.textureMap": "textures/paint_varnished_roughness.png"
     }
 }

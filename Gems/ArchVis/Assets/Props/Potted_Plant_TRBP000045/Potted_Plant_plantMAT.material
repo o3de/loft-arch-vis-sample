@@ -1,5 +1,5 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_BaseColor.png",
+        "baseColor.textureMap": "textures/plant_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -25,9 +25,9 @@
             1.0
         ],
         "metallic.useTexture": false,
-        "normal.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Normal.png",
+        "normal.textureMap": "textures/plant_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Potted_Plant_TRBP000045/textures/plant_Roughness.png"
+        "roughness.textureMap": "textures/plant_Roughness.png"
     }
 }

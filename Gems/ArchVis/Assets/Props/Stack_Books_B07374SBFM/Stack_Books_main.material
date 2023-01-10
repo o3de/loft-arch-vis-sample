@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.800000011920929,
@@ -9,15 +9,15 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Stack_Books_B07374SBFM/textures/top_book_BaseColor.png",
+        "baseColor.textureMap": "textures/top_book_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "normal.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Normal.png",
+        "normal.textureMap": "textures/books_Normal.png",
         "opacity.factor": 1.0,
-        "roughness.textureMap": "Props/Stack_Books_B07374SBFM/textures/books_Roughness.png"
+        "roughness.textureMap": "textures/books_Roughness.png"
     }
 }

@@ -1,37 +1,25 @@
 {
-    "description": "",
-    "parentMaterial": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 0,
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.010999999940395355,
-                0.010999999940395355,
-                0.010999999940395355,
-                1.0
-            ],
-            "textureBlendMode": "Lerp"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.6000000238418579,
-            "useTexture": false
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.010999999940395355,
+            0.010999999940395355,
+            0.010999999940395355,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.useTexture": false,
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.6000000238418579,
+        "roughness.useTexture": false
     }
 }

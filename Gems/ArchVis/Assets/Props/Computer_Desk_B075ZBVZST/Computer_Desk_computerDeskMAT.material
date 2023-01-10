@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_BaseColor.png",
+        "baseColor.textureMap": "textures/computerDesk_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,16 +18,16 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "irradiance.color": [
+        "irradiance.manualColor": [
             0.3537346422672272,
             0.20962844789028168,
             0.007858396507799625,
             1.0
         ],
-        "metallic.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Metallic.png",
-        "normal.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Normal.png",
+        "metallic.textureMap": "textures/computerDesk_Metallic.png",
+        "normal.textureMap": "textures/computerDesk_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Computer_Desk_B075ZBVZST/textures/computerDesk_Roughness.png"
+        "roughness.textureMap": "textures/computerDesk_Roughness.png"
     }
 }

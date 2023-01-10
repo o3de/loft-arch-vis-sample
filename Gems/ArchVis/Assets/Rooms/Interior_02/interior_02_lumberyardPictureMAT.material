@@ -1,42 +1,28 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "color": [
-                0.5,
-                0.5,
-                0.5,
-                1.0
-            ],
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_02/textures/lumberyardPicture_BaseColor.png"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "metallic": {
-            "textureMap": "Rooms/Interior_02/textures/lumberyardPicture_Metallic.png"
-        },
-        "normal": {
-            "textureMap": "Rooms/Interior_02/textures/lumberyardPicture_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0,
-            "mode": "Cutout"
-        },
-        "roughness": {
-            "factor": 0.33000001311302185,
-            "textureMap": "Rooms/Interior_02/textures/lumberyardPicture_Roughness.png"
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5,
+            0.5,
+            0.5,
+            1.0
+        ],
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/lumberyardPicture_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "metallic.textureMap": "textures/lumberyardPicture_Metallic.png",
+        "normal.textureMap": "textures/lumberyardPicture_Normal.png",
+        "opacity.factor": 1.0,
+        "opacity.mode": "Cutout",
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "textures/lumberyardPicture_Roughness.png"
     }
 }

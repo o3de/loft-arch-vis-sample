@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/StillLife/textures/slicedApple_BaseColor.png",
+        "baseColor.textureMap": "textures/slicedApple_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,9 +18,9 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "normal.textureMap": "Props/StillLife/textures/slicedApple_Normal.png",
+        "normal.textureMap": "textures/slicedApple_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/StillLife/textures/slicedApple_Roughness.png"
+        "roughness.textureMap": "textures/slicedApple_Roughness.png"
     }
 }

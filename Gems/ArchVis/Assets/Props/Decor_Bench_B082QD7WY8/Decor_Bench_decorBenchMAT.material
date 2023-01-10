@@ -1,18 +1,18 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_BaseColor.png",
+        "baseColor.textureMap": "textures/decorBench_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "metallic.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_Metallic.png",
-        "normal.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_Normal.png",
+        "metallic.textureMap": "textures/decorBench_Metallic.png",
+        "normal.textureMap": "textures/decorBench_Normal.png",
         "opacity.factor": 1.0,
-        "roughness.textureMap": "Props/Decor_Bench_B082QD7WY8/textures/decorBench_Roughness.png"
+        "roughness.textureMap": "textures/decorBench_Roughness.png"
     }
 }

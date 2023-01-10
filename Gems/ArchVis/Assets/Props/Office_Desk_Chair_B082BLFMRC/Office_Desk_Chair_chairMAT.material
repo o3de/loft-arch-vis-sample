@@ -1,5 +1,5 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_BaseColor.png",
+        "baseColor.textureMap": "textures/office_desk_chair_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,13 +18,11 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "general.applySpecularAA": true,
-        "irradiance.irradianceColorSource": "Manual",
-        "metallic.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_Metallic.png",
-        "normal.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_Normal.png",
+        "metallic.textureMap": "textures/office_desk_chair_Metallic.png",
+        "normal.textureMap": "textures/office_desk_chair_Normal.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,
-        "roughness.textureMap": "Props/Office_Desk_Chair_B082BLFMRC/textures/office_desk_chair_Roughness.png",
+        "roughness.textureMap": "textures/office_desk_chair_Roughness.png",
         "specularF0.factor": 0.30000001192092896
     }
 }

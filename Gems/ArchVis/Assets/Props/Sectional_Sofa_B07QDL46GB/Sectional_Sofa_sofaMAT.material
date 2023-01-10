@@ -1,5 +1,5 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
     "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_BaseColor.png",
+        "baseColor.textureMap": "textures/sofa_BaseColor.png",
         "emissive.color": [
             0.0,
             0.0,
@@ -18,18 +18,16 @@
         ],
         "emissive.intensity": 0.0,
         "emissive.useTexture": false,
-        "general.applySpecularAA": true,
-        "irradiance.irradianceColorSource": "Manual",
         "metallic.useTexture": false,
         "normal.flipY": true,
-        "normal.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_Normal.png",
+        "normal.textureMap": "textures/sofa_Normal.png",
         "occlusion.diffuseFactor": 1.9199999570846558,
-        "occlusion.diffuseTextureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_AO.png",
+        "occlusion.diffuseTextureMap": "textures/sofa_AO.png",
         "occlusion.specularFactor": 0.5,
-        "occlusion.specularTextureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_AO.png",
+        "occlusion.specularTextureMap": "textures/sofa_AO.png",
         "opacity.factor": 1.0,
         "roughness.factor": 0.800000011920929,
-        "roughness.textureMap": "Props/Sectional_Sofa_B07QDL46GB/textures/sofa_Roughness.png",
+        "roughness.textureMap": "textures/sofa_Roughness.png",
         "roughness.useTexture": false,
         "specularF0.enableMultiScatterCompensation": true
     }

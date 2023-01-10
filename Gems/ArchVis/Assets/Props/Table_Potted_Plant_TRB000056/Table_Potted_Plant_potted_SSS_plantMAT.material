@@ -1,11 +1,11 @@
 {
-    "materialType": "Materials/Types/EnhancedPBR.materialtype",
-    "materialTypeVersion": 5,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/EnhancedPBR.materialtype",
+    "materialTypeVersion": 6,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Table_Potted_Plant_TRB000056/textures/potted_plant_BaseColor.png",
-        "normal.textureMap": "Props/Table_Potted_Plant_TRB000056/textures/potted_plant_Normal.png",
-        "roughness.textureMap": "Props/Table_Potted_Plant_TRB000056/textures/potted_plant_Roughness.png",
+        "baseColor.textureMap": "textures/potted_plant_BaseColor.png",
+        "normal.textureMap": "textures/potted_plant_Normal.png",
+        "roughness.textureMap": "textures/potted_plant_Roughness.png",
         "subsurfaceScattering.distanceAttenuation": 0.20000000298023224,
         "subsurfaceScattering.enableSubsurfaceScattering": true,
         "subsurfaceScattering.scatterColor": [
@@ -17,7 +17,7 @@
         "subsurfaceScattering.scatterDistance": 14.199999809265137,
         "subsurfaceScattering.shrinkFactor": 0.009999999776482582,
         "subsurfaceScattering.subsurfaceScatterFactor": 0.3400000035762787,
-        "subsurfaceScattering.thicknessMap": "Props/Table_Potted_Plant_TRB000041/textures/plant_Roughness.png",
+        "subsurfaceScattering.thicknessMap": "../Table_Potted_Plant_TRB000041/textures/plant_Roughness.png",
         "subsurfaceScattering.transmissionMode": "ThinObject",
         "subsurfaceScattering.transmissionNdLBias": -0.6200000047683716,
         "subsurfaceScattering.transmissionScale": 0.6000000238418579,

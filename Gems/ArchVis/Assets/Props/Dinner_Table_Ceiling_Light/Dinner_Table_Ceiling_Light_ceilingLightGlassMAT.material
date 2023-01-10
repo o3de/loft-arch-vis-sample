@@ -1,6 +1,6 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.color": [
             0.5,
@@ -9,7 +9,7 @@
             1.0
         ],
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Emissive.png",
+        "baseColor.textureMap": "textures/ceilingLight_Emissive.png",
         "emissive.color": [
             1.0,
             0.7499961853027344,
@@ -18,7 +18,7 @@
         ],
         "emissive.enable": true,
         "emissive.intensity": 10.0,
-        "emissive.textureMap": "Props/Dinner_Table_Ceiling_Light/textures/ceilingLight_Emissive.png",
+        "emissive.textureMap": "textures/ceilingLight_Emissive.png",
         "metallic.useTexture": false,
         "opacity.factor": 1.0,
         "roughness.factor": 0.33000001311302185,

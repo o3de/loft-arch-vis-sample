@@ -1,9 +1,9 @@
 {
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "materialTypeVersion": 4,
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
     "propertyValues": {
         "baseColor.textureBlendMode": "Lerp",
-        "baseColor.textureMap": "Props/Night_Stand_Lamp_B07374SBFM/textures/lamp_BaseColor.png",
+        "baseColor.textureMap": "textures/lamp_BaseColor.png",
         "emissive.color": [
             1.0,
             0.575967013835907,
@@ -12,9 +12,9 @@
         ],
         "emissive.enable": true,
         "emissive.intensity": 15.779999732971191,
-        "emissive.textureMap": "Props/Night_Stand_Lamp_B07374SBFM/textures/lamp_Emissive.png",
-        "metallic.textureMap": "Props/Night_Stand_Lamp_B07374SBFM/textures/lamp_Metallic.png",
-        "normal.textureMap": "Props/Night_Stand_Lamp_B07374SBFM/textures/lamp_Normal.png",
+        "emissive.textureMap": "textures/lamp_Emissive.png",
+        "metallic.textureMap": "textures/lamp_Metallic.png",
+        "normal.textureMap": "textures/lamp_Normal.png",
         "opacity.factor": 1.0
     }
 }

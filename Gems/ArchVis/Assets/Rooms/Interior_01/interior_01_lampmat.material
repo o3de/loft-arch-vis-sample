@@ -1,50 +1,27 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/lamp_BaseColor.png"
-        },
-        "clearCoat": {
-            "normalMap": "Props/Lamp/textures/lamp_Normal.png"
-        },
-        "emissive": {
-            "color": [
-                1.0,
-                0.9160601496696472,
-                0.6476539373397827,
-                1.0
-            ],
-            "intensity": 10.0,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Emissive_Transmissive.png"
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "metallic": {
-            "textureMap": "Rooms/Interior_01/textures/lamp_Metallic.png"
-        },
-        "normal": {
-            "flipY": true,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Normal.png"
-        },
-        "opacity": {
-            "alphaSource": "Split",
-            "factor": 1.0,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Alpha.png"
-        },
-        "parallax": {
-            "quality": "High"
-        },
-        "roughness": {
-            "factor": 0.33000001311302185,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Roughness.png"
-        },
-        "specularF0": {
-            "enableMultiScatterCompensation": true
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/lamp_BaseColor.png",
+        "clearCoat.normalMap": "../../Props/Lamp/textures/lamp_Normal.png",
+        "emissive.color": [
+            1.0,
+            0.9160601496696472,
+            0.6476539373397827,
+            1.0
+        ],
+        "emissive.intensity": 10.0,
+        "emissive.textureMap": "textures/lamp_Emissive_Transmissive.png",
+        "metallic.textureMap": "textures/lamp_Metallic.png",
+        "normal.flipY": true,
+        "normal.textureMap": "textures/lamp_Normal.png",
+        "opacity.alphaSource": "Split",
+        "opacity.factor": 1.0,
+        "opacity.textureMap": "textures/lamp_Alpha.png",
+        "parallax.quality": "High",
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "textures/lamp_Roughness.png",
+        "specularF0.enableMultiScatterCompensation": true
     }
 }

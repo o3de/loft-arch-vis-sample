@@ -1,55 +1,34 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/paint_satin_basecolor.png"
-        },
-        "clearCoat": {
-            "enable": true,
-            "factor": 0.05000000074505806,
-            "normalMap": "Rooms/Interior_01/textures/paint_satin_normal.png",
-            "normalStrength": 1.25,
-            "roughness": 0.20000000298023225
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "useTexture": false
-        },
-        "general": {
-            "applySpecularAA": true
-        },
-        "irradiance": {
-            "color": [
-                0.4623636305332184,
-                0.8584573268890381,
-                1.0,
-                1.0
-            ]
-        },
-        "metallic": {
-            "useTexture": false
-        },
-        "normal": {
-            "factor": 1.25,
-            "textureMap": "Rooms/Interior_01/textures/paint_satin_normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.0,
-            "textureMap": "Rooms/Interior_01/textures/paint_satin_roughness.png",
-            "upperBound": 0.800000011920929
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/paint_satin_basecolor.png",
+        "clearCoat.enable": true,
+        "clearCoat.factor": 0.05000000074505806,
+        "clearCoat.normalMap": "textures/paint_satin_normal.png",
+        "clearCoat.normalStrength": 1.25,
+        "clearCoat.roughness": 0.20000000298023224,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.useTexture": false,
+        "irradiance.manualColor": [
+            0.4623636305332184,
+            0.8584573268890381,
+            1.0,
+            1.0
+        ],
+        "metallic.useTexture": false,
+        "normal.factor": 1.25,
+        "normal.textureMap": "textures/paint_satin_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.0,
+        "roughness.textureMap": "textures/paint_satin_roughness.png",
+        "roughness.upperBound": 0.800000011920929
     }
 }

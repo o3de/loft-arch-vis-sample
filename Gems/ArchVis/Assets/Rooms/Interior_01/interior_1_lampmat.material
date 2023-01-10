@@ -1,35 +1,21 @@
 {
-    "description": "",
-    "materialType": "Materials/Types/StandardPBR.materialtype",
-    "parentMaterial": "",
-    "propertyLayoutVersion": 3,
-    "properties": {
-        "baseColor": {
-            "textureBlendMode": "Lerp",
-            "textureMap": "Rooms/Interior_01/textures/lamp_BaseColor.png"
-        },
-        "emissive": {
-            "color": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "intensity": 0.0,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Emissive_Transmissive.png"
-        },
-        "metallic": {
-            "textureMap": "Rooms/Interior_01/textures/lamp_Metallic.png"
-        },
-        "normal": {
-            "textureMap": "Rooms/Interior_01/textures/lamp_Normal.png"
-        },
-        "opacity": {
-            "factor": 1.0
-        },
-        "roughness": {
-            "factor": 0.33000001311302187,
-            "textureMap": "Rooms/Interior_01/textures/lamp_Roughness.png"
-        }
+    "materialType": "@gemroot:Atom_Feature_Common@/Assets/Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.textureBlendMode": "Lerp",
+        "baseColor.textureMap": "textures/lamp_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "emissive.intensity": 0.0,
+        "emissive.textureMap": "textures/lamp_Emissive_Transmissive.png",
+        "metallic.textureMap": "textures/lamp_Metallic.png",
+        "normal.textureMap": "textures/lamp_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.33000001311302185,
+        "roughness.textureMap": "textures/lamp_Roughness.png"
     }
 }
