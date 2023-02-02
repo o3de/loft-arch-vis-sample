@@ -58,6 +58,10 @@
             "Id": "Entity_[5752732721881]",
             "Name": "sectional_sofa",
             "Components": {
+                "Component_[10051246426520152592]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10051246426520152592
+                },
                 "Component_[13389172003601302059]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 13389172003601302059,
@@ -91,11 +95,6 @@
                                 {
                                     "Name": "sofaMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

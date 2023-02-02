@@ -55,6 +55,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 10311596869287372686
                 },
+                "Component_[10713743556368181965]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10713743556368181965
+                },
                 "Component_[11755868307902649292]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 11755868307902649292
@@ -68,11 +72,6 @@
                                 {
                                     "Name": "refrigeratorMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -133,7 +132,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1BC6D96C-54C8-5EE2-B442-9C6DEEAA1C51}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator_refrigeratormat.azmaterial"
                                         }
                                     }
                                 }

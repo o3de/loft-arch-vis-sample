@@ -43,10 +43,6 @@
             "Component_[3269740662557966876]": {
                 "$type": "EditorEntitySortComponent",
                 "Id": 3269740662557966876
-            },
-            "Component_[3958584789697740590]": {
-                "$type": "SelectionComponent",
-                "Id": 3958584789697740590
             }
         }
     },
@@ -55,10 +51,6 @@
             "Id": "Entity_[4502897238745]",
             "Name": "office_desk_lamp",
             "Components": {
-                "Component_[10664357243121766607]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10664357243121766607
-                },
                 "Component_[11713920357012905635]": {
                     "$type": "EditorLockComponent",
                     "Id": 11713920357012905635
@@ -72,11 +64,6 @@
                                 {
                                     "Name": "office_desk_lampMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -143,6 +130,10 @@
                 "Component_[154064183945706649]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 154064183945706649
+                },
+                "Component_[16524935274981040661]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16524935274981040661
                 },
                 "Component_[18176744606315359627]": {
                     "$type": "EditorVisibilityComponent",

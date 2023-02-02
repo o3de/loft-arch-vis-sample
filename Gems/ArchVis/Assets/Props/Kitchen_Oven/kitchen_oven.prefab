@@ -72,6 +72,10 @@
                         ]
                     }
                 },
+                "Component_[15188787950180202254]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15188787950180202254
+                },
                 "Component_[17282523455370069792]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 17282523455370069792,
@@ -146,11 +150,6 @@
                                 {
                                     "Name": "ovenMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

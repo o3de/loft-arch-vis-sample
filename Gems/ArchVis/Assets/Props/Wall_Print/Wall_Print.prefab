@@ -20,10 +20,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 1653800203982705790
             },
-            "Component_[18309446775872868976]": {
-                "$type": "SelectionComponent",
-                "Id": 18309446775872868976
-            },
             "Component_[240591650796720189]": {
                 "$type": "EditorLockComponent",
                 "Id": 240591650796720189
@@ -55,10 +51,6 @@
             "Id": "Entity_[1904513228542]",
             "Name": "wall_print",
             "Components": {
-                "Component_[1112310540582195634]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1112310540582195634
-                },
                 "Component_[11292219814052442655]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 11292219814052442655,
@@ -84,6 +76,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 12011669299392151575
                 },
+                "Component_[13447601309243456577]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13447601309243456577
+                },
                 "Component_[15026422971092846704]": {
                     "$type": "EditorColliderComponent",
                     "Id": 15026422971092846704,
@@ -93,11 +89,6 @@
                                 {
                                     "Name": "wall_printMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

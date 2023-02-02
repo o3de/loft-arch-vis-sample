@@ -110,11 +110,6 @@
                                     "Name": "kitchen_knivesMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -153,6 +148,10 @@
                             180.0
                         ]
                     }
+                },
+                "Component_[4959006165051949865]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4959006165051949865
                 },
                 "Component_[6792732792196094553]": {
                     "$type": "EditorEntitySortComponent",
@@ -193,7 +192,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1F4CE8A1-A843-58AF-831E-59BB78A33D79}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_knives/kitchen_knives_kitchen_knivesmat.azmaterial"
                                         }
                                     }
                                 }

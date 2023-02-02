@@ -92,6 +92,10 @@
                         }
                     }
                 },
+                "Component_[13878199089475633525]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13878199089475633525
+                },
                 "Component_[14163871262101623436]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 14163871262101623436
@@ -189,7 +193,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
-                                            }
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_pillowmat.azmaterial"
                                         }
                                     }
                                 },
