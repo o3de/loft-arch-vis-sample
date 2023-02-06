@@ -69,7 +69,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{4E17EC7C-4150-5066-A3C4-06D9541F2A21}"
-                                            }
+                                            },
+                                            "assetHint": "props/table_chair_b075z8m22b/table_chair_table_chairmat.azmaterial"
                                         }
                                     }
                                 },
@@ -103,11 +104,6 @@
                                 {
                                     "Name": "table_chairMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -164,6 +160,10 @@
                             "SortIndex": 2
                         }
                     ]
+                },
+                "Component_[5370941666256165996]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5370941666256165996
                 },
                 "Component_[5759902956707758743]": {
                     "$type": "EditorLockComponent",

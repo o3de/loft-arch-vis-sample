@@ -51,6 +51,10 @@
             "Id": "Entity_[3224488473310]",
             "Name": "cabinet",
             "Components": {
+                "Component_[10180045359570889654]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10180045359570889654
+                },
                 "Component_[11331045626929712376]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 11331045626929712376
@@ -90,7 +94,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{E28F6129-B21E-5397-A4FA-4532BB6CEF31}"
-                                            }
+                                            },
+                                            "assetHint": "props/cabinet_b07hsdp2cp/cabinet_cabinetmat.azmaterial"
                                         }
                                     }
                                 }

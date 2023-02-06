@@ -70,11 +70,6 @@
                                     "Name": "stack_magazinesMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -109,6 +104,10 @@
                 "Component_[13880585715419203883]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 13880585715419203883
+                },
+                "Component_[14867379314654596849]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14867379314654596849
                 },
                 "Component_[15426398110938833779]": {
                     "$type": "EditorInspectorComponent",
@@ -165,7 +164,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{EAFFC45C-0FF9-5959-BCCA-362AD0D7BF4E}"
-                                            }
+                                            },
+                                            "assetHint": "props/stack_magazines/stack_magazines_stack_magazinesmat.azmaterial"
                                         }
                                     }
                                 },

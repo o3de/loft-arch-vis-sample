@@ -55,6 +55,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 12874252152937448070
                 },
+                "Component_[13905792950461768599]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13905792950461768599
+                },
                 "Component_[14376407054765774658]": {
                     "$type": "EditorColliderComponent",
                     "Id": 14376407054765774658,
@@ -64,11 +68,6 @@
                                 {
                                     "Name": "decorBenchMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -156,7 +155,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{2161B00F-FEE6-52FC-8E91-50FA1C8B8C3A}"
-                                            }
+                                            },
+                                            "assetHint": "props/decor_bench_b082qd7wy8/decor_bench_decorbenchmat.azmaterial"
                                         }
                                     }
                                 },

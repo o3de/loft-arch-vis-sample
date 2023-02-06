@@ -75,6 +75,10 @@
                         }
                     }
                 },
+                "Component_[13222523447285762473]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13222523447285762473
+                },
                 "Component_[15919337670898642848]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 15919337670898642848
@@ -88,11 +92,6 @@
                                 {
                                     "Name": "wall_clockMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

@@ -7,10 +7,6 @@
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 10979427400929351536
             },
-            "Component_[11209660427775607159]": {
-                "$type": "SelectionComponent",
-                "Id": 11209660427775607159
-            },
             "Component_[13005057565548713476]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 13005057565548713476
@@ -96,6 +92,10 @@
                         ]
                     }
                 },
+                "Component_[11664106037724625920]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11664106037724625920
+                },
                 "Component_[12282705548812581643]": {
                     "$type": "EditorColliderComponent",
                     "Id": 12282705548812581643,
@@ -105,11 +105,6 @@
                                 {
                                     "Name": "potted_plantMAT_004"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -186,10 +181,6 @@
                 "Component_[386356404792294599]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 386356404792294599
-                },
-                "Component_[6105075385885721443]": {
-                    "$type": "SelectionComponent",
-                    "Id": 6105075385885721443
                 },
                 "Component_[7217294098657686218]": {
                     "$type": "EditorPendingCompositionComponent",

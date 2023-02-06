@@ -141,6 +141,10 @@
                         }
                     ]
                 },
+                "Component_[4259953522708371511]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4259953522708371511
+                },
                 "Component_[6842166626713226172]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6842166626713226172
@@ -154,11 +158,6 @@
                                 {
                                     "Name": "dinnerTableMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

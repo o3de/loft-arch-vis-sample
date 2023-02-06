@@ -116,7 +116,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{4332F31F-35CA-5094-9D1F-CBC174BC3439}"
-                                            }
+                                            },
+                                            "assetHint": "props/table_lamp_b07hkf28cs/table_lamp_lampmat.azmaterial"
                                         }
                                     }
                                 },
@@ -165,6 +166,10 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 17420561946348862865
                 },
+                "Component_[1917170847737081571]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1917170847737081571
+                },
                 "Component_[3425607196026404363]": {
                     "$type": "EditorLockComponent",
                     "Id": 3425607196026404363
@@ -185,12 +190,6 @@
                                 {
                                     "Name": "lampMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
                             ]
                         }
                     },

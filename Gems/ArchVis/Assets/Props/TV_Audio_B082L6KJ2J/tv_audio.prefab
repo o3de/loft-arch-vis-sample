@@ -12,10 +12,6 @@
                 "Id": 11653080833421791239,
                 "Parent Entity": ""
             },
-            "Component_[12288848220688374308]": {
-                "$type": "SelectionComponent",
-                "Id": 12288848220688374308
-            },
             "Component_[12739549340015439397]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 12739549340015439397
@@ -71,10 +67,6 @@
                         }
                     }
                 },
-                "Component_[13080418106997335760]": {
-                    "$type": "SelectionComponent",
-                    "Id": 13080418106997335760
-                },
                 "Component_[15707550101131808264]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 15707550101131808264,
@@ -83,6 +75,10 @@
                 "Component_[1671190249418993828]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1671190249418993828
+                },
+                "Component_[2329015732814802237]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 2329015732814802237
                 },
                 "Component_[4626033346789649623]": {
                     "$type": "EditorEntitySortComponent",
@@ -184,14 +180,6 @@
                                 {
                                     "Name": "part3"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         }
                     },
