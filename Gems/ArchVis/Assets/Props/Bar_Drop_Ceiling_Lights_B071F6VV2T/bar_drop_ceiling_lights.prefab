@@ -73,7 +73,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{0151AD2E-440B-5C26-B11A-3D171A382FC1}"
-                                            }
+                                            },
+                                            "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights_dropceilinglightsmat.azmaterial"
                                         }
                                     }
                                 },
@@ -93,6 +94,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[13983789359342407792]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13983789359342407792
                 },
                 "Component_[15714944938678533640]": {
                     "$type": "EditorDisabledCompositionComponent",

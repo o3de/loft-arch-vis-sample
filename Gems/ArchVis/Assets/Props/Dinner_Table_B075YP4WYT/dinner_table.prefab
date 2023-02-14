@@ -111,6 +111,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 16671056115431631799
                 },
+                "Component_[16834351220756292961]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16834351220756292961
+                },
                 "Component_[1900677562484370746]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1900677562484370746
@@ -154,11 +158,6 @@
                                 {
                                     "Name": "dinnerTableMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

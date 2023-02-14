@@ -35,10 +35,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 2241401585427710114
             },
-            "Component_[8980527089668936068]": {
-                "$type": "SelectionComponent",
-                "Id": 8980527089668936068
-            },
             "Component_[9105297834536471009]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 9105297834536471009
@@ -55,10 +51,6 @@
             "Id": "Entity_[1560915844862]",
             "Name": "wall_painting",
             "Components": {
-                "Component_[10260915273151729803]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10260915273151729803
-                },
                 "Component_[11204479918377056313]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 11204479918377056313
@@ -72,11 +64,6 @@
                                 {
                                     "Name": "paintingMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -140,6 +127,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[17287716209698096114]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17287716209698096114
                 },
                 "Component_[17321211400488670854]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",

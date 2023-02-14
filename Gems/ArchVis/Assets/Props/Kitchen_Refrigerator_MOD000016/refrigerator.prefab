@@ -69,11 +69,6 @@
                                     "Name": "refrigeratorMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -133,7 +128,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{1BC6D96C-54C8-5EE2-B442-9C6DEEAA1C51}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_refrigerator_mod000016/refrigerator_refrigeratormat.azmaterial"
                                         }
                                     }
                                 }
@@ -152,6 +148,10 @@
                 "Component_[354933875823538917]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 354933875823538917
+                },
+                "Component_[500303478804733253]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 500303478804733253
                 },
                 "Component_[5364438418896680112]": {
                     "$type": "AZ::Render::EditorMeshComponent",

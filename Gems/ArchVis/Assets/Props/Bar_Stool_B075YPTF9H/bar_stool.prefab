@@ -160,7 +160,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{6B0C634A-93A6-5CC2-AFE1-536E33B70835}"
-                                            }
+                                            },
+                                            "assetHint": "props/bar_stool_b075yptf9h/bar_stool_bar_stoolmat.azmaterial"
                                         }
                                     }
                                 }
@@ -224,6 +225,10 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
+                },
+                "Component_[5380301296717296183]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5380301296717296183
                 },
                 "Component_[5982895097166909237]": {
                     "$type": "EditorEntitySortComponent",

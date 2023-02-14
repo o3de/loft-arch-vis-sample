@@ -147,11 +147,6 @@
                                     "Name": "ovenMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -206,6 +201,10 @@
                 "Component_[9488967207243193705]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 9488967207243193705
+                },
+                "Component_[9980157637641124677]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9980157637641124677
                 }
             }
         }

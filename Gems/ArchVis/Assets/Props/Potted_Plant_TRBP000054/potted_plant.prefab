@@ -61,11 +61,6 @@
                                     "Name": "potted_plantMAT_005"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -170,7 +165,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A8ED22EE-FE7A-564F-9651-DCC3A0E27C6A}"
-                                            }
+                                            },
+                                            "assetHint": "props/potted_plant_trbp000054/potted_plant_potted_plantmat.azmaterial"
                                         }
                                     }
                                 },
@@ -203,6 +199,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[9669111904506398358]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9669111904506398358
                 }
             }
         }

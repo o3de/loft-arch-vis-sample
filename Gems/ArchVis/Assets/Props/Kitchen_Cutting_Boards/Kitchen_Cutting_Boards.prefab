@@ -81,11 +81,6 @@
                                     "Name": "cuttingBoardsMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -166,6 +161,10 @@
                         }
                     ]
                 },
+                "Component_[8014222428554001914]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 8014222428554001914
+                },
                 "Component_[8908025385891044091]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 8908025385891044091,
@@ -180,7 +179,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8F4ADE22-5888-552E-88F8-5AD2EBC2C7FB}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards_cuttingboardsmat.azmaterial"
                                         }
                                     }
                                 },

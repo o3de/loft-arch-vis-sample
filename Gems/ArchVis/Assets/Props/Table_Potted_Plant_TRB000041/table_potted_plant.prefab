@@ -55,6 +55,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 12855308655422799894
                 },
+                "Component_[14300818586875576182]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14300818586875576182
+                },
                 "Component_[16434375819067341980]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 16434375819067341980
@@ -96,12 +100,6 @@
                                 {
                                     "Name": "plantMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
                             ]
                         }
                     },
@@ -224,7 +222,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{218A9522-FD2D-5591-9DC7-EC792CC04978}"
-                                            }
+                                            },
+                                            "assetHint": "props/table_potted_plant_trb000041/table_potted_plant_potmat.azmaterial"
                                         }
                                     }
                                 }

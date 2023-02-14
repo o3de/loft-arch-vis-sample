@@ -11,10 +11,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 10464611571102767786
             },
-            "Component_[1417720326797745590]": {
-                "$type": "SelectionComponent",
-                "Id": 1417720326797745590
-            },
             "Component_[15840304665972375133]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 15840304665972375133
@@ -55,6 +51,10 @@
             "Id": "Entity_[3287421493977]",
             "Name": "kitchen_spice_jars",
             "Components": {
+                "Component_[11065587454981581293]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11065587454981581293
+                },
                 "Component_[1398056854193228585]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 1398056854193228585,
@@ -139,11 +139,6 @@
                                     "Name": "spice_jar_glassMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -174,10 +169,6 @@
                 "Component_[44472983014378288]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 44472983014378288
-                },
-                "Component_[5052228686842122735]": {
-                    "$type": "SelectionComponent",
-                    "Id": 5052228686842122735
                 },
                 "Component_[5138225458320332650]": {
                     "$type": "EditorInspectorComponent",

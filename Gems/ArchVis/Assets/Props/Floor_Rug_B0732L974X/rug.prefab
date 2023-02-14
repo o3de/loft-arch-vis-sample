@@ -77,11 +77,6 @@
                                     "Name": "rugMAT_001"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -120,7 +115,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{583B5C98-5128-5BA5-B871-1A248BF0AA3D}"
-                                            }
+                                            },
+                                            "assetHint": "props/floor_rug_b0732l974x/rug_rugmat.azmaterial"
                                         }
                                     }
                                 },
@@ -161,6 +157,10 @@
                 "Component_[16952867002838644236]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16952867002838644236
+                },
+                "Component_[4221956906477812416]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4221956906477812416
                 },
                 "Component_[4642788417090487108]": {
                     "$type": "EditorInspectorComponent",

@@ -15,10 +15,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 14968683463742142930
             },
-            "Component_[15551291559397689467]": {
-                "$type": "SelectionComponent",
-                "Id": 15551291559397689467
-            },
             "Component_[1878525969651090249]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 1878525969651090249
@@ -55,6 +51,10 @@
             "Id": "Entity_[1243088264958]",
             "Name": "wall_art_two_set",
             "Components": {
+                "Component_[10099653906593599476]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10099653906593599476
+                },
                 "Component_[10668943181776350347]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 10668943181776350347,
@@ -116,12 +116,6 @@
                                     "Name": "picture_twoMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -149,10 +143,6 @@
                 "Component_[15336089270810769994]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 15336089270810769994
-                },
-                "Component_[17432003565821643530]": {
-                    "$type": "SelectionComponent",
-                    "Id": 17432003565821643530
                 },
                 "Component_[17722260920902550511]": {
                     "$type": "EditorInspectorComponent",

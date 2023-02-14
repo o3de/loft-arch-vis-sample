@@ -76,6 +76,10 @@
                         }
                     ]
                 },
+                "Component_[16382705976743326889]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16382705976743326889
+                },
                 "Component_[17133388636626932378]": {
                     "$type": "EditorColliderComponent",
                     "Id": 17133388636626932378,
@@ -85,11 +89,6 @@
                                 {
                                     "Name": "endtableMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -169,7 +168,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{33BB593B-D558-5164-B274-51E420E771EA}"
-                                            }
+                                            },
+                                            "assetHint": "props/end_table_b072zlcb32/end_table_endtablemat.azmaterial"
                                         }
                                     }
                                 },

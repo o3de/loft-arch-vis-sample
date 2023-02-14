@@ -70,11 +70,6 @@
                                     "Name": "stack_magazinesMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -143,6 +138,10 @@
                         }
                     }
                 },
+                "Component_[16839626263150231572]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16839626263150231572
+                },
                 "Component_[17157290802331086304]": {
                     "$type": "EditorLockComponent",
                     "Id": 17157290802331086304
@@ -165,7 +164,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{EAFFC45C-0FF9-5959-BCCA-362AD0D7BF4E}"
-                                            }
+                                            },
+                                            "assetHint": "props/stack_magazines/stack_magazines_stack_magazinesmat.azmaterial"
                                         }
                                     }
                                 },
