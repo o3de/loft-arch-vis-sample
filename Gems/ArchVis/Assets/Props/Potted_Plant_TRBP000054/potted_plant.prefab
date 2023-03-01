@@ -52,7 +52,7 @@
             "Name": "potted_plant",
             "Components": {
                 "Component_[1104764010385244140]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 1104764010385244140,
                     "ColliderConfiguration": {
                         "MaterialSlots": {

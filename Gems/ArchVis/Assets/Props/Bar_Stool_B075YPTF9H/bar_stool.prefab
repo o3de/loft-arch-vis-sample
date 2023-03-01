@@ -55,7 +55,7 @@
             "Name": "bar_stool",
             "Components": {
                 "Component_[10026616198511755833]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 10026616198511755833,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -194,7 +194,7 @@
                     }
                 },
                 "Component_[4611969092363961158]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 4611969092363961158,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
