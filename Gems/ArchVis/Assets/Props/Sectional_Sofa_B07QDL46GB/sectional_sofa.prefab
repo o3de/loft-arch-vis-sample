@@ -70,6 +70,10 @@
                         ]
                     }
                 },
+                "Component_[14115702532521572313]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 14115702532521572313
+                },
                 "Component_[14595209655906147580]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 14595209655906147580
@@ -91,11 +95,6 @@
                                 {
                                     "Name": "sofaMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

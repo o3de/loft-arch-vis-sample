@@ -66,7 +66,8 @@
                                             "assetId": {
                                                 "guid": "{8A42B566-4777-5D92-802D-055684D1BDF7}",
                                                 "subId": 1893364996
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_utensils/kitchen_utensils_kitchen_utensilsmat_1276278812691821828.azmaterial"
                                         }
                                     }
                                 },
@@ -91,6 +92,10 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10878666945970239818,
                     "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12332371156136609698]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12332371156136609698
                 },
                 "Component_[14358159924601805345]": {
                     "$type": "AZ::Render::EditorMeshComponent",
@@ -134,11 +139,6 @@
                                 {
                                     "Name": "kitchen_utensilsMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

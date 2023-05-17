@@ -15,10 +15,6 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 15023731860986084199
             },
-            "Component_[16025035117791640615]": {
-                "$type": "SelectionComponent",
-                "Id": 16025035117791640615
-            },
             "Component_[16220559466892839875]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 16220559466892839875,
@@ -63,10 +59,6 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10934679314045245098,
                     "Parent Entity": "ContainerEntity"
-                },
-                "Component_[12130516708706482242]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12130516708706482242
                 },
                 "Component_[15109562205062192652]": {
                     "$type": "EditorMaterialComponent",
@@ -115,6 +107,10 @@
                 "Component_[17659434790436114755]": {
                     "$type": "EditorLockComponent",
                     "Id": 17659434790436114755
+                },
+                "Component_[1791665369189570443]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1791665369189570443
                 },
                 "Component_[17926278987830450765]": {
                     "$type": "EditorEntitySortComponent",
@@ -166,11 +162,6 @@
                                 {
                                     "Name": "rugMAT_002"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

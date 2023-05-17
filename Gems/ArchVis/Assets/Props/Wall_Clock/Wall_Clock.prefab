@@ -89,11 +89,6 @@
                                     "Name": "wall_clockMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -186,6 +181,10 @@
                 "Component_[8222890062653641135]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 8222890062653641135
+                },
+                "Component_[9886890559597504635]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9886890559597504635
                 }
             }
         }

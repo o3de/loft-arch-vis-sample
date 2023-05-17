@@ -73,7 +73,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{55C00D3F-D3A8-5762-B67F-E38AC821F3D7}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_cook_book/kitchen_cookbook_bookmat.azmaterial"
                                         }
                                     }
                                 },
@@ -157,12 +158,6 @@
                                     "Name": "bookHolderMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -193,6 +188,10 @@
                 "Component_[2083322273964428063]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 2083322273964428063
+                },
+                "Component_[3487877352349843811]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 3487877352349843811
                 },
                 "Component_[4725098615755220893]": {
                     "$type": "EditorEntityIconComponent",

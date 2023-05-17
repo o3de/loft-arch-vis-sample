@@ -27,10 +27,6 @@
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 18314678870241216374
             },
-            "Component_[4281563244182903438]": {
-                "$type": "SelectionComponent",
-                "Id": 4281563244182903438
-            },
             "Component_[4546372456443542475]": {
                 "$type": "EditorDisabledCompositionComponent",
                 "Id": 4546372456443542475
@@ -141,10 +137,6 @@
                         }
                     }
                 },
-                "Component_[14882696788945985260]": {
-                    "$type": "SelectionComponent",
-                    "Id": 14882696788945985260
-                },
                 "Component_[15831654428134972620]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 15831654428134972620,
@@ -178,12 +170,6 @@
                                 {
                                     "Name": "top_bookMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
                             ]
                         }
                     },
@@ -232,6 +218,10 @@
                 "Component_[5946974796973869892]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 5946974796973869892
+                },
+                "Component_[7973538553547581827]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7973538553547581827
                 }
             }
         }

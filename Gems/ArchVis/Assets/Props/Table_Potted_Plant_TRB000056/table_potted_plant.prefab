@@ -55,6 +55,10 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10358837157642200095
                 },
+                "Component_[10582613914514207776]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10582613914514207776
+                },
                 "Component_[11145506243823820940]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 11145506243823820940,
@@ -102,7 +106,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A46AE36D-211B-5068-BF3C-DA200D7DF7CA}"
-                                            }
+                                            },
+                                            "assetHint": "props/table_potted_plant_trb000056/table_potted_plant_potted_plantmat.azmaterial"
                                         }
                                     }
                                 },
@@ -132,11 +137,6 @@
                                 {
                                     "Name": "potted_plantMAT_001"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

@@ -51,6 +51,10 @@
             "Id": "Entity_[409292849002]",
             "Name": "chair",
             "Components": {
+                "Component_[10041627338558401614]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10041627338558401614
+                },
                 "Component_[1223936186271531899]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 1223936186271531899
@@ -189,7 +193,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{178EC5F9-F66D-5A23-BAE9-ACF9B6C9B16C}"
-                                            }
+                                            },
+                                            "assetHint": "props/chair_b082vm23mf/chair_pillowmat.azmaterial"
                                         }
                                     }
                                 },

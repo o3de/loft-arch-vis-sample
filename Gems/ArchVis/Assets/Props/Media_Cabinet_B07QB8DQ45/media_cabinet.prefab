@@ -97,11 +97,6 @@
                                     "Name": "media_cabinetMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -147,7 +142,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{16278723-6BC2-5502-BCDF-E3FCFA0562D9}"
-                                            }
+                                            },
+                                            "assetHint": "props/media_cabinet_b07qb8dq45/media_cabinet_media_cabinetmat.azmaterial"
                                         }
                                     }
                                 },
@@ -184,6 +180,10 @@
                             "SortIndex": 2
                         }
                     ]
+                },
+                "Component_[4103527492673886576]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4103527492673886576
                 },
                 "Component_[5649706384646617640]": {
                     "$type": "EditorEntityIconComponent",

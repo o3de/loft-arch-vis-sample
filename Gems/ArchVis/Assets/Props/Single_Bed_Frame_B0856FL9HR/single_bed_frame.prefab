@@ -15,10 +15,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 12032533301644267498
             },
-            "Component_[15805644616917366189]": {
-                "$type": "SelectionComponent",
-                "Id": 15805644616917366189
-            },
             "Component_[16072785689235445020]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 16072785689235445020
@@ -206,11 +202,6 @@
                                     "Name": "FrameMAT"
                                 }
                             ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
-                            ]
                         }
                     },
                     "ShapeConfiguration": {
@@ -238,9 +229,9 @@
                         "LocallyEnabled": false
                     }
                 },
-                "Component_[9397677546824248316]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9397677546824248316
+                "Component_[9139174066451236100]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9139174066451236100
                 }
             }
         }

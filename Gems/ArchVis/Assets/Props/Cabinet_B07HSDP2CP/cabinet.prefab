@@ -90,13 +90,18 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{E28F6129-B21E-5397-A4FA-4532BB6CEF31}"
-                                            }
+                                            },
+                                            "assetHint": "props/cabinet_b07hsdp2cp/cabinet_cabinetmat.azmaterial"
                                         }
                                     }
                                 }
                             ]
                         }
                     }
+                },
+                "Component_[16239891183040408286]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 16239891183040408286
                 },
                 "Component_[16685673422636032207]": {
                     "$type": "EditorVisibilityComponent",

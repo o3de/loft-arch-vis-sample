@@ -43,10 +43,6 @@
             "Component_[7240026170358048154]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 7240026170358048154
-            },
-            "Component_[9487362017662405837]": {
-                "$type": "SelectionComponent",
-                "Id": 9487362017662405837
             }
         }
     },
@@ -58,10 +54,6 @@
                 "Component_[11304362432591287512]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 11304362432591287512
-                },
-                "Component_[11429937988734995309]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11429937988734995309
                 },
                 "Component_[12378120647433380967]": {
                     "$type": "EditorLockComponent",
@@ -79,12 +71,6 @@
                                 {
                                     "Name": "ceilingLightGlassMAT_001"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
                             ]
                         }
                     },
@@ -157,6 +143,10 @@
                 "Component_[5329200380050422279]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 5329200380050422279
+                },
+                "Component_[6026206320651912579]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6026206320651912579
                 },
                 "Component_[8415030259949418618]": {
                     "$type": "EditorEntityIconComponent",

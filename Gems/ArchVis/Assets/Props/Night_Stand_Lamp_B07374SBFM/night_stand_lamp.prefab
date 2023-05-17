@@ -60,6 +60,10 @@
                     "Id": 12997255732548536103,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[1353008489731712721]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1353008489731712721
+                },
                 "Component_[16430823481975613736]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 16430823481975613736
@@ -77,11 +81,6 @@
                                 {
                                     "Name": "lampMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -165,7 +164,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{26460E51-3116-5DF0-AC53-364962DF0524}"
-                                            }
+                                            },
+                                            "assetHint": "props/night_stand_lamp_b07374sbfm/night_stand_lamp_lampmat.azmaterial"
                                         }
                                     }
                                 },

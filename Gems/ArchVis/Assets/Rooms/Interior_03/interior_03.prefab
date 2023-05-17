@@ -63,6 +63,10 @@
                     "Id": 12369918107656431496,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[1366598984675707159]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1366598984675707159
+                },
                 "Component_[1531729883950092994]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 1531729883950092994,
@@ -498,37 +502,6 @@
                                 {
                                     "Name": "Wood_FloorMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         }
                     },
