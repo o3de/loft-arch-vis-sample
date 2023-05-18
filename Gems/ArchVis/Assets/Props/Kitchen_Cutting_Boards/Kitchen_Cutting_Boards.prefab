@@ -51,6 +51,10 @@
             "Id": "Entity_[2454197838553]",
             "Name": "kitchen_cutting_boards",
             "Components": {
+                "Component_[10536319061152035845]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10536319061152035845
+                },
                 "Component_[12072168030209706892]": {
                     "$type": "EditorLockComponent",
                     "Id": 12072168030209706892
@@ -72,7 +76,7 @@
                     "Id": 14898676837601160134
                 },
                 "Component_[167628118935154807]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 167628118935154807,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -80,11 +84,6 @@
                                 {
                                     "Name": "cuttingBoardsMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -180,7 +179,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{8F4ADE22-5888-552E-88F8-5AD2EBC2C7FB}"
-                                            }
+                                            },
+                                            "assetHint": "props/kitchen_cutting_boards/kitchen_cutting_boards_cuttingboardsmat.azmaterial"
                                         }
                                     }
                                 },

@@ -35,10 +35,6 @@
                 "$type": "EditorLockComponent",
                 "Id": 3496759247179200902
             },
-            "Component_[3589674891434971325]": {
-                "$type": "SelectionComponent",
-                "Id": 3589674891434971325
-            },
             "Component_[6939696691164101596]": {
                 "$type": "EditorEntityIconComponent",
                 "Id": 6939696691164101596
@@ -62,6 +58,10 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 10126209226803571948
                 },
+                "Component_[10340462272711671343]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10340462272711671343
+                },
                 "Component_[10609676482643697315]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 10609676482643697315
@@ -81,10 +81,6 @@
                 "Component_[16351616525781740035]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 16351616525781740035
-                },
-                "Component_[16560977146164170288]": {
-                    "$type": "SelectionComponent",
-                    "Id": 16560977146164170288
                 },
                 "Component_[2247643189384880211]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -177,7 +173,7 @@
                     }
                 },
                 "Component_[8743155322547890019]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 8743155322547890019,
                     "ColliderConfiguration": {
                         "MaterialSlots": {

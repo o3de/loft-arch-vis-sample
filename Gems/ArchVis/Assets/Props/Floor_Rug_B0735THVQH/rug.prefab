@@ -15,10 +15,6 @@
                 "$type": "EditorEntitySortComponent",
                 "Id": 15023731860986084199
             },
-            "Component_[16025035117791640615]": {
-                "$type": "SelectionComponent",
-                "Id": 16025035117791640615
-            },
             "Component_[16220559466892839875]": {
                 "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                 "Id": 16220559466892839875,
@@ -63,10 +59,6 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 10934679314045245098,
                     "Parent Entity": "ContainerEntity"
-                },
-                "Component_[12130516708706482242]": {
-                    "$type": "SelectionComponent",
-                    "Id": 12130516708706482242
                 },
                 "Component_[15109562205062192652]": {
                     "$type": "EditorMaterialComponent",
@@ -140,6 +132,10 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 6166736019872166217
                 },
+                "Component_[7978532872712211580]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7978532872712211580
+                },
                 "Component_[8348138537399918701]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 8348138537399918701,
@@ -158,7 +154,7 @@
                     ]
                 },
                 "Component_[9728572962386384451]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 9728572962386384451,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -166,11 +162,6 @@
                                 {
                                     "Name": "rugMAT_002"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

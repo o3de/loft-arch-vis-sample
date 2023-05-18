@@ -55,7 +55,7 @@
             "Name": "bar_stool",
             "Components": {
                 "Component_[10026616198511755833]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 10026616198511755833,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -87,6 +87,10 @@
                             }
                         }
                     }
+                },
+                "Component_[10106196129130127297]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10106196129130127297
                 },
                 "Component_[10536287574423402570]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -160,7 +164,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{6B0C634A-93A6-5CC2-AFE1-536E33B70835}"
-                                            }
+                                            },
+                                            "assetHint": "props/bar_stool_b075yptf9h/bar_stool_bar_stoolmat.azmaterial"
                                         }
                                     }
                                 }
@@ -189,7 +194,7 @@
                     }
                 },
                 "Component_[4611969092363961158]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 4611969092363961158,
                     "ColliderConfiguration": {
                         "MaterialSlots": {

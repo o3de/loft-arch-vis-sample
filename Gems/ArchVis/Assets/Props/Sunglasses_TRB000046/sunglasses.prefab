@@ -65,7 +65,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{060BE268-0974-5735-A27E-FB66CBA782A3}"
-                                            }
+                                            },
+                                            "assetHint": "props/sunglasses_trb000046/sunglasses_framesmat.azmaterial"
                                         }
                                     }
                                 },
@@ -166,7 +167,7 @@
                     "Id": 5430381958332590264
                 },
                 "Component_[6136831406637616568]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 6136831406637616568,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -177,12 +178,6 @@
                                 {
                                     "Name": "lensesMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {}
                             ]
                         }
                     },
@@ -210,6 +205,10 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
+                },
+                "Component_[6726793250645456279]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6726793250645456279
                 },
                 "Component_[9469151848128424079]": {
                     "$type": "EditorLockComponent",

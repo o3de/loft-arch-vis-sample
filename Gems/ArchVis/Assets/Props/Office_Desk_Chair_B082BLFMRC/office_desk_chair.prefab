@@ -82,7 +82,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{A9D51900-DBD8-559C-BF1B-C07BB82D63F5}"
-                                            }
+                                            },
+                                            "assetHint": "props/office_desk_chair_b082blfmrc/office_desk_chair_chairmat.azmaterial"
                                         }
                                     }
                                 }
@@ -95,7 +96,7 @@
                     "Id": 1524931509187334113
                 },
                 "Component_[15639442239210968572]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 15639442239210968572,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -103,11 +104,6 @@
                                 {
                                     "Name": "chairMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -139,6 +135,10 @@
                 "Component_[1591285332999096147]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 1591285332999096147
+                },
+                "Component_[1771834518608223425]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 1771834518608223425
                 },
                 "Component_[17888621638593099422]": {
                     "$type": "EditorInspectorComponent",

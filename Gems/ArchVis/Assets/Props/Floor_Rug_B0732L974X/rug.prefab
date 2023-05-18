@@ -68,7 +68,7 @@
                     "Id": 11872640725570577469
                 },
                 "Component_[12384181215514172824]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 12384181215514172824,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -76,11 +76,6 @@
                                 {
                                     "Name": "rugMAT_001"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -120,7 +115,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{583B5C98-5128-5BA5-B871-1A248BF0AA3D}"
-                                            }
+                                            },
+                                            "assetHint": "props/floor_rug_b0732l974x/rug_rugmat.azmaterial"
                                         }
                                     }
                                 },
@@ -203,6 +199,10 @@
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
                     "Id": 9287117124148162593,
                     "Parent Entity": "ContainerEntity"
+                },
+                "Component_[940667800826917274]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 940667800826917274
                 }
             }
         }

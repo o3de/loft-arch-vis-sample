@@ -11,10 +11,6 @@
                 "$type": "EditorInspectorComponent",
                 "Id": 10464611571102767786
             },
-            "Component_[1417720326797745590]": {
-                "$type": "SelectionComponent",
-                "Id": 1417720326797745590
-            },
             "Component_[15840304665972375133]": {
                 "$type": "EditorOnlyEntityComponent",
                 "Id": 15840304665972375133
@@ -130,7 +126,7 @@
                     }
                 },
                 "Component_[1896423964440584177]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 1896423964440584177,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -138,11 +134,6 @@
                                 {
                                     "Name": "spice_jar_glassMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -175,10 +166,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 44472983014378288
                 },
-                "Component_[5052228686842122735]": {
-                    "$type": "SelectionComponent",
-                    "Id": 5052228686842122735
-                },
                 "Component_[5138225458320332650]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 5138225458320332650,
@@ -199,6 +186,10 @@
                 "Component_[6473387802420173736]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 6473387802420173736
+                },
+                "Component_[695929284102766763]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 695929284102766763
                 },
                 "Component_[7746287939788490160]": {
                     "$type": "EditorOnlyEntityComponent",

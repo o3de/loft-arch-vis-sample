@@ -35,10 +35,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 2241401585427710114
             },
-            "Component_[8980527089668936068]": {
-                "$type": "SelectionComponent",
-                "Id": 8980527089668936068
-            },
             "Component_[9105297834536471009]": {
                 "$type": "EditorPendingCompositionComponent",
                 "Id": 9105297834536471009
@@ -55,16 +51,16 @@
             "Id": "Entity_[1560915844862]",
             "Name": "wall_painting",
             "Components": {
-                "Component_[10260915273151729803]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10260915273151729803
-                },
                 "Component_[11204479918377056313]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 11204479918377056313
                 },
+                "Component_[11835762462359242578]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11835762462359242578
+                },
                 "Component_[11885409761003560783]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 11885409761003560783,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -72,11 +68,6 @@
                                 {
                                     "Name": "paintingMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

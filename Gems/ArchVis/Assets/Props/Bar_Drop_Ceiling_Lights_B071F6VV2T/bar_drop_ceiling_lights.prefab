@@ -73,7 +73,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{0151AD2E-440B-5C26-B11A-3D171A382FC1}"
-                                            }
+                                            },
+                                            "assetHint": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights_dropceilinglightsmat.azmaterial"
                                         }
                                     }
                                 },
@@ -111,7 +112,7 @@
                     "Id": 1995021287546556989
                 },
                 "Component_[2710058381432013883]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 2710058381432013883,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -177,6 +178,10 @@
                 "Component_[6330147308401542046]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 6330147308401542046
+                },
+                "Component_[6615173953912049307]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6615173953912049307
                 },
                 "Component_[9573904982155412668]": {
                     "$type": "AZ::Render::EditorMeshComponent",

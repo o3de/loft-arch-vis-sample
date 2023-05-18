@@ -78,7 +78,8 @@
                                         "MaterialAsset": {
                                             "assetId": {
                                                 "guid": "{C2EC2223-D369-52BD-BD03-C9D529F6F692}"
-                                            }
+                                            },
+                                            "assetHint": "props/potted_plant_trbp000045/potted_plant_plantmat.azmaterial"
                                         }
                                     }
                                 }
@@ -131,8 +132,12 @@
                     "$type": "EditorEntitySortComponent",
                     "Id": 4469866794322698325
                 },
+                "Component_[4748929468013442416]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4748929468013442416
+                },
                 "Component_[5436624600400660822]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 5436624600400660822,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -140,11 +145,6 @@
                                 {
                                     "Name": "plantMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

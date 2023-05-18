@@ -75,12 +75,16 @@
                         }
                     }
                 },
+                "Component_[13222523447285762473]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13222523447285762473
+                },
                 "Component_[15919337670898642848]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 15919337670898642848
                 },
                 "Component_[15968303691183849831]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 15968303691183849831,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -88,11 +92,6 @@
                                 {
                                     "Name": "wall_clockMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },

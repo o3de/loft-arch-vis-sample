@@ -63,6 +63,10 @@
                     "Id": 12369918107656431496,
                     "Parent Entity": "ContainerEntity"
                 },
+                "Component_[13255577044041970141]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13255577044041970141
+                },
                 "Component_[1531729883950092994]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 1531729883950092994,
@@ -412,7 +416,7 @@
                     }
                 },
                 "Component_[16690343428122660713]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 16690343428122660713,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -498,37 +502,6 @@
                                 {
                                     "Name": "Wood_FloorMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {},
-                                {}
                             ]
                         }
                     },

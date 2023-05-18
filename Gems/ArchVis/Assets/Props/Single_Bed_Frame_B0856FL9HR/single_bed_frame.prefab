@@ -15,10 +15,6 @@
                 "$type": "EditorPrefabComponent",
                 "Id": 12032533301644267498
             },
-            "Component_[15805644616917366189]": {
-                "$type": "SelectionComponent",
-                "Id": 15805644616917366189
-            },
             "Component_[16072785689235445020]": {
                 "$type": "EditorVisibilityComponent",
                 "Id": 16072785689235445020
@@ -192,12 +188,16 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 17335388245100114700
                 },
+                "Component_[17456989292439253776]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 17456989292439253776
+                },
                 "Component_[18322450601296185927]": {
                     "$type": "EditorLockComponent",
                     "Id": 18322450601296185927
                 },
                 "Component_[4939001040384211321]": {
-                    "$type": "EditorColliderComponent",
+                    "$type": "EditorMeshColliderComponent",
                     "Id": 4939001040384211321,
                     "ColliderConfiguration": {
                         "MaterialSlots": {
@@ -205,11 +205,6 @@
                                 {
                                     "Name": "FrameMAT"
                                 }
-                            ]
-                        },
-                        "MaterialSelection": {
-                            "MaterialIds": [
-                                {}
                             ]
                         }
                     },
@@ -237,10 +232,6 @@
                     "DebugDrawSettings": {
                         "LocallyEnabled": false
                     }
-                },
-                "Component_[9397677546824248316]": {
-                    "$type": "SelectionComponent",
-                    "Id": 9397677546824248316
                 }
             }
         }
