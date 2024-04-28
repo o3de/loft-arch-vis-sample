@@ -1,6 +1,5 @@
 
 set(ENABLED_GEMS
-    Project::Samples
     Atom_AtomBridge
     Camera
     CameraFramework
@@ -28,12 +27,9 @@ set(ENABLED_GEMS
     StartingPointCamera
     PhysX
     PhysXDebug
-    PhysXSamples
     Terrain
-    PythonExamples
     PrimitiveAssets
     ScriptCanvas
-    ScriptCanvasDeveloperGem
     ScriptCanvasPhysics
     ScriptCanvasTesting
     ScriptedEntityTweener

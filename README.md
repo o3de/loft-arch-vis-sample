@@ -1,61 +1,41 @@
-# O3DE Loft ArchVis Sample Scene
+<u>Supported o3de versions</u> : **23.10**
 
-![image](https://user-images.githubusercontent.com/23222931/197286449-77ecd592-464c-49b1-88d0-487e2546b5ab.png)
+# Loft ArchVis
 
-## Download and Install
+![gameplay](doc/gameplay.gif?raw=true)
 
-This repository uses Git LFS for storing large binary files.  You will need to create a Github personal access token to authenticate with the LFS service.
+Loft Architectural Visualization is a set of multiple indoor scene. This project can be used to test direct and indirect lighting setup.
 
-### Create a Git Personal Access Token
+## Prerequisites
 
-You will need your personal access token credentials to authenticate when you clone the repository.
+You need to build or [install O3DE engine](https://o3de.org/download/).
 
-[Create a personal access token with the 'repo' scope.](https://docs.github.com/en/github/authenticating-to-github/creating-a-personal-access-token)
+You need to [install git with lfs support](https://git-scm.com/downloads), and [setup a token on your github account](https://www.docs.o3de.org/docs/welcome-guide/setup/setup-from-github/#configure-credentials-for-git-lfs). Needed as the repository uses Git LFS, the "Download ZIP" button will not download assets.
 
-### (Recommended) Verify you have a credential manager installed to store your credentials
+## How to run
 
-Recent versions of Git install a credential manager to store your credentials so you don't have to put in the credentials for every request.  
-It is highly recommended you check that you have a [credential manager installed and configured](https://github.com/microsoft/Git-Credential-Manager-Core)
+1. Clone the github repository (`git clone https://github.com/o3de/loft-arch-vis-sample.git`). When prompted to authenticate, use your github username and the token as password.
+2. Launch O3DE. It will open the Project manager. Click on the **New Project** button then **Open Existing Project** option.
+3. Navigate to your repository. Open the **Project** folder. The project should now be registered.
 
-### Step 1. Clone the repository
+![project](doc/cover.png?raw=true)
 
-You can clone the gems to any folder locally, including inside the engine folder. If you clone to a folder inside an existing Git repository (e.g. o3de) you should add the folder to the Git exclude file for the existing repository.
+4. Click on the **Build Project** button, located on the **O3DE Loft Sample** image.
+5. Once the project has been built successfully, use the **Open Editor** button.
+6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window, simply pick the first one.
 
-#### Option #1 (Recommended) - cloning into a folder outside the engine repository folder
+## Project Highlights
 
-```shell
-# clone into a folder outside your engine repository folder
-> git clone https://github.com/o3de/loft-arch-vis-sample.git
-Cloning into 'loft-arch-vis-sample'...
-```
+- **Benchmarking**, this scene was made to test rendering performances of O3DE.
+- **Realistic environment**, the scene uses many assets all in realistic style.
 
-#### Option #2 - cloning into the engine repository folder
+### Screenshots
 
-```shell
-# clone the project into a folder named 'loft-arch-vis-sample' in your existing engine repository folder
-> git clone https://github.com/o3de/loft-arch-vis-sample.git c:/path/to/o3de/loft-arch-vis-sample
-Cloning into 'loft-arch-vis-sample'...
+![screenshot](doc/screenshot-1.png?raw=true)
 
-# modify the local engine git exclude file to ignore the project folder
-> echo loft-arch-vis-sample > c:/path/to/o3de/.git/info/exclude
-```
+![screenshot](doc/screenshot-2.png?raw=true)
 
-If you have a Git credential helper configured, you should not be prompted for your credentials anymore.
-
-### Step 2. Register the engine and gems
-
-```shell
-# register the engine (If you already have built O3DE in project-centric mode then you don't need this step.)
-> c:/path/to/o3de/scripts/o3de register --this-engine
-
-# register the project 
-> c:/path/to/o3de/scripts/o3de register -pp c:/path/to/loft-arch-vis-sample/Project
-
-# register the gem (OPTIONAL) - Only needed if you plan to use the gem from another project. 
-> c:/path/to/o3de/scripts/o3de register -gp c:/path/to/loft-arch-vis-sample/Gems/ArchVis
-```
-
-You are now setup to use these gems in your projects.
+![screenshot](doc/screenshot-3.png?raw=true)
 
 ## License
 
