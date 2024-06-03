@@ -597,7 +597,6 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 60.00014877319336,
-                            "EditorEntityId": 6293141136865887823,
                             "MakeActiveViewOnActivation": false
                         }
                     }
@@ -2946,27 +2945,9 @@
             "Id": "Entity_[2511113093496]",
             "Name": "Camera_Main",
             "Components": {
-                "Component_[11001712014225389591]": {
-                    "$type": "GenericComponentWrapper",
-                    "Id": 11001712014225389591,
-                    "m_template": {
-                        "$type": "InputConfigurationComponent",
-                        "Input Event Bindings": {
-                            "assetId": {
-                                "guid": "{87483028-CC96-565F-BAA7-A077504E76EC}"
-                            },
-                            "assetHint": "levels/archvis/interior_03/inputbindings/flybystart.inputbindings"
-                        }
-                    }
-                },
                 "Component_[11374458009190363397]": {
                     "$type": "{CA11DA46-29FF-4083-B5F6-E02C3A8C3A3D} EditorCameraComponent",
-                    "Id": 11374458009190363397,
-                    "Controller": {
-                        "Configuration": {
-                            "EditorEntityId": 6196235578022219333
-                        }
-                    }
+                    "Id": 11374458009190363397
                 },
                 "Component_[12595410870632551357]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -3058,6 +3039,14 @@
                 "Component_[9821105945960263104]": {
                     "$type": "AZ::Render::EditorPostFxLayerComponent",
                     "Id": 9821105945960263104
+                },
+                "FlyCameraInputComponent": {
+                    "$type": "GenericComponentWrapper",
+                    "Id": 4940880171883894559,
+                    "m_template": {
+                        "$type": "FlyCameraInputComponent",
+                        "Move Speed": 1.0
+                    }
                 }
             }
         },
@@ -5162,6 +5151,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[3386876137776201213]/Transform Data/Translate/2",
                     "value": 0.8823307752609253
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3287421493977]/Components/Component_[1398056854193228585]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_spice_jars/kitchen_spice_jars.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3287421493977]/Components/Component_[1896423964440584177]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_spice_jars/kitchen_spice_jars.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3287421493977]/Components/Component_[1896423964440584177]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_spice_jars/kitchen_spice_jars.fbx.pxmesh"
                 }
             ]
         },
@@ -5197,6 +5201,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[5380259706607285901]/Child Entity Order/0",
                     "value": "Entity_[4893163054937]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4893163054937]/Components/Component_[12276338075677814981]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/tv_audio_b082l6kj2j/tv_audio.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4893163054937]/Components/Component_[9394952916952932761]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/tv_audio_b082l6kj2j/tv_audio.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4893163054937]/Components/Component_[9394952916952932761]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/tv_audio_b082l6kj2j/tv_audio.fbx.pxmesh"
                 }
             ]
         },
@@ -5261,6 +5280,21 @@
                 {
                     "op": "remove",
                     "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ColliderConfiguration/MaterialSlots/Slots/26"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "rooms/interior_03/interior_03.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[16690343428122660713]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "rooms/interior_03/interior_03.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[13292394972768]/Components/Component_[3151742810798896557]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "rooms/interior_03/interior_03.fbx.azmodel"
                 }
             ]
         },
@@ -5291,6 +5325,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17586694826734235817]/Transform Data/Translate/2",
                     "value": 0.6117845773696899
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4180774691545]/Components/Component_[3209123840354871791]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4180774691545]/Components/Component_[3209123840354871791]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4180774691545]/Components/Component_[9022078767778901143]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/night_stand_lamp_b07374sbfm/night_stand_lamp.fbx.azmodel"
                 }
             ]
         },
@@ -5326,6 +5375,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[3269740662557966876]/Child Entity Order/0",
                     "value": "Entity_[4502897238745]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4502897238745]/Components/Component_[12757208755810017111]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4502897238745]/Components/Component_[12757208755810017111]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4502897238745]/Components/Component_[761751409400616473]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/office_desk_lamp_b07b4yhyqv/office_desk_lamp.fbx.azmodel"
                 }
             ]
         },
@@ -5361,6 +5425,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[274460243908153237]/Transform Data/Rotate/2",
                     "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3224488473310]/Components/Component_[16745041218502227783]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/cabinet_b07hsdp2cp/cabinet.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3224488473310]/Components/Component_[16745041218502227783]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/cabinet_b07hsdp2cp/cabinet.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3224488473310]/Components/Component_[18127788519639010981]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/cabinet_b07hsdp2cp/cabinet.fbx.azmodel"
                 }
             ]
         },
@@ -5396,6 +5475,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[4566248168342172836]/Child Entity Order/0",
                     "value": "Entity_[3094147965657]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3094147965657]/Components/Component_[15809170977647956888]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_refrigerator_mod000016/refrigerator.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3094147965657]/Components/Component_[15809170977647956888]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_refrigerator_mod000016/refrigerator.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3094147965657]/Components/Component_[5364438418896680112]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_refrigerator_mod000016/refrigerator.fbx.azmodel"
                 }
             ]
         },
@@ -5426,6 +5520,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[17798260519157669022]/Child Entity Order/0",
                     "value": "Entity_[5125667496665]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5125667496665]/Components/Component_[1137343327620538049]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/potted_plant_trbp000002/potted_plant.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5125667496665]/Components/Component_[12282705548812581643]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/potted_plant_trbp000002/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5125667496665]/Components/Component_[12282705548812581643]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/potted_plant_trbp000002/potted_plant.fbx.pxmesh"
                 }
             ]
         },
@@ -5466,6 +5575,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[5974869204983609880]/Transform Data/UniformScale",
                     "value": 0.009999999776482582
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[371209903870]/Components/Component_[14603146083399874962]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/sunglasses_trb000046/sunglasses.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[371209903870]/Components/Component_[6136831406637616568]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/sunglasses_trb000046/sunglasses.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[371209903870]/Components/Component_[6136831406637616568]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/sunglasses_trb000046/sunglasses.fbx.pxmesh"
                 }
             ]
         },
@@ -5506,6 +5630,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[14990246215705864593]/Child Entity Order/0",
                     "value": "Entity_[555893497598]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[555893497598]/Components/Component_[15453850067030571079]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/table_lamp_b07hkf28cs/table_lamp.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[555893497598]/Components/Component_[8955785890418585536]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/table_lamp_b07hkf28cs/table_lamp.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[555893497598]/Components/Component_[8955785890418585536]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/table_lamp_b07hkf28cs/table_lamp.fbx.pxmesh"
                 }
             ]
         },
@@ -5536,6 +5675,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4942654746135653581]/Transform Data/Rotate/2",
                     "value": 153.21234130859375
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[409292849002]/Components/Component_[13518324228755887826]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/chair_b082vm23mf/chair.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[409292849002]/Components/Component_[14503148882391113363]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/chair_b082vm23mf/chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[409292849002]/Components/Component_[14503148882391113363]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/chair_b082vm23mf/chair.fbx.pxmesh"
                 }
             ]
         },
@@ -5576,6 +5730,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9120053503497066040]/Transform Data/UniformScale",
                     "value": 0.10000000149011612
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1243088264958]/Components/Component_[1521301945076782066]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/wall_art_two_set/wall_art_two_set.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1243088264958]/Components/Component_[1521301945076782066]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/wall_art_two_set/wall_art_two_set.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1243088264958]/Components/Component_[3251260514545268758]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/wall_art_two_set/wall_art_two_set.fbx.azmodel"
                 }
             ]
         },
@@ -5606,6 +5775,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[810072750057997656]/Transform Data/Translate/2",
                     "value": -0.12856513261795044
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[563911671658]/Components/Component_[15121858623508487843]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/computer_desk_b075zbvzst/computer_desk.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[563911671658]/Components/Component_[549566275919980709]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/computer_desk_b075zbvzst/computer_desk.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[563911671658]/Components/Component_[549566275919980709]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/computer_desk_b075zbvzst/computer_desk.fbx.pxmesh"
                 }
             ]
         },
@@ -5641,6 +5825,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[4462100974582025268]/Child Entity Order/0",
                     "value": "Entity_[2939529143001]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2939529143001]/Components/Component_[6240048751332204635]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_oven/kitchen_oven.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2939529143001]/Components/Component_[6240048751332204635]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_oven/kitchen_oven.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2939529143001]/Components/Component_[7601646293875946262]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_oven/kitchen_oven.fbx.azmodel"
                 }
             ]
         },
@@ -5671,6 +5870,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17499247271728452626]/Transform Data/Rotate/2",
                     "value": -89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2453854144539]/Components/Component_[8516085766046900578]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/wall_painting_collection_three/wall_painting_collection_three.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2453854144539]/Components/Component_[8743155322547890019]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/wall_painting_collection_three/wall_painting_collection_three.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2453854144539]/Components/Component_[8743155322547890019]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/wall_painting_collection_three/wall_painting_collection_three.fbx.pxmesh"
                 }
             ]
         },
@@ -5706,6 +5920,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[6094737195784703032]/Transform Data/Rotate/2",
                     "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1629564117721]/Components/Component_[12384181215514172824]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/floor_rug_b0732l974x/rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1629564117721]/Components/Component_[12384181215514172824]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/floor_rug_b0732l974x/rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1629564117721]/Components/Component_[4661059303332148666]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/floor_rug_b0732l974x/rug.fbx.azmodel"
                 }
             ]
         },
@@ -5731,6 +5960,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[6131225978541624971]/Child Entity Order/0",
                     "value": "Entity_[5275991352025]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5275991352025]/Components/Component_[357561758571407500]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/potted_plant_trbp000045/potted_plant.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5275991352025]/Components/Component_[5436624600400660822]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/potted_plant_trbp000045/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5275991352025]/Components/Component_[5436624600400660822]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/potted_plant_trbp000045/potted_plant.fbx.pxmesh"
                 }
             ]
         },
@@ -5761,6 +6005,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17113450368329276835]/Transform Data/Translate/2",
                     "value": 0.8266706466674805
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5426315207385]/Components/Component_[1104764010385244140]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/potted_plant_trbp000054/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5426315207385]/Components/Component_[1104764010385244140]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/potted_plant_trbp000054/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5426315207385]/Components/Component_[16610279670578352102]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/potted_plant_trbp000054/potted_plant.fbx.azmodel"
                 }
             ]
         },
@@ -5791,6 +6050,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9357852794734263367]/Transform Data/Rotate/2",
                     "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[722825461610]/Components/Component_[14376407054765774658]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/decor_bench_b082qd7wy8/decor_bench.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[722825461610]/Components/Component_[14376407054765774658]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/decor_bench_b082qd7wy8/decor_bench.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[722825461610]/Components/Component_[340944033303102320]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/decor_bench_b082qd7wy8/decor_bench.fbx.azmodel"
                 }
             ]
         },
@@ -5821,6 +6095,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[9653936760947542906]/Child Entity Order/0",
                     "value": "Entity_[4348278416089]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4348278416089]/Components/Component_[15639442239210968572]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/office_desk_chair_b082blfmrc/office_desk_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4348278416089]/Components/Component_[15639442239210968572]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/office_desk_chair_b082blfmrc/office_desk_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4348278416089]/Components/Component_[4494593732647234598]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/office_desk_chair_b082blfmrc/office_desk_chair.fbx.azmodel"
                 }
             ]
         },
@@ -5841,6 +6130,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12342663125756964466]/Transform Data/Translate/1",
                     "value": 8.829366683959961
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[17775225480107915307]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[17775225480107915307]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[18264965368259515209]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.azmodel"
                 }
             ]
         },
@@ -5871,6 +6175,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[9698665761154694906]/Child Entity Order/0",
                     "value": "Entity_[6899488989913]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[15535069788858427079]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[15535069788858427079]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[7425729245313867289]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.azmodel"
                 }
             ]
         },
@@ -5901,6 +6220,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[12576180100867331606]/Child Entity Order/0",
                     "value": "Entity_[877444284266]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[877444284266]/Components/Component_[13233045938972514992]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/dinner_table_b075yp4wyt/dinner_table.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[877444284266]/Components/Component_[7149451247539743307]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/dinner_table_b075yp4wyt/dinner_table.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[877444284266]/Components/Component_[7149451247539743307]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/dinner_table_b075yp4wyt/dinner_table.fbx.pxmesh"
                 }
             ]
         },
@@ -5931,6 +6265,26 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[7320840881984374702]/Child Entity Order/0",
                     "value": "Entity_[2608816661209]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2608816661209]/Components/Component_[10848318651291360987]/Controller/Configuration/materials/0/Value/MaterialAsset/assetHint",
+                    "value": "props/kitchen_utensils/kitchen_utensils_kitchen_utensilsmat_1276278812691821828.fbx.azmaterial"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2608816661209]/Components/Component_[14358159924601805345]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_utensils/kitchen_utensils.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2608816661209]/Components/Component_[4362766204661301864]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_utensils/kitchen_utensils.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2608816661209]/Components/Component_[4362766204661301864]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_utensils/kitchen_utensils.fbx.pxmesh"
                 }
             ]
         },
@@ -5966,6 +6320,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4916741618902950263]/Transform Data/UniformScale",
                     "value": 0.10000000149011612
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[736282124030]/Components/Component_[6309917713295944295]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/table_potted_plant_trb000041/table_potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[736282124030]/Components/Component_[6309917713295944295]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/table_potted_plant_trb000041/table_potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[736282124030]/Components/Component_[761515995483823178]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/table_potted_plant_trb000041/table_potted_plant.fbx.azmodel"
                 }
             ]
         },
@@ -5996,6 +6365,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2507911443174483191]/Transform Data/Translate/2",
                     "value": 2.7013838291168213
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[573002162905]/Components/Component_[1349120696000774594]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[573002162905]/Components/Component_[1349120696000774594]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[573002162905]/Components/Component_[862012812422921037]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/dinner_table_ceiling_light/dinner_table_ceiling_light.fbx.azmodel"
                 }
             ]
         },
@@ -6026,6 +6410,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[958004932712768608]/Transform Data/Translate/2",
                     "value": 0.5577273368835449
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2788629079897]/Components/Component_[14340437026522121733]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/stack_books_b07374sbfm/stack_books.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2788629079897]/Components/Component_[17169885993470343239]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/stack_books_b07374sbfm/stack_books.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2788629079897]/Components/Component_[17169885993470343239]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/stack_books_b07374sbfm/stack_books.fbx.pxmesh"
                 }
             ]
         },
@@ -6051,6 +6450,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[3723319835713330626]/Transform Data/Translate/1",
                     "value": 4.887476444244385
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152822747865]/Components/Component_[17133388636626932378]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/end_table_b072zlcb32/end_table.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152822747865]/Components/Component_[17133388636626932378]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/end_table_b072zlcb32/end_table.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1152822747865]/Components/Component_[2096331260079553977]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/end_table_b072zlcb32/end_table.fbx.azmodel"
                 }
             ]
         },
@@ -6076,6 +6490,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[1973761740604573334]/Transform Data/Translate/1",
                     "value": 3.4709510803222656
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[727620985561]/Components/Component_[12765071306608823372]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/dinner_table_floor_rug/dinner_table_floor_rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[727620985561]/Components/Component_[12765071306608823372]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/dinner_table_floor_rug/dinner_table_floor_rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[727620985561]/Components/Component_[17717679906418140838]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/dinner_table_floor_rug/dinner_table_floor_rug.fbx.azmodel"
                 }
             ]
         },
@@ -6106,6 +6535,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[7239648080415832902]/Transform Data/Translate/2",
                     "value": 0.07166653871536255
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6285308666585]/Components/Component_[12980665234040873846]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/stack_magazines/stack_magazines.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6285308666585]/Components/Component_[12980665234040873846]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/stack_magazines/stack_magazines.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6285308666585]/Components/Component_[16255784355187180597]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/stack_magazines/stack_magazines.fbx.azmodel"
                 }
             ]
         },
@@ -6141,6 +6585,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[6442946858446219949]/Child Entity Order/0",
                     "value": "Entity_[890900946686]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[890900946686]/Components/Component_[11145506243823820940]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/table_potted_plant_trb000056/table_potted_plant.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[890900946686]/Components/Component_[14695071295107025390]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/table_potted_plant_trb000056/table_potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[890900946686]/Components/Component_[14695071295107025390]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/table_potted_plant_trb000056/table_potted_plant.fbx.pxmesh"
                 }
             ]
         },
@@ -6171,6 +6630,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16220559466892839875]/Transform Data/Translate/2",
                     "value": -0.006394118070602417
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1784182940377]/Components/Component_[4205693238068743911]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/floor_rug_b0735thvqh/rug.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1784182940377]/Components/Component_[9728572962386384451]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/floor_rug_b0735thvqh/rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1784182940377]/Components/Component_[9728572962386384451]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/floor_rug_b0735thvqh/rug.fbx.pxmesh"
                 }
             ]
         },
@@ -6211,6 +6685,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16723248512540100135]/Transform Data/UniformScale",
                     "value": 0.009999999776482582
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1397707087614]/Components/Component_[10757277210861928810]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/wall_clock/wall_clock.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1397707087614]/Components/Component_[15968303691183849831]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/wall_clock/wall_clock.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1397707087614]/Components/Component_[15968303691183849831]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/wall_clock/wall_clock.fbx.pxmesh"
                 }
             ]
         },
@@ -6246,6 +6735,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[6344033096247669466]/Child Entity Order/0",
                     "value": "Entity_[2303873983193]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2303873983193]/Components/Component_[18289645534834094934]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_cook_book/kitchen_cookbook.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2303873983193]/Components/Component_[18289645534834094934]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_cook_book/kitchen_cookbook.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2303873983193]/Components/Component_[4855082914365010799]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_cook_book/kitchen_cookbook.fbx.azmodel"
                 }
             ]
         },
@@ -6281,6 +6785,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9111704394290940795]/Transform Data/UniformScale",
                     "value": 0.10000000149011612
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1560915844862]/Components/Component_[11885409761003560783]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/wall_painting/wall_painting.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1560915844862]/Components/Component_[11885409761003560783]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/wall_painting/wall_painting.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1560915844862]/Components/Component_[16419721742644649070]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/wall_painting/wall_painting.fbx.azmodel"
                 }
             ]
         },
@@ -6311,6 +6830,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[9698665761154694906]/Child Entity Order/0",
                     "value": "Entity_[6899488989913]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[15535069788858427079]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[15535069788858427079]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[6899488989913]/Components/Component_[7425729245313867289]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/table_chair_b075z8m22b/table_chair.fbx.azmodel"
                 }
             ]
         },
@@ -6346,6 +6880,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9559878043841233505]/Transform Data/UniformScale",
                     "value": 0.800000011920929
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[2710058381432013883]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[2710058381432013883]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[9573904982155412668]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.azmodel"
                 }
             ]
         },
@@ -6381,6 +6930,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[2112908467608871001]/Transform Data/Rotate/2",
                     "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1474945295065]/Components/Component_[7261834235798128736]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/floor_rug_b07b4yqgfj/rug.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1474945295065]/Components/Component_[7640891002383393583]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/floor_rug_b07b4yqgfj/rug.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1474945295065]/Components/Component_[7640891002383393583]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/floor_rug_b07b4yqgfj/rug.fbx.pxmesh"
                 }
             ]
         },
@@ -6416,6 +6980,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[9559878043841233505]/Transform Data/UniformScale",
                     "value": 0.800000011920929
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[2710058381432013883]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[2710058381432013883]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[461773518383]/Components/Component_[9573904982155412668]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bar_drop_ceiling_lights_b071f6vv2t/bar_drop_ceiling_lights.fbx.azmodel"
                 }
             ]
         },
@@ -6436,6 +7015,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[12342663125756964466]/Transform Data/Translate/1",
                     "value": 8.855076789855957
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[17775225480107915307]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[17775225480107915307]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[3056984748766]/Components/Component_[18264965368259515209]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bedroom_night_stand_b07374sbfm/bedroom_night_stand.fbx.azmodel"
                 }
             ]
         },
@@ -6471,6 +7065,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[9732407723269379360]/Child Entity Order/0",
                     "value": "Entity_[5924531413721]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5924531413721]/Components/Component_[13723596531085138212]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/single_bed_frame_b0856fl9hr/single_bed_frame.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5924531413721]/Components/Component_[4939001040384211321]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/single_bed_frame_b0856fl9hr/single_bed_frame.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5924531413721]/Components/Component_[4939001040384211321]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/single_bed_frame_b0856fl9hr/single_bed_frame.fbx.pxmesh"
                 }
             ]
         },
@@ -6506,6 +7115,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[14864396548868144105]/Child Entity Order/0",
                     "value": "Entity_[2454197838553]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2454197838553]/Components/Component_[167628118935154807]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_cutting_boards/kitchen_cutting_boards.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2454197838553]/Components/Component_[167628118935154807]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_cutting_boards/kitchen_cutting_boards.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2454197838553]/Components/Component_[6186239390458772404]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_cutting_boards/kitchen_cutting_boards.fbx.azmodel"
                 }
             ]
         },
@@ -6536,6 +7160,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17522664749368354704]/Transform Data/Rotate/2",
                     "value": 89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4021860901593]/Components/Component_[13691328250642478298]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/media_cabinet_b07qb8dq45/media_cabinet.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4021860901593]/Components/Component_[2447487333919550334]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/media_cabinet_b07qb8dq45/media_cabinet.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4021860901593]/Components/Component_[2447487333919550334]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/media_cabinet_b07qb8dq45/media_cabinet.fbx.pxmesh"
                 }
             ]
         },
@@ -6576,6 +7215,11 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[6624053319966816120]/Child Entity Order/0",
                     "value": "Entity_[1904513228542]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1904513228542]/Components/Component_[16420766914690036979]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/wall_print/wall_print.fbx.azmodel"
                 }
             ]
         },
@@ -6601,6 +7245,31 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10191820198477072693]/Transform Data/Rotate/2",
                     "value": 119.0006332397461
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[10026616198511755833]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[10026616198511755833]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4515111393056123200]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4611969092363961158]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4611969092363961158]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
                 }
             ]
         },
@@ -6631,6 +7300,31 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[10191820198477072693]/Transform Data/Rotate/2",
                     "value": -30.34857749938965
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[10026616198511755833]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[10026616198511755833]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4515111393056123200]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4611969092363961158]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2356905079518]/Components/Component_[4611969092363961158]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/bar_stool_b075yptf9h/bar_stool.fbx.pxmesh"
                 }
             ]
         },
@@ -6650,7 +7344,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[16976667112809201434]/Transform Data/Translate/1",
-                    "value": -1.9797312021255493
+                    "value": -1.979731202125549
                 },
                 {
                     "op": "replace",
@@ -6666,6 +7360,21 @@
                     "op": "add",
                     "path": "/ContainerEntity/Components/Component_[6175534800129775096]/Child Entity Order/0",
                     "value": "Entity_[2763435483865]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2763435483865]/Components/Component_[16884020220851445589]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/kitchen_knives/kitchen_knives.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2763435483865]/Components/Component_[17716965496971507354]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/kitchen_knives/kitchen_knives.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[2763435483865]/Components/Component_[17716965496971507354]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/kitchen_knives/kitchen_knives.fbx.pxmesh"
                 }
             ]
         },
@@ -6696,6 +7405,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[4189376429266140335]/Transform Data/Translate/2",
                     "value": 0.7909411787986755
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4880854360793]/Components/Component_[12264693579384619534]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/potted_plant_b075hr7lhq/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4880854360793]/Components/Component_[12264693579384619534]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/potted_plant_b075hr7lhq/potted_plant.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[4880854360793]/Components/Component_[13747740759615299385]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/potted_plant_b075hr7lhq/potted_plant.fbx.azmodel"
                 }
             ]
         },
@@ -6726,6 +7450,21 @@
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[13061046228670919793]/Transform Data/Rotate/2",
                     "value": -89.99994659423828
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5752732721881]/Components/Component_[18098730244130404488]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5752732721881]/Components/Component_[18098730244130404488]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[5752732721881]/Components/Component_[8795011371574085975]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "props/sectional_sofa_b07qdl46gb/sectional_sofa_l.fbx.azmodel"
                 }
             ]
         }
