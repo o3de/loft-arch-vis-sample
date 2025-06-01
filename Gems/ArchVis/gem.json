@@ -1,5 +1,6 @@
 {
     "gem_name": "ArchVis",
+    "version": "1.0.0",
     "display_name": "Samples: ArchVis Assets",
     "origin": "https://github.com/aws-lumberyard/loft-arch-vis-sample",
     "license": "CC-BY-NC-4.0",

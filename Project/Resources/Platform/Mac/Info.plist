@@ -5,11 +5,11 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<false/>
 	<key>CFBundleDisplayName</key>
-	<string>Samples</string>
+	<string>LoftSample</string>
 	<key>CFBundleExecutable</key>
-	<string>Samples.GameLauncher</string>
+	<string>LoftSample.GameLauncher</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.amazon.Samples</string>
+	<string>com.amazon.LoftSample</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
