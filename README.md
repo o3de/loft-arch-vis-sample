@@ -20,9 +20,8 @@ You need to [install git with lfs support](https://git-scm.com/downloads), and [
 
 ![project](doc/cover.png?raw=true)
 
-4. Click on the **Build Project** button, located on the **O3DE Loft Sample** image.
-5. Once the project has been built successfully, use the **Open Editor** button.
-6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window, simply pick the first one.
+4. Click on the **Open Editor** button, located on the **O3DE Loft Sample** image.
+5. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window, simply pick the first one.
 
 ## Project Highlights
 

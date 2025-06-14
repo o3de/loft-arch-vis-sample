@@ -1,0 +1,18 @@
+{
+    "Amazon": {
+        "AssetProcessor": {
+            "Settings": {
+                "ScanFolder ArchVis/Assets": {
+                    "watch": "@GEMROOT:ArchVis@/Assets",
+                    "recursive": 1,
+                    "order": 101
+                },
+                "ScanFolder ArchVis/Registry": {
+                    "watch": "@GEMROOT:ArchVis@/Registry",
+                    "recursive": 1,
+                    "order": 102
+                }
+            }
+        }
+    }
+}

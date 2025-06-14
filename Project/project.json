@@ -1,10 +1,12 @@
 {
     "project_name": "LoftSample",
-    "project_id": "{6B644ACC-D83D-40AD-9EB1-793A01633A86}",
+    "version": "1.0.0",
+    "project_id": "{48CBCFDA-89B1-4A7F-B381-46E22E2C0C7A}",
     "origin": "https://github.com/aws-lumberyard/loft-arch-vis-sample",
     "license": "https://opensource.org/licenses/MIT",
-    "display_name": "O3DE Loft Sample",
+    "display_name": "LoftSample",
     "summary": "This project contains the O3DE Loft sample scene.",
+    "script_only": true,
     "canonical_tags": [
         "Project"
     ],
@@ -13,9 +15,34 @@
     ],
     "icon_path": "preview.png",
     "engine": "o3de",
-    "external_subdirectories": [
-        "../Gems/ArchVis",
-        "Code"
+    "restricted": "LoftSample",
+    "gem_names": [
+        "Atom",
+        "AudioSystem",
+        "ArchVis",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
     ],
-    "engine_version": "2.2.2"
+    "external_subdirectories": [
+        "../Gems/ArchVis"
+    ],
+    "engine_version": "4.2.0"
 }
